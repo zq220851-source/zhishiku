@@ -1,0 +1,154 @@
+[
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "path": "packages/@openmaic/renderer/package.json",
+    "commit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+    "sha256": "a41a230df0730899ea3db20ed1c33fa17c9309f178f7727665959302bdb28f28",
+    "bytes": 3073,
+    "url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/fe2cf7dade345f4eaaf9afb1771e6734e17edaab/packages/@openmaic/renderer/package.json"
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "path": "packages/@openmaic/dsl/src/stage.ts",
+    "commit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+    "sha256": "b8ce1ac2cff5a37e7fee7b23a1eb4df59499f0357366d80166163d7b32a9fc6a",
+    "bytes": 11741,
+    "url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/fe2cf7dade345f4eaaf9afb1771e6734e17edaab/packages/@openmaic/dsl/src/stage.ts"
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "path": "lib/document/course-materials.ts",
+    "commit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+    "sha256": "02f6f1b8663afa67933f4732e3d4179d83e91db3c57a3f1a4ae4b8ead7285de3",
+    "bytes": 677,
+    "url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/fe2cf7dade345f4eaaf9afb1771e6734e17edaab/lib/document/course-materials.ts"
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "path": "lib/server/agent-runtime/material-resolver.ts",
+    "commit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+    "sha256": "898f2d1c420de2f085f3ac8f22626923297125ed2d5f21bfb0b1f26dd6b3ba16",
+    "bytes": 10591,
+    "url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/fe2cf7dade345f4eaaf9afb1771e6734e17edaab/lib/server/agent-runtime/material-resolver.ts"
+  },
+  {
+    "repo": "THU-MAIC/OpenMAIC",
+    "path": "app/api/quiz-grade/route.ts",
+    "commit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+    "sha256": "3b74492e4218669666d20dab17425b4d952e5ee6fe32a574358c7f2e4e350a1f",
+    "bytes": 3976,
+    "url": "https://raw.githubusercontent.com/THU-MAIC/OpenMAIC/fe2cf7dade345f4eaaf9afb1771e6734e17edaab/app/api/quiz-grade/route.ts"
+  },
+  {
+    "repo": "deepset-ai/haystack",
+    "path": "haystack/components/retrievers/in_memory/bm25_retriever.py",
+    "commit": "8e38c633190ee43b80c136b335f8c9d6c79cc5d6",
+    "sha256": "79c830b6405863e863bcf9786b7611af5984d19188f8653048ddd1bedbd7e465",
+    "bytes": 7498,
+    "url": "https://raw.githubusercontent.com/deepset-ai/haystack/8e38c633190ee43b80c136b335f8c9d6c79cc5d6/haystack/components/retrievers/in_memory/bm25_retriever.py"
+  },
+  {
+    "repo": "deepset-ai/haystack",
+    "path": "haystack/components/joiners/document_joiner.py",
+    "commit": "8e38c633190ee43b80c136b335f8c9d6c79cc5d6",
+    "sha256": "e47bdc6ac28e096d597982d366559e80ebe9bd81f395100804572595ff2f4af8",
+    "bytes": 11787,
+    "url": "https://raw.githubusercontent.com/deepset-ai/haystack/8e38c633190ee43b80c136b335f8c9d6c79cc5d6/haystack/components/joiners/document_joiner.py"
+  },
+  {
+    "repo": "deepset-ai/haystack",
+    "path": "haystack/dataclasses/document.py",
+    "commit": "8e38c633190ee43b80c136b335f8c9d6c79cc5d6",
+    "sha256": "32ad6b0c16172d8f3e4ebc592f80def425794031a7cda59c7609f96024b03958",
+    "bytes": 7766,
+    "url": "https://raw.githubusercontent.com/deepset-ai/haystack/8e38c633190ee43b80c136b335f8c9d6c79cc5d6/haystack/dataclasses/document.py"
+  },
+  {
+    "repo": "docling-project/docling",
+    "path": "docs/concepts/chunking.md",
+    "commit": "764b5d4dc22b03ea87afd4c2207f510300b27a5b",
+    "sha256": "ee6e0f59216a408002fcc6da251a21a4a9458dcffb6db065af9334df00e5a8b2",
+    "bytes": 5777,
+    "url": "https://raw.githubusercontent.com/docling-project/docling/764b5d4dc22b03ea87afd4c2207f510300b27a5b/docs/concepts/chunking.md"
+  },
+  {
+    "repo": "docling-project/docling",
+    "path": "docs/integrations/haystack.md",
+    "commit": "764b5d4dc22b03ea87afd4c2207f510300b27a5b",
+    "sha256": "fa62a9bc5a95c6c33504b2f66890a6ccd229d453ae42e1dd1cb7537d915e34c8",
+    "bytes": 511,
+    "url": "https://raw.githubusercontent.com/docling-project/docling/764b5d4dc22b03ea87afd4c2207f510300b27a5b/docs/integrations/haystack.md"
+  },
+  {
+    "repo": "docling-project/docling",
+    "path": "docling/document_converter.py",
+    "commit": "764b5d4dc22b03ea87afd4c2207f510300b27a5b",
+    "sha256": "ce8407bb8ddd8d8b8b518b413ced86cded5aa153606cd7ee2cf092232fa9ea65",
+    "bytes": 41299,
+    "url": "https://raw.githubusercontent.com/docling-project/docling/764b5d4dc22b03ea87afd4c2207f510300b27a5b/docling/document_converter.py"
+  },
+  {
+    "repo": "livekit/agents",
+    "path": "examples/voice_agents/basic_agent.py",
+    "commit": "c168b713e281d6ad2cd4ceef8f0f107802499b54",
+    "sha256": "47eed80aeb1446a59e0be30b9bc4a50bef89b9ba9a81b9f461b5b98dba69b138",
+    "bytes": 5309,
+    "url": "https://raw.githubusercontent.com/livekit/agents/c168b713e281d6ad2cd4ceef8f0f107802499b54/examples/voice_agents/basic_agent.py"
+  },
+  {
+    "repo": "livekit/agents",
+    "path": "livekit-agents/livekit/agents/voice/agent_session.py",
+    "commit": "c168b713e281d6ad2cd4ceef8f0f107802499b54",
+    "sha256": "44493651f3a632f7ed827166eabe4a140cd29ced3ff8bd11f162617f04ada2c4",
+    "bytes": 107241,
+    "url": "https://raw.githubusercontent.com/livekit/agents/c168b713e281d6ad2cd4ceef8f0f107802499b54/livekit-agents/livekit/agents/voice/agent_session.py"
+  },
+  {
+    "repo": "livekit/agents",
+    "path": "livekit-plugins/livekit-plugins-openai/livekit/plugins/openai/llm.py",
+    "commit": "c168b713e281d6ad2cd4ceef8f0f107802499b54",
+    "sha256": "2e03a112e3ac90779af5885c700a341892501f687d8f15cc85bb9c538f4d3c83",
+    "bytes": 41444,
+    "url": "https://raw.githubusercontent.com/livekit/agents/c168b713e281d6ad2cd4ceef8f0f107802499b54/livekit-plugins/livekit-plugins-openai/livekit/plugins/openai/llm.py"
+  },
+  {
+    "repo": "livekit/agents",
+    "path": "livekit-plugins/livekit-plugins-turn-detector/livekit/plugins/turn_detector/multilingual.py",
+    "commit": "c168b713e281d6ad2cd4ceef8f0f107802499b54",
+    "sha256": "31684f5edfded3395ea390732c1df25fa1a5c77611f2bc198ef814cf5b4a33a1",
+    "bytes": 4036,
+    "url": "https://raw.githubusercontent.com/livekit/agents/c168b713e281d6ad2cd4ceef8f0f107802499b54/livekit-plugins/livekit-plugins-turn-detector/livekit/plugins/turn_detector/multilingual.py"
+  },
+  {
+    "repo": "lfnovo/open-notebook",
+    "path": "open_notebook/utils/context_builder.py",
+    "commit": "a0f6f3081ae06328f0a451b3a3ef2959ca25721d",
+    "sha256": "3f24a421898517bb0fd875e41906d64bc393ad91cfb9a5c3069b1f7f74f02dfb",
+    "bytes": 19412,
+    "url": "https://raw.githubusercontent.com/lfnovo/open-notebook/a0f6f3081ae06328f0a451b3a3ef2959ca25721d/open_notebook/utils/context_builder.py"
+  },
+  {
+    "repo": "lfnovo/open-notebook",
+    "path": "open_notebook/graphs/source_chat.py",
+    "commit": "a0f6f3081ae06328f0a451b3a3ef2959ca25721d",
+    "sha256": "ac249e8cd2bc94683e40948fabea30a34680488524f44375b1ee77dcdb7f92f8",
+    "bytes": 8272,
+    "url": "https://raw.githubusercontent.com/lfnovo/open-notebook/a0f6f3081ae06328f0a451b3a3ef2959ca25721d/open_notebook/graphs/source_chat.py"
+  },
+  {
+    "repo": "infiniflow/ragflow",
+    "path": "internal/agent/component/retrieval_permission_test.go",
+    "commit": "12d9a38e24bf3fb8573b83bc41a2fe75dcd2c281",
+    "sha256": "84bef87ae2ac6022cbf6168be162db9a378fc25f589acf11a478e1340db138ee",
+    "bytes": 4839,
+    "url": "https://raw.githubusercontent.com/infiniflow/ragflow/12d9a38e24bf3fb8573b83bc41a2fe75dcd2c281/internal/agent/component/retrieval_permission_test.go"
+  },
+  {
+    "repo": "infiniflow/ragflow",
+    "path": "internal/agent/tool/retrieval_service.go",
+    "commit": "12d9a38e24bf3fb8573b83bc41a2fe75dcd2c281",
+    "sha256": "c87068b47153367a35240ff0fc397ba25d8b30af962116329fc8272bafe340e1",
+    "bytes": 3066,
+    "url": "https://raw.githubusercontent.com/infiniflow/ragflow/12d9a38e24bf3fb8573b83bc41a2fe75dcd2c281/internal/agent/tool/retrieval_service.go"
+  }
+]

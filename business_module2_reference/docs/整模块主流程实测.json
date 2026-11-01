@@ -1,0 +1,288 @@
+{
+  "at": "2026-10-31T10:58:02.103Z",
+  "model": "deepseek-v4-pro",
+  "report": [
+    {
+      "id": "cab8806e-3630-45f2-b2d4-ab7c786c8c61",
+      "version": 1,
+      "kind": "CONTENT",
+      "skillId": "subgroup-extrapolation",
+      "label": "亚组结果及外推限制",
+      "question": "请解释亚组结果及外推限制，并说明现有资料不能支持什么结论。",
+      "answer": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。",
+      "evidence": [
+        {
+          "id": "E1",
+          "version": "1",
+          "title": "虚构研究 A 测试资料（非医学事实）",
+          "usage": "TEST_ONLY",
+          "content": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+        }
+      ],
+      "sources": [
+        {
+          "ownerId": "fictional-full-loop",
+          "feedbackId": "74dacc77-5708-408c-b692-c45e7673abdb",
+          "rawId": "af799d03-9dbe-4215-a98a-5ccf7bd621d3",
+          "taskId": "1f569d5f-d20a-4d72-9970-637640e3d8bb",
+          "excerpt": "今天主任看着亚组那张图问，换一类病人是不是也差不多？",
+          "signal": "PENDING_VERIFY",
+          "coverage": "NONE"
+        }
+      ],
+      "reason": "准备计划未覆盖这项能力，当前共享内容也缺少对应练习。",
+      "alternatives": [
+        "保留现状，继续收集反馈；代价是本次缺口仍存在。",
+        "只安排个人练习；适合个人困难，但不能补齐共享内容。"
+      ],
+      "hash": "ffdd588b0c08e6357cc7ba4cc4b16604f0ba0ee9e13f5301fd16115c9d8494d8",
+      "state": "PUBLISHED",
+      "training": {
+        "approved": true,
+        "reason": "虚构测试：目标与资料边界一致，同意此用途，非正式评分批准。",
+        "actor": "fictional-full-loop",
+        "hash": "ffdd588b0c08e6357cc7ba4cc4b16604f0ba0ee9e13f5301fd16115c9d8494d8"
+      },
+      "checks": [
+        {
+          "name": "资料版本有效，且只用于虚构测试",
+          "passed": true
+        },
+        {
+          "name": "至少一条来源复盘仍有效",
+          "passed": true
+        },
+        {
+          "name": "内容未混入风险资料",
+          "passed": true
+        },
+        {
+          "name": "考点属于当前测试代码本",
+          "passed": true
+        },
+        {
+          "name": "参考答案逐字来自固定资料，不添加医学结论",
+          "passed": true
+        },
+        {
+          "name": "保留已有终点和人群考点",
+          "passed": true
+        }
+      ],
+      "medical": {
+        "decision": "PASS",
+        "reason": "题目、答案与资料边界一致，仅基于给定虚构资料，未添加医学结论，未扩大适用范围。",
+        "citations": [
+          {
+            "evidenceId": "E1",
+            "quote": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+          }
+        ],
+        "agent": "MEDICAL",
+        "hash": "ffdd588b0c08e6357cc7ba4cc4b16604f0ba0ee9e13f5301fd16115c9d8494d8",
+        "at": "2026-10-31T10:57:51.298Z",
+        "model": "deepseek-v4-pro"
+      },
+      "publication": {
+        "decision": "PASS",
+        "reason": "该内容声明完全虚构且仅用于软件流程验证，答案逐字来自给定固定资料，未添加真实药物、疗效数值或治疗建议，未扩大适用范围；现有检查均通过，且医学 Agent 与培训审核均通过，符合发布条件。",
+        "citations": [
+          {
+            "evidenceId": "E1",
+            "quote": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+          }
+        ],
+        "agent": "PUBLICATION",
+        "hash": "ffdd588b0c08e6357cc7ba4cc4b16604f0ba0ee9e13f5301fd16115c9d8494d8",
+        "at": "2026-10-31T10:57:55.073Z",
+        "model": "deepseek-v4-pro"
+      },
+      "releaseId": "release-b89f0a10490dbae850e0bfd4b23245c28d91a0d47ce5d1f8a0300634f3f50f37"
+    },
+    {
+      "id": "3343aa95-30a0-44f8-affc-df0e3484a6a6",
+      "version": 1,
+      "kind": "STRATEGY",
+      "skillId": "subgroup-extrapolation",
+      "label": "亚组结果及外推限制",
+      "question": "请解释亚组结果及外推限制，并说明现有资料不能支持什么结论。",
+      "answer": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。",
+      "evidence": [
+        {
+          "id": "E1",
+          "version": "1",
+          "title": "虚构研究 A 测试资料（非医学事实）",
+          "usage": "TEST_ONLY",
+          "content": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+        }
+      ],
+      "sources": [
+        {
+          "ownerId": "fictional-full-loop",
+          "feedbackId": "74dacc77-5708-408c-b692-c45e7673abdb",
+          "rawId": "af799d03-9dbe-4215-a98a-5ccf7bd621d3",
+          "taskId": "1f569d5f-d20a-4d72-9970-637640e3d8bb",
+          "excerpt": "今天主任看着亚组那张图问，换一类病人是不是也差不多？",
+          "signal": "PENDING_VERIFY",
+          "coverage": "NONE"
+        }
+      ],
+      "reason": "已有对应内容，但原准备计划没有选到，需要检查选题方式。",
+      "alternatives": [
+        "保留现状，继续收集反馈；代价是本次缺口仍存在。",
+        "增加题量；可能提高覆盖，但会增加负担，不能作为同条件改善。"
+      ],
+      "hash": "241d4e48bf23c910ec66db9e808826a713e44c27bb61c3b982d05b8da06d4918",
+      "state": "PUBLISHED",
+      "training": {
+        "approved": true,
+        "reason": "虚构测试：目标与资料边界一致，同意此用途，非正式评分批准。",
+        "actor": "fictional-full-loop",
+        "hash": "241d4e48bf23c910ec66db9e808826a713e44c27bb61c3b982d05b8da06d4918"
+      },
+      "checks": [
+        {
+          "name": "资料版本有效，且只用于虚构测试",
+          "passed": true
+        },
+        {
+          "name": "至少一条来源复盘仍有效",
+          "passed": true
+        },
+        {
+          "name": "内容未混入风险资料",
+          "passed": true
+        },
+        {
+          "name": "考点属于当前测试代码本",
+          "passed": true
+        },
+        {
+          "name": "开发与留出样例同资料同题量且无新增遗漏",
+          "passed": true
+        },
+        {
+          "name": "独立留出样例存在新增覆盖",
+          "passed": true
+        }
+      ],
+      "medical": {
+        "decision": "PASS",
+        "reason": "答案内容与证据资料E1逐字一致，均声明材料完全虚构、仅验证软件流程，主要终点为预先定义测试终点，研究有指定入排条件，亚组结果为探索性且不支持直接外推，不含真实药物、疗效或治疗建议。未发现答案扩大结论、遗漏反证或超出资料边界。",
+        "citations": [
+          {
+            "evidenceId": "E1",
+            "quote": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+          }
+        ],
+        "agent": "MEDICAL",
+        "hash": "241d4e48bf23c910ec66db9e808826a713e44c27bb61c3b982d05b8da06d4918",
+        "at": "2026-10-31T10:57:58.881Z",
+        "model": "deepseek-v4-pro"
+      },
+      "publication": {
+        "decision": "PASS",
+        "reason": "当前稿件为虚构测试用途，答案与证据资料E1逐字一致，未扩大结论或超出资料边界；医学Agent与培训审核均已通过，实际检查项全部通过，允许发布。",
+        "citations": [
+          {
+            "evidenceId": "E1",
+            "quote": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+          }
+        ],
+        "agent": "PUBLICATION",
+        "hash": "241d4e48bf23c910ec66db9e808826a713e44c27bb61c3b982d05b8da06d4918",
+        "at": "2026-10-31T10:58:02.100Z",
+        "model": "deepseek-v4-pro"
+      },
+      "releaseId": "release-6620828a7c27952d87caa28afdadcceac7f81907f4af60009b4e2a49ac8e40de"
+    },
+    {
+      "oldPlan": [
+        {
+          "skillId": "endpoint-explanation",
+          "question": "如何解释主要终点？",
+          "rationale": "本次准备覆盖研究基本终点。",
+          "evidenceIds": [
+            "E1"
+          ]
+        },
+        {
+          "skillId": "population-explanation",
+          "question": "研究的入组人群是什么？",
+          "rationale": "本次准备覆盖研究入组范围。",
+          "evidenceIds": [
+            "E1"
+          ]
+        }
+      ],
+      "nextPlan": [
+        {
+          "skillId": "endpoint-explanation",
+          "question": "如何解释主要终点？",
+          "rationale": "本次准备覆盖研究基本终点。",
+          "evidenceIds": [
+            "E1"
+          ]
+        },
+        {
+          "skillId": "subgroup-extrapolation",
+          "question": "请解释亚组结果及外推限制，并说明现有资料不能支持什么结论。",
+          "rationale": "读取当前有效共享版本；按本轮准备意图和固定测试预算选择。",
+          "evidenceIds": [
+            "E1"
+          ]
+        }
+      ],
+      "observation": [
+        {
+          "id": "release-b89f0a10490dbae850e0bfd4b23245c28d91a0d47ce5d1f8a0300634f3f50f37",
+          "proposalId": "cab8806e-3630-45f2-b2d4-ab7c786c8c61",
+          "proposalHash": "ffdd588b0c08e6357cc7ba4cc4b16604f0ba0ee9e13f5301fd16115c9d8494d8",
+          "kind": "CONTENT",
+          "skillId": "subgroup-extrapolation",
+          "label": "亚组结果及外推限制",
+          "question": "请解释亚组结果及外推限制，并说明现有资料不能支持什么结论。",
+          "answer": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。",
+          "evidence": [
+            {
+              "id": "E1",
+              "version": "1",
+              "title": "虚构研究 A 测试资料（非医学事实）",
+              "usage": "TEST_ONLY",
+              "content": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+            }
+          ],
+          "createdAt": "2026-10-31T10:57:55.073Z",
+          "active": true,
+          "uses": 1,
+          "feedback": 0,
+          "difficulties": 0
+        },
+        {
+          "id": "release-6620828a7c27952d87caa28afdadcceac7f81907f4af60009b4e2a49ac8e40de",
+          "proposalId": "3343aa95-30a0-44f8-affc-df0e3484a6a6",
+          "proposalHash": "241d4e48bf23c910ec66db9e808826a713e44c27bb61c3b982d05b8da06d4918",
+          "kind": "STRATEGY",
+          "skillId": "subgroup-extrapolation",
+          "label": "亚组结果及外推限制",
+          "question": "请解释亚组结果及外推限制，并说明现有资料不能支持什么结论。",
+          "answer": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。",
+          "evidence": [
+            {
+              "id": "E1",
+              "version": "1",
+              "title": "虚构研究 A 测试资料（非医学事实）",
+              "usage": "TEST_ONLY",
+              "content": "本材料完全虚构，仅验证软件流程。主要终点为预先定义的测试终点。研究有指定入组和排除条件。亚组结果为探索性结果，不支持直接推广到其他人群。不包含真实药物、疗效数值或治疗建议。"
+            }
+          ],
+          "createdAt": "2026-10-31T10:58:02.100Z",
+          "active": true,
+          "uses": 1,
+          "feedback": 0,
+          "difficulties": 0
+        }
+      ]
+    }
+  ]
+}

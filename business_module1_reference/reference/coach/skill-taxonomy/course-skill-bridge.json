@@ -1,0 +1,5820 @@
+{
+  "version": "v1.3-aligned",
+  "generated_at": "2026-10-31 12:20",
+  "summary": {
+    "total_knowledge_skills": 197,
+    "covered_by_courses": 161,
+    "uncovered": 36,
+    "coverage_rate": 0.8173,
+    "courses_indexed": 71,
+    "scope_note": "一期覆盖 8 疾病 × 2 维度 + 13 个产品/管线；缺口 36 项全为二期资产类范围"
+  },
+  "course_to_skill": {
+    "D-AD|disease_foundation": [
+      {
+        "kp_id": "D-AD.1",
+        "skill_id": "SK-K-D-AD-129",
+        "dimension": "炎症表型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AD.2",
+        "skill_id": "SK-K-D-AD-130",
+        "dimension": "疾病严重度",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AD.3",
+        "skill_id": "SK-K-D-AD-131",
+        "dimension": "生物制剂通路",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-AML|disease_foundation": [
+      {
+        "kp_id": "D-AML.1",
+        "skill_id": "SK-K-D-AML-067",
+        "dimension": "分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AML.2",
+        "skill_id": "SK-K-D-AML-068",
+        "dimension": "FLT3检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AML.3",
+        "skill_id": "SK-K-D-AML-069",
+        "dimension": "诱导与巩固治疗",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AML.4",
+        "skill_id": "SK-K-D-AML-070",
+        "dimension": "缓解终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-AS|disease_foundation": [
+      {
+        "kp_id": "D-AS.1",
+        "skill_id": "SK-K-D-AS-114",
+        "dimension": "炎症性腰背痛",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AS.2",
+        "skill_id": "SK-K-D-AS-115",
+        "dimension": "疾病活动度",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-AS.3",
+        "skill_id": "SK-K-D-AS-116",
+        "dimension": "TNF作用",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-BREAST|disease_foundation": [
+      {
+        "kp_id": "D-BREAST.1",
+        "skill_id": "SK-K-D-BREAST-033",
+        "dimension": "HR",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST.2",
+        "skill_id": "SK-K-D-BREAST-034",
+        "dimension": "HER2分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST.3",
+        "skill_id": "SK-K-D-BREAST-035",
+        "dimension": "治疗阶段",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST.4",
+        "skill_id": "SK-K-D-BREAST-036",
+        "dimension": "内分泌与靶向机制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CCA|disease_foundation": [
+      {
+        "kp_id": "D-CCA.1",
+        "skill_id": "SK-K-D-CCA-020",
+        "dimension": "分子检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CCA.2",
+        "skill_id": "SK-K-D-CCA-021",
+        "dimension": "FGFR2融合",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CCA.3",
+        "skill_id": "SK-K-D-CCA-022",
+        "dimension": "重排",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CCA.4",
+        "skill_id": "SK-K-D-CCA-023",
+        "dimension": "人群筛选",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CCA.5",
+        "skill_id": "SK-K-D-CCA-024",
+        "dimension": "单臂研究局限",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CERVICAL|disease_foundation": [
+      {
+        "kp_id": "D-CERVICAL.1",
+        "skill_id": "SK-K-D-CERVICAL-047",
+        "dimension": "疾病分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL.2",
+        "skill_id": "SK-K-D-CERVICAL-048",
+        "dimension": "复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL.3",
+        "skill_id": "SK-K-D-CERVICAL-049",
+        "dimension": "转移背景",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL.4",
+        "skill_id": "SK-K-D-CERVICAL-050",
+        "dimension": "研究终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CLL|disease_foundation": [
+      {
+        "kp_id": "D-CLL.1",
+        "skill_id": "SK-K-D-CLL-077",
+        "dimension": "疾病分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CLL.2",
+        "skill_id": "SK-K-D-CLL-078",
+        "dimension": "既往BTK抑制剂",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CLL.3",
+        "skill_id": "SK-K-D-CLL-079",
+        "dimension": "复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CLL.4",
+        "skill_id": "SK-K-D-CLL-080",
+        "dimension": "难治定义",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CML|disease_foundation": [
+      {
+        "kp_id": "D-CML.1",
+        "skill_id": "SK-K-D-CML-064",
+        "dimension": "BCR-ABL检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CML.2",
+        "skill_id": "SK-K-D-CML-065",
+        "dimension": "耐药变异",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CML.3",
+        "skill_id": "SK-K-D-CML-066",
+        "dimension": "分子缓解与治疗线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CRC|disease_foundation": [
+      {
+        "kp_id": "D-CRC.1",
+        "skill_id": "SK-K-D-CRC-017",
+        "dimension": "MSI-H",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CRC.2",
+        "skill_id": "SK-K-D-CRC-018",
+        "dimension": "dMMR检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CRC.3",
+        "skill_id": "SK-K-D-CRC-019",
+        "dimension": "治疗线次与免疫治疗证据边界",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CROHN|disease_foundation": [
+      {
+        "kp_id": "D-CROHN.1",
+        "skill_id": "SK-K-D-CROHN-126",
+        "dimension": "诊断证据",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CROHN.2",
+        "skill_id": "SK-K-D-CROHN-127",
+        "dimension": "炎症控制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CROHN.3",
+        "skill_id": "SK-K-D-CROHN-128",
+        "dimension": "缓解和复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-DLBCL|disease_foundation": [
+      {
+        "kp_id": "D-DLBCL.1",
+        "skill_id": "SK-K-D-DLBCL-071",
+        "dimension": "CD20",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DLBCL.2",
+        "skill_id": "SK-K-D-DLBCL-072",
+        "dimension": "分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DLBCL.3",
+        "skill_id": "SK-K-D-DLBCL-073",
+        "dimension": "缓解及复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DLBCL.4",
+        "skill_id": "SK-K-D-DLBCL-074",
+        "dimension": "治疗组合",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-DME|disease_foundation": [
+      {
+        "kp_id": "D-DME.1",
+        "skill_id": "SK-K-D-DME-143",
+        "dimension": "视力与OCT",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DME.2",
+        "skill_id": "SK-K-D-DME-144",
+        "dimension": "黄斑水肿",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DME.3",
+        "skill_id": "SK-K-D-DME-145",
+        "dimension": "抗VEGF机制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-DYSLIPID|disease_foundation": [
+      {
+        "kp_id": "D-DYSLIPID.1",
+        "skill_id": "SK-K-D-DYSLIPID-100",
+        "dimension": "LDL-C",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DYSLIPID.2",
+        "skill_id": "SK-K-D-DYSLIPID-101",
+        "dimension": "ApoB",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DYSLIPID.3",
+        "skill_id": "SK-K-D-DYSLIPID-102",
+        "dimension": "ASCVD风险",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-DYSLIPID.4",
+        "skill_id": "SK-K-D-DYSLIPID-103",
+        "dimension": "降脂治疗分类",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-ENDO|disease_foundation": [
+      {
+        "kp_id": "D-ENDO.1",
+        "skill_id": "SK-K-D-ENDO-030",
+        "dimension": "MMR分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-ENDO.2",
+        "skill_id": "SK-K-D-ENDO-031",
+        "dimension": "治疗线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-ENDO.3",
+        "skill_id": "SK-K-D-ENDO-032",
+        "dimension": "研究人群边界",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-ESCC|disease_foundation": [
+      {
+        "kp_id": "D-ESCC.1",
+        "skill_id": "SK-K-D-ESCC-027",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-ESCC.2",
+        "skill_id": "SK-K-D-ESCC-028",
+        "dimension": "局部与全身治疗",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-ESCC.3",
+        "skill_id": "SK-K-D-ESCC-029",
+        "dimension": "免疫治疗适用范围",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-FL|disease_foundation": [
+      {
+        "kp_id": "D-FL.1",
+        "skill_id": "SK-K-D-FL-075",
+        "dimension": "惰性淋巴瘤特征",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-FL.2",
+        "skill_id": "SK-K-D-FL-076",
+        "dimension": "治疗指征与复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GBM|disease_foundation": [
+      {
+        "kp_id": "D-GBM.1",
+        "skill_id": "SK-K-D-GBM-051",
+        "dimension": "复发性疾病特点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GBM.2",
+        "skill_id": "SK-K-D-GBM-052",
+        "dimension": "症状与生活质量终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GC|disease_foundation": [
+      {
+        "kp_id": "D-GC.1",
+        "skill_id": "SK-K-D-GC-012",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC.2",
+        "skill_id": "SK-K-D-GC-013",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC.3",
+        "skill_id": "SK-K-D-GC-014",
+        "dimension": "CLDN18.2",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC.4",
+        "skill_id": "SK-K-D-GC-015",
+        "dimension": "HER2等标志物",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC.5",
+        "skill_id": "SK-K-D-GC-016",
+        "dimension": "ADC研究评价",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GOUT|disease_foundation": [
+      {
+        "kp_id": "D-GOUT.1",
+        "skill_id": "SK-K-D-GOUT-132",
+        "dimension": "急性发作与尿酸长期管理",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GOUT.2",
+        "skill_id": "SK-K-D-GOUT-133",
+        "dimension": "XO作用机制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-HCC|disease_foundation": [
+      {
+        "kp_id": "D-HCC.1",
+        "skill_id": "SK-K-D-HCC-007",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC.2",
+        "skill_id": "SK-K-D-HCC-008",
+        "dimension": "肝功能与全身治疗路径",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC.3",
+        "skill_id": "SK-K-D-HCC-009",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC.4",
+        "skill_id": "SK-K-D-HCC-010",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC.5",
+        "skill_id": "SK-K-D-HCC-011",
+        "dimension": "安全性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-HFPEF|disease_foundation": [
+      {
+        "kp_id": "D-HFPEF.1",
+        "skill_id": "SK-K-D-HFPEF-108",
+        "dimension": "诊断框架",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HFPEF.2",
+        "skill_id": "SK-K-D-HFPEF-109",
+        "dimension": "症状及功能终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HFPEF.3",
+        "skill_id": "SK-K-D-HFPEF-110",
+        "dimension": "研究性适应症",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-HTN|disease_foundation": [
+      {
+        "kp_id": "D-HTN.1",
+        "skill_id": "SK-K-D-HTN-104",
+        "dimension": "血压指标",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HTN.2",
+        "skill_id": "SK-K-D-HTN-105",
+        "dimension": "药物类别",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HTN.3",
+        "skill_id": "SK-K-D-HTN-106",
+        "dimension": "并发症",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HTN.4",
+        "skill_id": "SK-K-D-HTN-107",
+        "dimension": "研究终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-MASH|disease_foundation": [
+      {
+        "kp_id": "D-MASH.1",
+        "skill_id": "SK-K-D-MASH-094",
+        "dimension": "疾病概念",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MASH.2",
+        "skill_id": "SK-K-D-MASH-095",
+        "dimension": "肝纤维化终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MASH.3",
+        "skill_id": "SK-K-D-MASH-096",
+        "dimension": "试验性适应症辨别",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-MCL|disease_foundation": [
+      {
+        "kp_id": "D-MCL.1",
+        "skill_id": "SK-K-D-MCL-081",
+        "dimension": "既往治疗线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MCL.2",
+        "skill_id": "SK-K-D-MCL-082",
+        "dimension": "BTK抑制剂治疗背景",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-MEL|disease_foundation": [
+      {
+        "kp_id": "D-MEL.1",
+        "skill_id": "SK-K-D-MEL-044",
+        "dimension": "免疫治疗基础",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MEL.2",
+        "skill_id": "SK-K-D-MEL-045",
+        "dimension": "耐药与既往用药背景",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MEL.3",
+        "skill_id": "SK-K-D-MEL-046",
+        "dimension": "研究对照",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-MESO|disease_foundation": [
+      {
+        "kp_id": "D-MESO.1",
+        "skill_id": "SK-K-D-MESO-056",
+        "dimension": "对照组",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.2",
+        "skill_id": "SK-K-D-MESO-057",
+        "dimension": "随机",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.3",
+        "skill_id": "SK-K-D-MESO-058",
+        "dimension": "单臂",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.4",
+        "skill_id": "SK-K-D-MESO-059",
+        "dimension": "ORR",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.5",
+        "skill_id": "SK-K-D-MESO-060",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.6",
+        "skill_id": "SK-K-D-MESO-061",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.7",
+        "skill_id": "SK-K-D-MESO-062",
+        "dimension": "终点限制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MESO.8",
+        "skill_id": "SK-K-D-MESO-063",
+        "dimension": "入排标准",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-MM|disease_foundation": [
+      {
+        "kp_id": "D-MM.1",
+        "skill_id": "SK-K-D-MM-083",
+        "dimension": "复发难治定义",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MM.2",
+        "skill_id": "SK-K-D-MM-084",
+        "dimension": "BCMA",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MM.3",
+        "skill_id": "SK-K-D-MM-085",
+        "dimension": "细胞治疗",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MM.4",
+        "skill_id": "SK-K-D-MM-086",
+        "dimension": "CRS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-MM.5",
+        "skill_id": "SK-K-D-MM-087",
+        "dimension": "神经毒性等风险",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-NAMD|disease_foundation": [
+      {
+        "kp_id": "D-NAMD.1",
+        "skill_id": "SK-K-D-NAMD-146",
+        "dimension": "nAMD",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NAMD.2",
+        "skill_id": "SK-K-D-NAMD-147",
+        "dimension": "OCT及视力变化",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NAMD.3",
+        "skill_id": "SK-K-D-NAMD-148",
+        "dimension": "眼内抗VEGF治疗概念",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-NSCLC|disease_foundation": [
+      {
+        "kp_id": "D-NSCLC.1",
+        "skill_id": "SK-K-D-NSCLC-001",
+        "dimension": "病理分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC.2",
+        "skill_id": "SK-K-D-NSCLC-002",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC.3",
+        "skill_id": "SK-K-D-NSCLC-003",
+        "dimension": "靶点检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC.4",
+        "skill_id": "SK-K-D-NSCLC-004",
+        "dimension": "免疫或靶向治疗适用人群",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC.5",
+        "skill_id": "SK-K-D-NSCLC-005",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC.6",
+        "skill_id": "SK-K-D-NSCLC-006",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-OBE|disease_foundation": [
+      {
+        "kp_id": "D-OBE.1",
+        "skill_id": "SK-K-D-OBE-088",
+        "dimension": "肥胖诊断框架",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OBE.2",
+        "skill_id": "SK-K-D-OBE-089",
+        "dimension": "体重终点与共病",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OBE.3",
+        "skill_id": "SK-K-D-OBE-090",
+        "dimension": "长期管理",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-OSA|disease_foundation": [
+      {
+        "kp_id": "D-OSA.1",
+        "skill_id": "SK-K-D-OSA-097",
+        "dimension": "肥胖共病关系",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OSA.2",
+        "skill_id": "SK-K-D-OSA-098",
+        "dimension": "临床终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OSA.3",
+        "skill_id": "SK-K-D-OSA-099",
+        "dimension": "研究性证据界限",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-OVARIAN|disease_foundation": [
+      {
+        "kp_id": "D-OVARIAN.1",
+        "skill_id": "SK-K-D-OVARIAN-037",
+        "dimension": "铂敏感",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN.2",
+        "skill_id": "SK-K-D-OVARIAN-038",
+        "dimension": "铂耐药",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN.3",
+        "skill_id": "SK-K-D-OVARIAN-039",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN.4",
+        "skill_id": "SK-K-D-OVARIAN-040",
+        "dimension": "ADC研究与安全性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-PDAC|disease_foundation": [
+      {
+        "kp_id": "D-PDAC.1",
+        "skill_id": "SK-K-D-PDAC-041",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PDAC.2",
+        "skill_id": "SK-K-D-PDAC-042",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PDAC.3",
+        "skill_id": "SK-K-D-PDAC-043",
+        "dimension": "ADC在研证据与研究人群",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-PSA|disease_foundation": [
+      {
+        "kp_id": "D-PSA.1",
+        "skill_id": "SK-K-D-PSA-122",
+        "dimension": "皮肤与关节双维度",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSA.2",
+        "skill_id": "SK-K-D-PSA-123",
+        "dimension": "治疗机制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSA.3",
+        "skill_id": "SK-K-D-PSA-124",
+        "dimension": "在研",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSA.4",
+        "skill_id": "SK-K-D-PSA-125",
+        "dimension": "已批边界",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-PSO|disease_foundation": [
+      {
+        "kp_id": "D-PSO.1",
+        "skill_id": "SK-K-D-PSO-117",
+        "dimension": "皮损严重度",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSO.2",
+        "skill_id": "SK-K-D-PSO-118",
+        "dimension": "PASI",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSO.3",
+        "skill_id": "SK-K-D-PSO-119",
+        "dimension": "TNF",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSO.4",
+        "skill_id": "SK-K-D-PSO-120",
+        "dimension": "IL-23通路",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-PSO.5",
+        "skill_id": "SK-K-D-PSO-121",
+        "dimension": "复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-RA|disease_foundation": [
+      {
+        "kp_id": "D-RA.1",
+        "skill_id": "SK-K-D-RA-111",
+        "dimension": "疾病活动度",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-RA.2",
+        "skill_id": "SK-K-D-RA-112",
+        "dimension": "炎症指标",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-RA.3",
+        "skill_id": "SK-K-D-RA-113",
+        "dimension": "生物制剂机制和风险",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-RCC|disease_foundation": [
+      {
+        "kp_id": "D-RCC.1",
+        "skill_id": "SK-K-D-RCC-025",
+        "dimension": "既往治疗线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-RCC.2",
+        "skill_id": "SK-K-D-RCC-026",
+        "dimension": "免疫+TKI方案及证据边界",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-SJOGREN|disease_foundation": [
+      {
+        "kp_id": "D-SJOGREN.1",
+        "skill_id": "SK-K-D-SJOGREN-138",
+        "dimension": "自身免疫诊断框架及器官受累",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-SJOGREN.2",
+        "skill_id": "SK-K-D-SJOGREN-139",
+        "dimension": "研究性生物靶点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-T2DM|disease_foundation": [
+      {
+        "kp_id": "D-T2DM.1",
+        "skill_id": "SK-K-D-T2DM-091",
+        "dimension": "血糖与HbA1c",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-T2DM.2",
+        "skill_id": "SK-K-D-T2DM-092",
+        "dimension": "并发症",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-T2DM.3",
+        "skill_id": "SK-K-D-T2DM-093",
+        "dimension": "体重与糖尿病的区别",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-TED|disease_foundation": [
+      {
+        "kp_id": "D-TED.1",
+        "skill_id": "SK-K-D-TED-140",
+        "dimension": "活动性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-TED.2",
+        "skill_id": "SK-K-D-TED-141",
+        "dimension": "非活动性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-TED.3",
+        "skill_id": "SK-K-D-TED-142",
+        "dimension": "眼球突出与眼症状评估",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-THYROID|disease_foundation": [
+      {
+        "kp_id": "D-THYROID.1",
+        "skill_id": "SK-K-D-THYROID-053",
+        "dimension": "分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-THYROID.2",
+        "skill_id": "SK-K-D-THYROID-054",
+        "dimension": "RET基因改变",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-THYROID.3",
+        "skill_id": "SK-K-D-THYROID-055",
+        "dimension": "检测与靶向治疗",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-VITILIGO|disease_foundation": [
+      {
+        "kp_id": "D-VITILIGO.1",
+        "skill_id": "SK-K-D-VITILIGO-134",
+        "dimension": "自身免疫通路",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-VITILIGO.2",
+        "skill_id": "SK-K-D-VITILIGO-135",
+        "dimension": "皮损",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-VITILIGO.3",
+        "skill_id": "SK-K-D-VITILIGO-136",
+        "dimension": "毛发终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-VITILIGO.4",
+        "skill_id": "SK-K-D-VITILIGO-137",
+        "dimension": "在研状态",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-BREAST|treatment_landscape": [
+      {
+        "kp_id": "D-BREAST__TL.1",
+        "skill_id": "SK-K-D-BREAST-033",
+        "dimension": "HR",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST__TL.2",
+        "skill_id": "SK-K-D-BREAST-034",
+        "dimension": "HER2分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST__TL.3",
+        "skill_id": "SK-K-D-BREAST-035",
+        "dimension": "治疗阶段",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST__TL.4",
+        "skill_id": "SK-K-D-BREAST-036",
+        "dimension": "内分泌与靶向机制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CERVICAL|treatment_landscape": [
+      {
+        "kp_id": "D-CERVICAL__TL.1",
+        "skill_id": "SK-K-D-CERVICAL-047",
+        "dimension": "疾病分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL__TL.2",
+        "skill_id": "SK-K-D-CERVICAL-048",
+        "dimension": "复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL__TL.3",
+        "skill_id": "SK-K-D-CERVICAL-049",
+        "dimension": "转移背景",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL__TL.4",
+        "skill_id": "SK-K-D-CERVICAL-050",
+        "dimension": "研究终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CRC|treatment_landscape": [
+      {
+        "kp_id": "D-CRC__TL.1",
+        "skill_id": "SK-K-D-CRC-017",
+        "dimension": "MSI-H",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CRC__TL.2",
+        "skill_id": "SK-K-D-CRC-018",
+        "dimension": "dMMR检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CRC__TL.3",
+        "skill_id": "SK-K-D-CRC-019",
+        "dimension": "治疗线次与免疫治疗证据边界",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GBM|treatment_landscape": [
+      {
+        "kp_id": "D-GBM__TL.1",
+        "skill_id": "SK-K-D-GBM-051",
+        "dimension": "复发性疾病特点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GBM__TL.2",
+        "skill_id": "SK-K-D-GBM-052",
+        "dimension": "症状与生活质量终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GC|treatment_landscape": [
+      {
+        "kp_id": "D-GC__TL.1",
+        "skill_id": "SK-K-D-GC-012",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__TL.2",
+        "skill_id": "SK-K-D-GC-013",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__TL.3",
+        "skill_id": "SK-K-D-GC-014",
+        "dimension": "CLDN18.2",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__TL.4",
+        "skill_id": "SK-K-D-GC-015",
+        "dimension": "HER2等标志物",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__TL.5",
+        "skill_id": "SK-K-D-GC-016",
+        "dimension": "ADC研究评价",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-HCC|treatment_landscape": [
+      {
+        "kp_id": "D-HCC__TL.1",
+        "skill_id": "SK-K-D-HCC-007",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__TL.2",
+        "skill_id": "SK-K-D-HCC-008",
+        "dimension": "肝功能与全身治疗路径",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__TL.3",
+        "skill_id": "SK-K-D-HCC-009",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__TL.4",
+        "skill_id": "SK-K-D-HCC-010",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__TL.5",
+        "skill_id": "SK-K-D-HCC-011",
+        "dimension": "安全性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-NSCLC|treatment_landscape": [
+      {
+        "kp_id": "D-NSCLC__TL.1",
+        "skill_id": "SK-K-D-NSCLC-001",
+        "dimension": "病理分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__TL.2",
+        "skill_id": "SK-K-D-NSCLC-002",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__TL.3",
+        "skill_id": "SK-K-D-NSCLC-003",
+        "dimension": "靶点检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__TL.4",
+        "skill_id": "SK-K-D-NSCLC-004",
+        "dimension": "免疫或靶向治疗适用人群",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__TL.5",
+        "skill_id": "SK-K-D-NSCLC-005",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__TL.6",
+        "skill_id": "SK-K-D-NSCLC-006",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-OVARIAN|treatment_landscape": [
+      {
+        "kp_id": "D-OVARIAN__TL.1",
+        "skill_id": "SK-K-D-OVARIAN-037",
+        "dimension": "铂敏感",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN__TL.2",
+        "skill_id": "SK-K-D-OVARIAN-038",
+        "dimension": "铂耐药",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN__TL.3",
+        "skill_id": "SK-K-D-OVARIAN-039",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN__TL.4",
+        "skill_id": "SK-K-D-OVARIAN-040",
+        "dimension": "ADC研究与安全性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-BREAST|clinical_evidence": [
+      {
+        "kp_id": "D-BREAST__CE.1",
+        "skill_id": "SK-K-D-BREAST-033",
+        "dimension": "HR",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST__CE.2",
+        "skill_id": "SK-K-D-BREAST-034",
+        "dimension": "HER2分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST__CE.3",
+        "skill_id": "SK-K-D-BREAST-035",
+        "dimension": "治疗阶段",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-BREAST__CE.4",
+        "skill_id": "SK-K-D-BREAST-036",
+        "dimension": "内分泌与靶向机制",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CERVICAL|clinical_evidence": [
+      {
+        "kp_id": "D-CERVICAL__CE.1",
+        "skill_id": "SK-K-D-CERVICAL-047",
+        "dimension": "疾病分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL__CE.2",
+        "skill_id": "SK-K-D-CERVICAL-048",
+        "dimension": "复发",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL__CE.3",
+        "skill_id": "SK-K-D-CERVICAL-049",
+        "dimension": "转移背景",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CERVICAL__CE.4",
+        "skill_id": "SK-K-D-CERVICAL-050",
+        "dimension": "研究终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-CRC|clinical_evidence": [
+      {
+        "kp_id": "D-CRC__CE.1",
+        "skill_id": "SK-K-D-CRC-017",
+        "dimension": "MSI-H",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CRC__CE.2",
+        "skill_id": "SK-K-D-CRC-018",
+        "dimension": "dMMR检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-CRC__CE.3",
+        "skill_id": "SK-K-D-CRC-019",
+        "dimension": "治疗线次与免疫治疗证据边界",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GBM|clinical_evidence": [
+      {
+        "kp_id": "D-GBM__CE.1",
+        "skill_id": "SK-K-D-GBM-051",
+        "dimension": "复发性疾病特点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GBM__CE.2",
+        "skill_id": "SK-K-D-GBM-052",
+        "dimension": "症状与生活质量终点",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-GC|clinical_evidence": [
+      {
+        "kp_id": "D-GC__CE.1",
+        "skill_id": "SK-K-D-GC-012",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__CE.2",
+        "skill_id": "SK-K-D-GC-013",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__CE.3",
+        "skill_id": "SK-K-D-GC-014",
+        "dimension": "CLDN18.2",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__CE.4",
+        "skill_id": "SK-K-D-GC-015",
+        "dimension": "HER2等标志物",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-GC__CE.5",
+        "skill_id": "SK-K-D-GC-016",
+        "dimension": "ADC研究评价",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-HCC|clinical_evidence": [
+      {
+        "kp_id": "D-HCC__CE.1",
+        "skill_id": "SK-K-D-HCC-007",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__CE.2",
+        "skill_id": "SK-K-D-HCC-008",
+        "dimension": "肝功能与全身治疗路径",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__CE.3",
+        "skill_id": "SK-K-D-HCC-009",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__CE.4",
+        "skill_id": "SK-K-D-HCC-010",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-HCC__CE.5",
+        "skill_id": "SK-K-D-HCC-011",
+        "dimension": "安全性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-NSCLC|clinical_evidence": [
+      {
+        "kp_id": "D-NSCLC__CE.1",
+        "skill_id": "SK-K-D-NSCLC-001",
+        "dimension": "病理分型",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__CE.2",
+        "skill_id": "SK-K-D-NSCLC-002",
+        "dimension": "分期",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__CE.3",
+        "skill_id": "SK-K-D-NSCLC-003",
+        "dimension": "靶点检测",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__CE.4",
+        "skill_id": "SK-K-D-NSCLC-004",
+        "dimension": "免疫或靶向治疗适用人群",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__CE.5",
+        "skill_id": "SK-K-D-NSCLC-005",
+        "dimension": "PFS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-NSCLC__CE.6",
+        "skill_id": "SK-K-D-NSCLC-006",
+        "dimension": "OS",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "D-OVARIAN|clinical_evidence": [
+      {
+        "kp_id": "D-OVARIAN__CE.1",
+        "skill_id": "SK-K-D-OVARIAN-037",
+        "dimension": "铂敏感",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN__CE.2",
+        "skill_id": "SK-K-D-OVARIAN-038",
+        "dimension": "铂耐药",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN__CE.3",
+        "skill_id": "SK-K-D-OVARIAN-039",
+        "dimension": "线次",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      },
+      {
+        "kp_id": "D-OVARIAN__CE.4",
+        "skill_id": "SK-K-D-OVARIAN-040",
+        "dimension": "ADC研究与安全性",
+        "v13_evaluation_items": [
+          "知识准确性",
+          "适用边界",
+          "证据运用"
+        ],
+        "axes": [
+          "疾病分型与评估维度",
+          "治疗机制类别与适用边界",
+          "研究设计与证据质量判断"
+        ]
+      }
+    ],
+    "IBI3005|pipeline_literacy": [
+      {
+        "kp_id": "IBI3005__PL.1",
+        "skill_id": "SK-K-IBI3005-PIPE-01",
+        "dimension": "EGFR/HER3 ADC",
+        "v13_evaluation_items": [
+          "专业与合规要求"
+        ],
+        "axes": [
+          "在研与获批的状态边界"
+        ]
+      }
+    ],
+    "IBI343|pipeline_literacy": [
+      {
+        "kp_id": "IBI343__PL.1",
+        "skill_id": "SK-K-IBI343-PIPE-01",
+        "dimension": "CLDN18.2 ADC",
+        "v13_evaluation_items": [
+          "专业与合规要求"
+        ],
+        "axes": [
+          "在研与获批的状态边界"
+        ]
+      }
+    ],
+    "IBI354|pipeline_literacy": [
+      {
+        "kp_id": "IBI354__PL.1",
+        "skill_id": "SK-K-IBI354-PIPE-01",
+        "dimension": "HER2 ADC",
+        "v13_evaluation_items": [
+          "专业与合规要求"
+        ],
+        "axes": [
+          "在研与获批的状态边界"
+        ]
+      }
+    ],
+    "IBI363|pipeline_literacy": [
+      {
+        "kp_id": "IBI363__PL.1",
+        "skill_id": "SK-K-IBI363-PIPE-01",
+        "dimension": "PD-1/IL-2α偏向融合蛋白",
+        "v13_evaluation_items": [
+          "专业与合规要求"
+        ],
+        "axes": [
+          "在研与获批的状态边界"
+        ]
+      }
+    ],
+    "aoyixin|product_basics": [
+      {
+        "kp_id": "aoyixin__PB.1",
+        "skill_id": "SK-K-AOYIXIN-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "dabole|product_basics": [
+      {
+        "kp_id": "dabole__PB.1",
+        "skill_id": "SK-K-DABOLE-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "daboshu|product_basics": [
+      {
+        "kp_id": "daboshu__PB.1",
+        "skill_id": "SK-K-DABOSHU-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "dabote|product_basics": [
+      {
+        "kp_id": "dabote__PB.1",
+        "skill_id": "SK-K-DABOTE-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "daboxin|product_basics": [
+      {
+        "kp_id": "daboxin__PB.1",
+        "skill_id": "SK-K-DABOXIN-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "dayoutong|product_basics": [
+      {
+        "kp_id": "dayoutong__PB.1",
+        "skill_id": "SK-K-DAYOUTONG-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "ruituo|product_basics": [
+      {
+        "kp_id": "ruituo__PB.1",
+        "skill_id": "SK-K-RUITUO-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "weize|product_basics": [
+      {
+        "kp_id": "weize__PB.1",
+        "skill_id": "SK-K-WEIZE-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ],
+    "xirangze|product_basics": [
+      {
+        "kp_id": "xirangze__PB.1",
+        "skill_id": "SK-K-XIRANGZE-PROD-01",
+        "dimension": "肿瘤",
+        "v13_evaluation_items": [
+          "知识准确性"
+        ],
+        "axes": [
+          "产品基础信息与核查路径"
+        ]
+      }
+    ]
+  },
+  "skill_to_course": {
+    "SK-K-D-AD-129": [
+      {
+        "condition_id": "D-AD",
+        "dimension": "disease_foundation",
+        "course_title": "特应性皮炎：炎症表型、严重度分层与在研资产的讲法",
+        "kp_id": "D-AD.1",
+        "course_file": "courses/D-AD.html"
+      }
+    ],
+    "SK-K-D-AD-130": [
+      {
+        "condition_id": "D-AD",
+        "dimension": "disease_foundation",
+        "course_title": "特应性皮炎：炎症表型、严重度分层与在研资产的讲法",
+        "kp_id": "D-AD.2",
+        "course_file": "courses/D-AD.html"
+      }
+    ],
+    "SK-K-D-AD-131": [
+      {
+        "condition_id": "D-AD",
+        "dimension": "disease_foundation",
+        "course_title": "特应性皮炎：炎症表型、严重度分层与在研资产的讲法",
+        "kp_id": "D-AD.3",
+        "course_file": "courses/D-AD.html"
+      }
+    ],
+    "SK-K-D-AML-067": [
+      {
+        "condition_id": "D-AML",
+        "dimension": "disease_foundation",
+        "course_title": "急性髓系白血病：分型、FLT3 检测与缓解终点怎么串成一条线",
+        "kp_id": "D-AML.1",
+        "course_file": "courses/D-AML.html"
+      }
+    ],
+    "SK-K-D-AML-068": [
+      {
+        "condition_id": "D-AML",
+        "dimension": "disease_foundation",
+        "course_title": "急性髓系白血病：分型、FLT3 检测与缓解终点怎么串成一条线",
+        "kp_id": "D-AML.2",
+        "course_file": "courses/D-AML.html"
+      }
+    ],
+    "SK-K-D-AML-069": [
+      {
+        "condition_id": "D-AML",
+        "dimension": "disease_foundation",
+        "course_title": "急性髓系白血病：分型、FLT3 检测与缓解终点怎么串成一条线",
+        "kp_id": "D-AML.3",
+        "course_file": "courses/D-AML.html"
+      }
+    ],
+    "SK-K-D-AML-070": [
+      {
+        "condition_id": "D-AML",
+        "dimension": "disease_foundation",
+        "course_title": "急性髓系白血病：分型、FLT3 检测与缓解终点怎么串成一条线",
+        "kp_id": "D-AML.4",
+        "course_file": "courses/D-AML.html"
+      }
+    ],
+    "SK-K-D-AS-114": [
+      {
+        "condition_id": "D-AS",
+        "dimension": "disease_foundation",
+        "course_title": "强直性脊柱炎/轴性脊柱关节炎：两把尺子分型，别把 MRI 当判决书",
+        "kp_id": "D-AS.1",
+        "course_file": "courses/D-AS.html"
+      }
+    ],
+    "SK-K-D-AS-115": [
+      {
+        "condition_id": "D-AS",
+        "dimension": "disease_foundation",
+        "course_title": "强直性脊柱炎/轴性脊柱关节炎：两把尺子分型，别把 MRI 当判决书",
+        "kp_id": "D-AS.2",
+        "course_file": "courses/D-AS.html"
+      }
+    ],
+    "SK-K-D-AS-116": [
+      {
+        "condition_id": "D-AS",
+        "dimension": "disease_foundation",
+        "course_title": "强直性脊柱炎/轴性脊柱关节炎：两把尺子分型，别把 MRI 当判决书",
+        "kp_id": "D-AS.3",
+        "course_file": "courses/D-AS.html"
+      }
+    ],
+    "SK-K-D-BREAST-033": [
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "disease_foundation",
+        "course_title": "乳腺癌：HR/HER2 分型与治疗阶段如何决定沟通口径",
+        "kp_id": "D-BREAST.1",
+        "course_file": "courses/D-BREAST.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "treatment_landscape",
+        "course_title": "乳腺癌：HR/HER2 分型下的治疗阶段与三层边界",
+        "kp_id": "D-BREAST__TL.1",
+        "course_file": "courses-tl/D-BREAST__TL.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "clinical_evidence",
+        "course_title": "乳腺癌：怎么读一项研究——分型、治疗阶段与终点口径",
+        "kp_id": "D-BREAST__CE.1",
+        "course_file": "courses-ce/D-BREAST__CE.html"
+      }
+    ],
+    "SK-K-D-BREAST-034": [
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "disease_foundation",
+        "course_title": "乳腺癌：HR/HER2 分型与治疗阶段如何决定沟通口径",
+        "kp_id": "D-BREAST.2",
+        "course_file": "courses/D-BREAST.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "treatment_landscape",
+        "course_title": "乳腺癌：HR/HER2 分型下的治疗阶段与三层边界",
+        "kp_id": "D-BREAST__TL.2",
+        "course_file": "courses-tl/D-BREAST__TL.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "clinical_evidence",
+        "course_title": "乳腺癌：怎么读一项研究——分型、治疗阶段与终点口径",
+        "kp_id": "D-BREAST__CE.2",
+        "course_file": "courses-ce/D-BREAST__CE.html"
+      }
+    ],
+    "SK-K-D-BREAST-035": [
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "disease_foundation",
+        "course_title": "乳腺癌：HR/HER2 分型与治疗阶段如何决定沟通口径",
+        "kp_id": "D-BREAST.3",
+        "course_file": "courses/D-BREAST.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "treatment_landscape",
+        "course_title": "乳腺癌：HR/HER2 分型下的治疗阶段与三层边界",
+        "kp_id": "D-BREAST__TL.3",
+        "course_file": "courses-tl/D-BREAST__TL.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "clinical_evidence",
+        "course_title": "乳腺癌：怎么读一项研究——分型、治疗阶段与终点口径",
+        "kp_id": "D-BREAST__CE.3",
+        "course_file": "courses-ce/D-BREAST__CE.html"
+      }
+    ],
+    "SK-K-D-BREAST-036": [
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "disease_foundation",
+        "course_title": "乳腺癌：HR/HER2 分型与治疗阶段如何决定沟通口径",
+        "kp_id": "D-BREAST.4",
+        "course_file": "courses/D-BREAST.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "treatment_landscape",
+        "course_title": "乳腺癌：HR/HER2 分型下的治疗阶段与三层边界",
+        "kp_id": "D-BREAST__TL.4",
+        "course_file": "courses-tl/D-BREAST__TL.html"
+      },
+      {
+        "condition_id": "D-BREAST",
+        "dimension": "clinical_evidence",
+        "course_title": "乳腺癌：怎么读一项研究——分型、治疗阶段与终点口径",
+        "kp_id": "D-BREAST__CE.4",
+        "course_file": "courses-ce/D-BREAST__CE.html"
+      }
+    ],
+    "SK-K-D-CCA-020": [
+      {
+        "condition_id": "D-CCA",
+        "dimension": "disease_foundation",
+        "course_title": "胆管癌：FGFR2 融合怎么读、怎么讲——从分子检测到证据边界",
+        "kp_id": "D-CCA.1",
+        "course_file": "courses/D-CCA.html"
+      }
+    ],
+    "SK-K-D-CCA-021": [
+      {
+        "condition_id": "D-CCA",
+        "dimension": "disease_foundation",
+        "course_title": "胆管癌：FGFR2 融合怎么读、怎么讲——从分子检测到证据边界",
+        "kp_id": "D-CCA.2",
+        "course_file": "courses/D-CCA.html"
+      }
+    ],
+    "SK-K-D-CCA-022": [
+      {
+        "condition_id": "D-CCA",
+        "dimension": "disease_foundation",
+        "course_title": "胆管癌：FGFR2 融合怎么读、怎么讲——从分子检测到证据边界",
+        "kp_id": "D-CCA.3",
+        "course_file": "courses/D-CCA.html"
+      }
+    ],
+    "SK-K-D-CCA-023": [
+      {
+        "condition_id": "D-CCA",
+        "dimension": "disease_foundation",
+        "course_title": "胆管癌：FGFR2 融合怎么读、怎么讲——从分子检测到证据边界",
+        "kp_id": "D-CCA.4",
+        "course_file": "courses/D-CCA.html"
+      }
+    ],
+    "SK-K-D-CCA-024": [
+      {
+        "condition_id": "D-CCA",
+        "dimension": "disease_foundation",
+        "course_title": "胆管癌：FGFR2 融合怎么读、怎么讲——从分子检测到证据边界",
+        "kp_id": "D-CCA.5",
+        "course_file": "courses/D-CCA.html"
+      }
+    ],
+    "SK-K-D-CERVICAL-047": [
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "disease_foundation",
+        "course_title": "宫颈癌：分期、复发路径与研究终点怎么讲",
+        "kp_id": "D-CERVICAL.1",
+        "course_file": "courses/D-CERVICAL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "treatment_landscape",
+        "course_title": "宫颈癌：分期与复发背景下的治疗格局与边界",
+        "kp_id": "D-CERVICAL__TL.1",
+        "course_file": "courses-tl/D-CERVICAL__TL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "clinical_evidence",
+        "course_title": "宫颈癌：怎么读一项研究——分期、复发背景与终点口径",
+        "kp_id": "D-CERVICAL__CE.1",
+        "course_file": "courses-ce/D-CERVICAL__CE.html"
+      }
+    ],
+    "SK-K-D-CERVICAL-048": [
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "disease_foundation",
+        "course_title": "宫颈癌：分期、复发路径与研究终点怎么讲",
+        "kp_id": "D-CERVICAL.2",
+        "course_file": "courses/D-CERVICAL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "treatment_landscape",
+        "course_title": "宫颈癌：分期与复发背景下的治疗格局与边界",
+        "kp_id": "D-CERVICAL__TL.2",
+        "course_file": "courses-tl/D-CERVICAL__TL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "clinical_evidence",
+        "course_title": "宫颈癌：怎么读一项研究——分期、复发背景与终点口径",
+        "kp_id": "D-CERVICAL__CE.2",
+        "course_file": "courses-ce/D-CERVICAL__CE.html"
+      }
+    ],
+    "SK-K-D-CERVICAL-049": [
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "disease_foundation",
+        "course_title": "宫颈癌：分期、复发路径与研究终点怎么讲",
+        "kp_id": "D-CERVICAL.3",
+        "course_file": "courses/D-CERVICAL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "treatment_landscape",
+        "course_title": "宫颈癌：分期与复发背景下的治疗格局与边界",
+        "kp_id": "D-CERVICAL__TL.3",
+        "course_file": "courses-tl/D-CERVICAL__TL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "clinical_evidence",
+        "course_title": "宫颈癌：怎么读一项研究——分期、复发背景与终点口径",
+        "kp_id": "D-CERVICAL__CE.3",
+        "course_file": "courses-ce/D-CERVICAL__CE.html"
+      }
+    ],
+    "SK-K-D-CERVICAL-050": [
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "disease_foundation",
+        "course_title": "宫颈癌：分期、复发路径与研究终点怎么讲",
+        "kp_id": "D-CERVICAL.4",
+        "course_file": "courses/D-CERVICAL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "treatment_landscape",
+        "course_title": "宫颈癌：分期与复发背景下的治疗格局与边界",
+        "kp_id": "D-CERVICAL__TL.4",
+        "course_file": "courses-tl/D-CERVICAL__TL.html"
+      },
+      {
+        "condition_id": "D-CERVICAL",
+        "dimension": "clinical_evidence",
+        "course_title": "宫颈癌：怎么读一项研究——分期、复发背景与终点口径",
+        "kp_id": "D-CERVICAL__CE.4",
+        "course_file": "courses-ce/D-CERVICAL__CE.html"
+      }
+    ],
+    "SK-K-D-CLL-077": [
+      {
+        "condition_id": "D-CLL",
+        "dimension": "disease_foundation",
+        "course_title": "慢性淋巴细胞白血病/小淋巴细胞淋巴瘤：同一实体的两种面孔与复发定义",
+        "kp_id": "D-CLL.1",
+        "course_file": "courses/D-CLL.html"
+      }
+    ],
+    "SK-K-D-CLL-078": [
+      {
+        "condition_id": "D-CLL",
+        "dimension": "disease_foundation",
+        "course_title": "慢性淋巴细胞白血病/小淋巴细胞淋巴瘤：同一实体的两种面孔与复发定义",
+        "kp_id": "D-CLL.2",
+        "course_file": "courses/D-CLL.html"
+      }
+    ],
+    "SK-K-D-CLL-079": [
+      {
+        "condition_id": "D-CLL",
+        "dimension": "disease_foundation",
+        "course_title": "慢性淋巴细胞白血病/小淋巴细胞淋巴瘤：同一实体的两种面孔与复发定义",
+        "kp_id": "D-CLL.3",
+        "course_file": "courses/D-CLL.html"
+      }
+    ],
+    "SK-K-D-CLL-080": [
+      {
+        "condition_id": "D-CLL",
+        "dimension": "disease_foundation",
+        "course_title": "慢性淋巴细胞白血病/小淋巴细胞淋巴瘤：同一实体的两种面孔与复发定义",
+        "kp_id": "D-CLL.4",
+        "course_file": "courses/D-CLL.html"
+      }
+    ],
+    "SK-K-D-CML-064": [
+      {
+        "condition_id": "D-CML",
+        "dimension": "disease_foundation",
+        "course_title": "慢性髓系白血病：把 BCR-ABL 讲成一条可核查的主线",
+        "kp_id": "D-CML.1",
+        "course_file": "courses/D-CML.html"
+      }
+    ],
+    "SK-K-D-CML-065": [
+      {
+        "condition_id": "D-CML",
+        "dimension": "disease_foundation",
+        "course_title": "慢性髓系白血病：把 BCR-ABL 讲成一条可核查的主线",
+        "kp_id": "D-CML.2",
+        "course_file": "courses/D-CML.html"
+      }
+    ],
+    "SK-K-D-CML-066": [
+      {
+        "condition_id": "D-CML",
+        "dimension": "disease_foundation",
+        "course_title": "慢性髓系白血病：把 BCR-ABL 讲成一条可核查的主线",
+        "kp_id": "D-CML.3",
+        "course_file": "courses/D-CML.html"
+      }
+    ],
+    "SK-K-D-CRC-017": [
+      {
+        "condition_id": "D-CRC",
+        "dimension": "disease_foundation",
+        "course_title": "结直肠癌：MSI-H/dMMR 检测口径与免疫治疗的证据边界",
+        "kp_id": "D-CRC.1",
+        "course_file": "courses/D-CRC.html"
+      },
+      {
+        "condition_id": "D-CRC",
+        "dimension": "treatment_landscape",
+        "course_title": "结直肠癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-CRC__TL.1",
+        "course_file": "courses-tl/D-CRC__TL.html"
+      },
+      {
+        "condition_id": "D-CRC",
+        "dimension": "clinical_evidence",
+        "course_title": "结直肠癌：怎么读一项研究——检测口径、线次与免疫治疗证据边界",
+        "kp_id": "D-CRC__CE.1",
+        "course_file": "courses-ce/D-CRC__CE.html"
+      }
+    ],
+    "SK-K-D-CRC-018": [
+      {
+        "condition_id": "D-CRC",
+        "dimension": "disease_foundation",
+        "course_title": "结直肠癌：MSI-H/dMMR 检测口径与免疫治疗的证据边界",
+        "kp_id": "D-CRC.2",
+        "course_file": "courses/D-CRC.html"
+      },
+      {
+        "condition_id": "D-CRC",
+        "dimension": "treatment_landscape",
+        "course_title": "结直肠癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-CRC__TL.2",
+        "course_file": "courses-tl/D-CRC__TL.html"
+      },
+      {
+        "condition_id": "D-CRC",
+        "dimension": "clinical_evidence",
+        "course_title": "结直肠癌：怎么读一项研究——检测口径、线次与免疫治疗证据边界",
+        "kp_id": "D-CRC__CE.2",
+        "course_file": "courses-ce/D-CRC__CE.html"
+      }
+    ],
+    "SK-K-D-CRC-019": [
+      {
+        "condition_id": "D-CRC",
+        "dimension": "disease_foundation",
+        "course_title": "结直肠癌：MSI-H/dMMR 检测口径与免疫治疗的证据边界",
+        "kp_id": "D-CRC.3",
+        "course_file": "courses/D-CRC.html"
+      },
+      {
+        "condition_id": "D-CRC",
+        "dimension": "treatment_landscape",
+        "course_title": "结直肠癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-CRC__TL.3",
+        "course_file": "courses-tl/D-CRC__TL.html"
+      },
+      {
+        "condition_id": "D-CRC",
+        "dimension": "clinical_evidence",
+        "course_title": "结直肠癌：怎么读一项研究——检测口径、线次与免疫治疗证据边界",
+        "kp_id": "D-CRC__CE.3",
+        "course_file": "courses-ce/D-CRC__CE.html"
+      }
+    ],
+    "SK-K-D-CROHN-126": [
+      {
+        "condition_id": "D-CROHN",
+        "dimension": "disease_foundation",
+        "course_title": "克罗恩病：诊断证据链、炎症控制与复发监测",
+        "kp_id": "D-CROHN.1",
+        "course_file": "courses/D-CROHN.html"
+      }
+    ],
+    "SK-K-D-CROHN-127": [
+      {
+        "condition_id": "D-CROHN",
+        "dimension": "disease_foundation",
+        "course_title": "克罗恩病：诊断证据链、炎症控制与复发监测",
+        "kp_id": "D-CROHN.2",
+        "course_file": "courses/D-CROHN.html"
+      }
+    ],
+    "SK-K-D-CROHN-128": [
+      {
+        "condition_id": "D-CROHN",
+        "dimension": "disease_foundation",
+        "course_title": "克罗恩病：诊断证据链、炎症控制与复发监测",
+        "kp_id": "D-CROHN.3",
+        "course_file": "courses/D-CROHN.html"
+      }
+    ],
+    "SK-K-D-DLBCL-071": [
+      {
+        "condition_id": "D-DLBCL",
+        "dimension": "disease_foundation",
+        "course_title": "弥漫大B细胞淋巴瘤：CD20、分型与复发定义的三件事",
+        "kp_id": "D-DLBCL.1",
+        "course_file": "courses/D-DLBCL.html"
+      }
+    ],
+    "SK-K-D-DLBCL-072": [
+      {
+        "condition_id": "D-DLBCL",
+        "dimension": "disease_foundation",
+        "course_title": "弥漫大B细胞淋巴瘤：CD20、分型与复发定义的三件事",
+        "kp_id": "D-DLBCL.2",
+        "course_file": "courses/D-DLBCL.html"
+      }
+    ],
+    "SK-K-D-DLBCL-073": [
+      {
+        "condition_id": "D-DLBCL",
+        "dimension": "disease_foundation",
+        "course_title": "弥漫大B细胞淋巴瘤：CD20、分型与复发定义的三件事",
+        "kp_id": "D-DLBCL.3",
+        "course_file": "courses/D-DLBCL.html"
+      }
+    ],
+    "SK-K-D-DLBCL-074": [
+      {
+        "condition_id": "D-DLBCL",
+        "dimension": "disease_foundation",
+        "course_title": "弥漫大B细胞淋巴瘤：CD20、分型与复发定义的三件事",
+        "kp_id": "D-DLBCL.4",
+        "course_file": "courses/D-DLBCL.html"
+      }
+    ],
+    "SK-K-D-DME-143": [
+      {
+        "condition_id": "D-DME",
+        "dimension": "disease_foundation",
+        "course_title": "糖尿病黄斑水肿：视力与 OCT 的判断链",
+        "kp_id": "D-DME.1",
+        "course_file": "courses/D-DME.html"
+      }
+    ],
+    "SK-K-D-DME-144": [
+      {
+        "condition_id": "D-DME",
+        "dimension": "disease_foundation",
+        "course_title": "糖尿病黄斑水肿：视力与 OCT 的判断链",
+        "kp_id": "D-DME.2",
+        "course_file": "courses/D-DME.html"
+      }
+    ],
+    "SK-K-D-DME-145": [
+      {
+        "condition_id": "D-DME",
+        "dimension": "disease_foundation",
+        "course_title": "糖尿病黄斑水肿：视力与 OCT 的判断链",
+        "kp_id": "D-DME.3",
+        "course_file": "courses/D-DME.html"
+      }
+    ],
+    "SK-K-D-DYSLIPID-100": [
+      {
+        "condition_id": "D-DYSLIPID",
+        "dimension": "disease_foundation",
+        "course_title": "高胆固醇血症与血脂异常：LDL-C、ApoB 与风险分层怎么讲",
+        "kp_id": "D-DYSLIPID.1",
+        "course_file": "courses/D-DYSLIPID.html"
+      }
+    ],
+    "SK-K-D-DYSLIPID-101": [
+      {
+        "condition_id": "D-DYSLIPID",
+        "dimension": "disease_foundation",
+        "course_title": "高胆固醇血症与血脂异常：LDL-C、ApoB 与风险分层怎么讲",
+        "kp_id": "D-DYSLIPID.2",
+        "course_file": "courses/D-DYSLIPID.html"
+      }
+    ],
+    "SK-K-D-DYSLIPID-102": [
+      {
+        "condition_id": "D-DYSLIPID",
+        "dimension": "disease_foundation",
+        "course_title": "高胆固醇血症与血脂异常：LDL-C、ApoB 与风险分层怎么讲",
+        "kp_id": "D-DYSLIPID.3",
+        "course_file": "courses/D-DYSLIPID.html"
+      }
+    ],
+    "SK-K-D-DYSLIPID-103": [
+      {
+        "condition_id": "D-DYSLIPID",
+        "dimension": "disease_foundation",
+        "course_title": "高胆固醇血症与血脂异常：LDL-C、ApoB 与风险分层怎么讲",
+        "kp_id": "D-DYSLIPID.4",
+        "course_file": "courses/D-DYSLIPID.html"
+      }
+    ],
+    "SK-K-D-ENDO-030": [
+      {
+        "condition_id": "D-ENDO",
+        "dimension": "disease_foundation",
+        "course_title": "子宫内膜癌：MMR 分型怎么读，pMMR 与 dMMR 的结论边界在哪里",
+        "kp_id": "D-ENDO.1",
+        "course_file": "courses/D-ENDO.html"
+      }
+    ],
+    "SK-K-D-ENDO-031": [
+      {
+        "condition_id": "D-ENDO",
+        "dimension": "disease_foundation",
+        "course_title": "子宫内膜癌：MMR 分型怎么读，pMMR 与 dMMR 的结论边界在哪里",
+        "kp_id": "D-ENDO.2",
+        "course_file": "courses/D-ENDO.html"
+      }
+    ],
+    "SK-K-D-ENDO-032": [
+      {
+        "condition_id": "D-ENDO",
+        "dimension": "disease_foundation",
+        "course_title": "子宫内膜癌：MMR 分型怎么读，pMMR 与 dMMR 的结论边界在哪里",
+        "kp_id": "D-ENDO.3",
+        "course_file": "courses/D-ENDO.html"
+      }
+    ],
+    "SK-K-D-ESCC-027": [
+      {
+        "condition_id": "D-ESCC",
+        "dimension": "disease_foundation",
+        "course_title": "食管鳞癌：分期、局部与全身治疗的分工，以及免疫治疗能站在哪一步",
+        "kp_id": "D-ESCC.1",
+        "course_file": "courses/D-ESCC.html"
+      }
+    ],
+    "SK-K-D-ESCC-028": [
+      {
+        "condition_id": "D-ESCC",
+        "dimension": "disease_foundation",
+        "course_title": "食管鳞癌：分期、局部与全身治疗的分工，以及免疫治疗能站在哪一步",
+        "kp_id": "D-ESCC.2",
+        "course_file": "courses/D-ESCC.html"
+      }
+    ],
+    "SK-K-D-ESCC-029": [
+      {
+        "condition_id": "D-ESCC",
+        "dimension": "disease_foundation",
+        "course_title": "食管鳞癌：分期、局部与全身治疗的分工，以及免疫治疗能站在哪一步",
+        "kp_id": "D-ESCC.3",
+        "course_file": "courses/D-ESCC.html"
+      }
+    ],
+    "SK-K-D-FL-075": [
+      {
+        "condition_id": "D-FL",
+        "dimension": "disease_foundation",
+        "course_title": "滤泡性淋巴瘤：先回答「要不要治」，再谈怎么治",
+        "kp_id": "D-FL.1",
+        "course_file": "courses/D-FL.html"
+      }
+    ],
+    "SK-K-D-FL-076": [
+      {
+        "condition_id": "D-FL",
+        "dimension": "disease_foundation",
+        "course_title": "滤泡性淋巴瘤：先回答「要不要治」，再谈怎么治",
+        "kp_id": "D-FL.2",
+        "course_file": "courses/D-FL.html"
+      }
+    ],
+    "SK-K-D-GBM-051": [
+      {
+        "condition_id": "D-GBM",
+        "dimension": "disease_foundation",
+        "course_title": "胶质母细胞瘤：复发之后，怎么把疗效讲在功能上",
+        "kp_id": "D-GBM.1",
+        "course_file": "courses/D-GBM.html"
+      },
+      {
+        "condition_id": "D-GBM",
+        "dimension": "treatment_landscape",
+        "course_title": "胶质母细胞瘤：复发性疾病的格局与终点边界",
+        "kp_id": "D-GBM__TL.1",
+        "course_file": "courses-tl/D-GBM__TL.html"
+      },
+      {
+        "condition_id": "D-GBM",
+        "dimension": "clinical_evidence",
+        "course_title": "胶质母细胞瘤：怎么读一项研究——复发性特点与生活质量终点",
+        "kp_id": "D-GBM__CE.1",
+        "course_file": "courses-ce/D-GBM__CE.html"
+      }
+    ],
+    "SK-K-D-GBM-052": [
+      {
+        "condition_id": "D-GBM",
+        "dimension": "disease_foundation",
+        "course_title": "胶质母细胞瘤：复发之后，怎么把疗效讲在功能上",
+        "kp_id": "D-GBM.2",
+        "course_file": "courses/D-GBM.html"
+      },
+      {
+        "condition_id": "D-GBM",
+        "dimension": "treatment_landscape",
+        "course_title": "胶质母细胞瘤：复发性疾病的格局与终点边界",
+        "kp_id": "D-GBM__TL.2",
+        "course_file": "courses-tl/D-GBM__TL.html"
+      },
+      {
+        "condition_id": "D-GBM",
+        "dimension": "clinical_evidence",
+        "course_title": "胶质母细胞瘤：怎么读一项研究——复发性特点与生活质量终点",
+        "kp_id": "D-GBM__CE.2",
+        "course_file": "courses-ce/D-GBM__CE.html"
+      }
+    ],
+    "SK-K-D-GC-012": [
+      {
+        "condition_id": "D-GC",
+        "dimension": "disease_foundation",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC.1",
+        "course_file": "courses/D-GC.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "treatment_landscape",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC__TL.1",
+        "course_file": "courses-tl/D-GC__TL.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "clinical_evidence",
+        "course_title": "胃癌及胃食管结合部癌：怎么读一项研究——线次、标志物与 ADC 研究评价",
+        "kp_id": "D-GC__CE.1",
+        "course_file": "courses-ce/D-GC__CE.html"
+      }
+    ],
+    "SK-K-D-GC-013": [
+      {
+        "condition_id": "D-GC",
+        "dimension": "disease_foundation",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC.2",
+        "course_file": "courses/D-GC.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "treatment_landscape",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC__TL.2",
+        "course_file": "courses-tl/D-GC__TL.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "clinical_evidence",
+        "course_title": "胃癌及胃食管结合部癌：怎么读一项研究——线次、标志物与 ADC 研究评价",
+        "kp_id": "D-GC__CE.2",
+        "course_file": "courses-ce/D-GC__CE.html"
+      }
+    ],
+    "SK-K-D-GC-014": [
+      {
+        "condition_id": "D-GC",
+        "dimension": "disease_foundation",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC.3",
+        "course_file": "courses/D-GC.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "treatment_landscape",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC__TL.3",
+        "course_file": "courses-tl/D-GC__TL.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "clinical_evidence",
+        "course_title": "胃癌及胃食管结合部癌：怎么读一项研究——线次、标志物与 ADC 研究评价",
+        "kp_id": "D-GC__CE.3",
+        "course_file": "courses-ce/D-GC__CE.html"
+      }
+    ],
+    "SK-K-D-GC-015": [
+      {
+        "condition_id": "D-GC",
+        "dimension": "disease_foundation",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC.4",
+        "course_file": "courses/D-GC.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "treatment_landscape",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC__TL.4",
+        "course_file": "courses-tl/D-GC__TL.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "clinical_evidence",
+        "course_title": "胃癌及胃食管结合部癌：怎么读一项研究——线次、标志物与 ADC 研究评价",
+        "kp_id": "D-GC__CE.4",
+        "course_file": "courses-ce/D-GC__CE.html"
+      }
+    ],
+    "SK-K-D-GC-016": [
+      {
+        "condition_id": "D-GC",
+        "dimension": "disease_foundation",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC.5",
+        "course_file": "courses/D-GC.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "treatment_landscape",
+        "course_title": "胃癌及胃食管结合部癌：CLDN18.2/HER2、线次与在研资产的讲法",
+        "kp_id": "D-GC__TL.5",
+        "course_file": "courses-tl/D-GC__TL.html"
+      },
+      {
+        "condition_id": "D-GC",
+        "dimension": "clinical_evidence",
+        "course_title": "胃癌及胃食管结合部癌：怎么读一项研究——线次、标志物与 ADC 研究评价",
+        "kp_id": "D-GC__CE.5",
+        "course_file": "courses-ce/D-GC__CE.html"
+      }
+    ],
+    "SK-K-D-GOUT-132": [
+      {
+        "condition_id": "D-GOUT",
+        "dimension": "disease_foundation",
+        "course_title": "痛风与高尿酸血症：急性发作、长期管理与 XO 机制两条线",
+        "kp_id": "D-GOUT.1",
+        "course_file": "courses/D-GOUT.html"
+      }
+    ],
+    "SK-K-D-GOUT-133": [
+      {
+        "condition_id": "D-GOUT",
+        "dimension": "disease_foundation",
+        "course_title": "痛风与高尿酸血症：急性发作、长期管理与 XO 机制两条线",
+        "kp_id": "D-GOUT.2",
+        "course_file": "courses/D-GOUT.html"
+      }
+    ],
+    "SK-K-D-HCC-007": [
+      {
+        "condition_id": "D-HCC",
+        "dimension": "disease_foundation",
+        "course_title": "肝细胞癌：分期、肝功能与全身治疗路径",
+        "kp_id": "D-HCC.1",
+        "course_file": "courses/D-HCC.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "treatment_landscape",
+        "course_title": "肝细胞癌：肝功能约束下的治疗路径与三层边界",
+        "kp_id": "D-HCC__TL.1",
+        "course_file": "courses-tl/D-HCC__TL.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "clinical_evidence",
+        "course_title": "肝细胞癌：怎么读一项研究——对照、终点、人群与安全性四看",
+        "kp_id": "D-HCC__CE.1",
+        "course_file": "courses-ce/D-HCC__CE.html"
+      }
+    ],
+    "SK-K-D-HCC-008": [
+      {
+        "condition_id": "D-HCC",
+        "dimension": "disease_foundation",
+        "course_title": "肝细胞癌：分期、肝功能与全身治疗路径",
+        "kp_id": "D-HCC.2",
+        "course_file": "courses/D-HCC.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "treatment_landscape",
+        "course_title": "肝细胞癌：肝功能约束下的治疗路径与三层边界",
+        "kp_id": "D-HCC__TL.2",
+        "course_file": "courses-tl/D-HCC__TL.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "clinical_evidence",
+        "course_title": "肝细胞癌：怎么读一项研究——对照、终点、人群与安全性四看",
+        "kp_id": "D-HCC__CE.2",
+        "course_file": "courses-ce/D-HCC__CE.html"
+      }
+    ],
+    "SK-K-D-HCC-009": [
+      {
+        "condition_id": "D-HCC",
+        "dimension": "disease_foundation",
+        "course_title": "肝细胞癌：分期、肝功能与全身治疗路径",
+        "kp_id": "D-HCC.3",
+        "course_file": "courses/D-HCC.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "treatment_landscape",
+        "course_title": "肝细胞癌：肝功能约束下的治疗路径与三层边界",
+        "kp_id": "D-HCC__TL.3",
+        "course_file": "courses-tl/D-HCC__TL.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "clinical_evidence",
+        "course_title": "肝细胞癌：怎么读一项研究——对照、终点、人群与安全性四看",
+        "kp_id": "D-HCC__CE.3",
+        "course_file": "courses-ce/D-HCC__CE.html"
+      }
+    ],
+    "SK-K-D-HCC-010": [
+      {
+        "condition_id": "D-HCC",
+        "dimension": "disease_foundation",
+        "course_title": "肝细胞癌：分期、肝功能与全身治疗路径",
+        "kp_id": "D-HCC.4",
+        "course_file": "courses/D-HCC.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "treatment_landscape",
+        "course_title": "肝细胞癌：肝功能约束下的治疗路径与三层边界",
+        "kp_id": "D-HCC__TL.4",
+        "course_file": "courses-tl/D-HCC__TL.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "clinical_evidence",
+        "course_title": "肝细胞癌：怎么读一项研究——对照、终点、人群与安全性四看",
+        "kp_id": "D-HCC__CE.4",
+        "course_file": "courses-ce/D-HCC__CE.html"
+      }
+    ],
+    "SK-K-D-HCC-011": [
+      {
+        "condition_id": "D-HCC",
+        "dimension": "disease_foundation",
+        "course_title": "肝细胞癌：分期、肝功能与全身治疗路径",
+        "kp_id": "D-HCC.5",
+        "course_file": "courses/D-HCC.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "treatment_landscape",
+        "course_title": "肝细胞癌：肝功能约束下的治疗路径与三层边界",
+        "kp_id": "D-HCC__TL.5",
+        "course_file": "courses-tl/D-HCC__TL.html"
+      },
+      {
+        "condition_id": "D-HCC",
+        "dimension": "clinical_evidence",
+        "course_title": "肝细胞癌：怎么读一项研究——对照、终点、人群与安全性四看",
+        "kp_id": "D-HCC__CE.5",
+        "course_file": "courses-ce/D-HCC__CE.html"
+      }
+    ],
+    "SK-K-D-HFPEF-108": [
+      {
+        "condition_id": "D-HFPEF",
+        "dimension": "disease_foundation",
+        "course_title": "射血分数保留型心力衰竭：从诊断框架到功能终点的分界",
+        "kp_id": "D-HFPEF.1",
+        "course_file": "courses/D-HFPEF.html"
+      }
+    ],
+    "SK-K-D-HFPEF-109": [
+      {
+        "condition_id": "D-HFPEF",
+        "dimension": "disease_foundation",
+        "course_title": "射血分数保留型心力衰竭：从诊断框架到功能终点的分界",
+        "kp_id": "D-HFPEF.2",
+        "course_file": "courses/D-HFPEF.html"
+      }
+    ],
+    "SK-K-D-HFPEF-110": [
+      {
+        "condition_id": "D-HFPEF",
+        "dimension": "disease_foundation",
+        "course_title": "射血分数保留型心力衰竭：从诊断框架到功能终点的分界",
+        "kp_id": "D-HFPEF.3",
+        "course_file": "courses/D-HFPEF.html"
+      }
+    ],
+    "SK-K-D-HTN-104": [
+      {
+        "condition_id": "D-HTN",
+        "dimension": "disease_foundation",
+        "course_title": "高血压：血压测量口径、药物类别与研究终点的分界",
+        "kp_id": "D-HTN.1",
+        "course_file": "courses/D-HTN.html"
+      }
+    ],
+    "SK-K-D-HTN-105": [
+      {
+        "condition_id": "D-HTN",
+        "dimension": "disease_foundation",
+        "course_title": "高血压：血压测量口径、药物类别与研究终点的分界",
+        "kp_id": "D-HTN.2",
+        "course_file": "courses/D-HTN.html"
+      }
+    ],
+    "SK-K-D-HTN-106": [
+      {
+        "condition_id": "D-HTN",
+        "dimension": "disease_foundation",
+        "course_title": "高血压：血压测量口径、药物类别与研究终点的分界",
+        "kp_id": "D-HTN.3",
+        "course_file": "courses/D-HTN.html"
+      }
+    ],
+    "SK-K-D-HTN-107": [
+      {
+        "condition_id": "D-HTN",
+        "dimension": "disease_foundation",
+        "course_title": "高血压：血压测量口径、药物类别与研究终点的分界",
+        "kp_id": "D-HTN.4",
+        "course_file": "courses/D-HTN.html"
+      }
+    ],
+    "SK-K-D-MASH-094": [
+      {
+        "condition_id": "D-MASH",
+        "dimension": "disease_foundation",
+        "course_title": "MASH：从脂肪肝到肝纤维化，以及试验性语言的分界",
+        "kp_id": "D-MASH.1",
+        "course_file": "courses/D-MASH.html"
+      }
+    ],
+    "SK-K-D-MASH-095": [
+      {
+        "condition_id": "D-MASH",
+        "dimension": "disease_foundation",
+        "course_title": "MASH：从脂肪肝到肝纤维化，以及试验性语言的分界",
+        "kp_id": "D-MASH.2",
+        "course_file": "courses/D-MASH.html"
+      }
+    ],
+    "SK-K-D-MASH-096": [
+      {
+        "condition_id": "D-MASH",
+        "dimension": "disease_foundation",
+        "course_title": "MASH：从脂肪肝到肝纤维化，以及试验性语言的分界",
+        "kp_id": "D-MASH.3",
+        "course_file": "courses/D-MASH.html"
+      }
+    ],
+    "SK-K-D-MCL-081": [
+      {
+        "condition_id": "D-MCL",
+        "dimension": "disease_foundation",
+        "course_title": "套细胞淋巴瘤：既往线次决定问题怎么问",
+        "kp_id": "D-MCL.1",
+        "course_file": "courses/D-MCL.html"
+      }
+    ],
+    "SK-K-D-MCL-082": [
+      {
+        "condition_id": "D-MCL",
+        "dimension": "disease_foundation",
+        "course_title": "套细胞淋巴瘤：既往线次决定问题怎么问",
+        "kp_id": "D-MCL.2",
+        "course_file": "courses/D-MCL.html"
+      }
+    ],
+    "SK-K-D-MEL-044": [
+      {
+        "condition_id": "D-MEL",
+        "dimension": "disease_foundation",
+        "course_title": "黑色素瘤：免疫治疗基础、耐药与研究对照怎么读",
+        "kp_id": "D-MEL.1",
+        "course_file": "courses/D-MEL.html"
+      }
+    ],
+    "SK-K-D-MEL-045": [
+      {
+        "condition_id": "D-MEL",
+        "dimension": "disease_foundation",
+        "course_title": "黑色素瘤：免疫治疗基础、耐药与研究对照怎么读",
+        "kp_id": "D-MEL.2",
+        "course_file": "courses/D-MEL.html"
+      }
+    ],
+    "SK-K-D-MEL-046": [
+      {
+        "condition_id": "D-MEL",
+        "dimension": "disease_foundation",
+        "course_title": "黑色素瘤：免疫治疗基础、耐药与研究对照怎么读",
+        "kp_id": "D-MEL.3",
+        "course_file": "courses/D-MEL.html"
+      }
+    ],
+    "SK-K-D-MESO-056": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.1",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-057": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.2",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-058": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.3",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-059": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.4",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-060": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.5",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-061": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.6",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-062": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.7",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MESO-063": [
+      {
+        "condition_id": "D-MESO",
+        "dimension": "disease_foundation",
+        "course_title": "肿瘤机制与临床试验：拿到一份研究材料怎么读",
+        "kp_id": "D-MESO.8",
+        "course_file": "courses/D-MESO.html"
+      }
+    ],
+    "SK-K-D-MM-083": [
+      {
+        "condition_id": "D-MM",
+        "dimension": "disease_foundation",
+        "course_title": "多发性骨髓瘤：复发难治、BCMA 与细胞治疗的三道关",
+        "kp_id": "D-MM.1",
+        "course_file": "courses/D-MM.html"
+      }
+    ],
+    "SK-K-D-MM-084": [
+      {
+        "condition_id": "D-MM",
+        "dimension": "disease_foundation",
+        "course_title": "多发性骨髓瘤：复发难治、BCMA 与细胞治疗的三道关",
+        "kp_id": "D-MM.2",
+        "course_file": "courses/D-MM.html"
+      }
+    ],
+    "SK-K-D-MM-085": [
+      {
+        "condition_id": "D-MM",
+        "dimension": "disease_foundation",
+        "course_title": "多发性骨髓瘤：复发难治、BCMA 与细胞治疗的三道关",
+        "kp_id": "D-MM.3",
+        "course_file": "courses/D-MM.html"
+      }
+    ],
+    "SK-K-D-MM-086": [
+      {
+        "condition_id": "D-MM",
+        "dimension": "disease_foundation",
+        "course_title": "多发性骨髓瘤：复发难治、BCMA 与细胞治疗的三道关",
+        "kp_id": "D-MM.4",
+        "course_file": "courses/D-MM.html"
+      }
+    ],
+    "SK-K-D-MM-087": [
+      {
+        "condition_id": "D-MM",
+        "dimension": "disease_foundation",
+        "course_title": "多发性骨髓瘤：复发难治、BCMA 与细胞治疗的三道关",
+        "kp_id": "D-MM.5",
+        "course_file": "courses/D-MM.html"
+      }
+    ],
+    "SK-K-D-NAMD-146": [
+      {
+        "condition_id": "D-NAMD",
+        "dimension": "disease_foundation",
+        "course_title": "新生血管性 AMD：OCT 表现与眼内抗 VEGF 概念图",
+        "kp_id": "D-NAMD.1",
+        "course_file": "courses/D-NAMD.html"
+      }
+    ],
+    "SK-K-D-NAMD-147": [
+      {
+        "condition_id": "D-NAMD",
+        "dimension": "disease_foundation",
+        "course_title": "新生血管性 AMD：OCT 表现与眼内抗 VEGF 概念图",
+        "kp_id": "D-NAMD.2",
+        "course_file": "courses/D-NAMD.html"
+      }
+    ],
+    "SK-K-D-NAMD-148": [
+      {
+        "condition_id": "D-NAMD",
+        "dimension": "disease_foundation",
+        "course_title": "新生血管性 AMD：OCT 表现与眼内抗 VEGF 概念图",
+        "kp_id": "D-NAMD.3",
+        "course_file": "courses/D-NAMD.html"
+      }
+    ],
+    "SK-K-D-NSCLC-001": [
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "disease_foundation",
+        "course_title": "非小细胞肺癌：分型逻辑与你能讲到的边界",
+        "kp_id": "D-NSCLC.1",
+        "course_file": "courses/D-NSCLC.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "treatment_landscape",
+        "course_title": "非小细胞肺癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-NSCLC__TL.1",
+        "course_file": "courses-tl/D-NSCLC__TL.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "clinical_evidence",
+        "course_title": "非小细胞肺癌：怎么读一项研究——对照、终点、人群三轴判读",
+        "kp_id": "D-NSCLC__CE.1",
+        "course_file": "courses-ce/D-NSCLC__CE.html"
+      }
+    ],
+    "SK-K-D-NSCLC-002": [
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "disease_foundation",
+        "course_title": "非小细胞肺癌：分型逻辑与你能讲到的边界",
+        "kp_id": "D-NSCLC.2",
+        "course_file": "courses/D-NSCLC.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "treatment_landscape",
+        "course_title": "非小细胞肺癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-NSCLC__TL.2",
+        "course_file": "courses-tl/D-NSCLC__TL.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "clinical_evidence",
+        "course_title": "非小细胞肺癌：怎么读一项研究——对照、终点、人群三轴判读",
+        "kp_id": "D-NSCLC__CE.2",
+        "course_file": "courses-ce/D-NSCLC__CE.html"
+      }
+    ],
+    "SK-K-D-NSCLC-003": [
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "disease_foundation",
+        "course_title": "非小细胞肺癌：分型逻辑与你能讲到的边界",
+        "kp_id": "D-NSCLC.3",
+        "course_file": "courses/D-NSCLC.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "treatment_landscape",
+        "course_title": "非小细胞肺癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-NSCLC__TL.3",
+        "course_file": "courses-tl/D-NSCLC__TL.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "clinical_evidence",
+        "course_title": "非小细胞肺癌：怎么读一项研究——对照、终点、人群三轴判读",
+        "kp_id": "D-NSCLC__CE.3",
+        "course_file": "courses-ce/D-NSCLC__CE.html"
+      }
+    ],
+    "SK-K-D-NSCLC-004": [
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "disease_foundation",
+        "course_title": "非小细胞肺癌：分型逻辑与你能讲到的边界",
+        "kp_id": "D-NSCLC.4",
+        "course_file": "courses/D-NSCLC.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "treatment_landscape",
+        "course_title": "非小细胞肺癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-NSCLC__TL.4",
+        "course_file": "courses-tl/D-NSCLC__TL.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "clinical_evidence",
+        "course_title": "非小细胞肺癌：怎么读一项研究——对照、终点、人群三轴判读",
+        "kp_id": "D-NSCLC__CE.4",
+        "course_file": "courses-ce/D-NSCLC__CE.html"
+      }
+    ],
+    "SK-K-D-NSCLC-005": [
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "disease_foundation",
+        "course_title": "非小细胞肺癌：分型逻辑与你能讲到的边界",
+        "kp_id": "D-NSCLC.5",
+        "course_file": "courses/D-NSCLC.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "treatment_landscape",
+        "course_title": "非小细胞肺癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-NSCLC__TL.5",
+        "course_file": "courses-tl/D-NSCLC__TL.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "clinical_evidence",
+        "course_title": "非小细胞肺癌：怎么读一项研究——对照、终点、人群三轴判读",
+        "kp_id": "D-NSCLC__CE.5",
+        "course_file": "courses-ce/D-NSCLC__CE.html"
+      }
+    ],
+    "SK-K-D-NSCLC-006": [
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "disease_foundation",
+        "course_title": "非小细胞肺癌：分型逻辑与你能讲到的边界",
+        "kp_id": "D-NSCLC.6",
+        "course_file": "courses/D-NSCLC.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "treatment_landscape",
+        "course_title": "非小细胞肺癌：治疗格局的三层区分与适用边界",
+        "kp_id": "D-NSCLC__TL.6",
+        "course_file": "courses-tl/D-NSCLC__TL.html"
+      },
+      {
+        "condition_id": "D-NSCLC",
+        "dimension": "clinical_evidence",
+        "course_title": "非小细胞肺癌：怎么读一项研究——对照、终点、人群三轴判读",
+        "kp_id": "D-NSCLC__CE.6",
+        "course_file": "courses-ce/D-NSCLC__CE.html"
+      }
+    ],
+    "SK-K-D-OBE-088": [
+      {
+        "condition_id": "D-OBE",
+        "dimension": "disease_foundation",
+        "course_title": "肥胖与体重管理：诊断框架、体重终点与共病",
+        "kp_id": "D-OBE.1",
+        "course_file": "courses/D-OBE.html"
+      }
+    ],
+    "SK-K-D-OBE-089": [
+      {
+        "condition_id": "D-OBE",
+        "dimension": "disease_foundation",
+        "course_title": "肥胖与体重管理：诊断框架、体重终点与共病",
+        "kp_id": "D-OBE.2",
+        "course_file": "courses/D-OBE.html"
+      }
+    ],
+    "SK-K-D-OBE-090": [
+      {
+        "condition_id": "D-OBE",
+        "dimension": "disease_foundation",
+        "course_title": "肥胖与体重管理：诊断框架、体重终点与共病",
+        "kp_id": "D-OBE.3",
+        "course_file": "courses/D-OBE.html"
+      }
+    ],
+    "SK-K-D-OSA-097": [
+      {
+        "condition_id": "D-OSA",
+        "dimension": "disease_foundation",
+        "course_title": "阻塞性睡眠呼吸暂停：分层、终点与研究性证据的边界",
+        "kp_id": "D-OSA.1",
+        "course_file": "courses/D-OSA.html"
+      }
+    ],
+    "SK-K-D-OSA-098": [
+      {
+        "condition_id": "D-OSA",
+        "dimension": "disease_foundation",
+        "course_title": "阻塞性睡眠呼吸暂停：分层、终点与研究性证据的边界",
+        "kp_id": "D-OSA.2",
+        "course_file": "courses/D-OSA.html"
+      }
+    ],
+    "SK-K-D-OSA-099": [
+      {
+        "condition_id": "D-OSA",
+        "dimension": "disease_foundation",
+        "course_title": "阻塞性睡眠呼吸暂停：分层、终点与研究性证据的边界",
+        "kp_id": "D-OSA.3",
+        "course_file": "courses/D-OSA.html"
+      }
+    ],
+    "SK-K-D-OVARIAN-037": [
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "disease_foundation",
+        "course_title": "卵巢癌：铂敏感与铂耐药，线次与 ADC 方向的安全性口径",
+        "kp_id": "D-OVARIAN.1",
+        "course_file": "courses/D-OVARIAN.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "treatment_landscape",
+        "course_title": "卵巢癌：铂敏感与耐药分层下的治疗格局与边界",
+        "kp_id": "D-OVARIAN__TL.1",
+        "course_file": "courses-tl/D-OVARIAN__TL.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "clinical_evidence",
+        "course_title": "卵巢癌：怎么读一项研究——铂敏感定义、线次与 ADC 安全性",
+        "kp_id": "D-OVARIAN__CE.1",
+        "course_file": "courses-ce/D-OVARIAN__CE.html"
+      }
+    ],
+    "SK-K-D-OVARIAN-038": [
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "disease_foundation",
+        "course_title": "卵巢癌：铂敏感与铂耐药，线次与 ADC 方向的安全性口径",
+        "kp_id": "D-OVARIAN.2",
+        "course_file": "courses/D-OVARIAN.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "treatment_landscape",
+        "course_title": "卵巢癌：铂敏感与耐药分层下的治疗格局与边界",
+        "kp_id": "D-OVARIAN__TL.2",
+        "course_file": "courses-tl/D-OVARIAN__TL.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "clinical_evidence",
+        "course_title": "卵巢癌：怎么读一项研究——铂敏感定义、线次与 ADC 安全性",
+        "kp_id": "D-OVARIAN__CE.2",
+        "course_file": "courses-ce/D-OVARIAN__CE.html"
+      }
+    ],
+    "SK-K-D-OVARIAN-039": [
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "disease_foundation",
+        "course_title": "卵巢癌：铂敏感与铂耐药，线次与 ADC 方向的安全性口径",
+        "kp_id": "D-OVARIAN.3",
+        "course_file": "courses/D-OVARIAN.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "treatment_landscape",
+        "course_title": "卵巢癌：铂敏感与耐药分层下的治疗格局与边界",
+        "kp_id": "D-OVARIAN__TL.3",
+        "course_file": "courses-tl/D-OVARIAN__TL.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "clinical_evidence",
+        "course_title": "卵巢癌：怎么读一项研究——铂敏感定义、线次与 ADC 安全性",
+        "kp_id": "D-OVARIAN__CE.3",
+        "course_file": "courses-ce/D-OVARIAN__CE.html"
+      }
+    ],
+    "SK-K-D-OVARIAN-040": [
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "disease_foundation",
+        "course_title": "卵巢癌：铂敏感与铂耐药，线次与 ADC 方向的安全性口径",
+        "kp_id": "D-OVARIAN.4",
+        "course_file": "courses/D-OVARIAN.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "treatment_landscape",
+        "course_title": "卵巢癌：铂敏感与耐药分层下的治疗格局与边界",
+        "kp_id": "D-OVARIAN__TL.4",
+        "course_file": "courses-tl/D-OVARIAN__TL.html"
+      },
+      {
+        "condition_id": "D-OVARIAN",
+        "dimension": "clinical_evidence",
+        "course_title": "卵巢癌：怎么读一项研究——铂敏感定义、线次与 ADC 安全性",
+        "kp_id": "D-OVARIAN__CE.4",
+        "course_file": "courses-ce/D-OVARIAN__CE.html"
+      }
+    ],
+    "SK-K-D-PDAC-041": [
+      {
+        "condition_id": "D-PDAC",
+        "dimension": "disease_foundation",
+        "course_title": "胰腺导管腺癌：分期、线次与 CLDN18.2 研究人群怎么对齐",
+        "kp_id": "D-PDAC.1",
+        "course_file": "courses/D-PDAC.html"
+      }
+    ],
+    "SK-K-D-PDAC-042": [
+      {
+        "condition_id": "D-PDAC",
+        "dimension": "disease_foundation",
+        "course_title": "胰腺导管腺癌：分期、线次与 CLDN18.2 研究人群怎么对齐",
+        "kp_id": "D-PDAC.2",
+        "course_file": "courses/D-PDAC.html"
+      }
+    ],
+    "SK-K-D-PDAC-043": [
+      {
+        "condition_id": "D-PDAC",
+        "dimension": "disease_foundation",
+        "course_title": "胰腺导管腺癌：分期、线次与 CLDN18.2 研究人群怎么对齐",
+        "kp_id": "D-PDAC.3",
+        "course_file": "courses/D-PDAC.html"
+      }
+    ],
+    "SK-K-D-PSA-122": [
+      {
+        "condition_id": "D-PSA",
+        "dimension": "disease_foundation",
+        "course_title": "银屑病关节炎：皮肤与关节两把尺，边界怎么讲",
+        "kp_id": "D-PSA.1",
+        "course_file": "courses/D-PSA.html"
+      }
+    ],
+    "SK-K-D-PSA-123": [
+      {
+        "condition_id": "D-PSA",
+        "dimension": "disease_foundation",
+        "course_title": "银屑病关节炎：皮肤与关节两把尺，边界怎么讲",
+        "kp_id": "D-PSA.2",
+        "course_file": "courses/D-PSA.html"
+      }
+    ],
+    "SK-K-D-PSA-124": [
+      {
+        "condition_id": "D-PSA",
+        "dimension": "disease_foundation",
+        "course_title": "银屑病关节炎：皮肤与关节两把尺，边界怎么讲",
+        "kp_id": "D-PSA.3",
+        "course_file": "courses/D-PSA.html"
+      }
+    ],
+    "SK-K-D-PSA-125": [
+      {
+        "condition_id": "D-PSA",
+        "dimension": "disease_foundation",
+        "course_title": "银屑病关节炎：皮肤与关节两把尺，边界怎么讲",
+        "kp_id": "D-PSA.4",
+        "course_file": "courses/D-PSA.html"
+      }
+    ],
+    "SK-K-D-PSO-117": [
+      {
+        "condition_id": "D-PSO",
+        "dimension": "disease_foundation",
+        "course_title": "斑块状银屑病：皮损严重度、PASI 与通路差异怎么讲",
+        "kp_id": "D-PSO.1",
+        "course_file": "courses/D-PSO.html"
+      }
+    ],
+    "SK-K-D-PSO-118": [
+      {
+        "condition_id": "D-PSO",
+        "dimension": "disease_foundation",
+        "course_title": "斑块状银屑病：皮损严重度、PASI 与通路差异怎么讲",
+        "kp_id": "D-PSO.2",
+        "course_file": "courses/D-PSO.html"
+      }
+    ],
+    "SK-K-D-PSO-119": [
+      {
+        "condition_id": "D-PSO",
+        "dimension": "disease_foundation",
+        "course_title": "斑块状银屑病：皮损严重度、PASI 与通路差异怎么讲",
+        "kp_id": "D-PSO.3",
+        "course_file": "courses/D-PSO.html"
+      }
+    ],
+    "SK-K-D-PSO-120": [
+      {
+        "condition_id": "D-PSO",
+        "dimension": "disease_foundation",
+        "course_title": "斑块状银屑病：皮损严重度、PASI 与通路差异怎么讲",
+        "kp_id": "D-PSO.4",
+        "course_file": "courses/D-PSO.html"
+      }
+    ],
+    "SK-K-D-PSO-121": [
+      {
+        "condition_id": "D-PSO",
+        "dimension": "disease_foundation",
+        "course_title": "斑块状银屑病：皮损严重度、PASI 与通路差异怎么讲",
+        "kp_id": "D-PSO.5",
+        "course_file": "courses/D-PSO.html"
+      }
+    ],
+    "SK-K-D-RA-111": [
+      {
+        "condition_id": "D-RA",
+        "dimension": "disease_foundation",
+        "course_title": "类风湿关节炎：把活动度、炎症指标和生物制剂风险讲成一条链",
+        "kp_id": "D-RA.1",
+        "course_file": "courses/D-RA.html"
+      }
+    ],
+    "SK-K-D-RA-112": [
+      {
+        "condition_id": "D-RA",
+        "dimension": "disease_foundation",
+        "course_title": "类风湿关节炎：把活动度、炎症指标和生物制剂风险讲成一条链",
+        "kp_id": "D-RA.2",
+        "course_file": "courses/D-RA.html"
+      }
+    ],
+    "SK-K-D-RA-113": [
+      {
+        "condition_id": "D-RA",
+        "dimension": "disease_foundation",
+        "course_title": "类风湿关节炎：把活动度、炎症指标和生物制剂风险讲成一条链",
+        "kp_id": "D-RA.3",
+        "course_file": "courses/D-RA.html"
+      }
+    ],
+    "SK-K-D-RCC-025": [
+      {
+        "condition_id": "D-RCC",
+        "dimension": "disease_foundation",
+        "course_title": "肾细胞癌：既往治疗线次与「免疫+TKI」联合方案的证据边界",
+        "kp_id": "D-RCC.1",
+        "course_file": "courses/D-RCC.html"
+      }
+    ],
+    "SK-K-D-RCC-026": [
+      {
+        "condition_id": "D-RCC",
+        "dimension": "disease_foundation",
+        "course_title": "肾细胞癌：既往治疗线次与「免疫+TKI」联合方案的证据边界",
+        "kp_id": "D-RCC.2",
+        "course_file": "courses/D-RCC.html"
+      }
+    ],
+    "SK-K-D-SJOGREN-138": [
+      {
+        "condition_id": "D-SJOGREN",
+        "dimension": "disease_foundation",
+        "course_title": "干燥综合征与 IgG4 相关疾病：两套诊断框架怎么分",
+        "kp_id": "D-SJOGREN.1",
+        "course_file": "courses/D-SJOGREN.html"
+      }
+    ],
+    "SK-K-D-SJOGREN-139": [
+      {
+        "condition_id": "D-SJOGREN",
+        "dimension": "disease_foundation",
+        "course_title": "干燥综合征与 IgG4 相关疾病：两套诊断框架怎么分",
+        "kp_id": "D-SJOGREN.2",
+        "course_file": "courses/D-SJOGREN.html"
+      }
+    ],
+    "SK-K-D-T2DM-091": [
+      {
+        "condition_id": "D-T2DM",
+        "dimension": "disease_foundation",
+        "course_title": "2型糖尿病：HbA1c、并发症评估与体重这条线",
+        "kp_id": "D-T2DM.1",
+        "course_file": "courses/D-T2DM.html"
+      }
+    ],
+    "SK-K-D-T2DM-092": [
+      {
+        "condition_id": "D-T2DM",
+        "dimension": "disease_foundation",
+        "course_title": "2型糖尿病：HbA1c、并发症评估与体重这条线",
+        "kp_id": "D-T2DM.2",
+        "course_file": "courses/D-T2DM.html"
+      }
+    ],
+    "SK-K-D-T2DM-093": [
+      {
+        "condition_id": "D-T2DM",
+        "dimension": "disease_foundation",
+        "course_title": "2型糖尿病：HbA1c、并发症评估与体重这条线",
+        "kp_id": "D-T2DM.3",
+        "course_file": "courses/D-T2DM.html"
+      }
+    ],
+    "SK-K-D-TED-140": [
+      {
+        "condition_id": "D-TED",
+        "dimension": "disease_foundation",
+        "course_title": "甲状腺眼病：活动性分型与眼症状评估",
+        "kp_id": "D-TED.1",
+        "course_file": "courses/D-TED.html"
+      }
+    ],
+    "SK-K-D-TED-141": [
+      {
+        "condition_id": "D-TED",
+        "dimension": "disease_foundation",
+        "course_title": "甲状腺眼病：活动性分型与眼症状评估",
+        "kp_id": "D-TED.2",
+        "course_file": "courses/D-TED.html"
+      }
+    ],
+    "SK-K-D-TED-142": [
+      {
+        "condition_id": "D-TED",
+        "dimension": "disease_foundation",
+        "course_title": "甲状腺眼病：活动性分型与眼症状评估",
+        "kp_id": "D-TED.3",
+        "course_file": "courses/D-TED.html"
+      }
+    ],
+    "SK-K-D-THYROID-053": [
+      {
+        "condition_id": "D-THYROID",
+        "dimension": "disease_foundation",
+        "course_title": "甲状腺恶性肿瘤：分型、RET 改变形式与检测方法的三层顺序",
+        "kp_id": "D-THYROID.1",
+        "course_file": "courses/D-THYROID.html"
+      }
+    ],
+    "SK-K-D-THYROID-054": [
+      {
+        "condition_id": "D-THYROID",
+        "dimension": "disease_foundation",
+        "course_title": "甲状腺恶性肿瘤：分型、RET 改变形式与检测方法的三层顺序",
+        "kp_id": "D-THYROID.2",
+        "course_file": "courses/D-THYROID.html"
+      }
+    ],
+    "SK-K-D-THYROID-055": [
+      {
+        "condition_id": "D-THYROID",
+        "dimension": "disease_foundation",
+        "course_title": "甲状腺恶性肿瘤：分型、RET 改变形式与检测方法的三层顺序",
+        "kp_id": "D-THYROID.3",
+        "course_file": "courses/D-THYROID.html"
+      }
+    ],
+    "SK-K-D-VITILIGO-134": [
+      {
+        "condition_id": "D-VITILIGO",
+        "dimension": "disease_foundation",
+        "course_title": "白癜风与斑秃：两套终点、一个免疫底座与在研边界",
+        "kp_id": "D-VITILIGO.1",
+        "course_file": "courses/D-VITILIGO.html"
+      }
+    ],
+    "SK-K-D-VITILIGO-135": [
+      {
+        "condition_id": "D-VITILIGO",
+        "dimension": "disease_foundation",
+        "course_title": "白癜风与斑秃：两套终点、一个免疫底座与在研边界",
+        "kp_id": "D-VITILIGO.2",
+        "course_file": "courses/D-VITILIGO.html"
+      }
+    ],
+    "SK-K-D-VITILIGO-136": [
+      {
+        "condition_id": "D-VITILIGO",
+        "dimension": "disease_foundation",
+        "course_title": "白癜风与斑秃：两套终点、一个免疫底座与在研边界",
+        "kp_id": "D-VITILIGO.3",
+        "course_file": "courses/D-VITILIGO.html"
+      }
+    ],
+    "SK-K-D-VITILIGO-137": [
+      {
+        "condition_id": "D-VITILIGO",
+        "dimension": "disease_foundation",
+        "course_title": "白癜风与斑秃：两套终点、一个免疫底座与在研边界",
+        "kp_id": "D-VITILIGO.4",
+        "course_file": "courses/D-VITILIGO.html"
+      }
+    ],
+    "SK-K-IBI3005-PIPE-01": [
+      {
+        "condition_id": "IBI3005",
+        "dimension": "pipeline_literacy",
+        "course_title": "IBI3005（EGFR/HER3 ADC）：管线认知——披露口径与审批状态要分开讲",
+        "kp_id": "IBI3005__PL.1",
+        "course_file": "courses-ce/IBI3005__PL.html"
+      }
+    ],
+    "SK-K-IBI343-PIPE-01": [
+      {
+        "condition_id": "IBI343",
+        "dimension": "pipeline_literacy",
+        "course_title": "IBI343（CLDN18.2 ADC）：管线认知——披露口径与审批状态要分开讲",
+        "kp_id": "IBI343__PL.1",
+        "course_file": "courses-ce/IBI343__PL.html"
+      }
+    ],
+    "SK-K-IBI354-PIPE-01": [
+      {
+        "condition_id": "IBI354",
+        "dimension": "pipeline_literacy",
+        "course_title": "IBI354（HER2 ADC）：管线认知——披露口径与审批状态要分开讲",
+        "kp_id": "IBI354__PL.1",
+        "course_file": "courses-ce/IBI354__PL.html"
+      }
+    ],
+    "SK-K-IBI363-PIPE-01": [
+      {
+        "condition_id": "IBI363",
+        "dimension": "pipeline_literacy",
+        "course_title": "IBI363（PD-1/IL-2α 偏向融合蛋白）：管线认知——披露口径与审批状态要分开讲",
+        "kp_id": "IBI363__PL.1",
+        "course_file": "courses-ce/IBI363__PL.html"
+      }
+    ],
+    "SK-K-AOYIXIN-PROD-01": [
+      {
+        "condition_id": "aoyixin",
+        "dimension": "product_basics",
+        "course_title": "奥壹新（利厄替尼片）：产品基础与核查路径",
+        "kp_id": "aoyixin__PB.1",
+        "course_file": "courses-ce/aoyixin__PB.html"
+      }
+    ],
+    "SK-K-DABOLE-PROD-01": [
+      {
+        "condition_id": "dabole",
+        "dimension": "product_basics",
+        "course_title": "达伯乐（己二酸他雷替尼胶囊）：产品基础与核查路径",
+        "kp_id": "dabole__PB.1",
+        "course_file": "courses-ce/dabole__PB.html"
+      }
+    ],
+    "SK-K-DABOSHU-PROD-01": [
+      {
+        "condition_id": "daboshu",
+        "dimension": "product_basics",
+        "course_title": "达伯舒（信迪利单抗注射液）：产品基础与核查路径",
+        "kp_id": "daboshu__PB.1",
+        "course_file": "courses-ce/daboshu__PB.html"
+      }
+    ],
+    "SK-K-DABOTE-PROD-01": [
+      {
+        "condition_id": "dabote",
+        "dimension": "product_basics",
+        "course_title": "达伯特（氟泽雷塞片）：产品基础与核查路径",
+        "kp_id": "dabote__PB.1",
+        "course_file": "courses-ce/dabote__PB.html"
+      }
+    ],
+    "SK-K-DABOXIN-PROD-01": [
+      {
+        "condition_id": "daboxin",
+        "dimension": "product_basics",
+        "course_title": "达伯欣（伊匹木单抗N01注射液）：产品基础与核查路径",
+        "kp_id": "daboxin__PB.1",
+        "course_file": "courses-ce/daboxin__PB.html"
+      }
+    ],
+    "SK-K-DAYOUTONG-PROD-01": [
+      {
+        "condition_id": "dayoutong",
+        "dimension": "product_basics",
+        "course_title": "达攸同（贝伐珠单抗注射液）：产品基础与核查路径",
+        "kp_id": "dayoutong__PB.1",
+        "course_file": "courses-ce/dayoutong__PB.html"
+      }
+    ],
+    "SK-K-RUITUO-PROD-01": [
+      {
+        "condition_id": "ruituo",
+        "dimension": "product_basics",
+        "course_title": "睿妥（塞普替尼胶囊）：产品基础与核查路径",
+        "kp_id": "ruituo__PB.1",
+        "course_file": "courses-ce/ruituo__PB.html"
+      }
+    ],
+    "SK-K-WEIZE-PROD-01": [
+      {
+        "condition_id": "weize",
+        "dimension": "product_basics",
+        "course_title": "唯择（阿贝西利片）：产品基础与核查路径",
+        "kp_id": "weize__PB.1",
+        "course_file": "courses-ce/weize__PB.html"
+      }
+    ],
+    "SK-K-XIRANGZE-PROD-01": [
+      {
+        "condition_id": "xirangze",
+        "dimension": "product_basics",
+        "course_title": "希冉择（雷莫西尤单抗注射液）：产品基础与核查路径",
+        "kp_id": "xirangze__PB.1",
+        "course_file": "courses-ce/xirangze__PB.html"
+      }
+    ]
+  },
+  "uncovered_skills": [
+    {
+      "skill_id": "SK-K-DABOHUA-PROD-01",
+      "name": "达伯华（利妥昔单抗注射液）：产品基础信息与核查路径",
+      "condition": "达伯华（利妥昔单抗注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-DABOTAN-PROD-01",
+      "name": "达伯坦（佩米替尼片）：产品基础信息与核查路径",
+      "condition": "达伯坦（佩米替尼片）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-FUKESU-PROD-01",
+      "name": "福可苏（伊基奥仑赛注射液）：产品基础信息与核查路径",
+      "condition": "福可苏（伊基奥仑赛注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI115-PIPE-01",
+      "name": "IBI115（DLL3/CD3双特异抗体）：在研与获批的状态边界",
+      "condition": "IBI115（DLL3/CD3双特异抗体）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI128-PIPE-01",
+      "name": "IBI128（黄嘌呤氧化酶（XO）抑制剂）：在研与获批的状态边界",
+      "condition": "IBI128（黄嘌呤氧化酶（XO）抑制剂）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3001-PIPE-01",
+      "name": "IBI3001（EGFR/B7H3 ADC）：在研与获批的状态边界",
+      "condition": "IBI3001（EGFR/B7H3 ADC）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3002-PIPE-01",
+      "name": "IBI3002（TSLP/IL-4Rα双特异抗体）：在研与获批的状态边界",
+      "condition": "IBI3002（TSLP/IL-4Rα双特异抗体）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3003-PIPE-01",
+      "name": "IBI3003（GPRC5D/BCMA/CD3三抗）：在研与获批的状态边界",
+      "condition": "IBI3003（GPRC5D/BCMA/CD3三抗）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3009-PIPE-01",
+      "name": "IBI3009（DLL3 ADC）：在研与获批的状态边界",
+      "condition": "IBI3009（DLL3 ADC）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3011-PIPE-01",
+      "name": "IBI3011（IL-1RAP单抗）：在研与获批的状态边界",
+      "condition": "IBI3011（IL-1RAP单抗）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3013-PIPE-01",
+      "name": "IBI3013（IL-15单抗）：在研与获批的状态边界",
+      "condition": "IBI3013（IL-15单抗）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3014-PIPE-01",
+      "name": "IBI3014（PD-L1/TROP2 ADC）：在研与获批的状态边界",
+      "condition": "IBI3014（PD-L1/TROP2 ADC）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3016-PIPE-01",
+      "name": "IBI3016（AGT siRNA）：在研与获批的状态边界",
+      "condition": "IBI3016（AGT siRNA）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI302-PIPE-01",
+      "name": "IBI302（VEGF/补体融合蛋白）：在研与获批的状态边界",
+      "condition": "IBI302（VEGF/补体融合蛋白）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3020-PIPE-01",
+      "name": "IBI3020（CEACAM5 ADC）：在研与获批的状态边界",
+      "condition": "IBI3020（CEACAM5 ADC）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3026-PIPE-01",
+      "name": "IBI3026（PD-1/IL-12融合蛋白）：在研与获批的状态边界",
+      "condition": "IBI3026（PD-1/IL-12融合蛋白）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3027-PIPE-01",
+      "name": "IBI3027（IL-4Rα单抗）：在研与获批的状态边界",
+      "condition": "IBI3027（IL-4Rα单抗）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3028-PIPE-01",
+      "name": "IBI3028（EGFR/c-Met ADC）：在研与获批的状态边界",
+      "condition": "IBI3028（EGFR/c-Met ADC）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3030-PIPE-01",
+      "name": "IBI3030（月度PCSK9相关候选药）：在研与获批的状态边界",
+      "condition": "IBI3030（月度PCSK9相关候选药）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3031-PIPE-01",
+      "name": "IBI3031（TSHR/IGF-1R双特异抗体）：在研与获批的状态边界",
+      "condition": "IBI3031（TSHR/IGF-1R双特异抗体）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3032-PIPE-01",
+      "name": "IBI3032（口服日制剂GLP-1R小分子）：在研与获批的状态边界",
+      "condition": "IBI3032（口服日制剂GLP-1R小分子）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3035-PIPE-01",
+      "name": "IBI3035（胰岛素相关多肽）：在研与获批的状态边界",
+      "condition": "IBI3035（胰岛素相关多肽）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3038-PIPE-01",
+      "name": "IBI3038（IGF-1R/IL-6相关研发项目）：在研与获批的状态边界",
+      "condition": "IBI3038（IGF-1R/IL-6相关研发项目）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3040-PIPE-01",
+      "name": "IBI3040（Amylin/Calcitonin相关多肽）：在研与获批的状态边界",
+      "condition": "IBI3040（Amylin/Calcitonin相关多肽）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3042-PIPE-01",
+      "name": "IBI3042（口服周制剂GLP-1R小分子）：在研与获批的状态边界",
+      "condition": "IBI3042（口服周制剂GLP-1R小分子）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI3046-PIPE-01",
+      "name": "IBI3046（INHBE siRNA）：在研与获批的状态边界",
+      "condition": "IBI3046（INHBE siRNA）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI324-PIPE-01",
+      "name": "IBI324（VEGF-A/ANG2双特异抗体）：在研与获批的状态边界",
+      "condition": "IBI324（VEGF-A/ANG2双特异抗体）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-IBI355-PIPE-01",
+      "name": "IBI355（CD40L单抗）：在研与获批的状态边界",
+      "condition": "IBI355（CD40L单抗）",
+      "dimensions": [
+        "pipeline_literacy"
+      ],
+      "v13_evaluation_items": [
+        "专业与合规要求"
+      ]
+    },
+    {
+      "skill_id": "SK-K-JIEPALI-PROD-01",
+      "name": "捷帕力（匹妥布替尼片）：产品基础信息与核查路径",
+      "condition": "捷帕力（匹妥布替尼片）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-NAILIKE-PROD-01",
+      "name": "耐立克（奥雷巴替尼片）：产品基础信息与核查路径",
+      "condition": "耐立克（奥雷巴替尼片）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-SULIXIN-PROD-01",
+      "name": "苏立信（阿达木单抗注射液）：产品基础信息与核查路径",
+      "condition": "苏立信（阿达木单抗注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-WEIFUTAI-PROD-01",
+      "name": "维复泰（盐酸奎扎替尼片）：产品基础信息与核查路径",
+      "condition": "维复泰（盐酸奎扎替尼片）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-XINBILE-PROD-01",
+      "name": "信必乐（托莱西单抗注射液）：产品基础信息与核查路径",
+      "condition": "信必乐（托莱西单抗注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-XINBIMIN-PROD-01",
+      "name": "信必敏（替妥尤单抗N01注射液）：产品基础信息与核查路径",
+      "condition": "信必敏（替妥尤单抗N01注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-XINERMEI-PROD-01",
+      "name": "信尔美（玛仕度肽注射液）：产品基础信息与核查路径",
+      "condition": "信尔美（玛仕度肽注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    },
+    {
+      "skill_id": "SK-K-XINMEIYUE-PROD-01",
+      "name": "信美悦（匹康奇拜单抗注射液）：产品基础信息与核查路径",
+      "condition": "信美悦（匹康奇拜单抗注射液）",
+      "dimensions": [
+        "product_basics"
+      ],
+      "v13_evaluation_items": [
+        "知识准确性"
+      ]
+    }
+  ]
+}

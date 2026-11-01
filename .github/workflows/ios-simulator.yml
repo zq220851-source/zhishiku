@@ -1,0 +1,36 @@
+name: iOS simulator compile (no distribution signing)
+on:
+  workflow_dispatch:
+jobs:
+  ios-simulator:
+    runs-on: macos-26
+    defaults:
+      run:
+        working-directory: mobile_app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install frontend dependencies
+        run: npm install --no-audit --no-fund
+      - name: Check mobile API contracts
+        run: npm run test:contract
+      - name: Build web assets
+        env:
+          VITE_PLATFORM_API_URL: ${{ vars.STAGING_API_ORIGIN }}
+        run: npm run build
+      - name: Generate iOS project
+        run: npx cap add ios && npx cap sync ios
+      - name: Compile without Apple signing
+        run: >-
+          xcodebuild -workspace ios/App/App.xcworkspace -scheme App
+          -configuration Debug -sdk iphonesimulator
+          -destination 'generic/platform=iOS Simulator'
+          -derivedDataPath build/ios CODE_SIGNING_ALLOWED=NO build
+      - name: Upload simulator app (not installable IPA)
+        uses: actions/upload-artifact@v4
+        with:
+          name: medrep-coach-ios-simulator
+          path: mobile_app/build/ios/Build/Products/Debug-iphonesimulator/App.app
+          if-no-files-found: error

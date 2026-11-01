@@ -1,0 +1,1331 @@
+{
+  "date": "2026-11-01",
+  "excluded": [
+    "__pycache__",
+    ".venv",
+    ".agents/skills/medrep-dialogue-scorecard/scripts/__pycache__",
+    "voice-demo/__pycache__",
+    "voice-demo/tests/__pycache__",
+    "clinical/.DS_Store",
+    "phase0/__pycache__",
+    "phase0/extract.log"
+  ],
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".agents/skills/medrep-dialogue-scorecard/SKILL.md",
+      "bytes": 4086,
+      "sha256": "901908af5044e9c71874667c3ce9a5cd52baa81d549174a000105e44b9b51cb0"
+    },
+    {
+      "path": ".agents/skills/medrep-dialogue-scorecard/assets/medrep-dialogue-v0.1.json",
+      "bytes": 6463,
+      "sha256": "ac68363a1788c7fced01feb13e1a713939d1071240862f4b59392bd2f388d19f"
+    },
+    {
+      "path": ".agents/skills/medrep-dialogue-scorecard/references/evidence-index.json",
+      "bytes": 26685,
+      "sha256": "e8567deff8cca65c4e0d8fa7b6ff550ceb5c97ad20f1945a4942f48475be4b5f"
+    },
+    {
+      "path": ".agents/skills/medrep-dialogue-scorecard/scripts/build_evidence_snapshot.py",
+      "bytes": 2464,
+      "sha256": "5138c672c294af4c13418983641f6cfd60d7136d9e880b6f08e58133060f5518"
+    },
+    {
+      "path": ".agents/skills/medrep-dialogue-scorecard/scripts/validate_scorecard.py",
+      "bytes": 2362,
+      "sha256": "604bc113e8ffac853acbdb9378a401c2c1447a303cc9c1a4b4165e711bc11584"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 979,
+      "sha256": "9df9163f553b282f63e689a00a9d5b528b590c202eb84104aed10f19fe9734cf"
+    },
+    {
+      "path": "LLM医生说明.md",
+      "bytes": 15412,
+      "sha256": "72c8a5660d73be53f63cca4e7c152edf044a2849b20e12151491b4f6eab7ad88"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 2143,
+      "sha256": "2ed058df410726deaa22c40212d8696654f30f7044850859fffce484a3919fda"
+    },
+    {
+      "path": "MedRepCoach_实施任务拆解_V1.3对齐版.md",
+      "bytes": 21464,
+      "sha256": "bc2e4b0abc989ad2cd236f93472a7b9d10d6647f91385af711163dd8ca0890af"
+    },
+    {
+      "path": "README.md",
+      "bytes": 18787,
+      "sha256": "7c5602e8f243ca0ea192135490edac27c1d6490e67f74e208e71a5a464dfcbef"
+    },
+    {
+      "path": "V1.3对照分析.md",
+      "bytes": 13278,
+      "sha256": "3bb9893fe260c249bfe21d6571deed4d5768ec380c3e2eeca9dde877c4c53d7a"
+    },
+    {
+      "path": "V1.3开发文档_全文提取.md",
+      "bytes": 44420,
+      "sha256": "cad98f29f67dee1bddadfbe78a8552c306c45dba6cc203819e36473e64d09c45"
+    },
+    {
+      "path": "backfill_deliverables.py",
+      "bytes": 3454,
+      "sha256": "c10e190525a197fbf9e6df0ac3adc6fd32d439b634fe81ce33050df375c5cb75"
+    },
+    {
+      "path": "build_ce_phase1_plan.py",
+      "bytes": 12425,
+      "sha256": "8ea1005c2614138e7eb82f6820b7d567218fa8ec894f75a8dd171190eb33448e"
+    },
+    {
+      "path": "build_course_manifest_all.py",
+      "bytes": 4299,
+      "sha256": "95e12c80a8dd13934b91be1b6397df86275cdda2d3dc80d5b8fb4c4e2f920a04"
+    },
+    {
+      "path": "build_course_mapping.py",
+      "bytes": 13862,
+      "sha256": "ba01453f465cecfd6d2df3ade2845da021e08251c1ccae06decefaf2c1a83fce"
+    },
+    {
+      "path": "build_course_prompts.py",
+      "bytes": 7885,
+      "sha256": "92d5490deb8d4581968edee9b13870f83cb37e1a0bce3907f40ce8250e13e554"
+    },
+    {
+      "path": "build_course_skeletons.py",
+      "bytes": 8124,
+      "sha256": "abf2804cbe1a4214c7a11c85c71fa4054e4653a70a7d2347bf0e309c1dc164dc"
+    },
+    {
+      "path": "build_course_skill_bridge.py",
+      "bytes": 6190,
+      "sha256": "ef3e0ce736999fbfeb4fa04d3d35c0194076772e5bca9eb0d5c45dad10531de5"
+    },
+    {
+      "path": "build_d8a_rubric.py",
+      "bytes": 18268,
+      "sha256": "0f4e4e4fa8617828ad09ff0c60a5eef1af4ba33e138488fc9b1888b06197228f"
+    },
+    {
+      "path": "build_phase0_pack.py",
+      "bytes": 1686,
+      "sha256": "026262f5af9c1868bde50061fc14fb745a27616fceea0d23801803d259a8f71c"
+    },
+    {
+      "path": "build_phase1_config.py",
+      "bytes": 15689,
+      "sha256": "1559c5d4c2a1650013f819308ead9599db8819259b3d66aa6b82133b25dc8503"
+    },
+    {
+      "path": "build_phase1_index.py",
+      "bytes": 10977,
+      "sha256": "e7fb025517f511070636e6fa699cd427dd5a8e4fc07c3f7db85d96ab967aac12"
+    },
+    {
+      "path": "build_phase1_signoff.py",
+      "bytes": 10737,
+      "sha256": "43f9f3d0039b600083a2de879786d8f60167a70bcc58c73815b7760a4c3619f2"
+    },
+    {
+      "path": "build_prompts_v2.py",
+      "bytes": 8633,
+      "sha256": "8720e171e8b57e962587660b0b3a4905c2cbe44dabccc0c5190bfbd343d930c2"
+    },
+    {
+      "path": "build_prototype_pack.py",
+      "bytes": 9941,
+      "sha256": "9b344eabb3e7e731759c9fa8f96d6c0320b40be811e974c3555ccf831ba0d48d"
+    },
+    {
+      "path": "build_signoff_worklists.py",
+      "bytes": 8279,
+      "sha256": "fee480357b40a4c07029750fde03eb33dbb5a945a47126c56e405b7871587ac8"
+    },
+    {
+      "path": "build_skeletons_clinical.py",
+      "bytes": 10602,
+      "sha256": "bbf659ed2af13a3e7e2d7a61245a3fd2311dce5c5ffb6c4316f2ad312309bf49"
+    },
+    {
+      "path": "build_skeletons_v2.py",
+      "bytes": 12054,
+      "sha256": "2997ce2701a6082ca83c7d59c37c160ea534ffdbc0e48cbbd7361cd5495fcd79"
+    },
+    {
+      "path": "build_skill_taxonomy.py",
+      "bytes": 17152,
+      "sha256": "a1617db77a467539afdeaf545d6b38d2468143e91349d571cf60670770f95272"
+    },
+    {
+      "path": "build_tl_phase1_plan.py",
+      "bytes": 11237,
+      "sha256": "e6e904cb5916a1c3523b487d65964be60c63a2b3bc5cb363606be21abdc72ac1"
+    },
+    {
+      "path": "build_version_packs.py",
+      "bytes": 13652,
+      "sha256": "0bfd88c8fad9a1ff26268f1209c01990eb131a8a78f720c5936c2385fe0d0c33"
+    },
+    {
+      "path": "check_llm_key.py",
+      "bytes": 3836,
+      "sha256": "91b883f3ede7e9a341d2ea09069db2a23b5c98d73aa8b0ca98be0d2e6136f7b9"
+    },
+    {
+      "path": "check_rule_quality.py",
+      "bytes": 5191,
+      "sha256": "381d0ddda0dce90e44edb47d45d23b0786c0d2a141e4d87edbdea9ed96667a80"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/README.md",
+      "bytes": 5685,
+      "sha256": "b2aeeae6ce9a96464521ae9829afb4d0ce3e6213cadded949314cbb98ff5d162"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/clinical_conditions.jsonl",
+      "bytes": 13226,
+      "sha256": "e163a115d8d8ff03123050d24b8707207f369e48be1b3e4b705554cf5906866c"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/competency_question_drafts.jsonl",
+      "bytes": 92433,
+      "sha256": "6f1462183410a1a35d7d9a42de705045f436c4fd89a816b206a26d25fdc846d1"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/expanded_pipeline.jsonl",
+      "bytes": 8017,
+      "sha256": "6c86da760abf26f8a13c4aa3605e7a78ecf0235adb02d5661bc978d101181156"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/harvest_public_metadata.py",
+      "bytes": 4891,
+      "sha256": "15e4f1eff32250710502cc78dc4c854eb826de681d588e783606dea319beca72"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/knowledge_bundle_for_app.json",
+      "bytes": 153660,
+      "sha256": "00fcea4744c86e19068b5ac3a4239aab1c53b66a9353558f9ca75c657c0d9da8"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/manifest.json",
+      "bytes": 774,
+      "sha256": "c5b048de73937925f938bec42719344f76102a2816b5e33658e754e06f578d13"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/medrep_clinical_knowledge_v0.5.sqlite",
+      "bytes": 466944,
+      "sha256": "636728e27a2a34c05c01ae2f9043f8648a4f3e221f948108317c5ba6e79b0dd0"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/pipeline_condition_links.jsonl",
+      "bytes": 1885,
+      "sha256": "40e8adcc5be7382f1c1150c10f7e7401eadc899517c33af4c17d147179abd769"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/product_condition_links.jsonl",
+      "bytes": 7274,
+      "sha256": "3adfd15141cced8f7754c1da29414b5a0a62948f3fb9c6c13fc743d7a2506075"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/sources_verified.jsonl",
+      "bytes": 4097,
+      "sha256": "bf2a740a02ce5f7f3038ef4a18d4d870793b2055ed97bd990ec958267967e65e"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/therapeutic_areas.jsonl",
+      "bytes": 1145,
+      "sha256": "153158b42e0267c283a14c3c8efbc8ecfb43ef0b0247b59c1ca18ef92eb90d6f"
+    },
+    {
+      "path": "clinical/medrep-innovent-clinical-knowledge-v0.5/validate_v05.py",
+      "bytes": 559,
+      "sha256": "b8114a37357e9f4a1f762a259b1e795ba870d4046563c445b7d647578f15fa2a"
+    },
+    {
+      "path": "coach-demo/answers_ce.jsonl",
+      "bytes": 467,
+      "sha256": "83a45632e6c678232b8128c49165b38ab62eac853427a8de6a8afd422c0a6345"
+    },
+    {
+      "path": "coach-demo/answers_euphemism.jsonl",
+      "bytes": 79,
+      "sha256": "c1d580eb01e00632ed798362e177d36e52202f38294f7df9124fa22ae3dcea07"
+    },
+    {
+      "path": "coach-demo/answers_exempt.jsonl",
+      "bytes": 187,
+      "sha256": "b2ea0c435d83808fcbfa763634efaae0319c5c9244ec7bfed44ae82b0fcb1028"
+    },
+    {
+      "path": "coach-demo/answers_good.jsonl",
+      "bytes": 691,
+      "sha256": "13178c97c79d1e13d66f126cd2384dcf0089a2ef7b0018fb15d48d3951c8ef27"
+    },
+    {
+      "path": "coach-demo/answers_llm.jsonl",
+      "bytes": 266,
+      "sha256": "0fa498d69def8820cd07e50e4c62b21cf66464dae4a690d5f22e9811b26e33ee"
+    },
+    {
+      "path": "coach-demo/answers_test.jsonl",
+      "bytes": 586,
+      "sha256": "cedc0e4c7cbe206064da342c0b9b4c18babbf29e730c53211295a08c2926b6d7"
+    },
+    {
+      "path": "coach-demo/answers_tl.jsonl",
+      "bytes": 426,
+      "sha256": "4721c734a88e39ea2fc01a2bce7306caf5a06b4efcd76eb11c422f9657cd9f17"
+    },
+    {
+      "path": "coach-demo/demo.sh",
+      "bytes": 3297,
+      "sha256": "9348d0a0fce7b7e98aac48ea8c1cb4b8a5bbe3052e3952459e3df5e3695533e5"
+    },
+    {
+      "path": "compliance_rules.py",
+      "bytes": 12390,
+      "sha256": "5d026be49106a088204059eee6387edc56c9cc04fbb33a141516a0f5dd67ac67"
+    },
+    {
+      "path": "config.json",
+      "bytes": 303,
+      "sha256": "acd31256e6888fcbd8d81255eb2bef14bef8ff20fdac69a0a586cbb8b4b2cf01"
+    },
+    {
+      "path": "config.py",
+      "bytes": 9356,
+      "sha256": "131adf1c51b84061c0861c608255b4f7345caf95bb1ee4104abcb66142b1bd5b"
+    },
+    {
+      "path": "course-specs/D-AD.json",
+      "bytes": 12038,
+      "sha256": "07ccff5369b2c34ec40cb4c3a187efa2d51546e3d0517b0ab152e497d8489c19"
+    },
+    {
+      "path": "course-specs/D-AML.json",
+      "bytes": 12089,
+      "sha256": "189ef06fe843752f23124d07bf578aec7795caedcff664458a2e6c14ec081446"
+    },
+    {
+      "path": "course-specs/D-AS.json",
+      "bytes": 11847,
+      "sha256": "189157d7e7181e14a2b9f322160031750d201f88d87992971a0bf49dc11e395a"
+    },
+    {
+      "path": "course-specs/D-BREAST.json",
+      "bytes": 12991,
+      "sha256": "8debe364c1e1305a6c0b9462a3907a1520d71ffedcaa86150773b7dd348b1ace"
+    },
+    {
+      "path": "course-specs/D-CCA.json",
+      "bytes": 15227,
+      "sha256": "74a6d90dd204e2eff69dbcda72709cbd0b19f62aac632a4da758f8e914281178"
+    },
+    {
+      "path": "course-specs/D-CERVICAL.json",
+      "bytes": 10908,
+      "sha256": "a8a57e6cc96bde36a518655e52fa38a6bcbb64d69b18ab0fa522aa0efb60d92d"
+    },
+    {
+      "path": "course-specs/D-CLL.json",
+      "bytes": 12340,
+      "sha256": "59485a292426f1b1a57cbd790dd372e8ba7b0cbbb51528e421ef7b6ac306c9d4"
+    },
+    {
+      "path": "course-specs/D-CML.json",
+      "bytes": 11582,
+      "sha256": "309ca8d47bb2dca1c5fedbf216e5d486370129832f92d0d0deda055ac8ba2df4"
+    },
+    {
+      "path": "course-specs/D-CRC.json",
+      "bytes": 11156,
+      "sha256": "efee9085e057cb788dfb772e0e3089cc31967e68c6921875925cc54a6c522c8e"
+    },
+    {
+      "path": "course-specs/D-CROHN.json",
+      "bytes": 11523,
+      "sha256": "1b6fa41ff81873d4fcd8701762c7b10909aa7b56126f36dd943b7d6b0a85d17b"
+    },
+    {
+      "path": "course-specs/D-DLBCL.json",
+      "bytes": 11912,
+      "sha256": "1d48c69e3008f42a404b80c5ba8f72d3eea7aaee50b547f2f66437f8719cbc17"
+    },
+    {
+      "path": "course-specs/D-DME.json",
+      "bytes": 12880,
+      "sha256": "48008b1111259e2c7d68f6ff2ede2b1f16fc62e9e8769a8f177ff5211919ce54"
+    },
+    {
+      "path": "course-specs/D-DYSLIPID.json",
+      "bytes": 11559,
+      "sha256": "315c54f65c7ef8e90636a89fafd7a3a86cd09d15c88b89a06dcaa3df0208d955"
+    },
+    {
+      "path": "course-specs/D-ENDO.json",
+      "bytes": 15075,
+      "sha256": "bef68ed4c18b083057ab5f741deb29e6a9fa8de7967e6f204c0ff9f5cb54c4a0"
+    },
+    {
+      "path": "course-specs/D-ESCC.json",
+      "bytes": 14580,
+      "sha256": "836589fb530eb67262ea4ce860c1e375a4a629b2d094365fa8941625ae49b938"
+    },
+    {
+      "path": "course-specs/D-FL.json",
+      "bytes": 11171,
+      "sha256": "7915f47e4032bd992c2edeae3f538e4f224ccfe939ebba0dbb8afa7fdfa75a52"
+    },
+    {
+      "path": "course-specs/D-GBM.json",
+      "bytes": 10276,
+      "sha256": "b368e298799d166631582ff5fed7deccd47e2e45a35f9dc6ab467d773e97b0bc"
+    },
+    {
+      "path": "course-specs/D-GC.json",
+      "bytes": 11012,
+      "sha256": "f839e2e68e65d0ec3807f0cd556204b38131ba2650d661faa42e2936ad3444bc"
+    },
+    {
+      "path": "course-specs/D-GOUT.json",
+      "bytes": 12018,
+      "sha256": "7d2ceb3609a91fa6a5a380892aee9b8c04a9658d850f60d257e2539938cff87c"
+    },
+    {
+      "path": "course-specs/D-HCC.json",
+      "bytes": 11078,
+      "sha256": "aa9654fc0484bce2be992989bfdf9e8e51b368f99d24093420b103111b502856"
+    },
+    {
+      "path": "course-specs/D-HFPEF.json",
+      "bytes": 12205,
+      "sha256": "22c5f0414c88ac7309a634ac50ca1bb201fd533bba0ef07d3ab82ac783ea88e0"
+    },
+    {
+      "path": "course-specs/D-HTN.json",
+      "bytes": 11697,
+      "sha256": "a2de0efad7b993451daf65297aea8c3d8b7472fa45b97771ecce509c7c75788b"
+    },
+    {
+      "path": "course-specs/D-MASH.json",
+      "bytes": 14785,
+      "sha256": "c19bdc4d684706124546c7d1304c0e0b54fd6ed67a1604bfe1831bf2943e30d7"
+    },
+    {
+      "path": "course-specs/D-MCL.json",
+      "bytes": 12330,
+      "sha256": "a4841dd29faa2bebebd2442174ef0d0c104f214e3dbc648c6f2f4f0db878cf5d"
+    },
+    {
+      "path": "course-specs/D-MEL.json",
+      "bytes": 13050,
+      "sha256": "ed0cba8d0aa500e5d3d03326d5b6a9741e3905b929f19f8420c5495908c0ab18"
+    },
+    {
+      "path": "course-specs/D-MESO.json",
+      "bytes": 12023,
+      "sha256": "26b84d59f0a73fef8547fe7aa811036b5ab28ab0aa0db38a88375cfe61be607f"
+    },
+    {
+      "path": "course-specs/D-MM.json",
+      "bytes": 12579,
+      "sha256": "5114d887e4e8365919322029bcc71c11c34ac237f6d00c961033395487f9091a"
+    },
+    {
+      "path": "course-specs/D-NAMD.json",
+      "bytes": 13400,
+      "sha256": "4930bedcbee902c7fe877f80f6019d1e3b4e90104510dd7875ead1fd7022eaac"
+    },
+    {
+      "path": "course-specs/D-NSCLC.json",
+      "bytes": 11231,
+      "sha256": "856e290bbfab43cd5e048cff9d0bb3c38b661d94c6efb0d510c9e7c7249384ad"
+    },
+    {
+      "path": "course-specs/D-OBE.json",
+      "bytes": 15014,
+      "sha256": "76f78e89d934ea6430088c4641e55a4cec64902f66a95472a3f871dad837f610"
+    },
+    {
+      "path": "course-specs/D-OSA.json",
+      "bytes": 14330,
+      "sha256": "4bcf2e123302042961704ff96bf25620e48c3f8afe09211f9116af9772fcb436"
+    },
+    {
+      "path": "course-specs/D-OVARIAN.json",
+      "bytes": 12718,
+      "sha256": "633764555057dfdb17e589caee064a36a8e67f11d74b3e6de40736b8adc16b1e"
+    },
+    {
+      "path": "course-specs/D-PDAC.json",
+      "bytes": 13205,
+      "sha256": "ddb8d38a031f458cbcbcb35c382e5033b540e084b8258db095ee5e9284af4d76"
+    },
+    {
+      "path": "course-specs/D-PSA.json",
+      "bytes": 11285,
+      "sha256": "103c9eea60331a6aa67b1459cf99511dbcc00529a9e25873a8a38b26c46fef55"
+    },
+    {
+      "path": "course-specs/D-PSO.json",
+      "bytes": 11679,
+      "sha256": "16cd2fd3baee9ea7a059f9453249a28ff5916241a8cd5188fb738fae21225020"
+    },
+    {
+      "path": "course-specs/D-RA.json",
+      "bytes": 11679,
+      "sha256": "dd5b08786fbdc92128f6ce939c23f407f7b0e4b1ee127a34ec6e8bcc631e67c8"
+    },
+    {
+      "path": "course-specs/D-RCC.json",
+      "bytes": 15214,
+      "sha256": "e17d463a186574a23bdaf0e48079e2ee5ab4bf73ecaf7f21167b4da3e2f39cc1"
+    },
+    {
+      "path": "course-specs/D-SJOGREN.json",
+      "bytes": 12523,
+      "sha256": "17bc1e36bba3f179022dcdf1c8d763a382ad3cbc426249dc2a2b154a6181f239"
+    },
+    {
+      "path": "course-specs/D-T2DM.json",
+      "bytes": 15052,
+      "sha256": "3ffd071c53f7e846b1641d5c8adc20454a1fd21f3812dc852e312311369cce0f"
+    },
+    {
+      "path": "course-specs/D-TED.json",
+      "bytes": 12929,
+      "sha256": "639c97d841051e236be60b0db749b32dd61b735022017f0035ea442450e19f5b"
+    },
+    {
+      "path": "course-specs/D-THYROID.json",
+      "bytes": 11562,
+      "sha256": "60a54e1c696af54f1b5d51cf3cae331ad789eaa3a5ed3555f896d931b8642061"
+    },
+    {
+      "path": "course-specs/D-VITILIGO.json",
+      "bytes": 11607,
+      "sha256": "2d5710e6d0392e7186b6d40594954ffc8493e082bc58bff187a9efd745fe198a"
+    },
+    {
+      "path": "course-specs-ce/D-BREAST__CE.json",
+      "bytes": 14612,
+      "sha256": "abfe7a33443a86531e1d82f58510a032a97f78dcc44135ec2602c03727e28f57"
+    },
+    {
+      "path": "course-specs-ce/D-CERVICAL__CE.json",
+      "bytes": 14653,
+      "sha256": "249f4233d8157b8acd3adb9125f71aaba173ffa175301f99027e4cad66c6c0bc"
+    },
+    {
+      "path": "course-specs-ce/D-CRC__CE.json",
+      "bytes": 14675,
+      "sha256": "77894b4e87e1a2c5d57406ee14e785e9bdb27fa842825cb894ac583b7d070126"
+    },
+    {
+      "path": "course-specs-ce/D-GBM__CE.json",
+      "bytes": 14923,
+      "sha256": "6e6c187f3677340d2bc40f7c7440c0ccfc02b220e0b2c31382e70f6f95674846"
+    },
+    {
+      "path": "course-specs-ce/D-GC__CE.json",
+      "bytes": 14489,
+      "sha256": "451e49b837679b56fff9ce587fdc3dcd92ebdb65f9f6f778b18d186ef6a1d91d"
+    },
+    {
+      "path": "course-specs-ce/D-HCC__CE.json",
+      "bytes": 14593,
+      "sha256": "5b9c9fb3810c7dc2e29bc7f86c3ba7ff58a114e01f37c1353e871748296f87ff"
+    },
+    {
+      "path": "course-specs-ce/D-NSCLC__CE.json",
+      "bytes": 14656,
+      "sha256": "d07cb540fc376a0862e34c6fdee6ac86bc96412c86177c6bb96a274539c5224a"
+    },
+    {
+      "path": "course-specs-ce/D-OVARIAN__CE.json",
+      "bytes": 14590,
+      "sha256": "75bdfb3b725676d51c9bebbca806fd346f3383c8d621f4346784c0b666a4c273"
+    },
+    {
+      "path": "course-specs-ce/IBI3005__PL.json",
+      "bytes": 10690,
+      "sha256": "265404b8892c21cc39d74cf169390fb5c96f4829f13ee3067d850a84f793aef9"
+    },
+    {
+      "path": "course-specs-ce/IBI343__PL.json",
+      "bytes": 10865,
+      "sha256": "a3de5590e6986e17a2ba12950710530c8afbb05fc81e06e9b5c654f87740e312"
+    },
+    {
+      "path": "course-specs-ce/IBI354__PL.json",
+      "bytes": 10614,
+      "sha256": "b1cef110272d04580723784cc6130cdb5fd4794b6ffe23ae35547b74c0dc63b9"
+    },
+    {
+      "path": "course-specs-ce/IBI363__PL.json",
+      "bytes": 10958,
+      "sha256": "aebb7a68dd7e6d74970282dd456fc4ceceae58bf8d6da9c8c25bd852a4391511"
+    },
+    {
+      "path": "course-specs-ce/aoyixin__PB.json",
+      "bytes": 9729,
+      "sha256": "948a38085b90e24126fe15d59853f55d7fc6270e350c3d34ce4fe6b363939a46"
+    },
+    {
+      "path": "course-specs-ce/dabole__PB.json",
+      "bytes": 12688,
+      "sha256": "194968a13c8f67fe3fe14196250c7a49a9248612895f7aef9140786eb89dd673"
+    },
+    {
+      "path": "course-specs-ce/daboshu__PB.json",
+      "bytes": 12707,
+      "sha256": "3756101876d50784e7b19cdadc3234e0d939e517dcae1aba5b9c5cab363f0f06"
+    },
+    {
+      "path": "course-specs-ce/dabote__PB.json",
+      "bytes": 12586,
+      "sha256": "d31ee52f617ab7928549578c179e78ed3c6d0b1118a03f46dd96363ffee4893c"
+    },
+    {
+      "path": "course-specs-ce/daboxin__PB.json",
+      "bytes": 9804,
+      "sha256": "02c192c2bc4132b87d211599f204dfcf4e9542339aa3659e7f58ac923ec27fc3"
+    },
+    {
+      "path": "course-specs-ce/dayoutong__PB.json",
+      "bytes": 12888,
+      "sha256": "f3cdec8f2ee8221c6477f3767e9383e09e7cda9bba2fb2bfef3cb364fa54d48c"
+    },
+    {
+      "path": "course-specs-ce/ruituo__PB.json",
+      "bytes": 12559,
+      "sha256": "450250a59ae77586c3ada93ff41d057edb3bab862276d708f88b17c0c4fac523"
+    },
+    {
+      "path": "course-specs-ce/weize__PB.json",
+      "bytes": 9680,
+      "sha256": "07a5ffe0b50d27da09fd5cc317b77aca7c70589250fa06b1eb1e85b574595d84"
+    },
+    {
+      "path": "course-specs-ce/xirangze__PB.json",
+      "bytes": 12794,
+      "sha256": "3db38196f358b1406d2f56f303367310f023178500d5f7adec65670a45b5a9b3"
+    },
+    {
+      "path": "course-specs-tl/D-BREAST__TL.json",
+      "bytes": 11819,
+      "sha256": "ea6590a8c4f47288545399da23295f7e3676331510e09ae498bf40802f4f263a"
+    },
+    {
+      "path": "course-specs-tl/D-CERVICAL__TL.json",
+      "bytes": 11963,
+      "sha256": "e5ba4460fee021049930eb931820ce7c2a7c33ade594d76dfb0d620c12471ea1"
+    },
+    {
+      "path": "course-specs-tl/D-CRC__TL.json",
+      "bytes": 12325,
+      "sha256": "edb85b9d2fd2337eb3e414a03a0aca8042003484b718341766532ebb454caa4b"
+    },
+    {
+      "path": "course-specs-tl/D-GBM__TL.json",
+      "bytes": 12104,
+      "sha256": "a02a44578ccbf7e926f9f46207d87bb95cbe2dc973f0535e7d1c811415ee0fa9"
+    },
+    {
+      "path": "course-specs-tl/D-GC__TL.json",
+      "bytes": 12960,
+      "sha256": "e4b63bdbfdf9a3c237e8b06e1822ff8f646fba054d441d5c3e56083e792e34ac"
+    },
+    {
+      "path": "course-specs-tl/D-HCC__TL.json",
+      "bytes": 11911,
+      "sha256": "43dc475893f9bb814b3da98459c0020b944279345dc75862793427181966f68a"
+    },
+    {
+      "path": "course-specs-tl/D-NSCLC__TL.json",
+      "bytes": 13500,
+      "sha256": "0cbd7a6e434d05d240210540501dcd55d787588fff539a98bfdda8d4ad368b18"
+    },
+    {
+      "path": "course-specs-tl/D-OVARIAN__TL.json",
+      "bytes": 12068,
+      "sha256": "6c94ae231ae3fd1a7fe8458f0b306d8118825d3f8b9f4c967b57f21384d9fbaa"
+    },
+    {
+      "path": "decisions.py",
+      "bytes": 7016,
+      "sha256": "f80e2460384cd581e9a18f5dbaed87f9846ae1217e32307702740e6121e4b067"
+    },
+    {
+      "path": "feedback_demo.py",
+      "bytes": 13611,
+      "sha256": "44d050e8625935206535dc973d3e05126906f90d6900fd432776f2908d7eb069"
+    },
+    {
+      "path": "feedback_pipeline.py",
+      "bytes": 46515,
+      "sha256": "8bd1a95f167f429dd4958263de8b6a2a0655b274b022376eba2fa3f39decf854"
+    },
+    {
+      "path": "feedback_segments.json",
+      "bytes": 819,
+      "sha256": "f38b703fc0865bdd5f4115410dc070dd7256010c8097e8f42f9b388b80598e12"
+    },
+    {
+      "path": "fix_long_options.py",
+      "bytes": 4416,
+      "sha256": "4e421e327b43c9a31900dafcfa45d92df3fa6b8205262144e8de29768c208d77"
+    },
+    {
+      "path": "fix_verify_path.py",
+      "bytes": 6570,
+      "sha256": "cdeda55d69f32acaf77841c2c67144384b642f28c2a02f7e9d1dc5d966eccd4f"
+    },
+    {
+      "path": "handoff/历史实测与演示/Demo拍摄-依据卡.txt",
+      "bytes": 1648,
+      "sha256": "dbab522d386d18d1bc87887c8f4f8c000529a7ce31455d64e68a8a84193250da"
+    },
+    {
+      "path": "handoff/历史实测与演示/Demo拍摄-六维讲解.txt",
+      "bytes": 2444,
+      "sha256": "9a804ce60357c493f0a2055839dcdfc53eb235db7a2ebf94bb2ce10f557bf057"
+    },
+    {
+      "path": "handoff/历史实测与演示/Demo拍摄-对话与提词.txt",
+      "bytes": 3692,
+      "sha256": "0e561168cf5e09c5c2455e8b009c9803022fd9406fd2de271a209fc779c79948"
+    },
+    {
+      "path": "handoff/历史实测与演示/Demo拍摄-真实模型记录.json",
+      "bytes": 5485,
+      "sha256": "50cf91d38995ab26cb62675ff2e686edf40695d4a669bd50f887440f43a076a9"
+    },
+    {
+      "path": "handoff/历史实测与演示/Demo拍摄-真实评分.json",
+      "bytes": 20218,
+      "sha256": "8d23bbf918df36dd8dd64797e7b02d289645c45ef7676e1dd8d2ad1d982074ae"
+    },
+    {
+      "path": "handoff/历史实测与演示/六维图多边形填色.png",
+      "bytes": 32606,
+      "sha256": "08ae065507e2715250e4279d90f02b220b5f38a6c3584e94a7298c3ba5f9a848"
+    },
+    {
+      "path": "handoff/历史实测与演示/压力版医生-实测试听.wav",
+      "bytes": 234284,
+      "sha256": "57f273a740df1a36a7598e612555960e51a85313ec0db10c0973b0106415eb94"
+    },
+    {
+      "path": "handoff/历史实测与演示/口语范文复验-核查结论.txt",
+      "bytes": 1611,
+      "sha256": "484fdb40af5c1697114703ff93bed70d826fc59d32527e1d8c9cec69151ca320"
+    },
+    {
+      "path": "handoff/历史实测与演示/演练选项已隐藏.png",
+      "bytes": 32121,
+      "sha256": "827dbef4a5991b72c616b4d4b5155724fbd5bf1acd8154f85b93a51e4e81e991"
+    },
+    {
+      "path": "handoff/历史实测与演示/百炼流式实测.json",
+      "bytes": 1745,
+      "sha256": "4775102b8520068691139eee8c284a2da811ae952cb28b1a3b0f5b525ff805d7"
+    },
+    {
+      "path": "handoff/历史实测与演示/百炼流式语音接入说明.txt",
+      "bytes": 2498,
+      "sha256": "29315b988348b332243fd71d4444e9f6c8ac5ad1b6ae17532041f9396fcda442"
+    },
+    {
+      "path": "handoff/历史实测与演示/门诊初访压力版-实测对话.txt",
+      "bytes": 1614,
+      "sha256": "1ccd3d20d174f3a7c6a4c780da76118bc88595837ed92427e0d92518db251a04"
+    },
+    {
+      "path": "handoff/历史实测与演示/门诊初访压力版-实测记录.json",
+      "bytes": 3942,
+      "sha256": "58cb5e3e8d75dc5c4cc81b1939c2f1b9914856a57fc5af3b3f8dcf7fe17bcd3c"
+    },
+    {
+      "path": "handoff/历史实测与演示/门诊初访压力版-实测评分.json",
+      "bytes": 18683,
+      "sha256": "6a305fb1e43101f6548a4cf08941ddcc4db9aa060446784ff42cfb65fcec15e3"
+    },
+    {
+      "path": "handoff/历史实测与演示/门诊初访压力版-验证说明.txt",
+      "bytes": 2014,
+      "sha256": "ce60e63a4eef2b1b76dc567044d92fcd544de2ed91eff037bcdfa9a51b984dfd"
+    },
+    {
+      "path": "import_local_books.py",
+      "bytes": 7709,
+      "sha256": "fe58dc58f3d945401c2342c0a21f291455864c5da653da8730b435c0c30b0416"
+    },
+    {
+      "path": "import_public_references.py",
+      "bytes": 13766,
+      "sha256": "72d2ec7df53e07f546c75383144533b997f7980748a40c09d17779691999299f"
+    },
+    {
+      "path": "knowledge_retrieval.py",
+      "bytes": 18189,
+      "sha256": "e2786747340fd7d1a39547e3003d28f8c79a5253858ebe0765ddf6815ba4be11"
+    },
+    {
+      "path": "llm_doctor.py",
+      "bytes": 8391,
+      "sha256": "f3be6af0185f6594eb0d3de6808869ba35b73ecefaac64fa73dc2d5ee6151aad"
+    },
+    {
+      "path": "llm_provider.py",
+      "bytes": 28863,
+      "sha256": "2c1996c5bba007e35db7125b5ed6cdac3d33ea640ca3ebf80b1db849252bc5d0"
+    },
+    {
+      "path": "medrep_coach.py",
+      "bytes": 51346,
+      "sha256": "fab6c94a726a7c010ba580306b78410a6f08c64623fbcf7af5b6af404c0debd5"
+    },
+    {
+      "path": "package_courses.py",
+      "bytes": 14562,
+      "sha256": "df6f07ce7c549f7b605cedd6a9a3cb4f5c287e0105bcce9dbfc6cc649ff817aa"
+    },
+    {
+      "path": "phase0/D0-语料资产库.md",
+      "bytes": 164733,
+      "sha256": "cbddab8f5f30c95646d3519e935c83b86367a811af0695fa0fad3b5cb4e64475"
+    },
+    {
+      "path": "phase0/D1-医生画像卡schema.md",
+      "bytes": 7334,
+      "sha256": "8b8162a26595a593513b6fc5ff7c3f670c3866b5f30de1e207769a59600898e8"
+    },
+    {
+      "path": "phase0/D2-合规判定规则表.md",
+      "bytes": 29112,
+      "sha256": "eac5f01802368441a3b5def18dccb51b72a85743ee4f0f6962008cc8a8473909"
+    },
+    {
+      "path": "phase0/D2-灰色手法映射.json",
+      "bytes": 25170,
+      "sha256": "1322549d649c425988a5bda8f993a8f6d922133d019b26df3cf587964fef3a2f"
+    },
+    {
+      "path": "phase0/D3-双轨门控合成规则.md",
+      "bytes": 18698,
+      "sha256": "c0d6c9a7b71056a54d12296cb7a69d0534a7155d291aa00eff8110dbd6976a4b"
+    },
+    {
+      "path": "phase0/D4-形态维度可测性矩阵.md",
+      "bytes": 6793,
+      "sha256": "3883d9d470249beda6c25ff3f6ae8ea7b7383e36a6ba313b4c4608fde79e50b4"
+    },
+    {
+      "path": "phase0/D5-知识来源分级与指纹.md",
+      "bytes": 7488,
+      "sha256": "df7e6cced821add1d9c64f95ad9b42c854248de53bce71eaa18cdc175e8c4069"
+    },
+    {
+      "path": "phase0/D6-数据可见性与考核边界.md",
+      "bytes": 6644,
+      "sha256": "a74b6f369f1c16bfc0e0e537633b038bdd31101fe5332ce0ef05f60cdfd94f0a"
+    },
+    {
+      "path": "phase0/D7-判定回归基线集.json",
+      "bytes": 39110,
+      "sha256": "20970d4d9f2de8d82d8bb4a9fe5c9467c1e0a0982fcdf331e49961456e588b20"
+    },
+    {
+      "path": "phase0/D7-判定回归基线集.md",
+      "bytes": 13004,
+      "sha256": "d1d929687d34d365e2adb055107ce40f6b5033b0fe25e660b59c84491849858c"
+    },
+    {
+      "path": "phase0/D8a-评分表草案.json",
+      "bytes": 11945,
+      "sha256": "e0dd86084eda71b94e3a7623e7ce17f6832ce56e9031541a2b73f7ba9a5e033c"
+    },
+    {
+      "path": "phase0/D8a-评分表草案.md",
+      "bytes": 12186,
+      "sha256": "9e2cf36e16f47dc5388d3b0b96f2d7b93e0e7272419869adc92d23b5f3b73ffc"
+    },
+    {
+      "path": "phase0/Phase0-决策冻结包.md",
+      "bytes": 14685,
+      "sha256": "88b7b8961d5ff0a86e49bad0991f394166f4a1af156c7b4d803ed619bef7bccf"
+    },
+    {
+      "path": "phase0/V1.3-口径变更.md",
+      "bytes": 4108,
+      "sha256": "91e6fe7e24da52a3562b267c2d325400cfb6d0b0545060b3c467886b4934bfb8"
+    },
+    {
+      "path": "phase0/build_assets.py",
+      "bytes": 6468,
+      "sha256": "b954613e9c15561ade77eb78463dc32585b14c66776c44a295c11bd4355a3f19"
+    },
+    {
+      "path": "phase0/build_d2_mapping.py",
+      "bytes": 20845,
+      "sha256": "524284419eac7445d9f08ae5f6629f37336249abd6344c7c746c26ea282d77e2"
+    },
+    {
+      "path": "phase0/build_d7_baseline.py",
+      "bytes": 10292,
+      "sha256": "24bf83d7bf29879e6a8858509051aa439728bfab670a54e586395ffbcb16142b"
+    },
+    {
+      "path": "phase0/build_digest.py",
+      "bytes": 8119,
+      "sha256": "c7126f9d6b3515827422652d79b791cd9216cfd2054ef07e94fc79855066e860"
+    },
+    {
+      "path": "phase0/build_index.py",
+      "bytes": 6479,
+      "sha256": "02ebc0eaf2401eadea0f9d30ce4dc45c25f85504ad23e96594520b1bd1716030"
+    },
+    {
+      "path": "phase0/build_phase0_freeze.py",
+      "bytes": 17264,
+      "sha256": "293ac3bac55565ae93e2b304180726d1ce354a7060031d3e13a2cc68649a71c7"
+    },
+    {
+      "path": "phase0/check_rule_syntax.py",
+      "bytes": 1260,
+      "sha256": "d6ec65e6b95b1a9eed93eddf2bd45508abe400de921c997331046c16154a8f50"
+    },
+    {
+      "path": "phase0/citation_verification.json",
+      "bytes": 212,
+      "sha256": "af5e31c127ccf4638d03e89f616f5c9234f1de27a4e01415ac023aebf0174801"
+    },
+    {
+      "path": "phase0/corpus_all.txt",
+      "bytes": 1495018,
+      "sha256": "5c9fe86bb5470260a6ee72ac02f9b57d4c2ab8036456763228cdd25094dc4fb9"
+    },
+    {
+      "path": "phase0/corpus_assets.jsonl",
+      "bytes": 820245,
+      "sha256": "aa92e71e70e968a4499aefb879ce73484e40c9caab0648bb4ab4c27c1dd828ae"
+    },
+    {
+      "path": "phase0/corpus_assets.md",
+      "bytes": 256807,
+      "sha256": "bc4b1bdb261e38e86644939c467d3380920afa44b3153776721e72644c4b3f62"
+    },
+    {
+      "path": "phase0/corpus_digest.md",
+      "bytes": 50283,
+      "sha256": "aa7cf30c508b35ee86e405aedd4e39a7547d63d56cfa90fd6db5c4e6f797eee9"
+    },
+    {
+      "path": "phase0/corpus_index.md",
+      "bytes": 14616,
+      "sha256": "f3cc30b9c2a83962a8f6324dd1d7cdfb93c4c1e4e532f33007f8fdf15bb405ad"
+    },
+    {
+      "path": "phase0/corpus_search.py",
+      "bytes": 3342,
+      "sha256": "e006e1dfcce4215372f6815cb14a4edb6ce0e8897a977bd97a47431b8ab516f2"
+    },
+    {
+      "path": "phase0/equivalence_layer.py",
+      "bytes": 10638,
+      "sha256": "93899a5e6e47fb2f54e7c84e340abfd5a62a97eb877c81f2614298036f908597"
+    },
+    {
+      "path": "phase0/expand_d7_baseline.py",
+      "bytes": 15155,
+      "sha256": "628a40605eba03cbcf0e7c940bb552068e7dc60c827265fa723b2cfe326deb8f"
+    },
+    {
+      "path": "phase0/extract_corpus.py",
+      "bytes": 5016,
+      "sha256": "3eab9ad33e0b2c869850730744a8924122682d499f682c9e094096faad226a34"
+    },
+    {
+      "path": "phase0/run_baseline_regression.py",
+      "bytes": 2839,
+      "sha256": "9fde9b51a88bd75030f94d9355b50e2cf27c5baeb2caf69a8fd9a09a5e9756bb"
+    },
+    {
+      "path": "phase0/source/V1.3-口径变更.md",
+      "bytes": 4108,
+      "sha256": "91e6fe7e24da52a3562b267c2d325400cfb6d0b0545060b3c467886b4934bfb8"
+    },
+    {
+      "path": "phase0/source/任务拆解v1.md",
+      "bytes": 32142,
+      "sha256": "f5a7f13ea1c098a1debf1708e8d1351169d33868e7128d89e905fe442258cd30"
+    },
+    {
+      "path": "phase0/source/原始设计稿.md",
+      "bytes": 15534,
+      "sha256": "7cdea7e66c0ba853c93159cea43ea8bca7370e16126dac997932735165d230c0"
+    },
+    {
+      "path": "phase0/source/语料库授权范围.md",
+      "bytes": 2361,
+      "sha256": "970a9ac02c6e9601c25a66459d64025f59e518cebf5841384f90899bffcf195d"
+    },
+    {
+      "path": "phase0/team-plan-v2.yaml",
+      "bytes": 72977,
+      "sha256": "733441d9fab24d066e21465c421c5156aa92dd9c4e6843a25a75767d29a2afc2"
+    },
+    {
+      "path": "phase0/team-plan-v3.yaml",
+      "bytes": 69620,
+      "sha256": "df8f85f48631d8e7c758153fc6467e8a8c36597104d0e18c727dc951ac17d072"
+    },
+    {
+      "path": "phase0/team-plan.yaml",
+      "bytes": 41878,
+      "sha256": "5604390cb0b664f3c4b2f7698f4348ede94a550b1d2f27c330d7c3ed065d322a"
+    },
+    {
+      "path": "phase0/topic_map.json",
+      "bytes": 24902,
+      "sha256": "8330870ab214a12dd96f3ad6fc5a4b7b89c013b80bfe065e7b4fb1ff4a93b481"
+    },
+    {
+      "path": "phase0/verify_citations.py",
+      "bytes": 10033,
+      "sha256": "e707ecd7e8bc19b4c4d0866e21fa65e6c35784203eabba5c7ede26239057ff92"
+    },
+    {
+      "path": "phase0/verify_phase0_consistency.py",
+      "bytes": 13269,
+      "sha256": "8f149b93ade760221425b460cbeac3b61c40c0cc92d2a9a225664731bffb19cc"
+    },
+    {
+      "path": "phase0/write_d1_d4_d5.py",
+      "bytes": 21668,
+      "sha256": "c5be122bbdbc542d9f0aa88b93d889c0486a5731e282ebf5bacffe8a954577c9"
+    },
+    {
+      "path": "phase0/write_d2.py",
+      "bytes": 8847,
+      "sha256": "5d75c7d7531b7bb2335ff3c61ca5edafd66fcb2f1f71b1a2061a8f3f0019a3be"
+    },
+    {
+      "path": "phase0/write_d3.py",
+      "bytes": 11256,
+      "sha256": "4a40de6a1c07282ac6786d592cc929ba2457e081c354775d11b5e2f34ea3ed67"
+    },
+    {
+      "path": "phase0/write_d6_d7.py",
+      "bytes": 15680,
+      "sha256": "02a3a8bd6ccca93c40956fb96104e903f4ea2d45237f153a1eaba8a750e91b37"
+    },
+    {
+      "path": "phase0/write_d7_md.py",
+      "bytes": 9351,
+      "sha256": "6393577efc2b848b9346c44d0edf45e210061adeee610623f8c578bac4757a8e"
+    },
+    {
+      "path": "phase0/write_phase0_docs.py",
+      "bytes": 1999,
+      "sha256": "61ad3edd990e7051fae68c895c37361437648ece4b1ae8af6dd056b5a01be76a"
+    },
+    {
+      "path": "phase0/语料库授权范围.md",
+      "bytes": 2361,
+      "sha256": "970a9ac02c6e9601c25a66459d64025f59e518cebf5841384f90899bffcf195d"
+    },
+    {
+      "path": "render_courses.py",
+      "bytes": 7964,
+      "sha256": "d87676511e934c424f8212322207add39bc254689abe151dbe5ec85398dfd25f"
+    },
+    {
+      "path": "render_courses_v2.py",
+      "bytes": 8639,
+      "sha256": "68f976d08b45b072336fc4859283700e16edcba162ab995381203bb421a60cbe"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 427,
+      "sha256": "ffb1fe22d4efd834dd2203a0c8a894298b21364a7421770766da334f01b7cfdc"
+    },
+    {
+      "path": "scenario-library.jsonl",
+      "bytes": 18508,
+      "sha256": "a5ba770eb4c939f348cd00cfd2b8a06454cea55aa5374ab396b8ac0dd701fdca"
+    },
+    {
+      "path": "scenarios/scenario-library.jsonl",
+      "bytes": 18508,
+      "sha256": "a5ba770eb4c939f348cd00cfd2b8a06454cea55aa5374ab396b8ac0dd701fdca"
+    },
+    {
+      "path": "scorecards/README.md",
+      "bytes": 3406,
+      "sha256": "04308f040ad86bfe24e7a80e2ca22a1d3fdcb946c0541ac706d1f7e48db56404"
+    },
+    {
+      "path": "scorecards/medrep-dialogue-v0.1.json",
+      "bytes": 6463,
+      "sha256": "ac68363a1788c7fced01feb13e1a713939d1071240862f4b59392bd2f388d19f"
+    },
+    {
+      "path": "skill-taxonomy/course-skill-bridge.json",
+      "bytes": 173368,
+      "sha256": "4fda45fa285e8ff2a5b47dc3ed9634d818f6cfb3f12e1539ff4389e471645273"
+    },
+    {
+      "path": "skill-taxonomy/course-skill-bridge.md",
+      "bytes": 11091,
+      "sha256": "a8d98b16de2507210269497218e7253091641a594aea9cfcd74b5c0b3232c03a"
+    },
+    {
+      "path": "skill-taxonomy/skill-taxonomy.json",
+      "bytes": 234250,
+      "sha256": "e2aab2d5ed30c6df8d7e10c7391f4d5f2c33483e45e29ce348c14387ca7e8777"
+    },
+    {
+      "path": "skill-taxonomy/skill-taxonomy.md",
+      "bytes": 35842,
+      "sha256": "830bdefb8b4b05331bf370bbc431d12b0f2110e61f5cad4de91ad04df8fae59e"
+    },
+    {
+      "path": "state/feedback/feedback_pipeline.json",
+      "bytes": 42337,
+      "sha256": "358e1340d365bef61fa6896ad001c512e8b15d56ac40f4283195f1e5b16508f5"
+    },
+    {
+      "path": "state/proficiency_state.json",
+      "bytes": 3109,
+      "sha256": "141a449eb134438f448d778f6df0dedb804c472f0c01374d5e1b76252fddf433"
+    },
+    {
+      "path": "validate_specs.py",
+      "bytes": 12964,
+      "sha256": "da50af90a93b24ba6b3c101c72113a735306bb966875e4bb13ff097d9691f000"
+    },
+    {
+      "path": "validate_specs_v2.py",
+      "bytes": 12841,
+      "sha256": "cde59327421ff6d7b0ad92d98b704d41dc7d13048c5df5016bafce5ab5dbe523"
+    },
+    {
+      "path": "verify_at05.py",
+      "bytes": 12231,
+      "sha256": "d8ab0f50a2637cf98f747751e10f5f970f370240339cc238cba9fbb97434c5bc"
+    },
+    {
+      "path": "verify_feedback_pipeline.py",
+      "bytes": 14798,
+      "sha256": "136512a4c776f1a677981e1b83fcf12f20689fd0a38e7b6e221b2cba9dfdd765"
+    },
+    {
+      "path": "verify_llm_path.py",
+      "bytes": 8349,
+      "sha256": "8f4b6f890f3fea991dbf4fb147974b7b066fa0e6728dae0197ecc2b286c2b996"
+    },
+    {
+      "path": "verify_phase1_consistency.py",
+      "bytes": 5731,
+      "sha256": "b05017f668cb9fc991904d792ec4226c698c7f38e350ae536bc239120a2656dd"
+    },
+    {
+      "path": "voice-demo/README.md",
+      "bytes": 22167,
+      "sha256": "8ab9d6a39724d3e473a5b068b7154b656cd13f8e39927ea19e042e5ae7b7d365"
+    },
+    {
+      "path": "voice-demo/app.js",
+      "bytes": 39353,
+      "sha256": "babc4850b25da193d983776def63b9a164b87ac8652a58680fc1a6267e09437b"
+    },
+    {
+      "path": "voice-demo/asr_provider.py",
+      "bytes": 11782,
+      "sha256": "491a95a424ad1cd497f11e3799aa34d45cf67f8f1c6ed7206182137e75c03d73"
+    },
+    {
+      "path": "voice-demo/data/daily-profile.json",
+      "bytes": 7710,
+      "sha256": "a2f4542e9d5ddac02b14675ee1aaf8cfeda0e734c9e8a849c4ccf33966f96a9f"
+    },
+    {
+      "path": "voice-demo/data/innovent-selected-pipeline.json",
+      "bytes": 1359,
+      "sha256": "28dbab97922f3976714d596c88ca231fe6ea0f967e8b70c6b7a718d388daddc7"
+    },
+    {
+      "path": "voice-demo/doctor_engine.py",
+      "bytes": 11521,
+      "sha256": "3d3333912886c801d46f2ee6b1e25642e8e2579785651183082a905be8caf246"
+    },
+    {
+      "path": "voice-demo/event-stream.js",
+      "bytes": 1416,
+      "sha256": "2e0b50b1618a2eda7b1d1261e26cc387558ecc660bcd29eb2bcbb9e199d778a5"
+    },
+    {
+      "path": "voice-demo/index.html",
+      "bytes": 11617,
+      "sha256": "cfd33388236d1253c03fce98929e0b570af9e0a1ebdeeac113df48f3ef04223a"
+    },
+    {
+      "path": "voice-demo/innovent_scenarios.py",
+      "bytes": 6096,
+      "sha256": "8e742ded9834ba888a88b016ee8c8ee4a8120c1ccd998826a7c0bcd1262eb028"
+    },
+    {
+      "path": "voice-demo/mic-loop.js",
+      "bytes": 10749,
+      "sha256": "6778d74b248aeb3deab01c105faf7298ad42e66be4697a602f653da6731249c2"
+    },
+    {
+      "path": "voice-demo/pcm-worklet.js",
+      "bytes": 439,
+      "sha256": "c8686452293f4f937ae1c974d17f0548d5d05789632c8d392e954b59d6226e9b"
+    },
+    {
+      "path": "voice-demo/radar.js",
+      "bytes": 2408,
+      "sha256": "67add162f6fea9b352b69afe0fd659b264c73e96282a2545cfe51dda68966874"
+    },
+    {
+      "path": "voice-demo/realtime-voice.js",
+      "bytes": 7490,
+      "sha256": "23b9a47723722e87a6adf6928f08f4a42264a429e8ed59f7b968cf6cf20b78e4"
+    },
+    {
+      "path": "voice-demo/realtime_voice.py",
+      "bytes": 11754,
+      "sha256": "d32cc5d2b16f9c9e1c7d1947d35f59b61bbe02d5e44d5906632d128926abb892"
+    },
+    {
+      "path": "voice-demo/remote_provider.py",
+      "bytes": 6584,
+      "sha256": "a27c63ef067fe1cb5f1a23af21b49e17a0ddc49d06885091e9227e1fc2c0ce55"
+    },
+    {
+      "path": "voice-demo/requirements-voice.txt",
+      "bytes": 33,
+      "sha256": "d58b1551069252549084baf0f25b9e72cad04294adb4903e267549ae474e72b1"
+    },
+    {
+      "path": "voice-demo/score_engine.py",
+      "bytes": 6761,
+      "sha256": "0f4f92172b097941a13f99f531a956a47213b5ae8cdcaf6023fd60566a910e7f"
+    },
+    {
+      "path": "voice-demo/server.py",
+      "bytes": 28206,
+      "sha256": "defabb6d96b9ccd7aaab155d75e6a090ed9509e0dc31e76bdea50893619307e5"
+    },
+    {
+      "path": "voice-demo/speech-loop.js",
+      "bytes": 3166,
+      "sha256": "83476a800d7b00af3c5061f9f29400731da48c13af312a07d645ced5f7e47779"
+    },
+    {
+      "path": "voice-demo/style.css",
+      "bytes": 17814,
+      "sha256": "f221efe2b08ce4a7e3aff9f2c5cb2bd057810af238606a04038678f623755590"
+    },
+    {
+      "path": "voice-demo/tests/realtime-voice.test.cjs",
+      "bytes": 2247,
+      "sha256": "fcb18db20862c94abd247478dd8dc4db521015df2a1af09b4d28d8cb1d7e2549"
+    },
+    {
+      "path": "voice-demo/tests/speech-loop.test.cjs",
+      "bytes": 8251,
+      "sha256": "203dd97498f0cdf0e763f8c0b59bdd8962014d6128951dee93d5a7489fa17402"
+    },
+    {
+      "path": "voice-demo/tests/stream.test.cjs",
+      "bytes": 6980,
+      "sha256": "ffc9499c8fb30bb8d01e34243b176553e492fe22385df1a0bdfa056f82c2b04a"
+    },
+    {
+      "path": "voice-demo/tests/test_asr_adapter.py",
+      "bytes": 1440,
+      "sha256": "81e98d6d8110f95aa949c1fea0937ec6d709d4f2b6cbebc6f2680354e713f5df"
+    },
+    {
+      "path": "voice-demo/tests/test_asr_fallback.py",
+      "bytes": 5932,
+      "sha256": "f3f1872c89d751f2630d108b4c3bdeba0c787f9956c7d3465b2b2d7572ad9f07"
+    },
+    {
+      "path": "voice-demo/tests/test_doctor_rhythm.py",
+      "bytes": 859,
+      "sha256": "5fdfe1e3ed14d168c0a8a0b533578b82f864f090ac92fe34ab3dfb1b9196fea6"
+    },
+    {
+      "path": "voice-demo/tests/test_pressure_scenario.py",
+      "bytes": 2363,
+      "sha256": "2375b86867d900fcef01098a24eff7d58bcf032807379147cc43d9e93e6409e0"
+    },
+    {
+      "path": "voice-demo/tests/test_realtime_voice.py",
+      "bytes": 5380,
+      "sha256": "51a1c787ca3f482038ca03a2c5fb0c3d03679dfae07ee070e16366ce53e098fd"
+    },
+    {
+      "path": "voice-demo/tests/test_sessions.py",
+      "bytes": 9446,
+      "sha256": "eb1ba2481c001b45df863142d8e53e01c4a72ec7708fccdef6a36e22b39a4bdf"
+    },
+    {
+      "path": "voice-demo/tests/voice-fetch.test.cjs",
+      "bytes": 1875,
+      "sha256": "28ff58876f6a3a244504c966116ee4d4f94b390f99ac8f7e12eb7e87fd2e2af7"
+    },
+    {
+      "path": "voice-demo/tts_provider.py",
+      "bytes": 4542,
+      "sha256": "dcf4375f9c7663508ca14c22a2ea10fe5af98576849590d81a6c9308ca0bf62f"
+    },
+    {
+      "path": "write_pl_pb_courses.py",
+      "bytes": 28185,
+      "sha256": "1d8f6847883e1652cfd18a2341e8986d4fbd0809b7b54d0e44d513c083667293"
+    },
+    {
+      "path": "两版本方案对比_含课程与不含课程.md",
+      "bytes": 11502,
+      "sha256": "7791d637ba88004d46ff25e11495fd977d1f7aecac4b36383e4f76da6fc5aec4"
+    },
+    {
+      "path": "先读我-开发交接.txt",
+      "bytes": 6680,
+      "sha256": "1a9376ad1c924d1ce98a94dc5f15a327fd2af6b66571922a097cdec5c15b530f"
+    },
+    {
+      "path": "反馈管道说明.md",
+      "bytes": 10496,
+      "sha256": "b9422d0bdca44e507be3a52fb3b253321180c3802d5a386f6ffeca218dda164a"
+    },
+    {
+      "path": "端到端原型说明.md",
+      "bytes": 12808,
+      "sha256": "b57d562db0bb91ba51a57f1607042db176dbd87e7adc7c052f9c33aa95e03b80"
+    },
+    {
+      "path": "药代拜访陪练Agent_任务拆解_v1.md",
+      "bytes": 32142,
+      "sha256": "f5a7f13ea1c098a1debf1708e8d1351169d33868e7128d89e905fe442258cd30"
+    },
+    {
+      "path": "课程培训可行性评估.md",
+      "bytes": 9569,
+      "sha256": "bd72c132cf7a93d00b2998242603b17c21b52b925b74649b547f63323e3c0c75"
+    }
+  ]
+}

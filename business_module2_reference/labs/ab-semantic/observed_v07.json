@@ -1,0 +1,522 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "input": "医生当场问亚组结果能否推广到其他人群。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "医生当场问亚组结果能否推广到其他人群。"
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "input": "医生没有问亚组结果能否推广到其他人群。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "医生没有问亚组结果能否推广到其他人群。"
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "input": "如果医生问亚组能不能外推，我可能不会答。",
+    "baseline": "REPORTED",
+    "previous": "HYPOTHETICAL",
+    "candidate": "HYPOTHETICAL",
+    "rationale": "仅为假设或未来准备",
+    "evidence": "如果医生问亚组能不能外推，我可能不会答。"
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "input": "我回来自己想到外推的问题，医生没提。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "我回来自己想到外推的问题，"
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "input": "医生先问亚组，后来追问能不能外推。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "UNCERTAIN",
+    "rationale": "缺少可确证的专家现场提问证据",
+    "evidence": "医生先问亚组，后来追问能不能外推。"
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "input": "我当时以为医生问了外推，其实是我记错了。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "后续明确修正了原先现场提问的描述",
+    "evidence": "我当时以为医生问了外推，其实是我记错了。"
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "input": "专家问了主要终点，外推是我自己想的。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "DENIED",
+    "rationale": "目标问题由员工主动提出或想到",
+    "evidence": "专家问了主要终点，外推是我自己想的。"
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "input": "我不确定他是不是问了外推。",
+    "baseline": "UNCERTAIN",
+    "previous": "UNCERTAIN",
+    "candidate": "UNCERTAIN",
+    "rationale": "提问发生或主体身份存在不可解决的不确定性",
+    "evidence": "我不确定他是不是问了外推。"
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "input": "会不会有医生问能否外推？",
+    "baseline": "REPORTED",
+    "previous": "HYPOTHETICAL",
+    "candidate": "HYPOTHETICAL",
+    "rationale": "仅为假设或未来准备",
+    "evidence": "会不会有医生问能否外推？"
+  },
+  {
+    "id": "V01",
+    "split": "validation",
+    "input": "他确实问了这个结果能不能推到别的人群。",
+    "baseline": "UNCERTAIN",
+    "previous": "UNCERTAIN",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "他确实问了这个结果能不能推到别的人群。"
+  },
+  {
+    "id": "V02",
+    "split": "validation",
+    "input": "医生从头到尾没提推广这事。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "医生从头到尾没提推广这事。"
+  },
+  {
+    "id": "V03",
+    "split": "validation",
+    "input": "假如专家追问亚组边界，要怎么解释外推？",
+    "baseline": "REPORTED",
+    "previous": "HYPOTHETICAL",
+    "candidate": "HYPOTHETICAL",
+    "rationale": "仅为假设或未来准备",
+    "evidence": "假如专家追问亚组边界，要怎么解释外推？"
+  },
+  {
+    "id": "V04",
+    "split": "validation",
+    "input": "昨晚复盘，我才意识到自己对外推不熟，现场没人问。",
+    "baseline": "UNCERTAIN",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "只有员工自发主题，没有现场专家提问",
+    "evidence": "昨晚复盘，我才意识到自己对外推不熟，现场没人问。"
+  },
+  {
+    "id": "V05",
+    "split": "validation",
+    "input": "医生问我主要终点是什么，我自己又想到外推限制。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "我自己又想到外推限制。"
+  },
+  {
+    "id": "V06",
+    "split": "validation",
+    "input": "医生问能否外推。等等，我记错了，是我先问的。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "后续明确修正了原先现场提问的描述",
+    "evidence": "医生问能否外推。等等，我记错了，是我先问的。"
+  },
+  {
+    "id": "V07",
+    "split": "validation",
+    "input": "他说能不能把亚组结果推广到其他人群，我回答不能。",
+    "baseline": "UNCERTAIN",
+    "previous": "UNCERTAIN",
+    "candidate": "UNCERTAIN",
+    "rationale": "提问发生或主体身份存在不可解决的不确定性",
+    "evidence": "他说能不能把亚组结果推广到其他人群，我回答不能。"
+  },
+  {
+    "id": "H01",
+    "split": "holdout",
+    "input": "主任专门追问：亚组结论是不是也适用于其他患者？",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "主任专门追问：亚组结论是不是也适用于其他患者？"
+  },
+  {
+    "id": "H02",
+    "split": "holdout",
+    "input": "对方只问了样本量，没有问外推。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "没有问外推。"
+  },
+  {
+    "id": "H03",
+    "split": "holdout",
+    "input": "我没有说专家问过外推，那个话题是我自己提的。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标问题由员工主动提出或想到",
+    "evidence": "我没有说专家问过外推，那个话题是我自己提的。"
+  },
+  {
+    "id": "H04",
+    "split": "holdout",
+    "input": "准备时想过万一有人问到亚组外推。",
+    "baseline": "UNCERTAIN",
+    "previous": "HYPOTHETICAL",
+    "candidate": "HYPOTHETICAL",
+    "rationale": "仅为假设或未来准备",
+    "evidence": "准备时想过万一有人问到亚组外推。"
+  },
+  {
+    "id": "H05",
+    "split": "holdout",
+    "input": "医生问了两件事，其中一个是能不能外推。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "其中一个是能不能外推。"
+  },
+  {
+    "id": "H06",
+    "split": "holdout",
+    "input": "我记得医生好像提到了其他人群，但不敢确定。",
+    "baseline": "REPORTED",
+    "previous": "UNCERTAIN",
+    "candidate": "UNCERTAIN",
+    "rationale": "提问发生或主体身份存在不可解决的不确定性",
+    "evidence": "我记得医生好像提到了其他人群，但不敢确定。"
+  },
+  {
+    "id": "H07",
+    "split": "holdout",
+    "input": "教授问这研究是否可以推广到另一组病人。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "教授问这研究是否可以推广到另一组病人。"
+  },
+  {
+    "id": "H08",
+    "split": "holdout",
+    "input": "这不是专家问的，是培训时想到的外推题。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "是培训时想到的外推题。"
+  },
+  {
+    "id": "H09",
+    "split": "holdout",
+    "input": "回头复盘才发现该解释外推限制，不过现场只聊了终点。",
+    "baseline": "UNCERTAIN",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "只有员工自发主题，没有现场专家提问",
+    "evidence": "回头复盘才发现该解释外推限制，不过现场只聊了终点。"
+  },
+  {
+    "id": "H10",
+    "split": "holdout",
+    "input": "下次如果有人拿亚组推广到更多人群来问我怎么办？",
+    "baseline": "UNCERTAIN",
+    "previous": "HYPOTHETICAL",
+    "candidate": "HYPOTHETICAL",
+    "rationale": "仅为假设或未来准备",
+    "evidence": "下次如果有人拿亚组推广到更多人群来问我怎么办？"
+  },
+  {
+    "id": "H11",
+    "split": "holdout",
+    "input": "他说这个亚组其他人群也适用吗？我不记得是谁说的。",
+    "baseline": "UNCERTAIN",
+    "previous": "UNCERTAIN",
+    "candidate": "UNCERTAIN",
+    "rationale": "提问发生或主体身份存在不可解决的不确定性",
+    "evidence": "他说这个亚组其他人群也适用吗？我不记得是谁说的。"
+  },
+  {
+    "id": "H12",
+    "split": "holdout",
+    "input": "专家明明没提外推。要是他问，我也说不清。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "专家明明没提外推。"
+  },
+  {
+    "id": "H13",
+    "split": "holdout",
+    "input": "那位专家追问亚组适用范围，我回答不能直接外推。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "那位专家追问亚组适用范围，"
+  },
+  {
+    "id": "H14",
+    "split": "holdout",
+    "input": "专家关心亚组，但谁也没明确问能否外推。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "UNCERTAIN",
+    "rationale": "缺少可确证的专家现场提问证据",
+    "evidence": "专家关心亚组，但谁也没明确问能否外推。"
+  },
+  {
+    "id": "H15",
+    "split": "holdout",
+    "input": "医生问的不是外推，而是主要终点。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "医生问的不是外推，"
+  },
+  {
+    "id": "H16",
+    "split": "holdout",
+    "input": "我刚才说专家问了能不能外推，那是我听错了，其实并没有。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "后续明确修正了原先现场提问的描述",
+    "evidence": "我刚才说专家问了能不能外推，那是我听错了，其实并没有。"
+  },
+  {
+    "id": "S01",
+    "split": "stress",
+    "input": "医生没有问主要终点，却追问了亚组能不能外推。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "却追问了亚组能不能外推。"
+  },
+  {
+    "id": "S02",
+    "split": "stress",
+    "input": "我担心如果医生问外推怎么办，但今天他真的问了。",
+    "baseline": "REPORTED",
+    "previous": "HYPOTHETICAL",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "但今天他真的问了。"
+  },
+  {
+    "id": "S03",
+    "split": "stress",
+    "input": "如果你问我医生是否提过外推，我说他确实提过。",
+    "baseline": "REPORTED",
+    "previous": "HYPOTHETICAL",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "我说他确实提过。"
+  },
+  {
+    "id": "S04",
+    "split": "stress",
+    "input": "医生问了有没有外推证据，没有问的是样本量。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "医生问了有没有外推证据，"
+  },
+  {
+    "id": "S05",
+    "split": "stress",
+    "input": "医生没提过要不要换方案，但追问了外推边界。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "但追问了外推边界。"
+  },
+  {
+    "id": "S06",
+    "split": "stress",
+    "input": "专家说“如果把结果推广到其他人群会怎样”，这是他当面问的。",
+    "baseline": "REPORTED",
+    "previous": "HYPOTHETICAL",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "这是他当面问的。"
+  },
+  {
+    "id": "S07",
+    "split": "stress",
+    "input": "今天专家问过外推；我回家又想到一个他没有问的终点问题。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "今天专家问过外推；"
+  },
+  {
+    "id": "S08",
+    "split": "stress",
+    "input": "医生不是没问，而是明确问了能否推广到其他人群。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "REPORTED",
+    "rationale": "双重否定表示实际发生提问",
+    "evidence": "医生不是没问，而是明确问了能否推广到其他人群。"
+  },
+  {
+    "id": "S09",
+    "split": "stress",
+    "input": "专家问亚组有没有结论，我回来才想起还应该谈外推。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "DENIED",
+    "rationale": "目标提问被明确否认或说明只是员工自问",
+    "evidence": "我回来才想起还应该谈外推。"
+  },
+  {
+    "id": "S10",
+    "split": "stress",
+    "input": "主任没有明确问外推，只说患者群体有差异。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "主任没有明确问外推，"
+  },
+  {
+    "id": "S11",
+    "split": "stress",
+    "input": "明天可能会有主任问推广问题，我先准备下。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "HYPOTHETICAL",
+    "rationale": "仅为假设或未来准备",
+    "evidence": "明天可能会有主任问推广问题，我先准备下。"
+  },
+  {
+    "id": "S12",
+    "split": "stress",
+    "input": "医生问了外推范围，不过后来我发现把培训老师的话记成医生说的了。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "DENIED",
+    "rationale": "提问者不是目标专家或后续纠正说话人",
+    "evidence": "医生问了外推范围，不过后来我发现把培训老师的话记成医生说的了。"
+  },
+  {
+    "id": "S13",
+    "split": "stress",
+    "input": "主任问得很细，连结果能否用于其他人群都追问了。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "REPORTED",
+    "rationale": "至少一条含目标主题的现场提问有明确归属",
+    "evidence": "连结果能否用于其他人群都追问了。"
+  },
+  {
+    "id": "S14",
+    "split": "stress",
+    "input": "周五是我自己问医生能否外推，他没有反问。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "DENIED",
+    "rationale": "目标问题由员工主动提出或想到",
+    "evidence": "周五是我自己问医生能否外推，他没有反问。"
+  },
+  {
+    "id": "S15",
+    "split": "stress",
+    "input": "教授希望我解释外推，但他并没有直接提问。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "UNCERTAIN",
+    "rationale": "缺少可确证的专家现场提问证据",
+    "evidence": "教授希望我解释外推，但他并没有直接提问。"
+  },
+  {
+    "id": "S16",
+    "split": "stress",
+    "input": "他问我外推的事，但他是同行代表，不是专家。",
+    "baseline": "REPORTED",
+    "previous": "REPORTED",
+    "candidate": "DENIED",
+    "rationale": "提问者不是目标专家或后续纠正说话人",
+    "evidence": "他问我外推的事，但他是同行代表，不是专家。"
+  },
+  {
+    "id": "S17",
+    "split": "stress",
+    "input": "专家的同事问能否外推，专家本人没有问。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "DENIED",
+    "rationale": "提问者不是目标专家或后续纠正说话人",
+    "evidence": "专家的同事问能否外推，专家本人没有问。"
+  },
+  {
+    "id": "S18",
+    "split": "stress",
+    "input": "我和主任讨论了外推，他没提出问题。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "UNCERTAIN",
+    "rationale": "缺少可确证的专家现场提问证据",
+    "evidence": "我和主任讨论了外推，他没提出问题。"
+  },
+  {
+    "id": "S19",
+    "split": "stress",
+    "input": "对方提到其他人群，但我不确定他是不是在追问外推。",
+    "baseline": "REPORTED",
+    "previous": "UNCERTAIN",
+    "candidate": "UNCERTAIN",
+    "rationale": "提问发生或主体身份存在不可解决的不确定性",
+    "evidence": "对方提到其他人群，但我不确定他是不是在追问外推。"
+  },
+  {
+    "id": "S20",
+    "split": "stress",
+    "input": "医生问外推的限制，我并没有说他没问。",
+    "baseline": "REPORTED",
+    "previous": "DENIED",
+    "candidate": "REPORTED",
+    "rationale": "双重否定表示实际发生提问",
+    "evidence": "医生问外推的限制，我并没有说他没问。"
+  }
+]

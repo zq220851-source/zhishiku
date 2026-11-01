@@ -1,0 +1,47 @@
+# TEST environment infrastructure ONLY. Do not publish database or API directly to internet.
+# Put a properly configured HTTPS reverse proxy in front; origin must match APP_PUBLIC_ORIGIN.
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?required}
+      POSTGRES_USER: ${POSTGRES_USER:?required}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?required}
+    volumes:
+      - platform_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      retries: 12
+      start_period: 10s
+    networks: [private]
+  migrate:
+    build: .
+    command: ["alembic", "upgrade", "head"]
+    env_file: .env
+    depends_on:
+      db: {condition: service_healthy}
+    networks: [private]
+    restart: "no"
+  platform:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    depends_on:
+      db: {condition: service_healthy}
+      migrate: {condition: service_completed_successfully}
+    ports:
+      - "127.0.0.1:18080:8080"
+    networks: [private]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/readyz', timeout=3)"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  platform_postgres:
+networks:
+  private:
+    driver: bridge

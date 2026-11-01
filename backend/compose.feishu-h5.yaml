@@ -1,0 +1,23 @@
+# Compose overlay; use with compose.yaml, NOT compose.staging.yaml simultaneously.
+# Target structure: backend/ next to mobile_app/dist/.
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      platform:
+        condition: service_healthy
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?APP_DOMAIN must be set to filed HTTPS domain}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile.feishu-h5:/etc/caddy/Caddyfile:ro
+      - ../mobile_app/dist:/srv/h5:ro
+      - staging_caddy_data:/data
+      - staging_caddy_config:/config
+    networks: [private]
+volumes:
+  staging_caddy_data:
+  staging_caddy_config:

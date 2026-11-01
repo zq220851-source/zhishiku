@@ -1,0 +1,314 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "text": "医生当场问亚组结果能否推广到其他人群。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "text": "医生没有问亚组结果能否推广到其他人群。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "text": "如果医生问亚组能不能外推，我可能不会答。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "text": "我回来自己想到外推的问题，医生没提。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "text": "医生先问亚组，后来追问能不能外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "text": "我当时以为医生问了外推，其实是我记错了。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "text": "专家问了主要终点，外推是我自己想的。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "text": "我不确定他是不是问了外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "text": "会不会有医生问能否外推？",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V01",
+    "split": "validation",
+    "text": "他确实问了这个结果能不能推到别的人群。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V02",
+    "split": "validation",
+    "text": "医生从头到尾没提推广这事。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V03",
+    "split": "validation",
+    "text": "假如专家追问亚组边界，要怎么解释外推？",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V04",
+    "split": "validation",
+    "text": "昨晚复盘，我才意识到自己对外推不熟，现场没人问。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V05",
+    "split": "validation",
+    "text": "医生问我主要终点是什么，我自己又想到外推限制。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V06",
+    "split": "validation",
+    "text": "医生问能否外推。等等，我记错了，是我先问的。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "V07",
+    "split": "validation",
+    "text": "他说能不能把亚组结果推广到其他人群，我回答不能。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H01",
+    "split": "holdout",
+    "text": "主任专门追问：亚组结论是不是也适用于其他患者？",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H02",
+    "split": "holdout",
+    "text": "对方只问了样本量，没有问外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H03",
+    "split": "holdout",
+    "text": "我没有说专家问过外推，那个话题是我自己提的。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H04",
+    "split": "holdout",
+    "text": "准备时想过万一有人问到亚组外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H05",
+    "split": "holdout",
+    "text": "医生问了两件事，其中一个是能不能外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H06",
+    "split": "holdout",
+    "text": "我记得医生好像提到了其他人群，但不敢确定。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H07",
+    "split": "holdout",
+    "text": "教授问这研究是否可以推广到另一组病人。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H08",
+    "split": "holdout",
+    "text": "这不是专家问的，是培训时想到的外推题。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H09",
+    "split": "holdout",
+    "text": "回头复盘才发现该解释外推限制，不过现场只聊了终点。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H10",
+    "split": "holdout",
+    "text": "下次如果有人拿亚组推广到更多人群来问我怎么办？",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H11",
+    "split": "holdout",
+    "text": "他说这个亚组其他人群也适用吗？我不记得是谁说的。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H12",
+    "split": "holdout",
+    "text": "专家明明没提外推。要是他问，我也说不清。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H13",
+    "split": "holdout",
+    "text": "那位专家追问亚组适用范围，我回答不能直接外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H14",
+    "split": "holdout",
+    "text": "专家关心亚组，但谁也没明确问能否外推。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H15",
+    "split": "holdout",
+    "text": "医生问的不是外推，而是主要终点。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "H16",
+    "split": "holdout",
+    "text": "我刚才说专家问了能不能外推，那是我听错了，其实并没有。",
+    "source": "SYNTHETIC_TEST_ONLY"
+  },
+  {
+    "id": "S01",
+    "split": "stress",
+    "text": "医生没有问主要终点，却追问了亚组能不能外推。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S02",
+    "split": "stress",
+    "text": "我担心如果医生问外推怎么办，但今天他真的问了。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S03",
+    "split": "stress",
+    "text": "如果你问我医生是否提过外推，我说他确实提过。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S04",
+    "split": "stress",
+    "text": "医生问了有没有外推证据，没有问的是样本量。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S05",
+    "split": "stress",
+    "text": "医生没提过要不要换方案，但追问了外推边界。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S06",
+    "split": "stress",
+    "text": "专家说“如果把结果推广到其他人群会怎样”，这是他当面问的。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S07",
+    "split": "stress",
+    "text": "今天专家问过外推；我回家又想到一个他没有问的终点问题。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S08",
+    "split": "stress",
+    "text": "医生不是没问，而是明确问了能否推广到其他人群。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S09",
+    "split": "stress",
+    "text": "专家问亚组有没有结论，我回来才想起还应该谈外推。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S10",
+    "split": "stress",
+    "text": "主任没有明确问外推，只说患者群体有差异。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S11",
+    "split": "stress",
+    "text": "明天可能会有主任问推广问题，我先准备下。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S12",
+    "split": "stress",
+    "text": "医生问了外推范围，不过后来我发现把培训老师的话记成医生说的了。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S13",
+    "split": "stress",
+    "text": "主任问得很细，连结果能否用于其他人群都追问了。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S14",
+    "split": "stress",
+    "text": "周五是我自己问医生能否外推，他没有反问。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S15",
+    "split": "stress",
+    "text": "教授希望我解释外推，但他并没有直接提问。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S16",
+    "split": "stress",
+    "text": "他问我外推的事，但他是同行代表，不是专家。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S17",
+    "split": "stress",
+    "text": "专家的同事问能否外推，专家本人没有问。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S18",
+    "split": "stress",
+    "text": "我和主任讨论了外推，他没提出问题。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S19",
+    "split": "stress",
+    "text": "对方提到其他人群，但我不确定他是不是在追问外推。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  },
+  {
+    "id": "S20",
+    "split": "stress",
+    "text": "医生问外推的限制，我并没有说他没问。",
+    "source": "SYNTHETIC_ADVERSARIAL_AFTER_RULE_FREEZE"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-31T10:55:22.772Z",
+  "model": "deepseek-v4-pro",
+  "fictional": true,
+  "results": [
+    {
+      "name": "改口，否定自己最初的印象",
+      "spokenReflection": "我一开始觉得今天答得还不错。哦不对，后来主任问，那个亚组看着挺好，换一类人是不是也能这么理解？我顺嘴就说应该差不多。回来翻了一下材料才发现自己说满了，那张图不能这么往外套。下次再被追问，我还真不太会把这个边界讲清楚。",
+      "analysisState": "ANALYZED",
+      "checks": {
+        "analysisCompleted": true,
+        "originalPreserved": true,
+        "noInstantAbilityJudgment": true,
+        "expectedSignal": false
+      },
+      "differences": [
+        {
+          "questionUnitId": "u3",
+          "skillId": null,
+          "usability": "AMBIGUOUS",
+          "coverage": "UNKNOWN",
+          "comparedSkillIds": [],
+          "missingCapabilityIds": [],
+          "reason": "问题无法确定，暂不判断覆盖。",
+          "performance": [],
+          "personalSignal": "UNKNOWN",
+          "gapCandidate": false
+        }
+      ],
+      "practice": []
+    }
+  ]
+}

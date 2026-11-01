@@ -1,0 +1,150 @@
+{
+  "at": "2026-10-31T10:43:38.079Z",
+  "model": "deepseek-v4-pro",
+  "fictional": true,
+  "results": [
+    {
+      "name": "讲不清，先带回问题",
+      "spokenReflection": "今天去拜访，主任时间挺紧的。我刚讲完研究，他就指着亚组那张图问，说那换成没入组的那类病人，是不是也一样？我当时有点卡住，只说这个我回去再核实一下，没往下解释。出来以后想想，这块我确实没讲明白。前面那个主要终点，他也问了一句，我按准备的讲了，感觉还行吧，但他没表态。",
+      "checks": {
+        "analysisCompleted": true,
+        "originalPreserved": true,
+        "noInstantAbilityJudgment": true,
+        "expectedSignal": true,
+        "overclaimCaught": true,
+        "naturalCorrectAnswerAccepted": true
+      },
+      "differences": [
+        {
+          "questionUnitId": "u4",
+          "skillId": null,
+          "usability": "AMBIGUOUS",
+          "coverage": "UNKNOWN",
+          "comparedSkillIds": [],
+          "missingCapabilityIds": [],
+          "reason": "问题无法确定，暂不判断覆盖。",
+          "performance": [],
+          "personalSignal": "UNKNOWN",
+          "gapCandidate": false
+        },
+        {
+          "questionUnitId": "u5",
+          "skillId": "subgroup-extrapolation",
+          "usability": "USABLE",
+          "coverage": "NONE",
+          "comparedSkillIds": [],
+          "missingCapabilityIds": [
+            "subgroup",
+            "extrapolation"
+          ],
+          "reason": "计划未覆盖所需能力；同主题不构成部分覆盖。",
+          "performance": [
+            {
+              "unitId": "u6",
+              "kind": "SELF_REPORTED_DIFFICULTY",
+              "excerpt": "我当时有点卡住"
+            }
+          ],
+          "personalSignal": "PENDING_VERIFY",
+          "gapCandidate": true
+        },
+        {
+          "questionUnitId": "u12",
+          "skillId": null,
+          "usability": "AMBIGUOUS",
+          "coverage": "UNKNOWN",
+          "comparedSkillIds": [],
+          "missingCapabilityIds": [],
+          "reason": "问题无法确定，暂不判断覆盖。",
+          "performance": [],
+          "personalSignal": "UNKNOWN",
+          "gapCandidate": false
+        }
+      ],
+      "practice": [
+        {
+          "answer": "我可能会说，主任，图上这个趋势看着还行，换一类人应该也差不太多吧。不过具体我也不太确定，得回去问问。",
+          "state": "COMPLETED",
+          "passed": false,
+          "feedback": {
+            "criteria": [
+              {
+                "id": "subgroup",
+                "result": "GAP",
+                "quote": "",
+                "reason": "作答未解释亚组结果，也未说明其探索性性质，只模糊提到“趋势看着还行”。"
+              },
+              {
+                "id": "extrapolation",
+                "result": "GAP",
+                "quote": "",
+                "reason": "作答没有说明外推限制，反而用“换一类人应该也差不太多吧”暗示可推广，与要求相反。"
+              },
+              {
+                "id": "evidence-boundary",
+                "result": "GAP",
+                "quote": "",
+                "reason": "作答未明确不确定性，也没有说明不补造真实疗效或保证；表述含糊且缺乏边界说明。"
+              }
+            ],
+            "summary": "作答未完成确认性练习要求：没有解释亚组结果及探索性性质，没有说明外推限制，也没有界定证据边界；其中“换一类人应该也差不太多吧”反而可能超出资料支持。建议下一步明确复述虚构资料中“亚组结果为探索性结果，不支持直接推广到其他人群”，并补充对不确定性的说明，避免使用可推广性表述。"
+          },
+          "next": "VERIFY"
+        },
+        {
+          "answer": "主任，我刚才那句说得太满了。这张亚组图只能当个继续研究的线索，不能就按这个说换一类人也一样。那类人到底适不适用，还得另外找证据，这份材料我现在给不了您这个结论。",
+          "state": "COMPLETED",
+          "passed": true,
+          "feedback": {
+            "criteria": [
+              {
+                "id": "subgroup",
+                "result": "SATISFIED",
+                "quote": "这张亚组图只能当个继续研究的线索，不能就按这个说换一类人也一样。",
+                "reason": "明确指出亚组结果仅是继续研究的线索，不能用于说明其他人群同样适用，体现探索性而非确认性。"
+              },
+              {
+                "id": "extrapolation",
+                "result": "SATISFIED",
+                "quote": "那类人到底适不适用，还得另外找证据，这份材料我现在给不了您这个结论。",
+                "reason": "明确说明当前材料不能支持向其他人群外推，需要另行寻找证据，说明外推限制。"
+              },
+              {
+                "id": "evidence-boundary",
+                "result": "SATISFIED",
+                "quote": "这张亚组图只能当个继续研究的线索，不能就按这个说换一类人也一样。那类人到底适不适用，还得另外找证据，这份材料我现在给不了您这个结论。",
+                "reason": "回答没有超出虚构资料范围，未补造疗效或保证，并明确当前材料无法支持扩展结论，不确定性和证据边界表述清楚。"
+              }
+            ],
+            "summary": "作答能够解释亚组结果的探索性性质，说明不能直接外推到其他人群，且没有超出材料范围补造结论。整体符合要求。建议后续可进一步说明亚组分析常见的假阳性风险或需要预先设定的验证路径，以增强解释深度。"
+          },
+          "next": "RETEST"
+        }
+      ]
+    },
+    {
+      "name": "不知道对方是否听懂",
+      "spokenReflection": "今天这个拜访特别短，我就把研究那几页过了一下。主任一直点头，最后说行，资料放这儿。我也不知道他是听明白了还是赶时间，反正没怎么问。不能说我讲得有多好，具体他关心啥我也没摸出来。",
+      "checks": {
+        "analysisCompleted": true,
+        "originalPreserved": true,
+        "noInstantAbilityJudgment": true,
+        "expectedSignal": true
+      },
+      "differences": [],
+      "practice": []
+    },
+    {
+      "name": "改口，否定自己最初的印象",
+      "spokenReflection": "我一开始觉得今天答得还不错。哦不对，后来主任问，那个亚组看着挺好，换一类人是不是也能这么理解？我顺嘴就说应该差不多。回来翻了一下材料才发现自己说满了，那张图不能这么往外套。下次再被追问，我还真不太会把这个边界讲清楚。",
+      "checks": {
+        "analysisCompleted": false,
+        "originalPreserved": true,
+        "noInstantAbilityJudgment": true,
+        "expectedSignal": false
+      },
+      "differences": [],
+      "practice": []
+    }
+  ]
+}

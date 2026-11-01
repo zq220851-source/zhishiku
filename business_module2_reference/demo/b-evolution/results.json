@@ -1,0 +1,2700 @@
+{
+  "purpose": "TEST_ONLY",
+  "input": "MANUALLY_VERIFIED_STRUCTURED_FIXTURES_NOT_MODEL_RESULTS",
+  "lastRevisionVersion": 2,
+  "timeline": [
+    {
+      "step": 1,
+      "time": "2026-01-03T00:00:00Z",
+      "description": "第 1 条虚构拜访的核验记录入库",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v1",
+        "taskId": "task-v1",
+        "repId": "repA",
+        "expertId": "expertX",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v1",
+        "rawVersion": 1,
+        "rawText": "医生追问了亚组结果能不能直接推广到其他人群。\n我说得太满了，现在还是讲不清证据边界。",
+        "occurredAt": "2026-01-02T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "q1",
+            "kind": "EXPERT_QUESTION",
+            "mode": "REPORTED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "医生追问了亚组结果能不能直接推广到其他人群。",
+            "startCp": 0,
+            "endCp": 22
+          },
+          {
+            "id": "d2",
+            "kind": "REP_DIFFICULTY",
+            "mode": "REPORTED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "我说得太满了，现在还是讲不清证据边界。",
+            "startCp": 23,
+            "endCp": 42
+          }
+        ],
+        "knowledgeChecks": [
+          {
+            "observationId": "q1",
+            "capabilityId": "extrapolation-boundary",
+            "status": "SUPPORTED",
+            "queriedEvidenceIds": [
+              "fictional-e1"
+            ],
+            "queryAttempts": [
+              "冻结虚构知识库检索"
+            ],
+            "knowledgeVersion": "kb-fiction-v1"
+          }
+        ],
+        "practices": [
+          {
+            "capabilityId": "extrapolation-boundary",
+            "trainingAttemptId": "p1",
+            "criterion": "解释外推限制",
+            "result": "GAP"
+          }
+        ]
+      },
+      "assetCounts": {
+        "personal": 1,
+        "forecast": 1,
+        "knowledge": 1,
+        "experts": 1,
+        "cohort": 1
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "GAP",
+          "status": "CONFLICT_RECHECK",
+          "reason": "旧训练不能抵消新的自述困难；安排重新验证",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 1,
+          "coveredVisits": 0,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "IN_POOL_NOT_SELECTED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 1,
+          "statuses": [
+            "SUPPORTED"
+          ],
+          "recommendation": "NO_MISSING_CLAIM",
+          "status": "OBSERVATION",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 1,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 1,
+          "denominatorReps": 1,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "step": 2,
+      "time": "2026-01-06T00:00:00Z",
+      "description": "第 2 条虚构拜访的核验记录入库",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v2",
+        "taskId": "task-v2",
+        "repId": "repA",
+        "expertId": "expertX",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v2",
+        "rawVersion": 1,
+        "rawText": "专家再次确认研究证据能不能外推。",
+        "occurredAt": "2026-01-05T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "extrapolation-boundary"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "q1",
+            "kind": "EXPERT_QUESTION",
+            "mode": "REPORTED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "专家再次确认研究证据能不能外推。",
+            "startCp": 0,
+            "endCp": 16
+          }
+        ],
+        "knowledgeChecks": [
+          {
+            "observationId": "q1",
+            "capabilityId": "extrapolation-boundary",
+            "status": "SUPPORTED",
+            "queriedEvidenceIds": [
+              "fictional-e1"
+            ],
+            "queryAttempts": [
+              "冻结虚构知识库检索"
+            ],
+            "knowledgeVersion": "kb-fiction-v1"
+          }
+        ],
+        "practices": [
+          {
+            "capabilityId": "extrapolation-boundary",
+            "trainingAttemptId": "p2",
+            "criterion": "表述证据限制",
+            "result": "SATISFIED"
+          }
+        ]
+      },
+      "assetCounts": {
+        "personal": 1,
+        "forecast": 1,
+        "knowledge": 1,
+        "experts": 1,
+        "cohort": 1
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 2,
+          "coveredVisits": 1,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 2,
+          "statuses": [
+            "SUPPORTED"
+          ],
+          "recommendation": "NO_MISSING_CLAIM",
+          "status": "OBSERVATION",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 2,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 2,
+          "denominatorReps": 1,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "step": 3,
+      "time": "2026-01-08T00:00:00Z",
+      "description": "第 3 条虚构拜访的核验记录入库",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v3",
+        "taskId": "task-v3",
+        "repId": "repB",
+        "expertId": "expertY",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v3",
+        "rawVersion": 1,
+        "rawText": "医生想了解其他人群能否照搬这个结果。",
+        "occurredAt": "2026-01-07T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "q1",
+            "kind": "EXPERT_QUESTION",
+            "mode": "REPORTED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "医生想了解其他人群能否照搬这个结果。",
+            "startCp": 0,
+            "endCp": 18
+          }
+        ],
+        "knowledgeChecks": [
+          {
+            "observationId": "q1",
+            "capabilityId": "extrapolation-boundary",
+            "status": "PARTIAL",
+            "queriedEvidenceIds": [
+              "fictional-e1"
+            ],
+            "queryAttempts": [
+              "冻结虚构知识库检索"
+            ],
+            "knowledgeVersion": "kb-fiction-v1"
+          }
+        ],
+        "practices": []
+      },
+      "assetCounts": {
+        "personal": 1,
+        "forecast": 1,
+        "knowledge": 1,
+        "experts": 2,
+        "cohort": 1
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 3,
+          "coveredVisits": 1,
+          "selectedOutVisits": 2,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 3,
+          "statuses": [
+            "SUPPORTED",
+            "PARTIAL"
+          ],
+          "recommendation": "REVIEW_PARTIAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertY",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 3,
+          "reportingReps": 2,
+          "reportingExperts": 2,
+          "denominatorVisits": 3,
+          "denominatorReps": 2,
+          "status": "PATTERN_FOR_REVIEW",
+          "reason": "测试性多员工、多专家重复信号；仍须检验场景差异与反例",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "step": 4,
+      "time": "2026-01-09T00:00:00Z",
+      "description": "第 4 条虚构拜访的核验记录入库",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v4",
+        "taskId": "task-v4",
+        "repId": "repC",
+        "expertId": "expertZ",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v4",
+        "rawVersion": 1,
+        "rawText": "医生问到了资料没有解释清楚的安全性比较问题。",
+        "occurredAt": "2026-01-08T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "q1",
+            "kind": "EXPERT_QUESTION",
+            "mode": "REPORTED",
+            "capabilityId": "safety-context",
+            "quote": "医生问到了资料没有解释清楚的安全性比较问题。",
+            "startCp": 0,
+            "endCp": 22
+          }
+        ],
+        "knowledgeChecks": [
+          {
+            "observationId": "q1",
+            "capabilityId": "safety-context",
+            "status": "NOT_FOUND",
+            "queriedEvidenceIds": [],
+            "queryAttempts": [
+              "冻结虚构知识库检索"
+            ],
+            "knowledgeVersion": "kb-fiction-v1"
+          }
+        ],
+        "practices": []
+      },
+      "assetCounts": {
+        "personal": 1,
+        "forecast": 2,
+        "knowledge": 2,
+        "experts": 3,
+        "cohort": 2
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 3,
+          "coveredVisits": 1,
+          "selectedOutVisits": 2,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "questionVisits": 1,
+          "coveredVisits": 0,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "IN_POOL_NOT_SELECTED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 3,
+          "statuses": [
+            "SUPPORTED",
+            "PARTIAL"
+          ],
+          "recommendation": "REVIEW_PARTIAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 1,
+          "statuses": [
+            "NOT_FOUND"
+          ],
+          "recommendation": "REVIEW_RETRIEVAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertY",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertZ",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 3,
+          "reportingReps": 2,
+          "reportingExperts": 2,
+          "denominatorVisits": 4,
+          "denominatorReps": 3,
+          "status": "PATTERN_FOR_REVIEW",
+          "reason": "测试性多员工、多专家重复信号；仍须检验场景差异与反例",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "reportedVisits": 1,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 4,
+          "denominatorReps": 3,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "step": 5,
+      "time": "2026-01-10T00:00:00Z",
+      "description": "第 5 条虚构拜访的核验记录入库",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v5",
+        "taskId": "task-v5",
+        "repId": "repD",
+        "expertId": "expertW",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v5",
+        "rawVersion": 1,
+        "rawText": "医生其实没有追问亚组外推，是我回来自己想到的。\n但我仍然不会解释这个证据边界。",
+        "occurredAt": "2026-01-09T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "q1",
+            "kind": "EXPERT_QUESTION",
+            "mode": "DENIED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "医生其实没有追问亚组外推，是我回来自己想到的。",
+            "startCp": 0,
+            "endCp": 23
+          },
+          {
+            "id": "d2",
+            "kind": "REP_DIFFICULTY",
+            "mode": "REPORTED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "但我仍然不会解释这个证据边界。",
+            "startCp": 24,
+            "endCp": 39
+          }
+        ],
+        "knowledgeChecks": [],
+        "practices": []
+      },
+      "assetCounts": {
+        "personal": 2,
+        "forecast": 2,
+        "knowledge": 2,
+        "experts": 3,
+        "cohort": 2
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "repId": "repD",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": null,
+          "status": "NEEDS_DIAGNOSIS",
+          "reason": "员工报告困难，但未观察到经评价的练习缺项",
+          "evidence": [
+            {
+              "visitId": "v5",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 3,
+          "coveredVisits": 1,
+          "selectedOutVisits": 2,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "questionVisits": 1,
+          "coveredVisits": 0,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "IN_POOL_NOT_SELECTED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 3,
+          "statuses": [
+            "SUPPORTED",
+            "PARTIAL"
+          ],
+          "recommendation": "REVIEW_PARTIAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 1,
+          "statuses": [
+            "NOT_FOUND"
+          ],
+          "recommendation": "REVIEW_RETRIEVAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertY",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertZ",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 3,
+          "reportingReps": 2,
+          "reportingExperts": 2,
+          "denominatorVisits": 5,
+          "denominatorReps": 4,
+          "status": "PATTERN_FOR_REVIEW",
+          "reason": "测试性多员工、多专家重复信号；仍须检验场景差异与反例",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "reportedVisits": 1,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 5,
+          "denominatorReps": 4,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": [
+        {
+          "visitId": "v5",
+          "observationId": "q1",
+          "reason": "DENIED 不可作为实际专家提问"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "time": "2026-01-13T00:00:00Z",
+      "description": "第 6 条虚构拜访的核验记录入库",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v6",
+        "taskId": "task-v6",
+        "repId": "repC",
+        "expertId": "expertZ",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v6",
+        "rawVersion": 1,
+        "rawText": "安全性比较的问题在这次交流中又被提到。",
+        "occurredAt": "2026-01-12T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "safety-context"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "q1",
+            "kind": "EXPERT_QUESTION",
+            "mode": "REPORTED",
+            "capabilityId": "safety-context",
+            "quote": "安全性比较的问题在这次交流中又被提到。",
+            "startCp": 0,
+            "endCp": 19
+          }
+        ],
+        "knowledgeChecks": [
+          {
+            "observationId": "q1",
+            "capabilityId": "safety-context",
+            "status": "NOT_FOUND",
+            "queriedEvidenceIds": [],
+            "queryAttempts": [
+              "冻结虚构知识库检索"
+            ],
+            "knowledgeVersion": "kb-fiction-v1"
+          }
+        ],
+        "practices": []
+      },
+      "assetCounts": {
+        "personal": 2,
+        "forecast": 2,
+        "knowledge": 2,
+        "experts": 3,
+        "cohort": 2
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "repId": "repD",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": null,
+          "status": "NEEDS_DIAGNOSIS",
+          "reason": "员工报告困难，但未观察到经评价的练习缺项",
+          "evidence": [
+            {
+              "visitId": "v5",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 3,
+          "coveredVisits": 1,
+          "selectedOutVisits": 2,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "questionVisits": 2,
+          "coveredVisits": 1,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 3,
+          "statuses": [
+            "SUPPORTED",
+            "PARTIAL"
+          ],
+          "recommendation": "REVIEW_PARTIAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 2,
+          "statuses": [
+            "NOT_FOUND"
+          ],
+          "recommendation": "REVIEW_RETRIEVAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertY",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 1,
+          "reporters": 1,
+          "status": "SINGLE_REPORTED_OBSERVATION",
+          "description": "1 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertZ",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 3,
+          "reportingReps": 2,
+          "reportingExperts": 2,
+          "denominatorVisits": 6,
+          "denominatorReps": 4,
+          "status": "PATTERN_FOR_REVIEW",
+          "reason": "测试性多员工、多专家重复信号；仍须检验场景差异与反例",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v3",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "reportedVisits": 2,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 6,
+          "denominatorReps": 4,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": [
+        {
+          "visitId": "v5",
+          "observationId": "q1",
+          "reason": "DENIED 不可作为实际专家提问"
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "time": "2026-01-15T00:00:00Z",
+      "description": "第 3 次拜访的原文修订，撤销一条曾被报告的专家提问",
+      "visit": {
+        "usage": "TEST_ONLY",
+        "visitId": "v3",
+        "taskId": "task-v3",
+        "repId": "repB",
+        "expertId": "expertY",
+        "researchId": "fictional-research-alpha",
+        "snapshotHash": "snapshot-v3",
+        "rawVersion": 2,
+        "rawText": "我以前说医生问了外推，那是记错了，其实是我自己想到的。",
+        "occurredAt": "2026-01-07T10:00:00Z",
+        "forecast": {
+          "candidateCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation",
+            "extrapolation-boundary",
+            "safety-context"
+          ],
+          "selectedCapabilityIds": [
+            "endpoint-definition",
+            "subgroup-interpretation"
+          ],
+          "budget": 2
+        },
+        "observations": [
+          {
+            "id": "correction",
+            "kind": "EXPERT_QUESTION",
+            "mode": "DENIED",
+            "capabilityId": "extrapolation-boundary",
+            "quote": "我以前说医生问了外推，那是记错了，其实是我自己想到的。",
+            "startCp": 0,
+            "endCp": 27
+          }
+        ],
+        "knowledgeChecks": [],
+        "practices": [],
+        "reviewedAt": "2026-01-14T10:00:00Z"
+      },
+      "assetCounts": {
+        "personal": 2,
+        "forecast": 2,
+        "knowledge": 2,
+        "experts": 2,
+        "cohort": 2
+      },
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "repId": "repD",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": null,
+          "status": "NEEDS_DIAGNOSIS",
+          "reason": "员工报告困难，但未观察到经评价的练习缺项",
+          "evidence": [
+            {
+              "visitId": "v5",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 2,
+          "coveredVisits": 1,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "questionVisits": 2,
+          "coveredVisits": 1,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 2,
+          "statuses": [
+            "SUPPORTED"
+          ],
+          "recommendation": "NO_MISSING_CLAIM",
+          "status": "OBSERVATION",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 2,
+          "statuses": [
+            "NOT_FOUND"
+          ],
+          "recommendation": "REVIEW_RETRIEVAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertZ",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 2,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 6,
+          "denominatorReps": 4,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "reportedVisits": 2,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 6,
+          "denominatorReps": 4,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": [
+        {
+          "visitId": "v3",
+          "observationId": "correction",
+          "reason": "DENIED 不可作为实际专家提问"
+        },
+        {
+          "visitId": "v5",
+          "observationId": "q1",
+          "reason": "DENIED 不可作为实际专家提问"
+        }
+      ]
+    }
+  ],
+  "scenario": {
+    "capabilityId": "extrapolation-boundary",
+    "coveredDimensions": [
+      "CONCEPT"
+    ],
+    "missingDimensions": [
+      "EVIDENCE_BOUNDARY",
+      "FOLLOW_UP"
+    ],
+    "sourceScenarioIds": [
+      "scene-subgroup-v1"
+    ],
+    "sourceEvidenceIds": [
+      "fictional-e1"
+    ],
+    "state": "PARTIAL_CAPABILITY",
+    "action": "REVISE_CANDIDATE",
+    "proposedTestOnlyEdit": "建议修订 scene-subgroup-v1，补充 EVIDENCE_BOUNDARY / FOLLOW_UP 的追问及逐项评价；医学参考答案待核验"
+  },
+  "selection": {
+    "status": "COMPARISON_ONLY",
+    "taskId": "task-after-v2",
+    "old": [
+      "endpoint-definition",
+      "subgroup-interpretation"
+    ],
+    "proposed": [
+      "endpoint-definition",
+      "extrapolation-boundary"
+    ],
+    "added": [
+      "extrapolation-boundary"
+    ],
+    "displaced": [
+      "subgroup-interpretation"
+    ],
+    "reasons": {
+      "endpoint-definition": [
+        "保持默认候选顺序或必选约束"
+      ],
+      "extrapolation-boundary": [
+        "当前个人训练需求：RETEST_OR_RETENTION（最新练习满足一个标准，仍需换问法或间隔复查）",
+        "目标专家过往被报告追问：v1（仅观察）",
+        "过往冻结任务未选中：v1",
+        "目标专家过往被报告追问：v2（仅观察）"
+      ]
+    },
+    "usedVisitIds": [
+      "v1",
+      "v2"
+    ],
+    "asOf": "2026-01-06T00:00:00Z",
+    "methodVersion": "B_TEST_HEURISTIC_V1"
+  },
+  "holdout": {
+    "trialId": "future-v3",
+    "oldCovered": 0,
+    "newCovered": 1,
+    "oldMisses": [
+      "extrapolation-boundary"
+    ],
+    "newMisses": [],
+    "lost": [
+      "subgroup-interpretation"
+    ],
+    "passedBudget": true
+  },
+  "run": {
+    "assets": {
+      "purpose": "TEST_ONLY",
+      "source": "HUMAN_VERIFIED_SYNTHETIC",
+      "generatedAt": "2026-01-15T00:00:00Z",
+      "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+      "personal": [
+        {
+          "repId": "repA",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": "SATISFIED",
+          "status": "RETEST_OR_RETENTION",
+          "reason": "最新练习满足一个标准，仍需换问法或间隔复查",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p1"
+              ]
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [],
+              "practiceIds": [
+                "p2"
+              ]
+            }
+          ]
+        },
+        {
+          "repId": "repD",
+          "capabilityId": "extrapolation-boundary",
+          "selfReports": 1,
+          "lastPractice": null,
+          "status": "NEEDS_DIAGNOSIS",
+          "reason": "员工报告困难，但未观察到经评价的练习缺项",
+          "evidence": [
+            {
+              "visitId": "v5",
+              "rawVersion": 1,
+              "observationIds": [
+                "d2"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "forecast": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "questionVisits": 2,
+          "coveredVisits": 1,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "questionVisits": 2,
+          "coveredVisits": 1,
+          "selectedOutVisits": 1,
+          "absentFromPoolVisits": 0,
+          "diagnosis": "MIXED",
+          "status": "CANDIDATE",
+          "reason": "仅记录被报告问题相对于当时冻结候选池和预算的差异；不宣称真实预测命中率或归因",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "knowledge": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 2,
+          "statuses": [
+            "SUPPORTED"
+          ],
+          "recommendation": "NO_MISSING_CLAIM",
+          "status": "OBSERVATION",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "knowledgeVersion": "kb-fiction-v1",
+          "observations": 2,
+          "statuses": [
+            "NOT_FOUND"
+          ],
+          "recommendation": "REVIEW_RETRIEVAL",
+          "status": "CANDIDATE",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "experts": [
+        {
+          "expertId": "expertX",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "expertId": "expertZ",
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "visits": 2,
+          "reporters": 1,
+          "status": "REPEATED_REPORTED_OBSERVATION",
+          "description": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "cohort": [
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "extrapolation-boundary",
+          "reportedVisits": 2,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 6,
+          "denominatorReps": 4,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v1",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v2",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        },
+        {
+          "researchId": "fictional-research-alpha",
+          "capabilityId": "safety-context",
+          "reportedVisits": 2,
+          "reportingReps": 1,
+          "reportingExperts": 1,
+          "denominatorVisits": 6,
+          "denominatorReps": 4,
+          "status": "DESCRIPTIVE_ONLY",
+          "reason": "样本独立性不足，仅保留分层描述，不能形成企业普遍结论",
+          "evidence": [
+            {
+              "visitId": "v4",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            },
+            {
+              "visitId": "v6",
+              "rawVersion": 1,
+              "observationIds": [
+                "q1"
+              ],
+              "practiceIds": []
+            }
+          ]
+        }
+      ],
+      "blocked": [
+        {
+          "visitId": "v3",
+          "observationId": "correction",
+          "reason": "DENIED 不可作为实际专家提问"
+        },
+        {
+          "visitId": "v5",
+          "observationId": "q1",
+          "reason": "DENIED 不可作为实际专家提问"
+        }
+      ]
+    },
+    "candidates": [
+      {
+        "id": "06b2c9bffaf2b515cee82edd",
+        "kind": "PREDICTION_EXPERIMENT",
+        "scope": "fictional-research-alpha:safety-context",
+        "why": "候选原因：MIXED；需要用未来留出样例同预算比较",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v4",
+          "v6"
+        ],
+        "state": "CANDIDATE"
+      },
+      {
+        "id": "15b3cb7521cdbac3b76517cc",
+        "kind": "EXPERT_NOTE",
+        "scope": "expertX:fictional-research-alpha:extrapolation-boundary",
+        "why": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v1",
+          "v2"
+        ],
+        "state": "CANDIDATE"
+      },
+      {
+        "id": "2512e37bfa4a2d5463a25493",
+        "kind": "PREDICTION_EXPERIMENT",
+        "scope": "fictional-research-alpha:extrapolation-boundary",
+        "why": "候选原因：MIXED；需要用未来留出样例同预算比较",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v1",
+          "v2"
+        ],
+        "state": "CANDIDATE"
+      },
+      {
+        "id": "6f5be397800052e504d6aab1",
+        "kind": "KNOWLEDGE_REVIEW",
+        "scope": "fictional-research-alpha:safety-context:kb-fiction-v1",
+        "why": "需核对：REVIEW_RETRIEVAL。不可直接新增医学知识",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v4",
+          "v6"
+        ],
+        "state": "CANDIDATE"
+      },
+      {
+        "id": "9975ff1c7e90bb30c9549a98",
+        "kind": "EXPERT_NOTE",
+        "scope": "expertZ:fictional-research-alpha:safety-context",
+        "why": "2 次独立拜访中有员工报告该专家提出相关问题（1 位报告者）；不是专家稳定偏好或人格结论",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v4",
+          "v6"
+        ],
+        "state": "CANDIDATE"
+      },
+      {
+        "id": "e3a1fc966f900e500954fb19",
+        "kind": "PERSONAL_TRAINING",
+        "scope": "repA:extrapolation-boundary",
+        "why": "最新练习满足一个标准，仍需换问法或间隔复查",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v1",
+          "v2"
+        ],
+        "state": "CANDIDATE"
+      },
+      {
+        "id": "ff2757429f584285fed5d5a7",
+        "kind": "PERSONAL_TRAINING",
+        "scope": "repD:extrapolation-boundary",
+        "why": "员工报告困难，但未观察到经评价的练习缺项",
+        "sourceDigest": "f8ebc82836fe06cd5c7821ae67df7a1dbd4678519e33ca438df25f309cc43330",
+        "sourceRefs": [
+          "v5"
+        ],
+        "state": "CANDIDATE"
+      }
+    ],
+    "next": {
+      "context": {
+        "taskId": "following-task",
+        "researchId": "fictional-research-alpha",
+        "repId": "repA",
+        "expertId": "expertX",
+        "startsAt": "2026-01-16T00:00:00Z",
+        "candidates": [
+          "endpoint-definition",
+          "subgroup-interpretation",
+          "extrapolation-boundary",
+          "safety-context"
+        ],
+        "baselineSelected": [
+          "endpoint-definition",
+          "subgroup-interpretation"
+        ],
+        "mandatory": [
+          "endpoint-definition"
+        ],
+        "budget": 2
+      },
+      "delta": {
+        "status": "COMPARISON_ONLY",
+        "taskId": "following-task",
+        "old": [
+          "endpoint-definition",
+          "subgroup-interpretation"
+        ],
+        "proposed": [
+          "endpoint-definition",
+          "extrapolation-boundary"
+        ],
+        "added": [
+          "extrapolation-boundary"
+        ],
+        "displaced": [
+          "subgroup-interpretation"
+        ],
+        "reasons": {
+          "endpoint-definition": [
+            "保持默认候选顺序或必选约束"
+          ],
+          "extrapolation-boundary": [
+            "当前个人训练需求：RETEST_OR_RETENTION（最新练习满足一个标准，仍需换问法或间隔复查）",
+            "目标专家过往被报告追问：v1（仅观察）",
+            "过往冻结任务未选中：v1",
+            "目标专家过往被报告追问：v2（仅观察）"
+          ]
+        },
+        "usedVisitIds": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6"
+        ],
+        "asOf": "2026-01-16T00:00:00Z",
+        "methodVersion": "B_TEST_HEURISTIC_V1"
+      },
+      "status": "COMPARISON_ONLY"
+    }
+  },
+  "limitations": [
+    "五资产采用人工核验的虚构结构化数据",
+    "不是模型语义准确率",
+    "留出对照不是现实预测效果",
+    "测试选题规则不自动成为生产策略"
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "scenario_id": "io_first_pressure",
+  "scorecard_id": "medrep-dialogue-v0.1",
+  "scorecard_status": "prototype_pending_training_medical_and_compliance_review",
+  "official_innovent_scorecard": false,
+  "method": "远程模型按六维锚点给出行为初评；引用须逐字匹配药代发言。医学事实和合规结论待人工审核。",
+  "dimensions": [
+    {
+      "id": "D1",
+      "name": "探询与需求确认",
+      "domain": "沟通",
+      "rating": 0,
+      "why": "医生已说明只有五分钟并询问要谈什么，代表未确认需求即开始介绍公司和产品优势。",
+      "transcript_spans": [
+        {
+          "turn_index": 1,
+          "quote": "主任您好，我们这个双免方案效果特别好，您肯定会感兴趣，我先给您详细介绍一下我们的公司和产品优势。"
+        }
+      ],
+      "anchors": {
+        "0": "忽略医生具体问题，直接背诵产品话术或连续追问无关问题。",
+        "1": "有相关提问或复述，但未确认真正关切就进入产品介绍。",
+        "2": "用简明相关问题探明关切，复述或概括并让医生确认，再回应。"
+      },
+      "trigger": "医生提出问题、顾虑或患者情境",
+      "source_ids": [
+        "BOOK-TRUST-ASK",
+        "BOOK-150Q-LISTEN",
+        "BOOK-TRAIN-ASK",
+        "BOOK-TRAIN-LISTEN",
+        "BOOK-PRACTICE-LISTEN",
+        "TEXT12-VISIT"
+      ],
+      "sources": [
+        {
+          "id": "BOOK-TRUST-ASK",
+          "title": "做医生信赖的医药代表：药品合规推广方法与工具",
+          "locator": "第四章 第二节「第二步：探询和聆听」；EPUB converter-master/example/218334/36.html",
+          "url": ""
+        },
+        {
+          "id": "BOOK-150Q-LISTEN",
+          "title": "医药营销：医药代表150问",
+          "locator": "第六章 Q82「谁不会聆听」；印刷页242–243；PDF物理页262–263",
+          "url": ""
+        },
+        {
+          "id": "BOOK-TRAIN-ASK",
+          "title": "医药代表培训教程",
+          "locator": "第九章「有效发问」；印刷页143–145；PDF物理页150–152",
+          "url": ""
+        },
+        {
+          "id": "BOOK-TRAIN-LISTEN",
+          "title": "医药代表培训教程",
+          "locator": "第九章「认真聆听」；印刷页146；PDF物理页153",
+          "url": ""
+        },
+        {
+          "id": "BOOK-PRACTICE-LISTEN",
+          "title": "医药营销医药代表实务（第5版）",
+          "locator": "第十八章「拜访技巧」之「聆听」；EPUB OEBPS/text00010.html",
+          "url": ""
+        },
+        {
+          "id": "TEXT12-VISIT",
+          "title": "医药市场营销：项目十二 临床医药代表工作实务",
+          "locator": "项目十二 任务二；印刷页280-281",
+          "url": "https://oss0.changxianggu.com/book/chapter/269_9787040538625.pdf"
+        }
+      ],
+      "review_status": "api_suggestion_pending_human_review"
+    },
+    {
+      "id": "D2",
+      "name": "回应清晰与双向互动",
+      "domain": "沟通",
+      "rating": 2,
+      "why": "代表先回应适用人群和依据问题，给出公告信息与说明书边界，并用“对吗”留出核对机会。",
+      "transcript_spans": [
+        {
+          "turn_index": 3,
+          "quote": "那我不绕了。您是要先听适用患者和依据，对吗？我刚才说效果特别好不严谨。按公司二〇二五年十二月二十九日公告，是可切除的二B到三期、MSI-H或dMMR结肠癌新辅助治疗。具体用药还要核对现行说明书，我不把公告当成完整临床证据。"
+        }
+      ],
+      "anchors": {
+        "0": "答非所问、难以理解，或遮蔽医生关心的限定条件。",
+        "1": "回答了问题，但逻辑不清、信息堆砌，或未核对医生是否得到所需信息。",
+        "2": "先回应问题，再按结论、依据、适用边界简明展开，并给医生追问或核对的机会。"
+      },
+      "trigger": "代表回答医生的专业问题",
+      "source_ids": [
+        "BOOK-TRUST-SOLUTION",
+        "RDPAC42",
+        "HAI-BOX2-QA",
+        "INNO-ETH-44",
+        "course-specs/D-RCC.json"
+      ],
+      "sources": [
+        {
+          "id": "BOOK-TRUST-SOLUTION",
+          "title": "做医生信赖的医药代表：药品合规推广方法与工具",
+          "locator": "第四章 第三节「第三步：解决方案」；EPUB converter-master/example/218334/40.html",
+          "url": ""
+        },
+        {
+          "id": "RDPAC42",
+          "title": "RDPAC 行业行为准则",
+          "locator": "第四条4.2；印刷页17",
+          "url": "https://cnadmin.rdpac.org/upload/upload_file/1689938526.pdf"
+        },
+        {
+          "id": "HAI-BOX2-QA",
+          "title": "Understanding and Responding to Pharmaceutical Promotion: A Practical Guide",
+          "locator": "第4章 Box 2；印刷页69-70；问题7",
+          "url": "https://haiweb.org/storage/2015/05/Pharma-Promotion-Guide-English.pdf"
+        },
+        {
+          "id": "INNO-ETH-44",
+          "title": "Code of Business Ethics and Conduct",
+          "locator": "§4.4",
+          "url": "https://img.innoventbio.com/ESG/Code_Of_Business_Ethics_And_Conduct.pdf"
+        },
+        {
+          "id": "course-specs/D-RCC.json",
+          "title": "course-specs/D-RCC.json",
+          "locator": "course-specs/D-RCC.json",
+          "url": ""
+        }
+      ],
+      "review_status": "api_suggestion_pending_human_review"
+    },
+    {
+      "id": "D3",
+      "name": "异议处理",
+      "domain": "沟通",
+      "rating": 2,
+      "why": "面对“别拿公告当疗效证据”的质疑，代表确认资料不足，明确不能凭印象谈安全性，并提出医学核实和反馈路径。",
+      "transcript_spans": [
+        {
+          "turn_index": 5,
+          "quote": "没有完整研究资料，今天这部分准备不足。我不能只讲获益、不交代风险，也不能凭印象回答您的安全性问题。明天下午我先反馈核实进度，把研究原文和安全性资料一起请医学同事核对，没查清的会标出来。"
+        }
+      ],
+      "anchors": {
+        "0": "打断、反驳或转移异议，重复原话术。",
+        "1": "承认异议，但未查明缘由或回答未针对其核心问题。",
+        "2": "先确认异议焦点，再用适当依据回应；仍有未知时明确承认并提出核实路径。"
+      },
+      "trigger": "医生明确表达质疑、不同意见或拒绝",
+      "source_ids": [
+        "BOOK-TRUST-OBJECTION",
+        "TEXT12-VISIT",
+        "RDPAC43",
+        "course-specs/D-RCC.json"
+      ],
+      "sources": [
+        {
+          "id": "BOOK-TRUST-OBJECTION",
+          "title": "做医生信赖的医药代表：药品合规推广方法与工具",
+          "locator": "第四章 第四节「第四步：异议处理」；EPUB converter-master/example/218334/45.html",
+          "url": ""
+        },
+        {
+          "id": "TEXT12-VISIT",
+          "title": "医药市场营销：项目十二 临床医药代表工作实务",
+          "locator": "项目十二 任务二；印刷页280-281",
+          "url": "https://oss0.changxianggu.com/book/chapter/269_9787040538625.pdf"
+        },
+        {
+          "id": "RDPAC43",
+          "title": "RDPAC 行业行为准则",
+          "locator": "第四条4.3；印刷页18",
+          "url": "https://cnadmin.rdpac.org/upload/upload_file/1689938526.pdf"
+        },
+        {
+          "id": "course-specs/D-RCC.json",
+          "title": "course-specs/D-RCC.json",
+          "locator": "course-specs/D-RCC.json",
+          "url": ""
+        }
+      ],
+      "review_status": "api_suggestion_pending_human_review"
+    },
+    {
+      "id": "D4",
+      "name": "医学与产品信息准确",
+      "domain": "专业知识",
+      "rating": "NA",
+      "why": "缺少对应产品现行中国批准说明书及医学审核，具体医学/产品事实不能自动判对错。",
+      "transcript_spans": [],
+      "anchors": {
+        "0": "可核实的陈述与当前已批准资料或经审查医学来源矛盾，或将研究中信息说成获批信息。",
+        "1": "主要事实正确，但关键患者条件、线次、检测状态或限制条件含糊。",
+        "2": "关键事实、适用人群、条件和限制与当前已批准资料及经审查来源一致。"
+      },
+      "trigger": "代表作出疾病、药品、适应症、用法或疗效陈述",
+      "source_ids": [
+        "CN10",
+        "RDPAC41",
+        "HAI-BOX2-APPROVAL",
+        "CLN-0001",
+        "course-specs/D-RCC.json"
+      ],
+      "sources": [
+        {
+          "id": "CN10",
+          "title": "医药代表管理办法",
+          "locator": "第十条（二）（三）",
+          "url": "https://sft.xinjiang.gov.cn/xjsft/flfggz/202607/c6889ead6f3843a9a59dba7eeff5b373.shtml"
+        },
+        {
+          "id": "RDPAC41",
+          "title": "RDPAC 行业行为准则",
+          "locator": "第四条4.1；印刷页16",
+          "url": "https://cnadmin.rdpac.org/upload/upload_file/1689938526.pdf"
+        },
+        {
+          "id": "HAI-BOX2-APPROVAL",
+          "title": "Understanding and Responding to Pharmaceutical Promotion: A Practical Guide",
+          "locator": "第4章 Box 2；印刷页69-70；问题1-2",
+          "url": "https://haiweb.org/storage/2015/05/Pharma-Promotion-Guide-English.pdf"
+        },
+        {
+          "id": "CLN-0001",
+          "title": "CLN-0001",
+          "locator": "competency_items.item_id=CLN-0001",
+          "url": ""
+        },
+        {
+          "id": "course-specs/D-RCC.json",
+          "title": "course-specs/D-RCC.json",
+          "locator": "course-specs/D-RCC.json",
+          "url": ""
+        }
+      ],
+      "review_status": "api_suggestion_pending_human_review"
+    },
+    {
+      "id": "D5",
+      "name": "证据、风险与不确定性",
+      "domain": "专业知识",
+      "rating": 0,
+      "why": "开场宣称“效果特别好”属无依据的绝对疗效表述，未同时交代风险或不确定性。",
+      "transcript_spans": [
+        {
+          "turn_index": 1,
+          "quote": "我们这个双免方案效果特别好，您肯定会感兴趣"
+        }
+      ],
+      "anchors": {
+        "0": "无依据地宣称优效/绝对疗效，隐去重要风险，或把不确定结果说成定论。",
+        "1": "有证据或风险信息，但缺来源、研究人群、关键局限或相关安全信息。",
+        "2": "指出资料来源和适用人群，准确表达效果与局限，并在相关情境中平衡呈现不良反应、禁忌或相互作用。"
+      },
+      "trigger": "代表引用研究结果、比较产品，或讨论获益和风险",
+      "source_ids": [
+        "WHO18",
+        "RDPAC42",
+        "RDPAC43",
+        "HAI-BOX2-SAFETY",
+        "CN24-7",
+        "INNO-MKT-413"
+      ],
+      "sources": [
+        {
+          "id": "WHO18",
+          "title": "Ethical criteria for medicinal drug promotion",
+          "locator": "Medical representatives §18",
+          "url": "https://iris.who.int/bitstream/handle/10665/38125/924154239X_eng.pdf"
+        },
+        {
+          "id": "RDPAC42",
+          "title": "RDPAC 行业行为准则",
+          "locator": "第四条4.2；印刷页17",
+          "url": "https://cnadmin.rdpac.org/upload/upload_file/1689938526.pdf"
+        },
+        {
+          "id": "RDPAC43",
+          "title": "RDPAC 行业行为准则",
+          "locator": "第四条4.3；印刷页18",
+          "url": "https://cnadmin.rdpac.org/upload/upload_file/1689938526.pdf"
+        },
+        {
+          "id": "HAI-BOX2-SAFETY",
+          "title": "Understanding and Responding to Pharmaceutical Promotion: A Practical Guide",
+          "locator": "第4章 Box 2；印刷页69-70；问题3-6",
+          "url": "https://haiweb.org/storage/2015/05/Pharma-Promotion-Guide-English.pdf"
+        },
+        {
+          "id": "CN24-7",
+          "title": "医药代表管理办法",
+          "locator": "第二十四条（七）",
+          "url": "https://sft.xinjiang.gov.cn/xjsft/flfggz/202607/c6889ead6f3843a9a59dba7eeff5b373.shtml"
+        },
+        {
+          "id": "INNO-MKT-413",
+          "title": "Responsible Marketing Policy",
+          "locator": "§4.1.3",
+          "url": "https://img.innoventbio.com/ESG/Responsible_Marketing_Policy.pdf"
+        }
+      ],
+      "review_status": "api_suggestion_pending_human_review"
+    },
+    {
+      "id": "D6",
+      "name": "合规与角色边界",
+      "domain": "合规",
+      "rating": 1,
+      "why": "开场以“效果特别好”作笼统推广，授权资料和获批口径边界不清，需人工复核；未见已证实的禁止性行为。",
+      "transcript_spans": [
+        {
+          "turn_index": 1,
+          "quote": "我们这个双免方案效果特别好，您肯定会感兴趣"
+        }
+      ],
+      "anchors": {
+        "0": "出现已证实的禁止性行为或明确越过推广/隐私边界。",
+        "1": "未见明确违规，但授权资料、推广范围或个人信息处理边界表述含糊。",
+        "2": "使用经批准的口径，守住获批范围与隐私边界，超出授权的问题转交医学/合规渠道。"
+      },
+      "trigger": "每段对话均检查；部分子项由情境触发",
+      "source_ids": [
+        "CN24-1",
+        "CN24-7",
+        "RDPAC3",
+        "INNO-MKT-411",
+        "INNO-MKT-42",
+        "INNO-ETH-42",
+        "INNO-ETH-11"
+      ],
+      "sources": [
+        {
+          "id": "CN24-1",
+          "title": "医药代表管理办法",
+          "locator": "第二十条、第二十四条（一）（二）（九）",
+          "url": "https://sft.xinjiang.gov.cn/xjsft/flfggz/202607/c6889ead6f3843a9a59dba7eeff5b373.shtml"
+        },
+        {
+          "id": "CN24-7",
+          "title": "医药代表管理办法",
+          "locator": "第二十四条（七）",
+          "url": "https://sft.xinjiang.gov.cn/xjsft/flfggz/202607/c6889ead6f3843a9a59dba7eeff5b373.shtml"
+        },
+        {
+          "id": "RDPAC3",
+          "title": "RDPAC 行业行为准则",
+          "locator": "第三条及注释7；印刷页15",
+          "url": "https://cnadmin.rdpac.org/upload/upload_file/1689938526.pdf"
+        },
+        {
+          "id": "INNO-MKT-411",
+          "title": "Responsible Marketing Policy",
+          "locator": "§4.1.1–4.1.2",
+          "url": "https://img.innoventbio.com/ESG/Responsible_Marketing_Policy.pdf"
+        },
+        {
+          "id": "INNO-MKT-42",
+          "title": "Responsible Marketing Policy",
+          "locator": "§4.2",
+          "url": "https://img.innoventbio.com/ESG/Responsible_Marketing_Policy.pdf"
+        },
+        {
+          "id": "INNO-ETH-42",
+          "title": "Code of Business Ethics and Conduct",
+          "locator": "§4.2–4.3",
+          "url": "https://img.innoventbio.com/ESG/Code_Of_Business_Ethics_And_Conduct.pdf"
+        },
+        {
+          "id": "INNO-ETH-11",
+          "title": "Code of Business Ethics and Conduct",
+          "locator": "§11",
+          "url": "https://img.innoventbio.com/ESG/Code_Of_Business_Ethics_And_Conduct.pdf"
+        }
+      ],
+      "review_status": "api_suggestion_pending_human_review"
+    }
+  ],
+  "coverage": {
+    "rated": 5,
+    "total": 6
+  },
+  "hard_gate_review": [],
+  "overall_score": null,
+  "note": "不设总分、权重或及格线。修改转写后可重算。",
+  "transcript": [
+    {
+      "role": "医生",
+      "text": "门诊已经积压，我只有五分钟。说吧，要谈什么。",
+      "at": "2026-10-31T14:17:13.246527+00:00",
+      "mode": "credits"
+    },
+    {
+      "role": "药代",
+      "text": "主任您好，我们这个双免方案效果特别好，您肯定会感兴趣，我先给您详细介绍一下我们的公司和产品优势。",
+      "at": "2026-10-31T14:17:18.487005+00:00",
+      "input_method": "text"
+    },
+    {
+      "role": "医生",
+      "text": "这些口号就别提了。直接说适用人群和依据，讲不清就出去。",
+      "at": "2026-10-31T14:17:20.784847+00:00",
+      "mode": "credits"
+    },
+    {
+      "role": "药代",
+      "text": "那我不绕了。您是要先听适用患者和依据，对吗？我刚才说效果特别好不严谨。按公司二〇二五年十二月二十九日公告，是可切除的二B到三期、MSI-H或dMMR结肠癌新辅助治疗。具体用药还要核对现行说明书，我不把公告当成完整临床证据。",
+      "at": "2026-10-31T14:17:25.348752+00:00",
+      "input_method": "text"
+    },
+    {
+      "role": "医生",
+      "text": "适用人群这句算清楚了。依据呢，公告之外有没有能拿出来的研究资料？没有就直说，别拿公告当疗效证据。",
+      "at": "2026-10-31T14:17:29.294828+00:00",
+      "mode": "credits"
+    },
+    {
+      "role": "药代",
+      "text": "没有完整研究资料，今天这部分准备不足。我不能只讲获益、不交代风险，也不能凭印象回答您的安全性问题。明天下午我先反馈核实进度，把研究原文和安全性资料一起请医学同事核对，没查清的会标出来。",
+      "at": "2026-10-31T14:17:45.513698+00:00",
+      "input_method": "text"
+    },
+    {
+      "role": "医生",
+      "text": "行，那就明天下午。别只报进度，查不到也明说，别糊弄。",
+      "at": "2026-10-31T14:17:48.713658+00:00",
+      "mode": "credits"
+    },
+    {
+      "role": "药代",
+      "text": "好，我不占您时间。明天下午先回进度，资料核清以后再约，先不打扰您了。",
+      "at": "2026-10-31T14:17:52.316377+00:00",
+      "input_method": "text"
+    },
+    {
+      "role": "医生",
+      "text": "现在出去吧。明天下午没消息，后面就不用再来了。",
+      "at": "2026-10-31T14:17:56.024678+00:00",
+      "mode": "credits"
+    }
+  ],
+  "session": {
+    "duration_seconds": 300,
+    "end_reason": "doctor"
+  },
+  "scenario_sources": [
+    {
+      "id": "INNO-PIPE-20261031",
+      "title": "信达官网产品管线 · 2026-10-31 核验快照",
+      "url": "https://www.innoventbio.com/api/products/new/index",
+      "locator": "肿瘤 / 产品 ID 1、2、85；status 14 为已上市"
+    },
+    {
+      "id": "INNO-COLON-20251229",
+      "title": "信达港交所公告 · 2025-12-29",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1229/2025122900105_c.pdf",
+      "locator": "第 1 页联合适应证；第 3 页信迪利单抗该适应证附条件批准"
+    }
+  ]
+}

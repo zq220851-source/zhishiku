@@ -1,0 +1,34 @@
+# Test environment ONLY. APP_DOMAIN must be a real DNS name pointing to this host.
+# TLS is issued by Caddy when ports 80/443 and DNS are configured.
+{$APP_DOMAIN} {
+    encode gzip zstd
+
+    header {
+        Strict-Transport-Security "max-age=86400"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "no-referrer"
+        -Server
+    }
+
+    # These endpoints carry internal service credentials. Do NOT expose to a browser.
+    @internal path /v1/internal /v1/internal/*
+    respond @internal 404
+
+    # Readiness includes database information and is reachable inside Docker only.
+    @ready path /readyz
+    respond @ready 404
+
+    @platform_api path /v1/auth/* /v1/me/* /v1/admin/* /v1/teams/* /v1/mobile/* /healthz
+    handle @platform_api {
+        reverse_proxy platform:8080
+    }
+
+    # All unlisted API routes (including any future internal endpoints) remain private.
+    @other_api path /v1/*
+    respond @other_api 404
+
+    # Not a replacement for the three business-module web UIs.
+    handle {
+        respond "MedRep Coach staging platform is running; business UI is not deployed." 200
+    }
+}

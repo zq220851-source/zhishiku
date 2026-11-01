@@ -1,0 +1,10 @@
+{
+  "project": "THU-MAIC/OpenMAIC",
+  "commit": "fe2cf7dade345f4eaaf9afb1771e6734e17edaab",
+  "license": "MIT",
+  "reviewed_files": [
+    "lib/types/stage.ts",
+    "app/api/quiz-grade/route.ts"
+  ],
+  "reuse": "Architecture adapted; independent Python implementation; no upstream source copied."
+}

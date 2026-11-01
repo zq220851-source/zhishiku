@@ -1,0 +1,87 @@
+MedRep Coach · 开发交接（2026-11-01）
+
+这是当前医院拜访语音演练项目的完整源码快照，不是已安装好的运行环境。
+先阅读本文件；根目录及 voice-demo 的旧 README 保留历史设计，端口、模型和界面设置以本文件及实际代码为准。
+
+一、最快启动
+需要 Python 3.11+，建议先使用 3.11；Node.js 18+ 仅用于前端测试。
+进入解压后的本目录，在 macOS/Linux 终端执行：
+  python3.11 -m venv .venv
+  .venv/bin/python -m pip install -r voice-demo/requirements-voice.txt
+  .venv/bin/python voice-demo/server.py --port 8777
+打开 http://127.0.0.1:8777/ 并允许麦克风。
+主服务使用 8777，流式语音桥接使用 8778；两个端口均需空闲。
+若换端口，桥接端口跟随为主端口加一。CLI 不传 --port 时默认 8765。
+Windows 可将 .venv/bin/python 换成 .venv\Scripts\python.exe（本次未在 Windows 验证）。
+根目录 requirements.txt 服务于原有课程流水线，不能替代 voice-demo 的依赖文件。
+
+二、配置 API（本包不含密钥）
+1. 页面中的外部模型配置入口输入同事自己的 Credits API Key。
+   默认医生对话和评分模型：deepseek-v4.1-flash。
+   默认接口：https://api.openai-next.com/v1/chat/completions
+   如账号不支持此模型，可在启动进程前设置 MEDREP_CHAT_MODEL 和 MEDREP_CHAT_API_URL。
+   Credits 密钥也可用 OPENAI_NEXT_API_KEY 环境变量提供。
+2. 展开“方案① · 配置百炼流式语音”，填写同一业务空间的地域、Workspace ID、API Key，验证两条连接。
+   需要具备 qwen3-asr-flash-realtime 和 qwen3-tts-flash-realtime 的使用权限。
+   仅创建密钥不代表已开通模型。百炼语音费用独立于 Credits 额度。
+3. 页面配置的密钥仅存于服务进程内存，重启后重新配置。
+   .env.example 只是模板，程序不会自动加载 .env；若用终端加载，需要将变量导出。
+本项目不运行本地大模型。没有 API 凭据时可以打开页面，但不能完成真实模型对话。
+
+三、当前交付行为
+• 医院上门拜访，合成医生画像、信达相关候选情境、普通版和压力版医生。
+• 5 分钟、10 分钟、自定义计时；到时结束对话并进入评分流程。
+• 默认百炼流式听写及流式发声；Andre 男医生；快速接话；停顿 1.2 秒。
+• 语音服务、音色、接话节奏的选择控件已隐藏，配置值仍生效。
+• “达伯舒 × 达伯欣 · MDT后交流”和“IBI-363 在研问题与转交流程”仅从界面隐藏，后端及知识库保留。
+• 结束后的六维雷达图连接有效得分点并填充半透明绿色；NA 轴不伪造分数，跨 NA 的连线使用虚线。
+• 少于三个有效得分点时不绘制填色面积。
+
+四、评分与知识库
+评分卡：scorecards/medrep-dialogue-v0.1.json。
+独立 skill：.agents/skills/medrep-dialogue-scorecard/，可复制整个文件夹给同事使用；注意 .agents 是隐藏目录。
+来源索引：该 skill 的 references/evidence-index.json。
+数据库：clinical/medrep-innovent-clinical-knowledge-v0.5/medrep_clinical_knowledge_v0.5.sqlite。
+同时保留原课件、课程规范、情境、题目、公开资料元数据及 JSON 导出。
+四本书目前入库的是书目信息、文件指纹、章节/页码定位和释义要点，不是四本书全文；本项目目录未保存原 EPUB/PDF，因此本包不含原书。
+import_local_books.py 默认源路径指向原开发机；重新导入时请通过脚本参数指定自己的书籍目录。
+这是一份可溯源的候选培训评分卡，不是信达官方审定评分标准。
+评分为 0、1、2、NA，没有总分、权重或及格线。普通版与压力版共用同一评分卡。
+D4“医学与产品准确性”当前仍为 NA，等待现行说明书及医学审核；没有实现将该维度暗中固定为 1。
+
+五、主要代码入口
+voice-demo/server.py：HTTP API、会话、计时、评分及语音桥接启动。
+voice-demo/app.js / index.html / style.css：页面及交互、默认设置、隐藏控件。
+voice-demo/doctor_engine.py：医生提示词、自然语言和压力版行为。
+voice-demo/innovent_scenarios.py：信达相关情境、画像及来源。
+voice-demo/realtime_voice.py / realtime-voice.js / pcm-worklet.js：百炼流式语音。
+voice-demo/remote_provider.py：Credits 及兼容模型接口。
+voice-demo/score_engine.py：模型评分、原文证据校验、D4 的 NA 约束。
+voice-demo/radar.js：闭合多边形、填色、缺失维度显示。
+voice-demo/asr_provider.py / tts_provider.py：早期语音接口与备用路径，仍保留。
+根目录其他脚本和 coach-demo/：原有课程/训练流水线，未删除。
+
+六、接手时优先关注
+1. 当前不是可随时打断医生的全双工对话；医生发声时暂停麦克风采集。
+2. 流式识别与合成仍有逐轮/逐句建连开销；模型首句生成也会造成停顿。
+   历史三条录音测试说完至首段音频约 4.26–6.26 秒，不是长期成功率或硬件实测保证。
+3. 模型评分仍需人工标注集校准：普通追问可能被当作异议处理，承诺后续提供材料可能被误判为已经完成。
+4. 压力版主要通过措辞控制，音色情绪效果仍需真人试听确认。
+5. 本机原型无生产级身份认证和持久化会话；当前绑定本机，不应直接作为公网服务部署。
+6. 历史实测附件的旧端口、旧选项和旧测试数量是当时记录，不代表当前界面设置。
+
+七、验证与复现
+在项目根目录执行：
+  node --test voice-demo/tests/*.test.cjs
+  .venv/bin/python -m unittest discover -s voice-demo/tests -p 'test_*.py'
+打包时 JavaScript 测试 33/33 通过，Python 源文件语法校验通过。
+本次 Python 完整测试未通过：沙箱禁止监听本机端口，产生 7 个错误；另有
+test_top_level_unpurchased_does_not_turn_into_generic_disconnect 断言失败（未抛出预期 ValueError）。
+该断言问题已列入交接，尚未修复；同事应在允许 localhost 监听的环境重新跑完整测试并复核。
+打包没有重新调用付费 API，也没有替换当前运行中的服务。
+
+八、包内范围
+保留完整项目源码及数据、隐藏的评分 skill、现有测试、依赖清单和选定的历史实测/演示附件。
+排除 API 密钥配置文件、虚拟环境、缓存、运行日志和系统杂项；安装依赖需要联网。
+handoff/打包清单.json 列出每个文件的 SHA-256，可用于核对交付完整性。
+历史实测及演示附件放在 handoff/历史实测与演示/。

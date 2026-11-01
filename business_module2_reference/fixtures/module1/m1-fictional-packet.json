@@ -1,0 +1,197 @@
+{
+  "kind": "M1_FICTIONAL_BRIDGE_V1",
+  "usage": "TEST_ONLY",
+  "taskId": "m1-demo-prep-001",
+  "researchId": "m1-demo-c17",
+  "repId": "rep-demo-a",
+  "expertId": "expert-demo-zhou",
+  "preparedAt": "2026-10-30T09:00:00Z",
+  "lesson": {
+    "id": "demo-evidence",
+    "title": "把研究结论讲到证据允许的范围",
+    "status": "fictional_test_material",
+    "sources": [
+      {
+        "id": "DEMO-C17",
+        "title": "虚构研究 C-17 · 软件测试夹具",
+        "locator": "材料第1—3条",
+        "text": "仅A类人群；观察指标X；无同期比较组；未测量Y；不用于真实医疗判断。",
+        "status": "fictional_test_material"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "demo-evidence:sections.0",
+        "title": "先看研究实际说明了什么",
+        "text": "演示研究 C-17 仅观察了虚构的 A 类人群，记录指标 X；没有同期比较组，也未测量指标 Y。材料不能用于真实患者或产品判断。",
+        "status": "fictional_test_material"
+      },
+      {
+        "id": "demo-evidence:sections.1",
+        "title": "回应时保留限定条件",
+        "text": "先回答医生的问题，再说研究对象、测量指标与局限。没有测量的结果不能补成已有结论，没有比较组不能声称优于其他方案。",
+        "status": "fictional_test_material"
+      },
+      {
+        "id": "demo-evidence:sections.2",
+        "title": "缺信息时把下一步说具体",
+        "text": "明确哪一点尚不知道、查哪份资料、如何再反馈。说“我以后给您”只代表计划，不能当作已经提供。",
+        "status": "fictional_test_material"
+      }
+    ]
+  },
+  "visit": {
+    "id": "demo-visit",
+    "title": "周医生 · 演示研究资料交流",
+    "lesson_id": "demo-evidence",
+    "options": [
+      {
+        "id": "needs",
+        "title": "开场后确认真正关切",
+        "why": "会面时间短，先弄清医生想解决什么。",
+        "question": "我只有几分钟。你今天想跟我聊什么？",
+        "skills": [
+          "needs"
+        ],
+        "fact_ids": [
+          "VIS-1"
+        ],
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "简短说明来意并确认关切",
+            "expected": "说明来意，确认医生想了解的人群问题，不直接长篇介绍"
+          }
+        ]
+      },
+      {
+        "id": "evidence_scope",
+        "title": "回应研究适用范围",
+        "why": "医生上次已提出人群相关疑问，是有背景依据的准备重点。",
+        "question": "你这份研究只看了A类人群吧？能直接说明B类人群，或者指标Y也更好吗？",
+        "skills": [
+          "evidence_scope"
+        ],
+        "fact_ids": [
+          "VIS-1",
+          "VIS-2"
+        ],
+        "criteria": [
+          {
+            "id": "scope",
+            "label": "说明人群与指标范围",
+            "expected": "限定为A类人群和指标X，不外推B或Y"
+          },
+          {
+            "id": "comparison",
+            "label": "说明比较证据的局限",
+            "expected": "无同期比较组，不宣称比其他方案更好"
+          },
+          {
+            "id": "next",
+            "label": "对未知给出具体核实动作",
+            "expected": "清楚说明需查原始资料，并安排反馈；未完成的事只说计划"
+          }
+        ]
+      },
+      {
+        "id": "followup",
+        "title": "把待核实事项约定清楚",
+        "why": "本次资料可能不能回答所有问题，需要清楚约定下一步。",
+        "question": "这部分你还没确认，那接下来具体怎么处理？",
+        "skills": [
+          "followup"
+        ],
+        "fact_ids": [
+          "VIS-2"
+        ],
+        "criteria": [
+          {
+            "id": "next",
+            "label": "区分计划和已完成动作",
+            "expected": "说明待查事项、查证途径与反馈安排，不把承诺当作已完成"
+          }
+        ]
+      }
+    ]
+  },
+  "sheet": {
+    "id": "fictional-sheet-001",
+    "visit_id": "demo-visit",
+    "priorities": [
+      {
+        "id": "needs",
+        "title": "开场后确认真正关切",
+        "why": "会面时间短，先弄清医生想解决什么。",
+        "question": "我只有几分钟。你今天想跟我聊什么？",
+        "skills": [
+          "needs"
+        ],
+        "fact_ids": [
+          "VIS-1"
+        ],
+        "criteria": [
+          {
+            "id": "focus",
+            "label": "简短说明来意并确认关切",
+            "expected": "说明来意，确认医生想了解的人群问题，不直接长篇介绍"
+          }
+        ]
+      },
+      {
+        "id": "evidence_scope",
+        "title": "回应研究适用范围",
+        "why": "医生上次已提出人群相关疑问，是有背景依据的准备重点。",
+        "question": "你这份研究只看了A类人群吧？能直接说明B类人群，或者指标Y也更好吗？",
+        "skills": [
+          "evidence_scope"
+        ],
+        "fact_ids": [
+          "VIS-1",
+          "VIS-2"
+        ],
+        "criteria": [
+          {
+            "id": "scope",
+            "label": "说明人群与指标范围",
+            "expected": "限定为A类人群和指标X，不外推B或Y"
+          },
+          {
+            "id": "comparison",
+            "label": "说明比较证据的局限",
+            "expected": "无同期比较组，不宣称比其他方案更好"
+          },
+          {
+            "id": "next",
+            "label": "对未知给出具体核实动作",
+            "expected": "清楚说明需查原始资料，并安排反馈；未完成的事只说计划"
+          }
+        ]
+      },
+      {
+        "id": "followup",
+        "title": "把待核实事项约定清楚",
+        "why": "本次资料可能不能回答所有问题，需要清楚约定下一步。",
+        "question": "这部分你还没确认，那接下来具体怎么处理？",
+        "skills": [
+          "followup"
+        ],
+        "fact_ids": [
+          "VIS-2"
+        ],
+        "criteria": [
+          {
+            "id": "next",
+            "label": "区分计划和已完成动作",
+            "expected": "说明待查事项、查证途径与反馈安排，不把承诺当作已完成"
+          }
+        ]
+      }
+    ],
+    "created_at": 1793350800
+  },
+  "selectedOptionIds": [
+    "needs",
+    "followup"
+  ]
+}

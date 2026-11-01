@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-10-31",
+  "url": "https://www.innoventbio.com/api/products/new/index",
+  "sha256_full_response": "b1800a7873ae971de6ccab7b24272185615fde098e8d1c1d603f3eaa04ec62cc",
+  "records": [
+    {
+      "id": 1,
+      "title": "达伯舒®",
+      "status": 14,
+      "priority": 117,
+      "deleted_at": null,
+      "created_at": "2018-07-23 01:58:31",
+      "updated_at": "2026-05-29 19:55:13",
+      "prospect_status": 0,
+      "type": 2,
+      "target": "PD-1",
+      "catalog": "肿瘤",
+      "country": "中国",
+      "p_id": 0,
+      "county_items": null
+    },
+    {
+      "id": 2,
+      "title": "达伯欣®",
+      "status": 14,
+      "priority": 98,
+      "deleted_at": null,
+      "created_at": "2018-07-23 01:58:58",
+      "updated_at": "2025-12-29 10:27:55",
+      "prospect_status": 0,
+      "type": 2,
+      "target": "CTLA-4",
+      "catalog": "肿瘤",
+      "country": null,
+      "p_id": 0,
+      "county_items": null
+    },
+    {
+      "id": 85,
+      "title": "IBI-363",
+      "status": 10,
+      "priority": 94,
+      "deleted_at": null,
+      "created_at": "2022-07-12 15:37:41",
+      "updated_at": "2026-09-03 16:20:51",
+      "prospect_status": 0,
+      "type": 0,
+      "target": "PD1/IL-2 ᵅ⁻ᵇⁱᵃˢ",
+      "catalog": "肿瘤",
+      "country": null,
+      "p_id": 0,
+      "county_items": null
+    }
+  ]
+}

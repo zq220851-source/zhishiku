@@ -1,0 +1,170 @@
+{
+  "scope": "TEST_ONLY - no API, no medical approval, no actual model inference",
+  "m1Source": "module1 knowledge.py fictional demo-evidence and demo-visit",
+  "initial": {
+    "selectedOptionIds": [
+      "needs",
+      "followup"
+    ],
+    "candidateOptionIds": [
+      "needs",
+      "evidence_scope",
+      "followup"
+    ],
+    "snapshotHash": "c49f8ffcab447950f66bdf072fcd8bde0e5515dbf7f9d6fb4dcc70718eeb0fd7"
+  },
+  "first": {
+    "visitId": "fictional-v1",
+    "observedCapability": "m1:demo-evidence:evidence_scope:comparison",
+    "practice": [
+      {
+        "capabilityId": "m1:demo-evidence:followup:next",
+        "trainingAttemptId": "m1:fictional-run-1:1:next",
+        "criterion": "区分计划和已完成动作：没有说明查证途径与反馈安排",
+        "result": "GAP",
+        "origin": {
+          "system": "MODULE1",
+          "runId": "fictional-run-1",
+          "attempt": 1,
+          "criterionId": "next",
+          "lessonId": "demo-evidence",
+          "sourceStatus": "fictional_test_material",
+          "quote": "我不确定要查什么，先记下来吧。",
+          "turnIndex": 1,
+          "sourceIds": [
+            "demo-evidence:sections.2"
+          ],
+          "observedAt": "2026-10-31T09:00:00.000Z"
+        }
+      }
+    ],
+    "assets": [
+      {
+        "id": "a9c608a0edd809b05f6f",
+        "visitId": "fictional-v1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "m1-demo-c17:m1:demo-evidence:evidence_scope:comparison",
+        "evidenceObservationIds": [
+          "q1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选存在但未选，需再核对预算/优先级"
+      },
+      {
+        "id": "e5a84c3cdf750953d2ea",
+        "visitId": "fictional-v1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expert-demo-zhou:m1:demo-evidence:evidence_scope:comparison",
+        "evidenceObservationIds": [
+          "q1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "edc50fb3e675f00315c6",
+        "visitId": "fictional-v1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "m1-demo-c17:m1:demo-evidence:evidence_scope:comparison",
+        "evidenceObservationIds": [
+          "q1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "aa9a7f29a9d4dec0326f",
+        "visitId": "fictional-v1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "rep-demo-a:m1:demo-evidence:followup:next",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_GAP",
+        "note": "练习 m1:fictional-run-1:1:next · 区分计划和已完成动作：没有说明查证途径与反馈安排；不等于永久掌握"
+      }
+    ],
+    "personalStatus": "TARGETED_RETRAIN"
+  },
+  "second": {
+    "visitId": "fictional-v2",
+    "practice": [
+      {
+        "capabilityId": "m1:demo-evidence:followup:next",
+        "trainingAttemptId": "m1:fictional-run-2:1:next",
+        "criterion": "区分计划和已完成动作：说明了核对材料及后续反馈计划",
+        "result": "SATISFIED",
+        "origin": {
+          "system": "MODULE1",
+          "runId": "fictional-run-2",
+          "attempt": 1,
+          "criterionId": "next",
+          "lessonId": "demo-evidence",
+          "sourceStatus": "fictional_test_material",
+          "quote": "我要查看原始材料，再核对未测量的指标，并约定下一次带回结果。",
+          "turnIndex": 1,
+          "sourceIds": [
+            "demo-evidence:sections.2"
+          ],
+          "observedAt": "2026-11-01T09:00:00.000Z"
+        }
+      }
+    ],
+    "personalStatus": "RETEST_OR_RETENTION"
+  },
+  "next": {
+    "oldCapabilities": [
+      "m1:demo-evidence:needs:focus",
+      "m1:demo-evidence:followup:next"
+    ],
+    "newCapabilities": [
+      "m1:demo-evidence:needs:focus",
+      "m1:demo-evidence:evidence_scope:comparison"
+    ],
+    "added": [
+      "m1:demo-evidence:evidence_scope:comparison"
+    ],
+    "displaced": [
+      "m1:demo-evidence:followup:next"
+    ],
+    "oldOptionIds": [
+      "needs",
+      "followup"
+    ],
+    "newOptionIds": [
+      "needs",
+      "evidence_scope"
+    ],
+    "selectionStatus": "CANDIDATE_NOT_APPLIED",
+    "nextTaskSnapshotHash": "068d5521f6b4f39bb0cb4bdba1e1f3a33163cb3006b63b0ad0d23e4735ca8081",
+    "usedVisitIds": [
+      "fictional-v1",
+      "fictional-v2"
+    ]
+  },
+  "holdout": {
+    "trialId": "fictional-holdout",
+    "oldCovered": 0,
+    "newCovered": 1,
+    "oldMisses": [
+      "m1:demo-evidence:evidence_scope:comparison"
+    ],
+    "newMisses": [],
+    "lost": [
+      "m1:demo-evidence:followup:next"
+    ],
+    "passedBudget": true
+  },
+  "limitations": [
+    "Selected options and review transcripts are synthetic examples conforming to actual M1 shapes; not exported user history",
+    "M1 has not consumed this candidate through its production Engine.prepare()",
+    "Knowledge/course data is fictional and not a medically reviewed corpus",
+    "M1 Python service and M2 Next.js have not been started together"
+  ]
+}

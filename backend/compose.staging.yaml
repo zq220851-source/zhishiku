@@ -1,0 +1,23 @@
+# Optional staging HTTPS edge: docker compose -f compose.yaml -f compose.staging.yaml up -d --build
+# Only enable after public DNS, firewall and production-quality secrets are configured.
+services:
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      platform:
+        condition: service_healthy
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN:?APP_DOMAIN is required}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile.staging:/etc/caddy/Caddyfile:ro
+      - staging_caddy_data:/data
+      - staging_caddy_config:/config
+    networks: [private]
+
+volumes:
+  staging_caddy_data:
+  staging_caddy_config:

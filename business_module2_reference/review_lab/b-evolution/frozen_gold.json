@@ -1,0 +1,22 @@
+{
+  "testSuite": "B_FIVE_ASSETS_LONGITUDINAL_V1",
+  "purpose": "HUMAN_AUTHORED_SYNTHETIC_EXPECTATIONS",
+  "timelineSteps": 7,
+  "v1ExpertVisits": 1,
+  "v3ExpertVisits": 3,
+  "v3CohortStatus": "PATTERN_FOR_REVIEW",
+  "afterRevisionExpertVisits": 2,
+  "afterRevisionCohortStatus": "DESCRIPTIVE_ONLY",
+  "afterRevisionExpertYPresent": false,
+  "deniedQuestionBlocked": true,
+  "personalRepAStatus": "RETEST_OR_RETENTION",
+  "knowledgeSafetyStatus": "REVIEW_RETRIEVAL",
+  "scenarioAction": "REVISE_CANDIDATE",
+  "scenarioMissing": ["EVIDENCE_BOUNDARY", "FOLLOW_UP"],
+  "selectedOld": ["endpoint-definition", "subgroup-interpretation"],
+  "selectedNew": ["endpoint-definition", "extrapolation-boundary"],
+  "futureCaseOldCovered": 0,
+  "futureCaseNewCovered": 1,
+  "displaced": ["subgroup-interpretation"],
+  "noAutomaticPublication": true
+}

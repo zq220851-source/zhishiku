@@ -1,0 +1,12 @@
+{
+  "character/brain.js": "3ac32098bd35a02c7d55a8fe57beb3a06844c48648f4b169546bbcb9665c4f8c",
+  "character/index.js": "49d4abfd871f8c1fb4756b055b30d969a3da106b8fcfbe4f36f77290ee187319",
+  "character/outfits.js": "1ddfaeed18ac90ae981bd7371dd80a041a4f89df473a85ca3f791cd2f238e7cc",
+  "character/model.js": "2a2afaf38b2d0cc7fb950f449872ff866090c671f59b45014e7b05080fb9d18d",
+  "character/stage.js": "f434a485f7ed38387e7a5aa78f4ac7eaa4f39b39944804a65d4b51209cb3041d",
+  "character/interactions.js": "7e2e70a0aa715a9149ea3f63571411d41e2f2814f3cb4972c3480ce1cade6e3c",
+  "character/lipsync.js": "7e669093fc2fd49a0cec5dc887a470ebf63f0fe20e5767147ecee3d7b48570ec",
+  "character/glasses.js": "2de249f5bd05593477407cc369caf96a87b6e7d058ff3223ba9a3e13b66012bb",
+  "src/splash/splash.js": "b5ff043bf9682a7fb913c727798dd5190a6b73fdde3981ba53023e9fb507c7ec",
+  "src/app/prefs.js": "008b54e1c6b4c4d622c8f7718b884c51cd2b4e6f4d5d3af822df6cbb392a848d"
+}

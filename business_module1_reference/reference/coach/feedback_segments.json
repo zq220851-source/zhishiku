@@ -1,0 +1,11 @@
+{
+  "scope": "self_only",
+  "raw_transcript": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+  "user_revised": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+  "segments": [
+    {"kind": "reported_question", "source": "verbatim",  "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症"},
+    {"kind": "self_answer",       "source": "verbatim",  "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症"},
+    {"kind": "inference",          "source": "inference", "text": "他好像不太认可我的说法，可能觉得我在绕"},
+    {"kind": "unresolved",         "source": "summary",   "text": "价格那块没谈拢，他没接话"}
+  ]
+}

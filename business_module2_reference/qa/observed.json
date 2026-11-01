@@ -1,0 +1,1365 @@
+[
+  {
+    "step": 1,
+    "submitted": {
+      "visitId": "V1",
+      "rawVersion": 1
+    },
+    "newEntries": [
+      {
+        "id": "56f5d6068271b59d0434",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选池未包含，需再核对召回或适用性"
+      },
+      {
+        "id": "3d0da759e365f60beffa",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "b4117557a315bfec8bc5",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "bf6fc3eceaec589863bb",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "4e2cb5336a4e3a3e0848",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "activeEntries": [
+      {
+        "id": "56f5d6068271b59d0434",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选池未包含，需再核对召回或适用性"
+      },
+      {
+        "id": "3d0da759e365f60beffa",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "b4117557a315bfec8bc5",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "bf6fc3eceaec589863bb",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "4e2cb5336a4e3a3e0848",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "cohort": [
+      {
+        "key": "studyA:extrapolation",
+        "reportedVisits": 1,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 1,
+        "denominatorReps": 1,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      }
+    ],
+    "historyV1": 1,
+    "activeVisits": 1
+  },
+  {
+    "step": 2,
+    "submitted": {
+      "visitId": "V2",
+      "rawVersion": 1
+    },
+    "newEntries": [
+      {
+        "id": "1735441b2c55b960f1c6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_COVERED",
+        "note": "只表示报告的问题与冻结选题能力有交集；不代表真实命中率"
+      },
+      {
+        "id": "58ba834e34a4c9b8a10d",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "eddd21709e4dc1a87e1f",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "9730a463d01d302aa8a6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "2d77cd6f1fc2cc171943",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_SATISFIED",
+        "note": "练习 attempt-A-2 · 在限定的练习题上解释证据边界；不等于永久掌握"
+      }
+    ],
+    "activeEntries": [
+      {
+        "id": "56f5d6068271b59d0434",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选池未包含，需再核对召回或适用性"
+      },
+      {
+        "id": "3d0da759e365f60beffa",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "b4117557a315bfec8bc5",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "bf6fc3eceaec589863bb",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "4e2cb5336a4e3a3e0848",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1735441b2c55b960f1c6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_COVERED",
+        "note": "只表示报告的问题与冻结选题能力有交集；不代表真实命中率"
+      },
+      {
+        "id": "58ba834e34a4c9b8a10d",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "eddd21709e4dc1a87e1f",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "9730a463d01d302aa8a6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "2d77cd6f1fc2cc171943",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_SATISFIED",
+        "note": "练习 attempt-A-2 · 在限定的练习题上解释证据边界；不等于永久掌握"
+      }
+    ],
+    "cohort": [
+      {
+        "key": "studyA:extrapolation",
+        "reportedVisits": 2,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 2,
+        "denominatorReps": 1,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      }
+    ],
+    "historyV1": 1,
+    "activeVisits": 2
+  },
+  {
+    "step": 3,
+    "submitted": {
+      "visitId": "V3",
+      "rawVersion": 1
+    },
+    "newEntries": [
+      {
+        "id": "d09518fe5230440334cb",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选存在但未选，需再核对预算/优先级"
+      },
+      {
+        "id": "f6d3bcf8c61ef700c725",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyB:long-term:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "RETRIEVAL_NOT_FOUND",
+        "note": "仅为未检索到的候选，不得认定医学知识不存在"
+      },
+      {
+        "id": "9ddb6ea5a362b3649439",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertY:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "fd88821a5c9a9c86059f",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "0e6643fa7c917d4a5a03",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "activeEntries": [
+      {
+        "id": "56f5d6068271b59d0434",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选池未包含，需再核对召回或适用性"
+      },
+      {
+        "id": "3d0da759e365f60beffa",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "b4117557a315bfec8bc5",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "bf6fc3eceaec589863bb",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "4e2cb5336a4e3a3e0848",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1735441b2c55b960f1c6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_COVERED",
+        "note": "只表示报告的问题与冻结选题能力有交集；不代表真实命中率"
+      },
+      {
+        "id": "58ba834e34a4c9b8a10d",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "eddd21709e4dc1a87e1f",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "9730a463d01d302aa8a6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "2d77cd6f1fc2cc171943",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_SATISFIED",
+        "note": "练习 attempt-A-2 · 在限定的练习题上解释证据边界；不等于永久掌握"
+      },
+      {
+        "id": "d09518fe5230440334cb",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选存在但未选，需再核对预算/优先级"
+      },
+      {
+        "id": "f6d3bcf8c61ef700c725",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyB:long-term:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "RETRIEVAL_NOT_FOUND",
+        "note": "仅为未检索到的候选，不得认定医学知识不存在"
+      },
+      {
+        "id": "9ddb6ea5a362b3649439",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertY:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "fd88821a5c9a9c86059f",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "0e6643fa7c917d4a5a03",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "cohort": [
+      {
+        "key": "studyA:extrapolation",
+        "reportedVisits": 2,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 3,
+        "denominatorReps": 2,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      },
+      {
+        "key": "studyB:long-term",
+        "reportedVisits": 1,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 3,
+        "denominatorReps": 2,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      }
+    ],
+    "historyV1": 1,
+    "activeVisits": 3
+  },
+  {
+    "step": 4,
+    "submitted": {
+      "visitId": "V4",
+      "rawVersion": 1
+    },
+    "newEntries": [
+      {
+        "id": "1020da579455cb012c81",
+        "visitId": "V4",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repC:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "activeEntries": [
+      {
+        "id": "56f5d6068271b59d0434",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选池未包含，需再核对召回或适用性"
+      },
+      {
+        "id": "3d0da759e365f60beffa",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "b4117557a315bfec8bc5",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "bf6fc3eceaec589863bb",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "4e2cb5336a4e3a3e0848",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1735441b2c55b960f1c6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_COVERED",
+        "note": "只表示报告的问题与冻结选题能力有交集；不代表真实命中率"
+      },
+      {
+        "id": "58ba834e34a4c9b8a10d",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "eddd21709e4dc1a87e1f",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "9730a463d01d302aa8a6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "2d77cd6f1fc2cc171943",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_SATISFIED",
+        "note": "练习 attempt-A-2 · 在限定的练习题上解释证据边界；不等于永久掌握"
+      },
+      {
+        "id": "d09518fe5230440334cb",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选存在但未选，需再核对预算/优先级"
+      },
+      {
+        "id": "f6d3bcf8c61ef700c725",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyB:long-term:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "RETRIEVAL_NOT_FOUND",
+        "note": "仅为未检索到的候选，不得认定医学知识不存在"
+      },
+      {
+        "id": "9ddb6ea5a362b3649439",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertY:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "fd88821a5c9a9c86059f",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "0e6643fa7c917d4a5a03",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1020da579455cb012c81",
+        "visitId": "V4",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repC:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "cohort": [
+      {
+        "key": "studyA:extrapolation",
+        "reportedVisits": 2,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 4,
+        "denominatorReps": 3,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      },
+      {
+        "key": "studyB:long-term",
+        "reportedVisits": 1,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 4,
+        "denominatorReps": 3,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      }
+    ],
+    "historyV1": 1,
+    "activeVisits": 4
+  },
+  {
+    "step": 5,
+    "submitted": {
+      "visitId": "V5",
+      "rawVersion": 1
+    },
+    "newEntries": [
+      {
+        "id": "c78383e01af1f817f347",
+        "visitId": "V5",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "activeEntries": [
+      {
+        "id": "56f5d6068271b59d0434",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选池未包含，需再核对召回或适用性"
+      },
+      {
+        "id": "3d0da759e365f60beffa",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "b4117557a315bfec8bc5",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "bf6fc3eceaec589863bb",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "4e2cb5336a4e3a3e0848",
+        "visitId": "V1",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1735441b2c55b960f1c6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_COVERED",
+        "note": "只表示报告的问题与冻结选题能力有交集；不代表真实命中率"
+      },
+      {
+        "id": "58ba834e34a4c9b8a10d",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "eddd21709e4dc1a87e1f",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "9730a463d01d302aa8a6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "2d77cd6f1fc2cc171943",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_SATISFIED",
+        "note": "练习 attempt-A-2 · 在限定的练习题上解释证据边界；不等于永久掌握"
+      },
+      {
+        "id": "d09518fe5230440334cb",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选存在但未选，需再核对预算/优先级"
+      },
+      {
+        "id": "f6d3bcf8c61ef700c725",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyB:long-term:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "RETRIEVAL_NOT_FOUND",
+        "note": "仅为未检索到的候选，不得认定医学知识不存在"
+      },
+      {
+        "id": "9ddb6ea5a362b3649439",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertY:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "fd88821a5c9a9c86059f",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "0e6643fa7c917d4a5a03",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1020da579455cb012c81",
+        "visitId": "V4",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repC:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "c78383e01af1f817f347",
+        "visitId": "V5",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "cohort": [
+      {
+        "key": "studyA:extrapolation",
+        "reportedVisits": 2,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 5,
+        "denominatorReps": 3,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      },
+      {
+        "key": "studyB:long-term",
+        "reportedVisits": 1,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 5,
+        "denominatorReps": 3,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      }
+    ],
+    "historyV1": 1,
+    "activeVisits": 5
+  },
+  {
+    "step": 6,
+    "submitted": {
+      "visitId": "V1",
+      "rawVersion": 2
+    },
+    "newEntries": [],
+    "activeEntries": [
+      {
+        "id": "1735441b2c55b960f1c6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_COVERED",
+        "note": "只表示报告的问题与冻结选题能力有交集；不代表真实命中率"
+      },
+      {
+        "id": "58ba834e34a4c9b8a10d",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyA:extrapolation:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "SUPPORTED",
+        "note": "只记录检索层测试结果，不替代医学审核"
+      },
+      {
+        "id": "eddd21709e4dc1a87e1f",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertX:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "9730a463d01d302aa8a6",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyA:extrapolation",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "2d77cd6f1fc2cc171943",
+        "visitId": "V2",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repA:extrapolation",
+        "evidenceObservationIds": [],
+        "status": "TRAINING_EVIDENCE",
+        "label": "PRACTICE_SATISFIED",
+        "note": "练习 attempt-A-2 · 在限定的练习题上解释证据边界；不等于永久掌握"
+      },
+      {
+        "id": "d09518fe5230440334cb",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "FORECAST",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_UNCOVERED",
+        "note": "候选存在但未选，需再核对预算/优先级"
+      },
+      {
+        "id": "f6d3bcf8c61ef700c725",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "KNOWLEDGE_COVERAGE",
+        "targetId": "studyB:long-term:knowledge-v1",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "CANDIDATE",
+        "label": "RETRIEVAL_NOT_FOUND",
+        "note": "仅为未检索到的候选，不得认定医学知识不存在"
+      },
+      {
+        "id": "9ddb6ea5a362b3649439",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "EXPERT_OBSERVATION",
+        "targetId": "expertY:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_EXPERT_QUESTION",
+        "note": "单次员工转述，不形成专家稳定偏好"
+      },
+      {
+        "id": "fd88821a5c9a9c86059f",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "COHORT_EVENT",
+        "targetId": "studyB:long-term",
+        "evidenceObservationIds": [
+          "o1"
+        ],
+        "status": "OBSERVATION",
+        "label": "REPORTED_TOPIC_OCCURRENCE",
+        "note": "保留拜访、员工和专家的独立去重维度"
+      },
+      {
+        "id": "0e6643fa7c917d4a5a03",
+        "visitId": "V3",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "1020da579455cb012c81",
+        "visitId": "V4",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repC:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      },
+      {
+        "id": "c78383e01af1f817f347",
+        "visitId": "V5",
+        "rawVersion": 1,
+        "kind": "PERSONAL_SKILL",
+        "targetId": "repB:long-term",
+        "evidenceObservationIds": [
+          "o2"
+        ],
+        "status": "OBSERVATION",
+        "label": "SELF_REPORTED_DIFFICULTY",
+        "note": "只是员工自述，需练习验证，不代表真实能力评分"
+      }
+    ],
+    "cohort": [
+      {
+        "key": "studyA:extrapolation",
+        "reportedVisits": 1,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 5,
+        "denominatorReps": 3,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      },
+      {
+        "key": "studyB:long-term",
+        "reportedVisits": 1,
+        "reportedReps": 1,
+        "reportedExperts": 1,
+        "denominatorVisits": 5,
+        "denominatorReps": 3,
+        "type": "DESCRIPTIVE_PATTERN_CANDIDATE"
+      }
+    ],
+    "historyV1": 2,
+    "activeVisits": 5
+  }
+]

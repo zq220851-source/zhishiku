@@ -1,0 +1,38 @@
+{
+  "version": "qa-gold-v1",
+  "case_name": "V0.5 multi-visit independent review",
+  "expected_steps": 6,
+  "at_step_1": {
+    "visit": "V1",
+    "forecast": "REPORTED_UNCOVERED",
+    "skill": "SELF_REPORTED_DIFFICULTY",
+    "knowledge": "SUPPORTED",
+    "expert": "REPORTED_EXPERT_QUESTION"
+  },
+  "at_step_2": {
+    "visit": "V2",
+    "forecast": "REPORTED_COVERED",
+    "practice": "PRACTICE_SATISFIED",
+    "expert_reported_visits": 2,
+    "unique_reps": 1,
+    "unique_experts": 1
+  },
+  "at_step_3": {
+    "visit": "V3",
+    "knowledge": "RETRIEVAL_NOT_FOUND",
+    "knowledge_status": "CANDIDATE"
+  },
+  "at_step_4": { "visit": "V4", "allowed_kinds": ["PERSONAL_SKILL"] },
+  "at_step_5": { "visit": "V5", "allowed_kinds": ["PERSONAL_SKILL"] },
+  "at_step_6": {
+    "visit": "V1",
+    "rawVersion": 2,
+    "current_visits": 5,
+    "history_v1": 2,
+    "reported_studyA_visits": 1,
+    "reported_studyB_visits": 1,
+    "total_reps": 3,
+    "total_visits": 5
+  },
+  "forbidden_labels": ["PROFILE_CONFIRMED", "MEDICAL_KNOWLEDGE_GAP_CONFIRMED", "FORECAST_ACCURACY_PROVEN", "MASTERED_PERMANENTLY"]
+}

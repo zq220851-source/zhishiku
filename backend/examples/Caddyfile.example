@@ -1,0 +1,16 @@
+# Example only: needs actual DNS, access control, security headers and TLS.
+# Caddy runs on the HOST and can reach platform service at 127.0.0.1:18080.
+coach.example.com {
+  # Internal API is accessible ONLY on the private network from trusted module backends.
+  # Never allow /platform/v1/internal/* through a public HTTPS proxy.
+  handle /platform/v1/internal/* {
+    respond "Not found" 404
+  }
+  handle_path /platform/* {
+    reverse_proxy 127.0.0.1:18080
+  }
+  # Mount actual Next.js Web apps on other paths ONLY after identity guards are integrated.
+  handle {
+    respond "MedRep Coach web modules are not deployed yet" 503
+  }
+}

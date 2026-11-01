@@ -1,0 +1,57 @@
+{
+  "id": "medrep-dialogue-v0.1",
+  "title": "医药代表—医生模拟对话：可溯源候选评分标准",
+  "status": "prototype_pending_training_medical_and_compliance_review",
+  "official_innovent_scorecard": false,
+  "scope": "仅评价模拟对话中可观察的代表发言；无视频时不评价仪表、眼神、肢体语言；不以销售业绩或医生是否处方评分。",
+  "method": "依据支持评价构念；0/1/2 行为锚点是本项目的操作化设计，不是原文或信达官方分值。每项需记录发言证据、依据 ID、审核状态。",
+  "scale": {"0": "未达到或出现反向行为", "1": "部分达到，关键环节缺失", "2": "完整达到且可在对话中定位", "NA": "情境未触发或可靠依据不足，不计分"},
+  "aggregation": "输出六维向量和可评维度覆盖率；不设总分、权重或及格线，待培训师标注与一致性校准。",
+  "source_policy": "S1 法规/WHO 和信达 S4 官方政策优先处理合规；S5 书籍/课件只提供沟通行为候选；L1 候选不得伪称已批准；医学产品主张须另核已批准说明书及医学审核。",
+  "dimensions": [
+    {
+      "id": "D1", "name": "探询与需求确认", "domain": "沟通", "trigger": "医生提出问题、顾虑或患者情境",
+      "anchors": {"0": "忽略医生具体问题，直接背诵产品话术或连续追问无关问题。", "1": "有相关提问或复述，但未确认真正关切就进入产品介绍。", "2": "用简明相关问题探明关切，复述或概括并让医生确认，再回应。"},
+      "source_ids": ["BOOK-TRUST-ASK", "BOOK-150Q-LISTEN", "BOOK-TRAIN-ASK", "BOOK-TRAIN-LISTEN", "BOOK-PRACTICE-LISTEN", "TEXT12-VISIT"],
+      "design_note": "提问、倾听、确认是书/教材支持的行为；三档分值与必须组合为项目设计。"
+    },
+    {
+      "id": "D2", "name": "回应清晰与双向互动", "domain": "沟通", "trigger": "代表回答医生的专业问题",
+      "anchors": {"0": "答非所问、难以理解，或遮蔽医生关心的限定条件。", "1": "回答了问题，但逻辑不清、信息堆砌，或未核对医生是否得到所需信息。", "2": "先回应问题，再按结论、依据、适用边界简明展开，并给医生追问或核对的机会。"},
+      "source_ids": ["BOOK-TRUST-SOLUTION", "RDPAC42", "HAI-BOX2-QA", "INNO-ETH-44", "course-specs/D-RCC.json"],
+      "design_note": "真实、清楚和回应问题有直接依据；结论—依据—边界顺序是项目设计。"
+    },
+    {
+      "id": "D3", "name": "异议处理", "domain": "沟通", "trigger": "医生明确表达质疑、不同意见或拒绝",
+      "anchors": {"0": "打断、反驳或转移异议，重复原话术。", "1": "承认异议，但未查明缘由或回答未针对其核心问题。", "2": "先确认异议焦点，再用适当依据回应；仍有未知时明确承认并提出核实路径。"},
+      "source_ids": ["BOOK-TRUST-OBJECTION", "TEXT12-VISIT", "RDPAC43", "course-specs/D-RCC.json"],
+      "design_note": "书/课程支持诊断异议；把‘承认未知+核实’纳入满档是本项目设计。"
+    },
+    {
+      "id": "D4", "name": "医学与产品信息准确", "domain": "专业知识", "trigger": "代表作出疾病、药品、适应症、用法或疗效陈述",
+      "anchors": {"0": "可核实的陈述与当前已批准资料或经审查医学来源矛盾，或将研究中信息说成获批信息。", "1": "主要事实正确，但关键患者条件、线次、检测状态或限制条件含糊。", "2": "关键事实、适用人群、条件和限制与当前已批准资料及经审查来源一致。"},
+      "source_ids": ["CN10", "RDPAC41", "HAI-BOX2-APPROVAL", "CLN-0001", "course-specs/D-RCC.json"],
+      "prerequisite": "须加载对应产品现行中国批准说明书、版本日期及医学审核；否则具体产品主张标 NA，不能凭现有临床库判对错。",
+      "design_note": "准确和批准范围有规范依据；0/1/2 档为项目设计。"
+    },
+    {
+      "id": "D5", "name": "证据、风险与不确定性", "domain": "专业知识", "trigger": "代表引用研究结果、比较产品，或讨论获益和风险",
+      "anchors": {"0": "无依据地宣称优效/绝对疗效，隐去重要风险，或把不确定结果说成定论。", "1": "有证据或风险信息，但缺来源、研究人群、关键局限或相关安全信息。", "2": "指出资料来源和适用人群，准确表达效果与局限，并在相关情境中平衡呈现不良反应、禁忌或相互作用。"},
+      "source_ids": ["WHO18", "RDPAC42", "RDPAC43", "HAI-BOX2-SAFETY", "CN24-7", "INNO-MKT-413"],
+      "prerequisite": "疗效数值与安全细节须有当前、可审查的原始资料或说明书；未加载时只能评价是否提供来源/说明未知，事实正确性标 NA。",
+      "design_note": "完整、平衡、有据和不隐匿风险有直接依据；三档划分为项目设计。"
+    },
+    {
+      "id": "D6", "name": "合规与角色边界", "domain": "合规", "trigger": "每段对话均检查；部分子项由情境触发",
+      "anchors": {"0": "出现已证实的禁止性行为或明确越过推广/隐私边界。", "1": "未见明确违规，但授权资料、推广范围或个人信息处理边界表述含糊。", "2": "使用经批准的口径，守住获批范围与隐私边界，超出授权的问题转交医学/合规渠道。"},
+      "source_ids": ["CN24-1", "CN24-7", "RDPAC3", "INNO-MKT-411", "INNO-MKT-42", "INNO-ETH-42", "INNO-ETH-11"],
+      "design_note": "禁止性行为依据来自法规/公司政策；三档及转交流程须信达内部审核。"
+    }
+  ],
+  "hard_gates": [
+    {"id": "G1", "condition": "明确夸大或误导疗效、隐匿已知不良反应", "source_ids": ["CN24-7", "INNO-MKT-411"], "outcome": "停止常规总评并转人工合规复核"},
+    {"id": "G2", "condition": "以金钱或有价物诱导处方", "source_ids": ["INNO-ETH-42", "WHO19"], "outcome": "停止常规总评并转人工合规复核"},
+    {"id": "G3", "condition": "具体医学事实缺当前可审查依据", "source_ids": ["RDPAC41", "RDPAC43"], "outcome": "相关事实项标 NA 并登记证据缺口，不对代表扣分"}
+  ],
+  "rating_record_required": ["scenario_id", "transcript_span", "dimension_id", "rating_or_NA", "behavior_observed", "source_ids", "evidence_version", "review_status", "rater_id"]
+}

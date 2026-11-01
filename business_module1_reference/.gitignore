@@ -1,0 +1,7 @@
+.venv/
+.env*
+!.env.example
+runtime/
+__pycache__/
+*.pyc
+test-results/

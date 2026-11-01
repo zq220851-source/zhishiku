@@ -1,0 +1,14 @@
+# Cloudflare 原生部署模板；复制为 wrangler.toml 前，先创建并填写自己的 R2 bucket。
+name = "medrep-daily"
+main = "worker/index.js"
+compatibility_date = "2026-10-31"
+
+[triggers]
+crons = ["0 0 * * *"] # UTC 00:00 = Asia/Shanghai 08:00
+
+[vars]
+CRON_ENABLED = "true"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "REPLACE_WITH_YOUR_R2_BUCKET_NAME"

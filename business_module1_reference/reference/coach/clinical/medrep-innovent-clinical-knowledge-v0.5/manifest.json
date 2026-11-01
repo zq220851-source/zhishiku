@@ -1,0 +1,22 @@
+{
+  "version": "0.5",
+  "date": "2026-10-31",
+  "input_v0_4_sha256": "7b41070da66c4ed141de223e7730493441e4f7117c6f997acb6a06c208552067",
+  "output_sha256": "d511474f9e9cfb9cc1385969abc4123e0426330eede54e50df94f40ce16d2189",
+  "counts": {
+    "sources": 52,
+    "cases": 111,
+    "med_products": 20,
+    "med_pipeline": 5,
+    "med_claims": 33,
+    "med_questions": 18,
+    "clinical_sources": 18,
+    "therapeutic_areas": 6,
+    "clinical_conditions": 42,
+    "product_condition_map": 43,
+    "expanded_pipeline": 29,
+    "pipeline_condition_map": 38,
+    "competency_items": 175
+  },
+  "notes": "扩展覆盖公开目录中20款已商业化产品、29个公开命名在研项目、42类医学主题，课程题是待审核草案，不是训练模型的人工金标准。"
+}

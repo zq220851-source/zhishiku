@@ -1,0 +1,12 @@
+# MedRep Coach 运行依赖
+#
+# 核心功能零第三方依赖 —— 下列均为可选增强。
+# Python >= 3.9
+
+# 图像渲染（VLM provider 需要：把提示渲染成图交给视觉模型）
+Pillow>=9.0
+
+# 说明：
+#   · SQLite（临床知识库）—— Python 标准库内置，无需安装
+#   · urllib（调用 MiniMax API）—— Python 标准库内置，无需安装
+#   · 其余模块全部纯标准库实现

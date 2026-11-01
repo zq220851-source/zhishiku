@@ -1,0 +1,1111 @@
+{
+  "debriefs": {
+    "DR-55052d0ae2a4": {
+      "debrief_id": "DR-55052d0ae2a4",
+      "user_id": "demo",
+      "status": "captured",
+      "version": 1,
+      "occurred_at": "2026-10-31T06:18:49+00:00",
+      "submitted_at": "2026-10-31T06:18:49+00:00",
+      "scope": "self_only",
+      "pre_run_id": null,
+      "revision_of": null,
+      "raw_transcript": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "user_revised": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "segments": [
+        {
+          "kind": "reported_question",
+          "source": "verbatim",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症"
+        },
+        {
+          "kind": "self_answer",
+          "source": "verbatim",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症"
+        },
+        {
+          "kind": "inference",
+          "source": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕"
+        },
+        {
+          "kind": "unresolved",
+          "source": "summary",
+          "text": "价格那块没谈拢，他没接话"
+        }
+      ],
+      "ae_detected": null,
+      "ae_guidance": null,
+      "audit": [
+        {
+          "at": "2026-10-31T06:18:49+00:00",
+          "actor": "demo",
+          "action": "capture",
+          "version": 1
+        }
+      ],
+      "fact_boundary": "复盘是代表的报告；本系统只能核验专业知识依据，不能仅凭单人复盘证明一次现场交流的完整真相。"
+    },
+    "DR-5cf48c3eb4d6": {
+      "debrief_id": "DR-5cf48c3eb4d6",
+      "user_id": "demo-b52938fb",
+      "status": "captured",
+      "version": 1,
+      "occurred_at": "2026-10-31T06:20:44+00:00",
+      "submitted_at": "2026-10-31T06:20:44+00:00",
+      "scope": "self_only",
+      "pre_run_id": null,
+      "revision_of": null,
+      "raw_transcript": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "user_revised": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "segments": [
+        {
+          "kind": "reported_question",
+          "source": "verbatim",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症"
+        },
+        {
+          "kind": "self_answer",
+          "source": "verbatim",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症"
+        },
+        {
+          "kind": "inference",
+          "source": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕"
+        },
+        {
+          "kind": "unresolved",
+          "source": "summary",
+          "text": "价格那块没谈拢，他没接话"
+        }
+      ],
+      "ae_detected": null,
+      "ae_guidance": null,
+      "audit": [
+        {
+          "at": "2026-10-31T06:20:44+00:00",
+          "actor": "demo-b52938fb",
+          "action": "capture",
+          "version": 1
+        }
+      ],
+      "fact_boundary": "复盘是代表的报告；本系统只能核验专业知识依据，不能仅凭单人复盘证明一次现场交流的完整真相。"
+    },
+    "DR-289e88459d3e": {
+      "debrief_id": "DR-289e88459d3e",
+      "user_id": "demo-55ce8417",
+      "status": "captured",
+      "version": 1,
+      "occurred_at": "2026-10-31T06:20:44+00:00",
+      "submitted_at": "2026-10-31T06:20:44+00:00",
+      "scope": "self_only",
+      "pre_run_id": null,
+      "revision_of": null,
+      "raw_transcript": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "user_revised": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "segments": [
+        {
+          "kind": "reported_question",
+          "source": "verbatim",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症"
+        },
+        {
+          "kind": "self_answer",
+          "source": "verbatim",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症"
+        },
+        {
+          "kind": "inference",
+          "source": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕"
+        },
+        {
+          "kind": "unresolved",
+          "source": "summary",
+          "text": "价格那块没谈拢，他没接话"
+        }
+      ],
+      "ae_detected": null,
+      "ae_guidance": null,
+      "audit": [
+        {
+          "at": "2026-10-31T06:20:44+00:00",
+          "actor": "demo-55ce8417",
+          "action": "capture",
+          "version": 1
+        }
+      ],
+      "fact_boundary": "复盘是代表的报告；本系统只能核验专业知识依据，不能仅凭单人复盘证明一次现场交流的完整真相。"
+    },
+    "DR-a82e1496f2c8": {
+      "debrief_id": "DR-a82e1496f2c8",
+      "user_id": "demo-785ff381",
+      "status": "captured",
+      "version": 1,
+      "occurred_at": "2026-10-31T06:20:44+00:00",
+      "submitted_at": "2026-10-31T06:20:44+00:00",
+      "scope": "self_only",
+      "pre_run_id": null,
+      "revision_of": null,
+      "raw_transcript": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "user_revised": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "segments": [
+        {
+          "kind": "reported_question",
+          "source": "verbatim",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症"
+        },
+        {
+          "kind": "self_answer",
+          "source": "verbatim",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症"
+        },
+        {
+          "kind": "inference",
+          "source": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕"
+        },
+        {
+          "kind": "unresolved",
+          "source": "summary",
+          "text": "价格那块没谈拢，他没接话"
+        }
+      ],
+      "ae_detected": null,
+      "ae_guidance": null,
+      "audit": [
+        {
+          "at": "2026-10-31T06:20:44+00:00",
+          "actor": "demo-785ff381",
+          "action": "capture",
+          "version": 1
+        }
+      ],
+      "fact_boundary": "复盘是代表的报告；本系统只能核验专业知识依据，不能仅凭单人复盘证明一次现场交流的完整真相。"
+    },
+    "DR-b4a6c14523a8": {
+      "debrief_id": "DR-b4a6c14523a8",
+      "user_id": "demo-f547d6b4",
+      "status": "captured",
+      "version": 1,
+      "occurred_at": "2026-10-31T06:20:44+00:00",
+      "submitted_at": "2026-10-31T06:20:44+00:00",
+      "scope": "self_only",
+      "pre_run_id": null,
+      "revision_of": null,
+      "raw_transcript": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "user_revised": "达伯舒跟 NSCLC 是什么关系？是不是获批适应症……价格那块……",
+      "segments": [
+        {
+          "kind": "reported_question",
+          "source": "verbatim",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症"
+        },
+        {
+          "kind": "self_answer",
+          "source": "verbatim",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症"
+        },
+        {
+          "kind": "inference",
+          "source": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕"
+        },
+        {
+          "kind": "unresolved",
+          "source": "summary",
+          "text": "价格那块没谈拢，他没接话"
+        }
+      ],
+      "ae_detected": null,
+      "ae_guidance": null,
+      "audit": [
+        {
+          "at": "2026-10-31T06:20:44+00:00",
+          "actor": "demo-f547d6b4",
+          "action": "capture",
+          "version": 1
+        }
+      ],
+      "fact_boundary": "复盘是代表的报告；本系统只能核验专业知识依据，不能仅凭单人复盘证明一次现场交流的完整真相。"
+    }
+  },
+  "observations": {
+    "OB-8fa59e7e7d7a": {
+      "observation_id": "OB-8fa59e7e7d7a",
+      "kind": "reported_question",
+      "kind_cn": "对方提出的专业问题",
+      "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-8c28e0ee60e4": {
+      "observation_id": "OB-8c28e0ee60e4",
+      "kind": "self_answer",
+      "kind_cn": "代表自述的回答",
+      "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": true,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-41b3f7e35034": {
+      "observation_id": "OB-41b3f7e35034",
+      "kind": "inference",
+      "kind_cn": "主观推测",
+      "text": "他好像不太认可我的说法，可能觉得我在绕",
+      "source": "inference",
+      "source_cn": "推断",
+      "skill_id": null,
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-82e9119c674d": {
+      "observation_id": "OB-82e9119c674d",
+      "kind": "unresolved",
+      "kind_cn": "未解决的问题",
+      "text": "价格那块没谈拢，他没接话",
+      "source": "summary",
+      "source_cn": "概括",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "_by_debrief": {
+      "DR-55052d0ae2a4": [
+        "OB-8fa59e7e7d7a",
+        "OB-8c28e0ee60e4",
+        "OB-41b3f7e35034",
+        "OB-82e9119c674d"
+      ],
+      "DR-5cf48c3eb4d6": [
+        "OB-3b8f3e98cbe6",
+        "OB-78e725eb870d",
+        "OB-acafcfb38ffb",
+        "OB-3548d2dcc11c"
+      ],
+      "DR-289e88459d3e": [
+        "OB-71175b1f115f",
+        "OB-8cdae8f71909",
+        "OB-7e945411f4c8",
+        "OB-a791ebdd8794"
+      ],
+      "DR-a82e1496f2c8": [
+        "OB-3b38b9e51c30",
+        "OB-e090b8d40142",
+        "OB-77b325ac28a5",
+        "OB-903f01e5ff1e"
+      ],
+      "DR-b4a6c14523a8": [
+        "OB-5104d17d35fb",
+        "OB-ca4a0b6be842",
+        "OB-350f23cc5da7",
+        "OB-2f0ad73165df"
+      ]
+    },
+    "OB-3b8f3e98cbe6": {
+      "observation_id": "OB-3b8f3e98cbe6",
+      "kind": "reported_question",
+      "kind_cn": "对方提出的专业问题",
+      "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-78e725eb870d": {
+      "observation_id": "OB-78e725eb870d",
+      "kind": "self_answer",
+      "kind_cn": "代表自述的回答",
+      "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": true,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-acafcfb38ffb": {
+      "observation_id": "OB-acafcfb38ffb",
+      "kind": "inference",
+      "kind_cn": "主观推测",
+      "text": "他好像不太认可我的说法，可能觉得我在绕",
+      "source": "inference",
+      "source_cn": "推断",
+      "skill_id": null,
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-3548d2dcc11c": {
+      "observation_id": "OB-3548d2dcc11c",
+      "kind": "unresolved",
+      "kind_cn": "未解决的问题",
+      "text": "价格那块没谈拢，他没接话",
+      "source": "summary",
+      "source_cn": "概括",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-71175b1f115f": {
+      "observation_id": "OB-71175b1f115f",
+      "kind": "reported_question",
+      "kind_cn": "对方提出的专业问题",
+      "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-8cdae8f71909": {
+      "observation_id": "OB-8cdae8f71909",
+      "kind": "self_answer",
+      "kind_cn": "代表自述的回答",
+      "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": true,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-7e945411f4c8": {
+      "observation_id": "OB-7e945411f4c8",
+      "kind": "inference",
+      "kind_cn": "主观推测",
+      "text": "他好像不太认可我的说法，可能觉得我在绕",
+      "source": "inference",
+      "source_cn": "推断",
+      "skill_id": null,
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-a791ebdd8794": {
+      "observation_id": "OB-a791ebdd8794",
+      "kind": "unresolved",
+      "kind_cn": "未解决的问题",
+      "text": "价格那块没谈拢，他没接话",
+      "source": "summary",
+      "source_cn": "概括",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-3b38b9e51c30": {
+      "observation_id": "OB-3b38b9e51c30",
+      "kind": "reported_question",
+      "kind_cn": "对方提出的专业问题",
+      "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-e090b8d40142": {
+      "observation_id": "OB-e090b8d40142",
+      "kind": "self_answer",
+      "kind_cn": "代表自述的回答",
+      "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": true,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-77b325ac28a5": {
+      "observation_id": "OB-77b325ac28a5",
+      "kind": "inference",
+      "kind_cn": "主观推测",
+      "text": "他好像不太认可我的说法，可能觉得我在绕",
+      "source": "inference",
+      "source_cn": "推断",
+      "skill_id": null,
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-903f01e5ff1e": {
+      "observation_id": "OB-903f01e5ff1e",
+      "kind": "unresolved",
+      "kind_cn": "未解决的问题",
+      "text": "价格那块没谈拢，他没接话",
+      "source": "summary",
+      "source_cn": "概括",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-5104d17d35fb": {
+      "observation_id": "OB-5104d17d35fb",
+      "kind": "reported_question",
+      "kind_cn": "对方提出的专业问题",
+      "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-ca4a0b6be842": {
+      "observation_id": "OB-ca4a0b6be842",
+      "kind": "self_answer",
+      "kind_cn": "代表自述的回答",
+      "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+      "source": "verbatim",
+      "source_cn": "原话",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": true,
+      "event_occurrence_verified": true,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-350f23cc5da7": {
+      "observation_id": "OB-350f23cc5da7",
+      "kind": "inference",
+      "kind_cn": "主观推测",
+      "text": "他好像不太认可我的说法，可能觉得我在绕",
+      "source": "inference",
+      "source_cn": "推断",
+      "skill_id": null,
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    },
+    "OB-2f0ad73165df": {
+      "observation_id": "OB-2f0ad73165df",
+      "kind": "unresolved",
+      "kind_cn": "未解决的问题",
+      "text": "价格那块没谈拢，他没接话",
+      "source": "summary",
+      "source_cn": "概括",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "intent": null,
+      "statement_is_medically_supported": false,
+      "event_occurrence_verified": false,
+      "support_refs": [],
+      "observation_quality": "single_self_report"
+    }
+  },
+  "coverage": {
+    "DR-55052d0ae2a4": {
+      "coverage_map": [
+        {
+          "observation_id": "OB-8fa59e7e7d7a",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "reported_question",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-8c28e0ee60e4",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "self_answer",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": true,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-41b3f7e35034",
+          "skill_id": null,
+          "kind": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕",
+          "gap_class": "unknown",
+          "gap_class_cn": "记录不清，无法判定",
+          "match_level": "none",
+          "match_evidence": "三级比对均未命中",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        },
+        {
+          "observation_id": "OB-82e9119c674d",
+          "skill_id": "SK-C-OBJ-01",
+          "kind": "unresolved",
+          "text": "价格那块没谈拢，他没接话",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-C-OBJ-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        }
+      ],
+      "counts": {
+        "covered_mastered": 0,
+        "covered_not_mastered": 0,
+        "not_covered": 3,
+        "partial": 0,
+        "unknown": 1
+      },
+      "external_wording": "复盘报告的题目覆盖情况",
+      "fact_boundary": "这是【复盘报告的题目覆盖情况】，不是对真实医生言行的预测或验证。"
+    },
+    "DR-5cf48c3eb4d6": {
+      "coverage_map": [
+        {
+          "observation_id": "OB-3b8f3e98cbe6",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "reported_question",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-78e725eb870d",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "self_answer",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": true,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-acafcfb38ffb",
+          "skill_id": null,
+          "kind": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕",
+          "gap_class": "unknown",
+          "gap_class_cn": "记录不清，无法判定",
+          "match_level": "none",
+          "match_evidence": "三级比对均未命中",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        },
+        {
+          "observation_id": "OB-3548d2dcc11c",
+          "skill_id": "SK-C-OBJ-01",
+          "kind": "unresolved",
+          "text": "价格那块没谈拢，他没接话",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-C-OBJ-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        }
+      ],
+      "counts": {
+        "covered_mastered": 0,
+        "covered_not_mastered": 0,
+        "not_covered": 3,
+        "partial": 0,
+        "unknown": 1
+      },
+      "external_wording": "复盘报告的题目覆盖情况",
+      "fact_boundary": "这是【复盘报告的题目覆盖情况】，不是对真实医生言行的预测或验证。"
+    },
+    "DR-289e88459d3e": {
+      "coverage_map": [
+        {
+          "observation_id": "OB-71175b1f115f",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "reported_question",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-8cdae8f71909",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "self_answer",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": true,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-7e945411f4c8",
+          "skill_id": null,
+          "kind": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕",
+          "gap_class": "unknown",
+          "gap_class_cn": "记录不清，无法判定",
+          "match_level": "none",
+          "match_evidence": "三级比对均未命中",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        },
+        {
+          "observation_id": "OB-a791ebdd8794",
+          "skill_id": "SK-C-OBJ-01",
+          "kind": "unresolved",
+          "text": "价格那块没谈拢，他没接话",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-C-OBJ-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        }
+      ],
+      "counts": {
+        "covered_mastered": 0,
+        "covered_not_mastered": 0,
+        "not_covered": 3,
+        "partial": 0,
+        "unknown": 1
+      },
+      "external_wording": "复盘报告的题目覆盖情况",
+      "fact_boundary": "这是【复盘报告的题目覆盖情况】，不是对真实医生言行的预测或验证。"
+    },
+    "DR-a82e1496f2c8": {
+      "coverage_map": [
+        {
+          "observation_id": "OB-3b38b9e51c30",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "reported_question",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-e090b8d40142",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "self_answer",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": true,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-77b325ac28a5",
+          "skill_id": null,
+          "kind": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕",
+          "gap_class": "unknown",
+          "gap_class_cn": "记录不清，无法判定",
+          "match_level": "none",
+          "match_evidence": "三级比对均未命中",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        },
+        {
+          "observation_id": "OB-903f01e5ff1e",
+          "skill_id": "SK-C-OBJ-01",
+          "kind": "unresolved",
+          "text": "价格那块没谈拢，他没接话",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-C-OBJ-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        }
+      ],
+      "counts": {
+        "covered_mastered": 0,
+        "covered_not_mastered": 0,
+        "not_covered": 3,
+        "partial": 0,
+        "unknown": 1
+      },
+      "external_wording": "复盘报告的题目覆盖情况",
+      "fact_boundary": "这是【复盘报告的题目覆盖情况】，不是对真实医生言行的预测或验证。"
+    },
+    "DR-b4a6c14523a8": {
+      "coverage_map": [
+        {
+          "observation_id": "OB-5104d17d35fb",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "reported_question",
+          "text": "他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-ca4a0b6be842",
+          "skill_id": "SK-K-DABOSHU-PROD-01",
+          "kind": "self_answer",
+          "text": "我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适应症",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-K-DABOSHU-PROD-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": true,
+          "event_occurrence_verified": true
+        },
+        {
+          "observation_id": "OB-350f23cc5da7",
+          "skill_id": null,
+          "kind": "inference",
+          "text": "他好像不太认可我的说法，可能觉得我在绕",
+          "gap_class": "unknown",
+          "gap_class_cn": "记录不清，无法判定",
+          "match_level": "none",
+          "match_evidence": "三级比对均未命中",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        },
+        {
+          "observation_id": "OB-2f0ad73165df",
+          "skill_id": "SK-C-OBJ-01",
+          "kind": "unresolved",
+          "text": "价格那块没谈拢，他没接话",
+          "gap_class": "not_covered",
+          "gap_class_cn": "未覆盖",
+          "match_level": "skill_id_outside_plan",
+          "match_evidence": "能力点 SK-C-OBJ-01 已识别，但不在本次训练计划内",
+          "observation_quality": "single_self_report",
+          "statement_is_medically_supported": false,
+          "event_occurrence_verified": false
+        }
+      ],
+      "counts": {
+        "covered_mastered": 0,
+        "covered_not_mastered": 0,
+        "not_covered": 3,
+        "partial": 0,
+        "unknown": 1
+      },
+      "external_wording": "复盘报告的题目覆盖情况",
+      "fact_boundary": "这是【复盘报告的题目覆盖情况】，不是对真实医生言行的预测或验证。"
+    }
+  },
+  "gap_candidates": {
+    "GC-f2176e3da5f9": {
+      "candidate_id": "GC-f2176e3da5f9",
+      "user_id": "demo",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-55052d0ae2a4",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-829d54e0a33b": {
+      "candidate_id": "GC-829d54e0a33b",
+      "user_id": "demo",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-55052d0ae2a4",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-b663bba9aac8": {
+      "candidate_id": "GC-b663bba9aac8",
+      "user_id": "demo",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：价格那块没谈拢，他没接话",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-55052d0ae2a4",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-c35314b424b8": {
+      "candidate_id": "GC-c35314b424b8",
+      "user_id": "demo-b52938fb",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-5cf48c3eb4d6",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-c280dacc75cc": {
+      "candidate_id": "GC-c280dacc75cc",
+      "user_id": "demo-b52938fb",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-5cf48c3eb4d6",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-b313f9a42849": {
+      "candidate_id": "GC-b313f9a42849",
+      "user_id": "demo-b52938fb",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：价格那块没谈拢，他没接话",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-5cf48c3eb4d6",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-d9630ff400ad": {
+      "candidate_id": "GC-d9630ff400ad",
+      "user_id": "demo-55ce8417",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-289e88459d3e",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-ac77bdec3ed6": {
+      "candidate_id": "GC-ac77bdec3ed6",
+      "user_id": "demo-55ce8417",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-289e88459d3e",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-37e709179eb6": {
+      "candidate_id": "GC-37e709179eb6",
+      "user_id": "demo-55ce8417",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：价格那块没谈拢，他没接话",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-289e88459d3e",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-e69e0c12c397": {
+      "candidate_id": "GC-e69e0c12c397",
+      "user_id": "demo-785ff381",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-a82e1496f2c8",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-66582cfcf6d7": {
+      "candidate_id": "GC-66582cfcf6d7",
+      "user_id": "demo-785ff381",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-a82e1496f2c8",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-828a8cf51173": {
+      "candidate_id": "GC-828a8cf51173",
+      "user_id": "demo-785ff381",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：价格那块没谈拢，他没接话",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-a82e1496f2c8",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-aeff38d74eed": {
+      "candidate_id": "GC-aeff38d74eed",
+      "user_id": "demo-f547d6b4",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：他问我达伯舒跟非小细胞肺癌是什么关系，是不是获批适应症",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-b4a6c14523a8",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-8ecb132aecd3": {
+      "candidate_id": "GC-8ecb132aecd3",
+      "user_id": "demo-f547d6b4",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：我说达伯舒是 PD-1 方向的产品，跟 NSCLC 只是教学主题关联，不是获批适",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-K-DABOSHU-PROD-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-b4a6c14523a8",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    },
+    "GC-f0797ec5584e": {
+      "candidate_id": "GC-f0797ec5584e",
+      "user_id": "demo-f547d6b4",
+      "gap_class": "not_covered",
+      "gap_class_cn": "未覆盖",
+      "title": "补强：价格那块没谈拢，他没接话",
+      "detail": "本次复盘显示该能力点未掌握",
+      "skill_id": "SK-C-OBJ-01",
+      "evidence_topic": null,
+      "source_debrief_id": "DR-b4a6c14523a8",
+      "path": "personalized",
+      "status": "auto_assigned",
+      "review_case_id": null
+    }
+  },
+  "review_cases": {},
+  "scenarios": {},
+  "personalized_plans": {},
+  "shared_library": {}
+}

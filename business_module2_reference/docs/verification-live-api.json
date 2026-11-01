@@ -1,0 +1,20 @@
+{
+  "transportAndSchemaPassed": true,
+  "model": "deepseek-v4-pro",
+  "durationMs": 13312,
+  "units": 7,
+  "relations": 2,
+  "differences": [
+    {
+      "skillId": "endpoint-explanation",
+      "coverage": "FULL",
+      "personalSignal": "SELF_REPORTED_SUCCESS"
+    },
+    {
+      "skillId": "subgroup-extrapolation",
+      "coverage": "NONE",
+      "personalSignal": "PENDING_VERIFY"
+    }
+  ],
+  "expectedMainSignalsFound": true
+}

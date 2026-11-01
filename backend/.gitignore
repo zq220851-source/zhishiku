@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+__pycache__/
+.pytest_cache/
+*.pyc
+backup/
+# Phase 3 import manifests can contain sensitive identifiers
+*ownership_manifest*.csv
+!examples/legacy_ownership_manifest_TEMPLATE.csv
+*.dump
+*.sha256

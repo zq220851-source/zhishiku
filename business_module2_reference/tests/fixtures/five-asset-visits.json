@@ -1,0 +1,288 @@
+[
+  {
+    "usage": "TEST_ONLY",
+    "visitId": "V1",
+    "taskId": "task-V1",
+    "repId": "repA",
+    "expertId": "expertX",
+    "researchId": "studyA",
+    "snapshotHash": "frozen-V1",
+    "rawVersion": 1,
+    "rawText": "医生问亚组能不能推广到其他人群。我当时回答应该也可以，回来觉得说得太满，我现在解释不清外推限制。",
+    "occurredAt": "2026-10-01T10:00:00Z",
+    "forecast": {
+      "selectedCapabilityIds": [
+        "subgroup"
+      ],
+      "candidateCapabilityIds": [
+        "subgroup"
+      ],
+      "budget": 1
+    },
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "EXPERT_QUESTION",
+        "quote": "医生问亚组能不能推广到其他人群。",
+        "startCp": 0,
+        "endCp": 16,
+        "capabilityId": "extrapolation",
+        "mode": "REPORTED"
+      },
+      {
+        "id": "o2",
+        "kind": "REP_DIFFICULTY",
+        "quote": "我现在解释不清外推限制。",
+        "startCp": 36,
+        "endCp": 48,
+        "capabilityId": "extrapolation",
+        "mode": "REPORTED"
+      }
+    ],
+    "knowledgeChecks": [
+      {
+        "observationId": "o1",
+        "capabilityId": "extrapolation",
+        "status": "SUPPORTED",
+        "queriedEvidenceIds": [
+          "test-doc-A"
+        ],
+        "queryAttempts": [
+          "外推限制"
+        ],
+        "knowledgeVersion": "knowledge-v1"
+      }
+    ],
+    "practices": []
+  },
+  {
+    "usage": "TEST_ONLY",
+    "visitId": "V2",
+    "taskId": "task-V2",
+    "repId": "repA",
+    "expertId": "expertX",
+    "researchId": "studyA",
+    "snapshotHash": "frozen-V2",
+    "rawVersion": 1,
+    "rawText": "这次医生又问外推的界限，我说现有资料不能支持直接推广到其他人群。",
+    "occurredAt": "2026-10-01T10:00:00Z",
+    "forecast": {
+      "selectedCapabilityIds": [
+        "extrapolation"
+      ],
+      "candidateCapabilityIds": [
+        "extrapolation"
+      ],
+      "budget": 1
+    },
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "EXPERT_QUESTION",
+        "quote": "这次医生又问外推的界限，",
+        "startCp": 0,
+        "endCp": 12,
+        "capabilityId": "extrapolation",
+        "mode": "REPORTED"
+      }
+    ],
+    "knowledgeChecks": [
+      {
+        "observationId": "o1",
+        "capabilityId": "extrapolation",
+        "status": "SUPPORTED",
+        "queriedEvidenceIds": [
+          "test-doc-A"
+        ],
+        "queryAttempts": [
+          "外推限制"
+        ],
+        "knowledgeVersion": "knowledge-v1"
+      }
+    ],
+    "practices": [
+      {
+        "capabilityId": "extrapolation",
+        "trainingAttemptId": "attempt-A-2",
+        "result": "SATISFIED",
+        "criterion": "在限定的练习题上解释证据边界"
+      }
+    ]
+  },
+  {
+    "usage": "TEST_ONLY",
+    "visitId": "V3",
+    "taskId": "task-V3",
+    "repId": "repB",
+    "expertId": "expertY",
+    "researchId": "studyB",
+    "snapshotHash": "frozen-V3",
+    "rawVersion": 1,
+    "rawText": "专家问一年后的效果能不能保证。我说目前不知道如何回答。",
+    "occurredAt": "2026-10-01T10:00:00Z",
+    "forecast": {
+      "selectedCapabilityIds": [
+        "window"
+      ],
+      "candidateCapabilityIds": [
+        "window",
+        "long-term"
+      ],
+      "budget": 1
+    },
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "EXPERT_QUESTION",
+        "quote": "专家问一年后的效果能不能保证。",
+        "startCp": 0,
+        "endCp": 15,
+        "capabilityId": "long-term",
+        "mode": "REPORTED"
+      },
+      {
+        "id": "o2",
+        "kind": "REP_DIFFICULTY",
+        "quote": "我说目前不知道如何回答。",
+        "startCp": 15,
+        "endCp": 27,
+        "capabilityId": "long-term",
+        "mode": "REPORTED"
+      }
+    ],
+    "knowledgeChecks": [
+      {
+        "observationId": "o1",
+        "capabilityId": "long-term",
+        "status": "NOT_FOUND",
+        "queriedEvidenceIds": [],
+        "queryAttempts": [
+          "一年后效果",
+          "长期观察证据"
+        ],
+        "knowledgeVersion": "knowledge-v1"
+      }
+    ],
+    "practices": []
+  },
+  {
+    "usage": "TEST_ONLY",
+    "visitId": "V4",
+    "taskId": "task-V4",
+    "repId": "repC",
+    "expertId": "expertZ",
+    "researchId": "studyB",
+    "snapshotHash": "frozen-V4",
+    "rawVersion": 1,
+    "rawText": "医生没有问长期效果，是我自己回家想到这件事，我也不确定怎么解释。",
+    "occurredAt": "2026-10-01T10:00:00Z",
+    "forecast": {
+      "selectedCapabilityIds": [
+        "window"
+      ],
+      "candidateCapabilityIds": [
+        "window"
+      ],
+      "budget": 1
+    },
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "EXPERT_QUESTION",
+        "quote": "医生没有问长期效果，",
+        "startCp": 0,
+        "endCp": 10,
+        "capabilityId": "long-term",
+        "mode": "DENIED"
+      },
+      {
+        "id": "o2",
+        "kind": "REP_DIFFICULTY",
+        "quote": "我也不确定怎么解释。",
+        "startCp": 22,
+        "endCp": 32,
+        "capabilityId": "long-term",
+        "mode": "REPORTED"
+      }
+    ],
+    "knowledgeChecks": [],
+    "practices": []
+  },
+  {
+    "usage": "TEST_ONLY",
+    "visitId": "V5",
+    "taskId": "task-V5",
+    "repId": "repB",
+    "expertId": "expertY",
+    "researchId": "studyB",
+    "snapshotHash": "frozen-V5",
+    "rawVersion": 1,
+    "rawText": "如果医生将来问一年后效果，我可能也讲不清。",
+    "occurredAt": "2026-10-01T10:00:00Z",
+    "forecast": {
+      "selectedCapabilityIds": [
+        "window"
+      ],
+      "candidateCapabilityIds": [
+        "window"
+      ],
+      "budget": 1
+    },
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "EXPERT_QUESTION",
+        "quote": "如果医生将来问一年后效果，",
+        "startCp": 0,
+        "endCp": 13,
+        "capabilityId": "long-term",
+        "mode": "HYPOTHETICAL"
+      },
+      {
+        "id": "o2",
+        "kind": "REP_DIFFICULTY",
+        "quote": "我可能也讲不清。",
+        "startCp": 13,
+        "endCp": 21,
+        "capabilityId": "long-term",
+        "mode": "REPORTED"
+      }
+    ],
+    "knowledgeChecks": [],
+    "practices": []
+  },
+  {
+    "usage": "TEST_ONLY",
+    "visitId": "V1",
+    "taskId": "task-V1",
+    "repId": "repA",
+    "expertId": "expertX",
+    "researchId": "studyA",
+    "snapshotHash": "frozen-V1",
+    "rawVersion": 2,
+    "rawText": "我更正一下：医生那次没有问能否推广人群，只问了亚组数字。",
+    "occurredAt": "2026-10-01T10:00:00Z",
+    "forecast": {
+      "selectedCapabilityIds": [
+        "subgroup"
+      ],
+      "candidateCapabilityIds": [
+        "subgroup"
+      ],
+      "budget": 1
+    },
+    "observations": [
+      {
+        "id": "o1",
+        "kind": "EXPERT_QUESTION",
+        "quote": "医生那次没有问能否推广人群，",
+        "startCp": 6,
+        "endCp": 20,
+        "capabilityId": "extrapolation",
+        "mode": "DENIED"
+      }
+    ],
+    "knowledgeChecks": [],
+    "practices": []
+  }
+]

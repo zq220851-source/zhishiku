@@ -1,0 +1,83 @@
+{
+  "kind": "M3_EXTERNAL_CANDIDATES_V1",
+  "usage": "TEST_ONLY",
+  "generatedAt": "2026-11-01T08:00:00Z",
+  "sourceSystem": "MEDREP_DAILY",
+  "sourceFeed": "src/core.mjs:SEEDS -> assemble()",
+  "sourceItems": [
+    {
+      "sourceId": "example-optimus",
+      "sourceType": "研发方法",
+      "sourceUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/optimizing-dosage-human-prescription-drugs-and-biological-products-treatment-oncologic-diseases",
+      "title": "肿瘤药物研发，如何理解剂量优化",
+      "publishedAt": "2024-08",
+      "sourceName": "FDA",
+      "excerpt": "FDA 的剂量优化指导文件讨论在肿瘤药物临床开发中确定优化剂量，帮助理解剂量选择与疗效、安全性及耐受性的关系。",
+      "limitations": "历史学习样例。文件适用范围有明确限制，不用于指导个体患者的用药调整。",
+      "sourceReviewStatus": "not_reviewed",
+      "sourceMode": "sample",
+      "contentHash": "30cccb6713bdf25a07908bfa176f603378825554ba755b82845c07295e9cca7c",
+      "approval": "UNREVIEWED",
+      "usage": "LEARNING_CANDIDATE_ONLY"
+    },
+    {
+      "sourceId": "example-rwe",
+      "sourceType": "监管指导",
+      "sourceUrl": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-real-world-data-and-real-world-evidence-support-regulatory-decision-making-drug",
+      "title": "真实世界证据如何支持监管决策",
+      "publishedAt": "2023-08",
+      "sourceName": "FDA",
+      "excerpt": "FDA 发布关于真实世界数据与真实世界证据支持药物及生物制品监管决策的指导文件。可借此了解证据来源与监管用途之间的关系。",
+      "limitations": "历史学习样例。美国监管文件，不直接代表其他地区政策或某项研究已获得认可。",
+      "sourceReviewStatus": "not_reviewed",
+      "sourceMode": "sample",
+      "contentHash": "f83df7de41bbd537256676af96ae01224b58944133741b2ab68335cf31bd3df3",
+      "approval": "UNREVIEWED",
+      "usage": "LEARNING_CANDIDATE_ONLY"
+    },
+    {
+      "sourceId": "example-keynote-a18",
+      "sourceType": "获批解读",
+      "sourceUrl": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-chemoradiotherapy-figo-2014-stage-iii-iva-cervical-cancer",
+      "title": "KEYNOTE-A18：从获批范围读懂研究人群",
+      "publishedAt": "2024-01-12",
+      "sourceName": "FDA",
+      "excerpt": "FDA 于 2024 年批准帕博利珠单抗联合放化疗用于 FIGO 2014 III–IVA 期宫颈癌患者。该公告介绍了 KEYNOTE-A18 的研究设计及获批背景。",
+      "limitations": "历史美国获批信息。研究入组范围与最终获批范围需要分别核对；不据此推断中国批准状态。",
+      "sourceReviewStatus": "not_reviewed",
+      "sourceMode": "sample",
+      "contentHash": "1c6b99dfb117f56ab313065d9d41a12f079262a94ad797255b1abdb96204bda5",
+      "approval": "UNREVIEWED",
+      "usage": "LEARNING_CANDIDATE_ONLY"
+    },
+    {
+      "sourceId": "example-cervical-drugs",
+      "sourceType": "学习资源",
+      "sourceUrl": "https://www.cancer.gov/about-cancer/treatment/drugs/cervical",
+      "title": "建立宫颈癌药物学习的基础索引",
+      "publishedAt": "2022-04-26",
+      "sourceName": "美国国家癌症研究所",
+      "excerpt": "NCI 提供宫颈癌相关 FDA 批准药物的索引，可作为查找药物资料的入口，再回到具体产品资料了解适用范围。",
+      "limitations": "历史资源样例。索引不是治疗顺序建议；当前状态请以链接中的更新内容为准。",
+      "sourceReviewStatus": "not_reviewed",
+      "sourceMode": "sample",
+      "contentHash": "18e7dd449899604ccb9ba3b51129e89a7f020b3e18d042722bf50a55cdd1c480",
+      "approval": "UNREVIEWED",
+      "usage": "LEARNING_CANDIDATE_ONLY"
+    }
+  ],
+  "academicExample": {
+    "name": "林知安",
+    "fictional": true,
+    "doctorsCount": 22,
+    "publicScholarSample": {
+      "name": "许闻溪",
+      "role": "肿瘤相关科室医生（演示）",
+      "key": true,
+      "hospital": "苏州大学附属第一医院"
+    },
+    "identityVerification": "NOT_VERIFIED",
+    "linkedModule1ExpertId": null
+  },
+  "note": "离线历史示例而非今天实际抓取；不包含医学审核，不应自动成为模块1的训练知识"
+}

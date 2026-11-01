@@ -1,0 +1,1 @@
+{"name":"medrep-original-visual","private":true,"scripts":{"build":"node ../../scripts/build_visual.cjs"},"dependencies":{"three":"0.187.0"},"devDependencies":{"esbuild":"0.25.12"}}

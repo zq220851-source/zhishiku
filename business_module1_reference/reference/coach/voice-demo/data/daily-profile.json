@@ -1,0 +1,277 @@
+{
+  "id": "demo-me",
+  "name": "林知安",
+  "fictional": true,
+  "role": "高级医药代表",
+  "bu": "IO BU",
+  "territory": [
+    "姑苏区",
+    "虎丘区"
+  ],
+  "productIds": [
+    "1",
+    "2"
+  ],
+  "marketed": [
+    {
+      "id": "1",
+      "name": "达伯舒®",
+      "generic": "信迪利单抗",
+      "target": "PD-1",
+      "sourceUrl": "https://www.innoventbio.com/#/pline"
+    },
+    {
+      "id": "2",
+      "name": "达伯欣®",
+      "generic": "伊匹木单抗",
+      "target": "CTLA-4",
+      "sourceUrl": "https://www.innoventbio.com/#/pline"
+    }
+  ],
+  "learning": [
+    {
+      "id": "85",
+      "name": "IBI-363",
+      "target": "PD-1 / IL-2（α 偏向性）双特异性融合蛋白",
+      "sourceUrl": "https://www.innoventbio.com/#/pline",
+      "status": "在研学习 · 尚未获批"
+    }
+  ],
+  "hospitals": [
+    {
+      "name": "苏州大学附属第一医院",
+      "district": "姑苏区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 4,
+      "keyCount": 3,
+      "doctors": [
+        {
+          "name": "许闻溪",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "沈安澜",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "顾明舒",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "梁予宁",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    },
+    {
+      "name": "苏州市立医院",
+      "district": "姑苏区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 3,
+      "keyCount": 2,
+      "doctors": [
+        {
+          "name": "周知远",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "唐一然",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "苏云棠",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    },
+    {
+      "name": "苏州平江医院",
+      "district": "姑苏区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 3,
+      "keyCount": 2,
+      "doctors": [
+        {
+          "name": "陆可心",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "夏孟初",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "韩若川",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    },
+    {
+      "name": "苏州金阊医院",
+      "district": "姑苏区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 3,
+      "keyCount": 2,
+      "doctors": [
+        {
+          "name": "何言之",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "丁嘉禾",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "孟书宁",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    },
+    {
+      "name": "苏州科技城医院",
+      "district": "虎丘区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 4,
+      "keyCount": 2,
+      "doctors": [
+        {
+          "name": "徐遥",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "袁真",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "邵景行",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        },
+        {
+          "name": "白雨晴",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    },
+    {
+      "name": "苏州高新区人民医院",
+      "district": "虎丘区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 3,
+      "keyCount": 2,
+      "doctors": [
+        {
+          "name": "郑知微",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "蒋望舒",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "程云舟",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    },
+    {
+      "name": "苏州明基医院",
+      "district": "虎丘区",
+      "sourceUrl": "https://hrss.suzhou.gov.cn/jsszhrss/gsbxsxcx/202605/23b01681549845fb94d81c9159cebeb5.shtml",
+      "doctorCount": 2,
+      "keyCount": 1,
+      "doctors": [
+        {
+          "name": "林沐言",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": true
+        },
+        {
+          "name": "叶同",
+          "role": "肿瘤相关科室医生（演示）",
+          "key": false
+        }
+      ]
+    }
+  ],
+  "hospitalCount": 7,
+  "doctorCount": 22,
+  "keyCount": 14,
+  "workCenter": {
+    "title": "肿瘤免疫 · 结肠癌新辅助治疗",
+    "detail": "达伯舒®（信迪利单抗，PD-1）＋达伯欣®（伊匹木单抗N01，CTLA-4）。已批准的联合适应证限定于可手术切除的 IIB–III 期 MSI-H/dMMR 结肠癌新辅助治疗；其他疾病场景须分别核对批准范围。",
+    "sourceUrl": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1229/2025122900105_c.pdf",
+    "focus": [
+      {
+        "id": "colon",
+        "name": "结肠癌与 MSI-H/dMMR",
+        "terms": [
+          "结肠癌",
+          "结直肠癌",
+          "肠癌",
+          "colon cancer",
+          "colorectal",
+          "msi-h",
+          "dmmr",
+          "mismatch repair",
+          "微卫星",
+          "错配修复"
+        ]
+      },
+      {
+        "id": "immunity",
+        "name": "肿瘤免疫与 PD-1",
+        "terms": [
+          "免疫治疗",
+          "肿瘤免疫",
+          "pd-1",
+          "pd1",
+          "immunotherap",
+          "checkpoint inhibitor",
+          "信迪利单抗",
+          "sintilimab"
+        ]
+      },
+      {
+        "id": "ctla4",
+        "name": "CTLA-4 与双免联合",
+        "terms": [
+          "ctla-4",
+          "ctla4",
+          "双免",
+          "伊匹木单抗",
+          "ipilimumab",
+          "ibi310"
+        ]
+      }
+    ]
+  },
+  "publicDoctorExample": {
+    "name": "陶敏",
+    "hospital": "苏州大学附属第一医院",
+    "role": "肿瘤科公开学术案例",
+    "relationship": "公开资料中的学术方向案例；不是演示员工的真实客户或分配医生。",
+    "sourceUrl": "https://www.csco.org.cn/cn/ncontent.aspx?oid=9192"
+  },
+  "note": "仅用于黑客松演示。岗位与数量参照用户提供的示例截图；人物、医院覆盖关系和个人管线分配均为虚构。医院名称来自苏州市公开机构名录，医生与关键人不对应真实人员。",
+  "importedAt": "2026-10-31",
+  "origin": "MedRep Daily / src/demo-profile.mjs"
+}

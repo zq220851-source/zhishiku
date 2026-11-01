@@ -1,0 +1,24 @@
+# Feishu H5 stage: only after domain/HTTPS and applicable filing requirements are satisfied.
+# Frontend static dist is served on the SAME origin as the authenticated platform API.
+{$APP_DOMAIN} {
+    encode gzip zstd
+    header {
+        Strict-Transport-Security "max-age=86400"
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "no-referrer"
+        -Server
+    }
+    @internal path /v1/internal /v1/internal/* /readyz
+    respond @internal 404
+    @allowed path /v1/mobile/* /healthz
+    handle @allowed {
+        reverse_proxy platform:8080
+    }
+    @other_api path /v1/*
+    respond @other_api 404
+    handle {
+        root * /srv/h5
+        try_files {path} /index.html
+        file_server
+    }
+}

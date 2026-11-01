@@ -1,0 +1,47 @@
+[
+  {
+    "round": 1,
+    "input_seconds": 5.0,
+    "voice": "Maia",
+    "transcript": "许医生您好，我是信达生物的医药代表，看到您。",
+    "asr_after_speech_seconds": 1.184,
+    "first_draft_after_start_seconds": 0.686,
+    "draft_events": 21,
+    "draft_before_speech_end": true,
+    "doctor_first_sentence_after_speech_seconds": 5.234,
+    "tts_first_chunk_seconds": 0.575,
+    "speech_end_to_first_audio_seconds": 5.809,
+    "audio_bytes": 218880,
+    "ok": true
+  },
+  {
+    "round": 2,
+    "input_seconds": 10.0,
+    "voice": "Andre",
+    "transcript": "许医生您好，我是信达生物的医药代表，看到您今天门诊比较忙，我想先用两分钟了解一下您最近在双免。",
+    "asr_after_speech_seconds": 1.051,
+    "first_draft_after_start_seconds": 0.47,
+    "draft_events": 40,
+    "draft_before_speech_end": true,
+    "doctor_first_sentence_after_speech_seconds": 3.667,
+    "tts_first_chunk_seconds": 0.591,
+    "speech_end_to_first_audio_seconds": 4.258,
+    "audio_bytes": 545280,
+    "ok": true
+  },
+  {
+    "round": 3,
+    "input_seconds": 18.792,
+    "voice": "Maia",
+    "transcript": "许医生您好，我是信达生物的医药代表，看到您今天门诊比较忙，我想先用两分钟了解一下您最近在双免治疗方面最关心哪些问题，如果现在不方便，我也可以先留下资料，再约一个合适的时间。",
+    "asr_after_speech_seconds": 1.431,
+    "first_draft_after_start_seconds": 0.471,
+    "draft_events": 71,
+    "draft_before_speech_end": true,
+    "doctor_first_sentence_after_speech_seconds": 5.734,
+    "tts_first_chunk_seconds": 0.53,
+    "speech_end_to_first_audio_seconds": 6.264,
+    "audio_bytes": 453120,
+    "ok": true
+  }
+]

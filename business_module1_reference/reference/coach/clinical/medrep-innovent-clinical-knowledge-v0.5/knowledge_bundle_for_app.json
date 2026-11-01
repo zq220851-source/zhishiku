@@ -1,0 +1,3443 @@
+{
+  "version": "0.5",
+  "as_of": "2026-10-31",
+  "source_basis": "2026 interim disclosures + curated public medical primers",
+  "approval_notice": "所有课程卡和评分题待医学事务及合规审核，未批准不得用于正式考核或药品推广",
+  "source_coverage": [
+    {
+      "source_id": "S-IR2026",
+      "title": "信达生物2026中期报告产品及管线列表",
+      "source_type": "company_interim_report",
+      "url": "https://financialfilings.com/filings/innovent-biologics-inc/interim-quarterly-report/2026/64154572",
+      "asof_date": "2026-08-25"
+    },
+    {
+      "source_id": "S-COMPANY",
+      "title": "信达生物官网产品中心",
+      "source_type": "company_official",
+      "url": "https://www.innoventbio.com/ScienceAndProducts/Pipeline",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-PR2026",
+      "title": "信达生物2026中期业绩新闻稿",
+      "source_type": "company_press_release",
+      "url": "https://www.prnasia.com/story/545133-1.shtml",
+      "asof_date": "2026-08-25"
+    },
+    {
+      "source_id": "S-NCI-NSCLC",
+      "title": "NCI NSCLC治疗专业版",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdq",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NCI-BIO",
+      "title": "NCI癌症生物标志物检测",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NCI-IO",
+      "title": "NCI免疫检查点抑制剂知识",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NCI-ONCO",
+      "title": "NCI癌症治疗类型",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NCI-NHL",
+      "title": "NCI非霍奇金淋巴瘤治疗概述",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/types/lymphoma/patient/adult-nhl-treatment-pdq",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NCI-CML",
+      "title": "NCI慢性髓系白血病专业版",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/types/leukemia/hp/cml-treatment-pdq",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NCI-LEUK",
+      "title": "NCI白血病专业资料导航",
+      "source_type": "government_education",
+      "url": "https://www.cancer.gov/types/leukemia/hp",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-WHO-OBE",
+      "title": "WHO肥胖与超重资料",
+      "source_type": "intergovernmental_education",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "asof_date": "2026-10-07"
+    },
+    {
+      "source_id": "S-NIDDK-DM",
+      "title": "NIDDK糖尿病概述",
+      "source_type": "government_education",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-AHA-LIPID",
+      "title": "AHA血脂与胆固醇知识",
+      "source_type": "nonprofit_education",
+      "url": "https://www.heart.org/en/health-topics/cholesterol/your-complete-guide-to-understanding-cholesterol-and-lipids",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-AHA-BP",
+      "title": "AHA高血压药物分类",
+      "source_type": "nonprofit_education",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/changes-you-can-make-to-manage-high-blood-pressure/types-of-blood-pressure-medications",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NIDDK-CD",
+      "title": "NIDDK克罗恩病知识",
+      "source_type": "government_education",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NEI-DME",
+      "title": "NEI糖尿病视网膜病及DME",
+      "source_type": "government_education",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NEI-AMD",
+      "title": "NEI年龄相关性黄斑变性",
+      "source_type": "government_education",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "asof_date": "2026-10-31"
+    },
+    {
+      "source_id": "S-NEI-VEGF",
+      "title": "NEI眼科抗VEGF注射治疗",
+      "source_type": "government_education",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy/injections-treat-eye-conditions",
+      "asof_date": "2026-10-31"
+    }
+  ],
+  "marketed_products": [
+    {
+      "product_id": "daboshu",
+      "brand": "达伯舒",
+      "generic_name": "信迪利单抗注射液",
+      "domain": "肿瘤",
+      "mechanism_topic": "PD-1",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "brand": "达攸同",
+      "generic_name": "贝伐珠单抗注射液",
+      "domain": "肿瘤",
+      "mechanism_topic": "VEGF-A",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "sulixin",
+      "brand": "苏立信",
+      "generic_name": "阿达木单抗注射液",
+      "domain": "自身免疫",
+      "mechanism_topic": "TNF-α",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabohua",
+      "brand": "达伯华",
+      "generic_name": "利妥昔单抗注射液",
+      "domain": "血液肿瘤",
+      "mechanism_topic": "CD20",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabotan",
+      "brand": "达伯坦",
+      "generic_name": "佩米替尼片",
+      "domain": "肿瘤",
+      "mechanism_topic": "FGFR1/2/3",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "nailike",
+      "brand": "耐立克",
+      "generic_name": "奥雷巴替尼片",
+      "domain": "血液肿瘤",
+      "mechanism_topic": "BCR-ABL",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xirangze",
+      "brand": "希冉择",
+      "generic_name": "雷莫西尤单抗注射液",
+      "domain": "肿瘤",
+      "mechanism_topic": "VEGFR2",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "ruituo",
+      "brand": "睿妥",
+      "generic_name": "塞普替尼胶囊",
+      "domain": "肿瘤",
+      "mechanism_topic": "RET",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "fukesu",
+      "brand": "福可苏",
+      "generic_name": "伊基奥仑赛注射液",
+      "domain": "血液肿瘤",
+      "mechanism_topic": "BCMA CAR-T",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinbile",
+      "brand": "信必乐",
+      "generic_name": "托莱西单抗注射液",
+      "domain": "心血管/代谢",
+      "mechanism_topic": "PCSK9",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabote",
+      "brand": "达伯特",
+      "generic_name": "氟泽雷塞片",
+      "domain": "肿瘤",
+      "mechanism_topic": "KRAS G12C",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "jiepali",
+      "brand": "捷帕力",
+      "generic_name": "匹妥布替尼片",
+      "domain": "血液肿瘤",
+      "mechanism_topic": "BTK",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabole",
+      "brand": "达伯乐",
+      "generic_name": "己二酸他雷替尼胶囊",
+      "domain": "肿瘤",
+      "mechanism_topic": "ROS1",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "aoyixin",
+      "brand": "奥壹新",
+      "generic_name": "利厄替尼片",
+      "domain": "肿瘤",
+      "mechanism_topic": "EGFR",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinbimin",
+      "brand": "信必敏",
+      "generic_name": "替妥尤单抗N01注射液",
+      "domain": "眼科",
+      "mechanism_topic": "IGF-1R",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinermei",
+      "brand": "信尔美",
+      "generic_name": "玛仕度肽注射液",
+      "domain": "内分泌/代谢",
+      "mechanism_topic": "GCG/GLP-1",
+      "coverage": "original_zip",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinmeiyue",
+      "brand": "信美悦",
+      "generic_name": "匹康奇拜单抗注射液",
+      "domain": "自身免疫",
+      "mechanism_topic": "IL-23p19",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboxin",
+      "brand": "达伯欣",
+      "generic_name": "伊匹木单抗N01注射液",
+      "domain": "肿瘤",
+      "mechanism_topic": "CTLA-4",
+      "coverage": "additional_2026",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "weize",
+      "brand": "唯择",
+      "generic_name": "阿贝西利片",
+      "domain": "肿瘤",
+      "mechanism_topic": "CDK4/6",
+      "coverage": "partner_commercial",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "weifutai",
+      "brand": "维复泰",
+      "generic_name": "盐酸奎扎替尼片",
+      "domain": "血液肿瘤",
+      "mechanism_topic": "FLT3",
+      "coverage": "partner_commercial",
+      "reference_source": "INNO-002",
+      "review_status": "pending_medical_review"
+    }
+  ],
+  "therapeutic_areas": [
+    {
+      "area_id": "A-ONCO",
+      "name": "实体瘤与肿瘤免疫",
+      "department": "肿瘤学",
+      "core_competencies": "诊断/分期；组织与基因分型；PD-L1及驱动基因；治疗线次；临床终点；免疫相关安全性"
+    },
+    {
+      "area_id": "A-HEM",
+      "name": "血液肿瘤及细胞治疗",
+      "department": "血液科",
+      "core_competencies": "疾病分型；分子诊断；缓解与复发；MRD；CAR-T与双/三抗安全性"
+    },
+    {
+      "area_id": "A-MET",
+      "name": "内分泌与代谢",
+      "department": "内分泌科",
+      "core_competencies": "诊断与合并症；HbA1c；体重百分比；心肾肝风险；GLP-1/GCGR机制与安全性"
+    },
+    {
+      "area_id": "A-CARD",
+      "name": "心血管与血脂",
+      "department": "心内科",
+      "core_competencies": "LDL-C与风险分层；PCSK9；血压管理；终点与长期安全性"
+    },
+    {
+      "area_id": "A-IMM",
+      "name": "自身免疫与炎症",
+      "department": "风湿免疫/皮肤/消化",
+      "core_competencies": "炎症通路；疾病活动度；生物制剂选择；感染等风险监测"
+    },
+    {
+      "area_id": "A-EYE",
+      "name": "眼科",
+      "department": "眼科",
+      "core_competencies": "OCT/视力；眼眶症状；抗VEGF；TED、nAMD、DME的疾病差异"
+    }
+  ],
+  "conditions": [
+    {
+      "condition_id": "D-NSCLC",
+      "name": "非小细胞肺癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-NSCLC",
+      "keywords": "NSCLC;EGFR;ROS1;RET;KRAS;PD-L1",
+      "competency_scope": "病理分型、分期、靶点检测、免疫或靶向治疗适用人群、PFS/OS",
+      "relationship_note": "包括多种已上市产品及IBI363/IBI3005等研究管线",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-HCC",
+      "name": "肝细胞癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "HCC;肝癌;肝功能",
+      "competency_scope": "分期、肝功能与全身治疗路径、OS/PFS、安全性",
+      "relationship_note": "信迪利单抗、贝伐珠单抗、雷莫西尤单抗相关疾病背景",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-GC",
+      "name": "胃癌及胃食管结合部癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "胃癌;GEJ;CLDN18.2;HER2",
+      "competency_scope": "分期、线次、CLDN18.2/HER2等标志物、ADC研究评价",
+      "relationship_note": "IBI343及肿瘤产品相关背景",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-CRC",
+      "name": "结直肠癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "CRC;MSI-H;dMMR;KRAS",
+      "competency_scope": "MSI-H/dMMR检测、治疗线次与免疫治疗证据边界",
+      "relationship_note": "信迪利单抗、贝伐珠单抗、伊匹木单抗N01和IBI363相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-CCA",
+      "name": "胆管癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-BIO",
+      "keywords": "胆管癌;FGFR2;fusion",
+      "competency_scope": "分子检测、FGFR2融合/重排、人群筛选、单臂研究局限",
+      "relationship_note": "佩米替尼相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-RCC",
+      "name": "肾细胞癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-IO",
+      "keywords": "RCC;VEGFR;肾癌",
+      "competency_scope": "既往治疗线次、免疫+TKI方案及证据边界",
+      "relationship_note": "信迪利单抗联合方案相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-ESCC",
+      "name": "食管鳞癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "食管癌;ESCC;PD-1",
+      "competency_scope": "分期、局部与全身治疗、免疫治疗适用范围",
+      "relationship_note": "信迪利单抗相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-ENDO",
+      "name": "子宫内膜癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-BIO",
+      "keywords": "子宫内膜癌;MMR;pMMR;dMMR",
+      "competency_scope": "MMR分型、治疗线次、研究人群边界",
+      "relationship_note": "信迪利单抗相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-BREAST",
+      "name": "乳腺癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "乳腺癌;HER2;HR;CDK4/6",
+      "competency_scope": "HR/HER2分型、治疗阶段、内分泌与靶向机制",
+      "relationship_note": "阿贝西利、IBI354相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-OVARIAN",
+      "name": "卵巢癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "卵巢癌;HER2;铂耐药",
+      "competency_scope": "铂敏感/铂耐药、线次、ADC研究与安全性",
+      "relationship_note": "贝伐珠单抗及IBI354相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-PDAC",
+      "name": "胰腺导管腺癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "胰腺癌;PDAC;CLDN18.2",
+      "competency_scope": "分期、线次、ADC在研证据与研究人群",
+      "relationship_note": "IBI343相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-MEL",
+      "name": "黑色素瘤",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-IO",
+      "keywords": "黑色素瘤;免疫耐药",
+      "competency_scope": "免疫治疗基础、耐药与既往用药背景、研究对照",
+      "relationship_note": "IBI363相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-CERVICAL",
+      "name": "宫颈癌",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "宫颈癌;CC",
+      "competency_scope": "疾病分期、复发/转移背景、研究终点",
+      "relationship_note": "贝伐珠单抗关联领域",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-GBM",
+      "name": "胶质母细胞瘤",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-ONCO",
+      "keywords": "GBM;胶质母细胞瘤",
+      "competency_scope": "复发性疾病特点、症状与生活质量终点",
+      "relationship_note": "贝伐珠单抗关联领域",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-THYROID",
+      "name": "甲状腺恶性肿瘤",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-BIO",
+      "keywords": "甲状腺癌;RET;MTC",
+      "competency_scope": "分型、RET基因改变、检测与靶向治疗",
+      "relationship_note": "塞普替尼关联领域",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-MESO",
+      "name": "肿瘤机制与临床试验",
+      "area_id": "A-ONCO",
+      "source_id": "S-NCI-BIO",
+      "keywords": "ORR;DOR;PFS;OS;HR",
+      "competency_scope": "对照组、随机/单臂、ORR/PFS/OS、终点限制、入排标准",
+      "relationship_note": "所有肿瘤产品共通能力",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-CML",
+      "name": "慢性髓系白血病",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-CML",
+      "keywords": "CML;BCR-ABL;TKI",
+      "competency_scope": "BCR-ABL检测、耐药变异、分子缓解与治疗线次",
+      "relationship_note": "奥雷巴替尼相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-AML",
+      "name": "急性髓系白血病",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-LEUK",
+      "keywords": "AML;FLT3-ITD",
+      "competency_scope": "分型、FLT3检测、诱导与巩固治疗、缓解终点",
+      "relationship_note": "奎扎替尼相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-DLBCL",
+      "name": "弥漫大B细胞淋巴瘤",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-NHL",
+      "keywords": "DLBCL;CD20",
+      "competency_scope": "CD20、分型、缓解及复发、治疗组合",
+      "relationship_note": "利妥昔单抗相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-FL",
+      "name": "滤泡性淋巴瘤",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-NHL",
+      "keywords": "FL;CD20",
+      "competency_scope": "惰性淋巴瘤特征、治疗指征与复发",
+      "relationship_note": "利妥昔单抗相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-CLL",
+      "name": "慢性淋巴细胞白血病/小淋巴细胞淋巴瘤",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-NHL",
+      "keywords": "CLL;SLL;BTK",
+      "competency_scope": "疾病分型、既往BTK抑制剂、复发/难治定义",
+      "relationship_note": "利妥昔单抗、匹妥布替尼相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-MCL",
+      "name": "套细胞淋巴瘤",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-NHL",
+      "keywords": "MCL;BTK",
+      "competency_scope": "既往治疗线次、BTK抑制剂治疗背景",
+      "relationship_note": "匹妥布替尼相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-MM",
+      "name": "多发性骨髓瘤",
+      "area_id": "A-HEM",
+      "source_id": "S-NCI-NHL",
+      "keywords": "MM;BCMA;CAR-T;CRS",
+      "competency_scope": "复发难治定义、BCMA、细胞治疗、CRS/神经毒性等风险",
+      "relationship_note": "伊基奥仑赛与IBI3003相关",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-OBE",
+      "name": "肥胖与体重管理",
+      "area_id": "A-MET",
+      "source_id": "S-WHO-OBE",
+      "keywords": "BMI;肥胖;体重;共病",
+      "competency_scope": "肥胖诊断框架、体重终点与共病、长期管理",
+      "relationship_note": "玛仕度肽及口服GLP-1等研发管线",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-T2DM",
+      "name": "2型糖尿病",
+      "area_id": "A-MET",
+      "source_id": "S-NIDDK-DM",
+      "keywords": "糖尿病;HbA1c;GLP-1",
+      "competency_scope": "血糖与HbA1c、并发症、体重与糖尿病的区别",
+      "relationship_note": "玛仕度肽、IBI3032、IBI3035",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-MASH",
+      "name": "代谢功能障碍相关脂肪性肝炎",
+      "area_id": "A-MET",
+      "source_id": "S-WHO-OBE",
+      "keywords": "MASH;脂肪肝;肝纤维化",
+      "competency_scope": "疾病概念、肝纤维化终点、试验性适应症辨别",
+      "relationship_note": "玛仕度肽研究方向，仅作研发布局认知",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-OSA",
+      "name": "阻塞性睡眠呼吸暂停",
+      "area_id": "A-MET",
+      "source_id": "S-WHO-OBE",
+      "keywords": "OSA;睡眠呼吸暂停",
+      "competency_scope": "肥胖共病关系、临床终点、研究性证据界限",
+      "relationship_note": "玛仕度肽研究方向",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-DYSLIPID",
+      "name": "高胆固醇血症与血脂异常",
+      "area_id": "A-CARD",
+      "source_id": "S-AHA-LIPID",
+      "keywords": "LDL-C;PCSK9;血脂",
+      "competency_scope": "LDL-C、ApoB、ASCVD风险、降脂治疗分类",
+      "relationship_note": "托莱西单抗与IBI3030",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-HTN",
+      "name": "高血压",
+      "area_id": "A-CARD",
+      "source_id": "S-AHA-BP",
+      "keywords": "高血压;AGT",
+      "competency_scope": "血压指标、药物类别、并发症、研究终点",
+      "relationship_note": "IBI3016",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-HFPEF",
+      "name": "射血分数保留型心力衰竭",
+      "area_id": "A-CARD",
+      "source_id": "S-AHA-BP",
+      "keywords": "HFpEF;心力衰竭",
+      "competency_scope": "诊断框架、症状及功能终点、研究性适应症",
+      "relationship_note": "玛仕度肽相关研究领域",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-RA",
+      "name": "类风湿关节炎",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "RA;TNF-α;关节炎",
+      "competency_scope": "疾病活动度、炎症指标、生物制剂机制和风险",
+      "relationship_note": "阿达木单抗",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-AS",
+      "name": "强直性脊柱炎/轴性脊柱关节炎",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "AS;脊柱关节炎",
+      "competency_scope": "炎症性腰背痛、疾病活动度、TNF作用",
+      "relationship_note": "阿达木单抗",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-PSO",
+      "name": "斑块状银屑病",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "PsO;PASI;IL-23",
+      "competency_scope": "皮损严重度、PASI、TNF/IL-23通路、复发",
+      "relationship_note": "阿达木单抗、匹康奇拜单抗",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-PSA",
+      "name": "银屑病关节炎",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "PsA;关节",
+      "competency_scope": "皮肤与关节双维度、治疗机制、在研/已批边界",
+      "relationship_note": "匹康奇拜单抗研发适应症",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-CROHN",
+      "name": "克罗恩病",
+      "area_id": "A-IMM",
+      "source_id": "S-NIDDK-CD",
+      "keywords": "CD;IBD;克罗恩",
+      "competency_scope": "诊断证据、炎症控制、缓解和复发",
+      "relationship_note": "阿达木单抗",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-AD",
+      "name": "特应性皮炎",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "AD;IL-4R;TSLP",
+      "competency_scope": "炎症表型、疾病严重度、生物制剂通路",
+      "relationship_note": "IBI3002、IBI3027",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-GOUT",
+      "name": "痛风与高尿酸血症",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "痛风;XO;尿酸",
+      "competency_scope": "急性发作与尿酸长期管理、XO作用机制",
+      "relationship_note": "IBI128和IBI3011",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-VITILIGO",
+      "name": "白癜风与斑秃",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "白癜风;斑秃;IL-15",
+      "competency_scope": "自身免疫通路、皮损/毛发终点、在研状态",
+      "relationship_note": "IBI3013",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-SJOGREN",
+      "name": "干燥综合征与IgG4相关疾病",
+      "area_id": "A-IMM",
+      "source_id": "S-IR2026",
+      "keywords": "Sjogren;IgG4;CD40L",
+      "competency_scope": "自身免疫诊断框架及器官受累、研究性生物靶点",
+      "relationship_note": "IBI355",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-TED",
+      "name": "甲状腺眼病",
+      "area_id": "A-EYE",
+      "source_id": "S-IR2026",
+      "keywords": "TED;IGF-1R;眼球突出",
+      "competency_scope": "活动性/非活动性、眼球突出与眼症状评估",
+      "relationship_note": "替妥尤单抗与IBI3031",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-DME",
+      "name": "糖尿病黄斑水肿",
+      "area_id": "A-EYE",
+      "source_id": "S-NEI-DME",
+      "keywords": "DME;VEGF;OCT",
+      "competency_scope": "视力与OCT、黄斑水肿、抗VEGF机制",
+      "relationship_note": "IBI302与IBI324",
+      "medical_review": "pending_medical_review"
+    },
+    {
+      "condition_id": "D-NAMD",
+      "name": "新生血管性年龄相关性黄斑变性",
+      "area_id": "A-EYE",
+      "source_id": "S-NEI-AMD",
+      "keywords": "nAMD;湿性AMD;OCT",
+      "competency_scope": "nAMD、OCT及视力变化、眼内抗VEGF治疗概念",
+      "relationship_note": "IBI302与IBI324",
+      "medical_review": "pending_medical_review"
+    }
+  ],
+  "product_condition_links": [
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-NSCLC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-HCC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-GC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-ESCC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-ENDO",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-CRC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-RCC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboshu",
+      "condition_id": "D-MESO",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "condition_id": "D-NSCLC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "condition_id": "D-CRC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "condition_id": "D-HCC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "condition_id": "D-GBM",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "condition_id": "D-CERVICAL",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dayoutong",
+      "condition_id": "D-OVARIAN",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "sulixin",
+      "condition_id": "D-RA",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "sulixin",
+      "condition_id": "D-AS",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "sulixin",
+      "condition_id": "D-PSO",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "sulixin",
+      "condition_id": "D-CROHN",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabohua",
+      "condition_id": "D-DLBCL",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabohua",
+      "condition_id": "D-FL",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabohua",
+      "condition_id": "D-CLL",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabotan",
+      "condition_id": "D-CCA",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "nailike",
+      "condition_id": "D-CML",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xirangze",
+      "condition_id": "D-GC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xirangze",
+      "condition_id": "D-HCC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "ruituo",
+      "condition_id": "D-NSCLC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "ruituo",
+      "condition_id": "D-THYROID",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "fukesu",
+      "condition_id": "D-MM",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinbile",
+      "condition_id": "D-DYSLIPID",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabote",
+      "condition_id": "D-NSCLC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "jiepali",
+      "condition_id": "D-MCL",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "jiepali",
+      "condition_id": "D-CLL",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "dabole",
+      "condition_id": "D-NSCLC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "aoyixin",
+      "condition_id": "D-NSCLC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinbimin",
+      "condition_id": "D-TED",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinermei",
+      "condition_id": "D-OBE",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinermei",
+      "condition_id": "D-T2DM",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinmeiyue",
+      "condition_id": "D-PSO",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "xinmeiyue",
+      "condition_id": "D-PSA",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboxin",
+      "condition_id": "D-CRC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "daboxin",
+      "condition_id": "D-HCC",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "weize",
+      "condition_id": "D-BREAST",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "product_id": "weifutai",
+      "condition_id": "D-AML",
+      "link_type": "educational_topic_not_indication",
+      "source_id": "S-IR2026",
+      "review_status": "pending_medical_review"
+    }
+  ],
+  "research_assets": [
+    {
+      "asset_id": "IBI343",
+      "mechanism_topic": "CLDN18.2 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "NDA审评（2026年中报披露）；并有其他研究",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI363",
+      "mechanism_topic": "PD-1/IL-2α偏向融合蛋白",
+      "area_id": "A-ONCO",
+      "reported_status": "全球III期及中国关键性研究（2026年中报披露）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI354",
+      "mechanism_topic": "HER2 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "临床研究中（具体试验逐项核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3003",
+      "mechanism_topic": "GPRC5D/BCMA/CD3三抗",
+      "area_id": "A-HEM",
+      "reported_status": "临床研究中（具体试验逐项核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3005",
+      "mechanism_topic": "EGFR/HER3 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3009",
+      "mechanism_topic": "DLL3 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3001",
+      "mechanism_topic": "EGFR/B7H3 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3014",
+      "mechanism_topic": "PD-L1/TROP2 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3020",
+      "mechanism_topic": "CEACAM5 ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3026",
+      "mechanism_topic": "PD-1/IL-12融合蛋白",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3028",
+      "mechanism_topic": "EGFR/c-Met ADC",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI115",
+      "mechanism_topic": "DLL3/CD3双特异抗体",
+      "area_id": "A-ONCO",
+      "reported_status": "早期研发/临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI302",
+      "mechanism_topic": "VEGF/补体融合蛋白",
+      "area_id": "A-EYE",
+      "reported_status": "眼科临床项目列示（按试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI128",
+      "mechanism_topic": "黄嘌呤氧化酶（XO）抑制剂",
+      "area_id": "A-IMM",
+      "reported_status": "报告披露痛风相关III期研究",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI324",
+      "mechanism_topic": "VEGF-A/ANG2双特异抗体",
+      "area_id": "A-EYE",
+      "reported_status": "报告称计划开展全球III期；需核查是否启动",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3002",
+      "mechanism_topic": "TSLP/IL-4Rα双特异抗体",
+      "area_id": "A-IMM",
+      "reported_status": "研发项目列示（阶段待逐试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3016",
+      "mechanism_topic": "AGT siRNA",
+      "area_id": "A-CARD",
+      "reported_status": "报告披露高血压II期研究",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI355",
+      "mechanism_topic": "CD40L单抗",
+      "area_id": "A-IMM",
+      "reported_status": "研发项目列示（阶段待逐试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3032",
+      "mechanism_topic": "口服日制剂GLP-1R小分子",
+      "area_id": "A-MET",
+      "reported_status": "报告披露I期研究中",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3040",
+      "mechanism_topic": "Amylin/Calcitonin相关多肽",
+      "area_id": "A-MET",
+      "reported_status": "报告称计划首次人体试验；尚待核实启动",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3042",
+      "mechanism_topic": "口服周制剂GLP-1R小分子",
+      "area_id": "A-MET",
+      "reported_status": "报告称计划首次人体试验；尚待核实启动",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3035",
+      "mechanism_topic": "胰岛素相关多肽",
+      "area_id": "A-MET",
+      "reported_status": "研发项目列示（阶段待逐试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3011",
+      "mechanism_topic": "IL-1RAP单抗",
+      "area_id": "A-IMM",
+      "reported_status": "报告披露I期研究中",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3013",
+      "mechanism_topic": "IL-15单抗",
+      "area_id": "A-IMM",
+      "reported_status": "研发项目列示（阶段待逐试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3027",
+      "mechanism_topic": "IL-4Rα单抗",
+      "area_id": "A-IMM",
+      "reported_status": "研发项目列示（阶段待逐试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3031",
+      "mechanism_topic": "TSHR/IGF-1R双特异抗体",
+      "area_id": "A-EYE",
+      "reported_status": "研发项目列示（阶段待逐试验核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3046",
+      "mechanism_topic": "INHBE siRNA",
+      "area_id": "A-MET",
+      "reported_status": "公司2026年披露的研发方向（项目阶段待核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3030",
+      "mechanism_topic": "月度PCSK9相关候选药",
+      "area_id": "A-CARD",
+      "reported_status": "公司2026年披露的研发方向（项目阶段待核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "asset_id": "IBI3038",
+      "mechanism_topic": "IGF-1R/IL-6相关研发项目",
+      "area_id": "A-EYE",
+      "reported_status": "公司2026年披露的研发方向（项目阶段待核对）",
+      "source_id": "S-IR2026",
+      "approval_status": "research_asset_not_approved",
+      "review_status": "pending_medical_review"
+    }
+  ],
+  "research_condition_links": [
+    {
+      "asset_id": "IBI343",
+      "condition_id": "D-GC"
+    },
+    {
+      "asset_id": "IBI343",
+      "condition_id": "D-PDAC"
+    },
+    {
+      "asset_id": "IBI363",
+      "condition_id": "D-NSCLC"
+    },
+    {
+      "asset_id": "IBI363",
+      "condition_id": "D-MEL"
+    },
+    {
+      "asset_id": "IBI363",
+      "condition_id": "D-CRC"
+    },
+    {
+      "asset_id": "IBI354",
+      "condition_id": "D-OVARIAN"
+    },
+    {
+      "asset_id": "IBI354",
+      "condition_id": "D-BREAST"
+    },
+    {
+      "asset_id": "IBI3003",
+      "condition_id": "D-MM"
+    },
+    {
+      "asset_id": "IBI3005",
+      "condition_id": "D-NSCLC"
+    },
+    {
+      "asset_id": "IBI3009",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI3001",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI3014",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI3020",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI3026",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI3028",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI115",
+      "condition_id": "D-MESO"
+    },
+    {
+      "asset_id": "IBI302",
+      "condition_id": "D-DME"
+    },
+    {
+      "asset_id": "IBI302",
+      "condition_id": "D-NAMD"
+    },
+    {
+      "asset_id": "IBI128",
+      "condition_id": "D-GOUT"
+    },
+    {
+      "asset_id": "IBI324",
+      "condition_id": "D-DME"
+    },
+    {
+      "asset_id": "IBI324",
+      "condition_id": "D-NAMD"
+    },
+    {
+      "asset_id": "IBI3002",
+      "condition_id": "D-AD"
+    },
+    {
+      "asset_id": "IBI3016",
+      "condition_id": "D-HTN"
+    },
+    {
+      "asset_id": "IBI355",
+      "condition_id": "D-SJOGREN"
+    },
+    {
+      "asset_id": "IBI3032",
+      "condition_id": "D-OBE"
+    },
+    {
+      "asset_id": "IBI3032",
+      "condition_id": "D-T2DM"
+    },
+    {
+      "asset_id": "IBI3040",
+      "condition_id": "D-OBE"
+    },
+    {
+      "asset_id": "IBI3040",
+      "condition_id": "D-T2DM"
+    },
+    {
+      "asset_id": "IBI3042",
+      "condition_id": "D-OBE"
+    },
+    {
+      "asset_id": "IBI3042",
+      "condition_id": "D-T2DM"
+    },
+    {
+      "asset_id": "IBI3035",
+      "condition_id": "D-T2DM"
+    },
+    {
+      "asset_id": "IBI3011",
+      "condition_id": "D-GOUT"
+    },
+    {
+      "asset_id": "IBI3013",
+      "condition_id": "D-VITILIGO"
+    },
+    {
+      "asset_id": "IBI3027",
+      "condition_id": "D-AD"
+    },
+    {
+      "asset_id": "IBI3031",
+      "condition_id": "D-TED"
+    },
+    {
+      "asset_id": "IBI3046",
+      "condition_id": "D-OBE"
+    },
+    {
+      "asset_id": "IBI3030",
+      "condition_id": "D-DYSLIPID"
+    },
+    {
+      "asset_id": "IBI3038",
+      "condition_id": "D-TED"
+    }
+  ],
+  "question_drafts": [
+    {
+      "item_id": "CLN-0001",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-NSCLC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「非小细胞肺癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：病理分型、分期、靶点检测、免疫或靶向治疗适用人群、PFS/OS。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-NSCLC",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0002",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-NSCLC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「非小细胞肺癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：病理分型、分期、靶点检测、免疫或靶向治疗适用人群、PFS/OS；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-NSCLC",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0003",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-NSCLC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「非小细胞肺癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-NSCLC",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0004",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HCC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「肝细胞癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分期、肝功能与全身治疗路径、OS/PFS、安全性。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0005",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HCC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「肝细胞癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分期、肝功能与全身治疗路径、OS/PFS、安全性；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0006",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HCC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「肝细胞癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0007",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「胃癌及胃食管结合部癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分期、线次、CLDN18.2/HER2等标志物、ADC研究评价。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0008",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「胃癌及胃食管结合部癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分期、线次、CLDN18.2/HER2等标志物、ADC研究评价；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0009",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「胃癌及胃食管结合部癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0010",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CRC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「结直肠癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：MSI-H/dMMR检测、治疗线次与免疫治疗证据边界。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0011",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CRC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「结直肠癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：MSI-H/dMMR检测、治疗线次与免疫治疗证据边界；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0012",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CRC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「结直肠癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0013",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CCA",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「胆管癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分子检测、FGFR2融合/重排、人群筛选、单臂研究局限。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0014",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CCA",
+      "dimension": "treatment_landscape",
+      "prompt": "在「胆管癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分子检测、FGFR2融合/重排、人群筛选、单臂研究局限；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0015",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CCA",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「胆管癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0016",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-RCC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「肾细胞癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：既往治疗线次、免疫+TKI方案及证据边界。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-IO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0017",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-RCC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「肾细胞癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：既往治疗线次、免疫+TKI方案及证据边界；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-IO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0018",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-RCC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「肾细胞癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-IO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0019",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-ESCC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「食管鳞癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分期、局部与全身治疗、免疫治疗适用范围。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0020",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-ESCC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「食管鳞癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分期、局部与全身治疗、免疫治疗适用范围；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0021",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-ESCC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「食管鳞癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0022",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-ENDO",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「子宫内膜癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：MMR分型、治疗线次、研究人群边界。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0023",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-ENDO",
+      "dimension": "treatment_landscape",
+      "prompt": "在「子宫内膜癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：MMR分型、治疗线次、研究人群边界；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0024",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-ENDO",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「子宫内膜癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0025",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-BREAST",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「乳腺癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：HR/HER2分型、治疗阶段、内分泌与靶向机制。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0026",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-BREAST",
+      "dimension": "treatment_landscape",
+      "prompt": "在「乳腺癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：HR/HER2分型、治疗阶段、内分泌与靶向机制；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0027",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-BREAST",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「乳腺癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0028",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OVARIAN",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「卵巢癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：铂敏感/铂耐药、线次、ADC研究与安全性。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0029",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OVARIAN",
+      "dimension": "treatment_landscape",
+      "prompt": "在「卵巢癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：铂敏感/铂耐药、线次、ADC研究与安全性；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0030",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OVARIAN",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「卵巢癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0031",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PDAC",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「胰腺导管腺癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分期、线次、ADC在研证据与研究人群。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0032",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PDAC",
+      "dimension": "treatment_landscape",
+      "prompt": "在「胰腺导管腺癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分期、线次、ADC在研证据与研究人群；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0033",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PDAC",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「胰腺导管腺癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0034",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MEL",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「黑色素瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：免疫治疗基础、耐药与既往用药背景、研究对照。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-IO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0035",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MEL",
+      "dimension": "treatment_landscape",
+      "prompt": "在「黑色素瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：免疫治疗基础、耐药与既往用药背景、研究对照；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-IO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0036",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MEL",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「黑色素瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-IO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0037",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CERVICAL",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「宫颈癌」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：疾病分期、复发/转移背景、研究终点。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0038",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CERVICAL",
+      "dimension": "treatment_landscape",
+      "prompt": "在「宫颈癌」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：疾病分期、复发/转移背景、研究终点；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0039",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CERVICAL",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「宫颈癌」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0040",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GBM",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「胶质母细胞瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：复发性疾病特点、症状与生活质量终点。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0041",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GBM",
+      "dimension": "treatment_landscape",
+      "prompt": "在「胶质母细胞瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：复发性疾病特点、症状与生活质量终点；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0042",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GBM",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「胶质母细胞瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-ONCO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0043",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-THYROID",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「甲状腺恶性肿瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分型、RET基因改变、检测与靶向治疗。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0044",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-THYROID",
+      "dimension": "treatment_landscape",
+      "prompt": "在「甲状腺恶性肿瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分型、RET基因改变、检测与靶向治疗；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0045",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-THYROID",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「甲状腺恶性肿瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0046",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MESO",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「肿瘤机制与临床试验」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：对照组、随机/单臂、ORR/PFS/OS、终点限制、入排标准。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0047",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MESO",
+      "dimension": "treatment_landscape",
+      "prompt": "在「肿瘤机制与临床试验」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：对照组、随机/单臂、ORR/PFS/OS、终点限制、入排标准；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0048",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MESO",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「肿瘤机制与临床试验」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-BIO",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0049",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CML",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「慢性髓系白血病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：BCR-ABL检测、耐药变异、分子缓解与治疗线次。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-CML",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0050",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CML",
+      "dimension": "treatment_landscape",
+      "prompt": "在「慢性髓系白血病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：BCR-ABL检测、耐药变异、分子缓解与治疗线次；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-CML",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0051",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CML",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「慢性髓系白血病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-CML",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0052",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AML",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「急性髓系白血病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：分型、FLT3检测、诱导与巩固治疗、缓解终点。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-LEUK",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0053",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AML",
+      "dimension": "treatment_landscape",
+      "prompt": "在「急性髓系白血病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：分型、FLT3检测、诱导与巩固治疗、缓解终点；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-LEUK",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0054",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AML",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「急性髓系白血病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-LEUK",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0055",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DLBCL",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「弥漫大B细胞淋巴瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：CD20、分型、缓解及复发、治疗组合。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0056",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DLBCL",
+      "dimension": "treatment_landscape",
+      "prompt": "在「弥漫大B细胞淋巴瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：CD20、分型、缓解及复发、治疗组合；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0057",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DLBCL",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「弥漫大B细胞淋巴瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0058",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-FL",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「滤泡性淋巴瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：惰性淋巴瘤特征、治疗指征与复发。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0059",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-FL",
+      "dimension": "treatment_landscape",
+      "prompt": "在「滤泡性淋巴瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：惰性淋巴瘤特征、治疗指征与复发；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0060",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-FL",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「滤泡性淋巴瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0061",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CLL",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「慢性淋巴细胞白血病/小淋巴细胞淋巴瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：疾病分型、既往BTK抑制剂、复发/难治定义。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0062",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CLL",
+      "dimension": "treatment_landscape",
+      "prompt": "在「慢性淋巴细胞白血病/小淋巴细胞淋巴瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：疾病分型、既往BTK抑制剂、复发/难治定义；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0063",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CLL",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「慢性淋巴细胞白血病/小淋巴细胞淋巴瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0064",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MCL",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「套细胞淋巴瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：既往治疗线次、BTK抑制剂治疗背景。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0065",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MCL",
+      "dimension": "treatment_landscape",
+      "prompt": "在「套细胞淋巴瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：既往治疗线次、BTK抑制剂治疗背景；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0066",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MCL",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「套细胞淋巴瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0067",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MM",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「多发性骨髓瘤」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：复发难治定义、BCMA、细胞治疗、CRS/神经毒性等风险。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0068",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MM",
+      "dimension": "treatment_landscape",
+      "prompt": "在「多发性骨髓瘤」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：复发难治定义、BCMA、细胞治疗、CRS/神经毒性等风险；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0069",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MM",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「多发性骨髓瘤」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NCI-NHL",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0070",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OBE",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「肥胖与体重管理」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：肥胖诊断框架、体重终点与共病、长期管理。不得以此推导任何信达产品适应症。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0071",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OBE",
+      "dimension": "treatment_landscape",
+      "prompt": "在「肥胖与体重管理」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：肥胖诊断框架、体重终点与共病、长期管理；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0072",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OBE",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「肥胖与体重管理」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0073",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-T2DM",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「2型糖尿病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：血糖与HbA1c、并发症、体重与糖尿病的区别。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NIDDK-DM",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0074",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-T2DM",
+      "dimension": "treatment_landscape",
+      "prompt": "在「2型糖尿病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：血糖与HbA1c、并发症、体重与糖尿病的区别；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NIDDK-DM",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0075",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-T2DM",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「2型糖尿病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NIDDK-DM",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0076",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MASH",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「代谢功能障碍相关脂肪性肝炎」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：疾病概念、肝纤维化终点、试验性适应症辨别。不得以此推导任何信达产品适应症。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0077",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MASH",
+      "dimension": "treatment_landscape",
+      "prompt": "在「代谢功能障碍相关脂肪性肝炎」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：疾病概念、肝纤维化终点、试验性适应症辨别；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0078",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-MASH",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「代谢功能障碍相关脂肪性肝炎」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0079",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OSA",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「阻塞性睡眠呼吸暂停」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：肥胖共病关系、临床终点、研究性证据界限。不得以此推导任何信达产品适应症。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0080",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OSA",
+      "dimension": "treatment_landscape",
+      "prompt": "在「阻塞性睡眠呼吸暂停」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：肥胖共病关系、临床终点、研究性证据界限；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0081",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-OSA",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「阻塞性睡眠呼吸暂停」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-WHO-OBE",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0082",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DYSLIPID",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「高胆固醇血症与血脂异常」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：LDL-C、ApoB、ASCVD风险、降脂治疗分类。不得以此推导任何信达产品适应症。",
+      "source_id": "S-AHA-LIPID",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0083",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DYSLIPID",
+      "dimension": "treatment_landscape",
+      "prompt": "在「高胆固醇血症与血脂异常」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：LDL-C、ApoB、ASCVD风险、降脂治疗分类；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-AHA-LIPID",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0084",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DYSLIPID",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「高胆固醇血症与血脂异常」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-AHA-LIPID",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0085",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HTN",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「高血压」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：血压指标、药物类别、并发症、研究终点。不得以此推导任何信达产品适应症。",
+      "source_id": "S-AHA-BP",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0086",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HTN",
+      "dimension": "treatment_landscape",
+      "prompt": "在「高血压」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：血压指标、药物类别、并发症、研究终点；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-AHA-BP",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0087",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HTN",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「高血压」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-AHA-BP",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0088",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HFPEF",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「射血分数保留型心力衰竭」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：诊断框架、症状及功能终点、研究性适应症。不得以此推导任何信达产品适应症。",
+      "source_id": "S-AHA-BP",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0089",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HFPEF",
+      "dimension": "treatment_landscape",
+      "prompt": "在「射血分数保留型心力衰竭」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：诊断框架、症状及功能终点、研究性适应症；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-AHA-BP",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0090",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-HFPEF",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「射血分数保留型心力衰竭」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-AHA-BP",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0091",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-RA",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「类风湿关节炎」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：疾病活动度、炎症指标、生物制剂机制和风险。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0092",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-RA",
+      "dimension": "treatment_landscape",
+      "prompt": "在「类风湿关节炎」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：疾病活动度、炎症指标、生物制剂机制和风险；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0093",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-RA",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「类风湿关节炎」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0094",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AS",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「强直性脊柱炎/轴性脊柱关节炎」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：炎症性腰背痛、疾病活动度、TNF作用。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0095",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AS",
+      "dimension": "treatment_landscape",
+      "prompt": "在「强直性脊柱炎/轴性脊柱关节炎」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：炎症性腰背痛、疾病活动度、TNF作用；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0096",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AS",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「强直性脊柱炎/轴性脊柱关节炎」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0097",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PSO",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「斑块状银屑病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：皮损严重度、PASI、TNF/IL-23通路、复发。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0098",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PSO",
+      "dimension": "treatment_landscape",
+      "prompt": "在「斑块状银屑病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：皮损严重度、PASI、TNF/IL-23通路、复发；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0099",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PSO",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「斑块状银屑病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0100",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PSA",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「银屑病关节炎」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：皮肤与关节双维度、治疗机制、在研/已批边界。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0101",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PSA",
+      "dimension": "treatment_landscape",
+      "prompt": "在「银屑病关节炎」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：皮肤与关节双维度、治疗机制、在研/已批边界；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0102",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-PSA",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「银屑病关节炎」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0103",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CROHN",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「克罗恩病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：诊断证据、炎症控制、缓解和复发。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NIDDK-CD",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0104",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CROHN",
+      "dimension": "treatment_landscape",
+      "prompt": "在「克罗恩病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：诊断证据、炎症控制、缓解和复发；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NIDDK-CD",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0105",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-CROHN",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「克罗恩病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NIDDK-CD",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0106",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AD",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「特应性皮炎」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：炎症表型、疾病严重度、生物制剂通路。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0107",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AD",
+      "dimension": "treatment_landscape",
+      "prompt": "在「特应性皮炎」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：炎症表型、疾病严重度、生物制剂通路；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0108",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-AD",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「特应性皮炎」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0109",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GOUT",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「痛风与高尿酸血症」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：急性发作与尿酸长期管理、XO作用机制。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0110",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GOUT",
+      "dimension": "treatment_landscape",
+      "prompt": "在「痛风与高尿酸血症」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：急性发作与尿酸长期管理、XO作用机制；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0111",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-GOUT",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「痛风与高尿酸血症」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0112",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-VITILIGO",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「白癜风与斑秃」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：自身免疫通路、皮损/毛发终点、在研状态。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0113",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-VITILIGO",
+      "dimension": "treatment_landscape",
+      "prompt": "在「白癜风与斑秃」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：自身免疫通路、皮损/毛发终点、在研状态；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0114",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-VITILIGO",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「白癜风与斑秃」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0115",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-SJOGREN",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「干燥综合征与IgG4相关疾病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：自身免疫诊断框架及器官受累、研究性生物靶点。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0116",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-SJOGREN",
+      "dimension": "treatment_landscape",
+      "prompt": "在「干燥综合征与IgG4相关疾病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：自身免疫诊断框架及器官受累、研究性生物靶点；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0117",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-SJOGREN",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「干燥综合征与IgG4相关疾病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0118",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-TED",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「甲状腺眼病」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：活动性/非活动性、眼球突出与眼症状评估。不得以此推导任何信达产品适应症。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0119",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-TED",
+      "dimension": "treatment_landscape",
+      "prompt": "在「甲状腺眼病」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：活动性/非活动性、眼球突出与眼症状评估；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0120",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-TED",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「甲状腺眼病」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-IR2026",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0121",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DME",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「糖尿病黄斑水肿」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：视力与OCT、黄斑水肿、抗VEGF机制。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NEI-DME",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0122",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DME",
+      "dimension": "treatment_landscape",
+      "prompt": "在「糖尿病黄斑水肿」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：视力与OCT、黄斑水肿、抗VEGF机制；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NEI-DME",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0123",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-DME",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「糖尿病黄斑水肿」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NEI-DME",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0124",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-NAMD",
+      "dimension": "disease_foundation",
+      "prompt": "请用2分钟向模拟医生解释「新生血管性年龄相关性黄斑变性」的基础诊疗背景，说明关键分型或评估指标。",
+      "expected_checks": "应覆盖：nAMD、OCT及视力变化、眼内抗VEGF治疗概念。不得以此推导任何信达产品适应症。",
+      "source_id": "S-NEI-AMD",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0125",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-NAMD",
+      "dimension": "treatment_landscape",
+      "prompt": "在「新生血管性年龄相关性黄斑变性」场景下，解释主流治疗机制类别与适用边界，并举出判断证据质量的关键问题。",
+      "expected_checks": "围绕：nAMD、OCT及视力变化、眼内抗VEGF治疗概念；区分诊疗常识、已批准药物信息、研究性方案；需医学事务评审。",
+      "source_id": "S-NEI-AMD",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0126",
+      "subject_type": "clinical_condition",
+      "subject_id": "D-NAMD",
+      "dimension": "clinical_evidence",
+      "prompt": "医生追问「新生血管性年龄相关性黄斑变性」领域某临床试验的适用人群和终点，你会怎样识别研究设计与证据局限？",
+      "expected_checks": "检查对照组、随机化、入排标准、主要终点、随访和安全性；不可编造试验数据。",
+      "source_id": "S-NEI-AMD",
+      "grading_mode": "human_rubric_required",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0127",
+      "subject_type": "commercial_product",
+      "subject_id": "daboshu",
+      "dimension": "product_basics",
+      "prompt": "请说明达伯舒（信迪利单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：PD-1；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0128",
+      "subject_type": "commercial_product",
+      "subject_id": "dayoutong",
+      "dimension": "product_basics",
+      "prompt": "请说明达攸同（贝伐珠单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：VEGF-A；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0129",
+      "subject_type": "commercial_product",
+      "subject_id": "sulixin",
+      "dimension": "product_basics",
+      "prompt": "请说明苏立信（阿达木单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：TNF-α；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0130",
+      "subject_type": "commercial_product",
+      "subject_id": "dabohua",
+      "dimension": "product_basics",
+      "prompt": "请说明达伯华（利妥昔单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：CD20；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0131",
+      "subject_type": "commercial_product",
+      "subject_id": "dabotan",
+      "dimension": "product_basics",
+      "prompt": "请说明达伯坦（佩米替尼片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：FGFR1/2/3；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0132",
+      "subject_type": "commercial_product",
+      "subject_id": "nailike",
+      "dimension": "product_basics",
+      "prompt": "请说明耐立克（奥雷巴替尼片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：BCR-ABL；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0133",
+      "subject_type": "commercial_product",
+      "subject_id": "xirangze",
+      "dimension": "product_basics",
+      "prompt": "请说明希冉择（雷莫西尤单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：VEGFR2；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0134",
+      "subject_type": "commercial_product",
+      "subject_id": "ruituo",
+      "dimension": "product_basics",
+      "prompt": "请说明睿妥（塞普替尼胶囊）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：RET；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0135",
+      "subject_type": "commercial_product",
+      "subject_id": "fukesu",
+      "dimension": "product_basics",
+      "prompt": "请说明福可苏（伊基奥仑赛注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：BCMA CAR-T；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0136",
+      "subject_type": "commercial_product",
+      "subject_id": "xinbile",
+      "dimension": "product_basics",
+      "prompt": "请说明信必乐（托莱西单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：PCSK9；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0137",
+      "subject_type": "commercial_product",
+      "subject_id": "dabote",
+      "dimension": "product_basics",
+      "prompt": "请说明达伯特（氟泽雷塞片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：KRAS G12C；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0138",
+      "subject_type": "commercial_product",
+      "subject_id": "jiepali",
+      "dimension": "product_basics",
+      "prompt": "请说明捷帕力（匹妥布替尼片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：BTK；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0139",
+      "subject_type": "commercial_product",
+      "subject_id": "dabole",
+      "dimension": "product_basics",
+      "prompt": "请说明达伯乐（己二酸他雷替尼胶囊）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：ROS1；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0140",
+      "subject_type": "commercial_product",
+      "subject_id": "aoyixin",
+      "dimension": "product_basics",
+      "prompt": "请说明奥壹新（利厄替尼片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：EGFR；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0141",
+      "subject_type": "commercial_product",
+      "subject_id": "xinbimin",
+      "dimension": "product_basics",
+      "prompt": "请说明信必敏（替妥尤单抗N01注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：IGF-1R；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0142",
+      "subject_type": "commercial_product",
+      "subject_id": "xinermei",
+      "dimension": "product_basics",
+      "prompt": "请说明信尔美（玛仕度肽注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：GCG/GLP-1；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0143",
+      "subject_type": "commercial_product",
+      "subject_id": "xinmeiyue",
+      "dimension": "product_basics",
+      "prompt": "请说明信美悦（匹康奇拜单抗注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：IL-23p19；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0144",
+      "subject_type": "commercial_product",
+      "subject_id": "daboxin",
+      "dimension": "product_basics",
+      "prompt": "请说明达伯欣（伊匹木单抗N01注射液）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：CTLA-4；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0145",
+      "subject_type": "commercial_product",
+      "subject_id": "weize",
+      "dimension": "product_basics",
+      "prompt": "请说明唯择（阿贝西利片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：CDK4/6；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0146",
+      "subject_type": "commercial_product",
+      "subject_id": "weifutai",
+      "dimension": "product_basics",
+      "prompt": "请说明维复泰（盐酸奎扎替尼片）的通用名称、机制和相关疾病背景，并说明研究适应症与批准适应症的区别。",
+      "expected_checks": "核对通用名、作用靶点：FLT3；适应症须查最新NMPA说明书与企业合规版本，不得推断。",
+      "source_id": "S-PR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0147",
+      "subject_type": "research_asset",
+      "subject_id": "IBI343",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI343的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：CLDN18.2 ADC；报告状态：NDA审评（2026年中报披露）；并有其他研究；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0148",
+      "subject_type": "research_asset",
+      "subject_id": "IBI363",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI363的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：PD-1/IL-2α偏向融合蛋白；报告状态：全球III期及中国关键性研究（2026年中报披露）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0149",
+      "subject_type": "research_asset",
+      "subject_id": "IBI354",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI354的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：HER2 ADC；报告状态：临床研究中（具体试验逐项核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0150",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3003",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3003的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：GPRC5D/BCMA/CD3三抗；报告状态：临床研究中（具体试验逐项核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0151",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3005",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3005的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：EGFR/HER3 ADC；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0152",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3009",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3009的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：DLL3 ADC；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0153",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3001",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3001的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：EGFR/B7H3 ADC；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0154",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3014",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3014的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：PD-L1/TROP2 ADC；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0155",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3020",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3020的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：CEACAM5 ADC；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0156",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3026",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3026的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：PD-1/IL-12融合蛋白；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0157",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3028",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3028的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：EGFR/c-Met ADC；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0158",
+      "subject_type": "research_asset",
+      "subject_id": "IBI115",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI115的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：DLL3/CD3双特异抗体；报告状态：早期研发/临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0159",
+      "subject_type": "research_asset",
+      "subject_id": "IBI302",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI302的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：VEGF/补体融合蛋白；报告状态：眼科临床项目列示（按试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0160",
+      "subject_type": "research_asset",
+      "subject_id": "IBI128",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI128的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：黄嘌呤氧化酶（XO）抑制剂；报告状态：报告披露痛风相关III期研究；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0161",
+      "subject_type": "research_asset",
+      "subject_id": "IBI324",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI324的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：VEGF-A/ANG2双特异抗体；报告状态：报告称计划开展全球III期；需核查是否启动；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0162",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3002",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3002的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：TSLP/IL-4Rα双特异抗体；报告状态：研发项目列示（阶段待逐试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0163",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3016",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3016的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：AGT siRNA；报告状态：报告披露高血压II期研究；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0164",
+      "subject_type": "research_asset",
+      "subject_id": "IBI355",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI355的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：CD40L单抗；报告状态：研发项目列示（阶段待逐试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0165",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3032",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3032的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：口服日制剂GLP-1R小分子；报告状态：报告披露I期研究中；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0166",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3040",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3040的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：Amylin/Calcitonin相关多肽；报告状态：报告称计划首次人体试验；尚待核实启动；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0167",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3042",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3042的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：口服周制剂GLP-1R小分子；报告状态：报告称计划首次人体试验；尚待核实启动；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0168",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3035",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3035的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：胰岛素相关多肽；报告状态：研发项目列示（阶段待逐试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0169",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3011",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3011的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：IL-1RAP单抗；报告状态：报告披露I期研究中；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0170",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3013",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3013的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：IL-15单抗；报告状态：研发项目列示（阶段待逐试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0171",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3027",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3027的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：IL-4Rα单抗；报告状态：研发项目列示（阶段待逐试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0172",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3031",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3031的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：TSHR/IGF-1R双特异抗体；报告状态：研发项目列示（阶段待逐试验核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0173",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3046",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3046的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：INHBE siRNA；报告状态：公司2026年披露的研发方向（项目阶段待核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0174",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3030",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3030的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：月度PCSK9相关候选药；报告状态：公司2026年披露的研发方向（项目阶段待核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    },
+    {
+      "item_id": "CLN-0175",
+      "subject_type": "research_asset",
+      "subject_id": "IBI3038",
+      "dimension": "pipeline_literacy",
+      "prompt": "请解释在研资产IBI3038的基础机制及其涉及的疾病领域，如何区分临床进展与监管批准？",
+      "expected_checks": "作用机制：IGF-1R/IL-6相关研发项目；报告状态：公司2026年披露的研发方向（项目阶段待核对）；研究结果与适应症批准必须明确区分。",
+      "source_id": "S-IR2026",
+      "grading_mode": "source_grounded_human_review",
+      "review_status": "pending_medical_review"
+    }
+  ]
+}

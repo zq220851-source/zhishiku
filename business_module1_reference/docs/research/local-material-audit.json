@@ -1,0 +1,52 @@
+{
+  "counts": {
+    "course-specs": 42,
+    "course-specs-tl": 8,
+    "course-specs-ce": 21
+  },
+  "visual_kinds": {
+    "concept-map": 27,
+    "comparison": 32,
+    "process": 12
+  },
+  "source_entries": 213,
+  "field_present": {
+    "goal": 71,
+    "hook": 71,
+    "visual": 71,
+    "analogy": 71,
+    "steps": 71,
+    "misconceptions": 71,
+    "checks": 71,
+    "recall": 71,
+    "sources": 71
+  },
+  "clinical_statuses": {
+    "clinical_conditions": {
+      "count": 42,
+      "medical_review": {
+        "pending_medical_review": 42
+      }
+    },
+    "competency_items": {
+      "count": 175,
+      "review_status": {
+        "pending_medical_review": 175
+      }
+    },
+    "cases": {
+      "count": 111,
+      "review_status": {
+        "unreviewed": 111
+      }
+    },
+    "local_book_points": {
+      "count": 7,
+      "review_status": {
+        "pending_human_review": 7
+      }
+    }
+  },
+  "total_courses": 71,
+  "original_document_files": []
+}

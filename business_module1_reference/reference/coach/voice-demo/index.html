@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MedRep Coach · 医院拜访语音演练</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✳</span><div><strong>MEDREP COACH</strong><small>临床拜访 · 模拟演练</small></div></div>
+      <div class="top-meta"><span class="live-dot"></span><span id="mode-pill">本地试用版</span><span class="meta-separator"></span><span>评分标准 v0.1 · 待审核</span></div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="eyebrow">PRACTICE ROOM / 01</div>
+        <h1>走进诊室，<em>开始一次真正的对话。</em></h1>
+        <p>医生会根据你的表达接话、追问或结束会面。演练结束后，查看逐句证据与六维评分初评。</p>
+      </section>
+
+      <section id="setup" class="setup-grid" aria-label="选择拜访场景">
+        <div class="panel scenario-panel">
+          <div class="section-heading"><span class="step">01</span><div><h2>选择拜访场景</h2><p>每位医生都有自己的工作情境与关注点</p></div></div>
+          <div id="profile-summary" class="profile-summary"></div>
+          <label class="filter-label" for="scenario-filter">训练范围</label>
+          <select id="scenario-filter"><option value="mine">我的负责管线 · 来自日报画像</option><option value="general">通用沟通场景</option></select>
+          <div id="scenario-list" class="scenario-list"></div>
+        </div>
+        <aside class="panel prep-panel">
+          <div class="section-heading"><span class="step">02</span><div><h2>访前准备</h2><p>这些是药代在会面前可获得的信息</p></div></div>
+          <div id="prep-card" class="prep-card"></div>
+          <div class="prep-footer"><span>◈ 训练合成角色</span><span>无真实患者资料</span></div>
+          <div class="duration-setup">
+            <label for="duration-select">拜访时长</label>
+            <div class="duration-controls"><select id="duration-select"><option value="300">5 分钟</option><option value="600">10 分钟</option><option value="custom">自定义</option></select><label id="custom-duration-label" class="hidden"><input id="custom-duration" type="number" min="0.5" max="60" step="0.5" value="3" aria-label="自定义分钟数"> 分钟</label></div>
+            <p>医生开场生成后开始计时，到点自动结束并评分。</p>
+            <label class="handsfree-option"><input id="auto-listen" type="checkbox" checked> 连续语音对话：自动接话，医生说完继续听</label>
+            <label for="turn-gap">接话节奏</label><select id="turn-gap"><option value="1200" selected>快速接话 · 停顿 1.2 秒</option><option value="5000">留出思考时间 · 停顿 5 秒</option></select>
+            <details id="realtime-setup" class="anchor-details">
+              <summary>方案① · 配置百炼流式语音</summary>
+              <p>医生和评分继续使用 DeepSeek。百炼负责实时听写和流式发声，会产生百炼费用；请使用同一地域的密钥与业务空间。密钥仅存在本机服务内存，不保存到浏览器或磁盘。</p>
+              <form id="realtime-connect" autocomplete="off">
+                <label for="realtime-region">百炼地域</label><select id="realtime-region"><option value="beijing">北京</option><option value="singapore">新加坡</option></select>
+                <label for="realtime-workspace">Workspace ID（业务空间 ID）</label><input id="realtime-workspace" placeholder="复制百炼业务空间 ID" required autocomplete="off">
+                <label for="realtime-key">百炼 API Key（不是 Credits Key）</label><input id="realtime-key" type="password" placeholder="sk-…" required autocomplete="off" spellcheck="false">
+                <button id="realtime-connect-btn" type="submit">验证两条语音连接</button>
+                <button id="realtime-disconnect-btn" type="button">清除本机百炼密钥</button>
+                <p id="realtime-status" role="status">请先配置百炼，验证后即可使用流式听写和发声。</p>
+                <p><a href="https://help.aliyun.com/zh/model-studio/get-api-key" target="_blank" rel="noopener">获取百炼 API Key ↗</a></p>
+              </form>
+            </details>
+            <label for="asr-engine">语音转写服务（医生仍使用 DeepSeek）</label><select id="asr-engine"><option value="realtime" selected>百炼流式听写＋流式发声 · 待配置</option><option value="auto">主备转写 · 慢请求自动启动备用</option><option value="whisper">Whisper · 专用转写，可能限流</option><option value="qwen">Qwen · 国产回退方案</option></select>
+            <p id="recognition-note">使用百炼流式听写和流式发声。医生及评分仍使用 DeepSeek；说话时显示转写草稿，停顿 1.2 秒后自动提交。</p>
+          </div>
+          <div class="voice-setup">
+            <label for="setup-voice-select">医生普通话音色</label>
+            <div class="voice-controls"><select id="setup-voice-select" aria-label="选择医生音色"></select><button id="preview-voice-btn" type="button">试听</button></div>
+            <p id="voice-setup-status" role="status">默认 Andre 男医生，使用百炼流式合成。</p>
+          </div>
+          <form id="api-connect" class="api-connect hidden" autocomplete="off">
+            <label for="api-key">连接 Credits 模型</label>
+            <p>粘贴控制台生成的完整 API Key（以 sk- 开头）。密钥由本机服务发送至 Credits 验证并调用模型，仅保存在本机服务内存中。</p>
+            <div class="api-connect-row"><input id="api-key" type="password" placeholder="sk-..." autocomplete="new-password" spellcheck="false"><button id="api-connect-btn" type="submit">验证并连接</button></div>
+            <p id="api-connect-status" class="api-connect-status" role="status"></p>
+          </form>
+          <p id="api-notice" class="api-notice hidden"></p>
+          <button id="start-btn" class="primary-btn">开始模拟拜访 <span>↗</span></button>
+        </aside>
+      </section>
+
+      <section id="live" class="live-grid hidden" aria-label="模拟拜访对话">
+        <aside class="panel doctor-side">
+          <div class="side-label">YOUR VISIT</div>
+          <div class="doctor-avatar"><div class="avatar-face">医</div><span class="avatar-ring"></span></div>
+          <h2 id="doctor-name">模拟医生</h2>
+          <p id="doctor-role" class="doctor-role"></p>
+          <div class="doctor-divider"></div>
+          <dl id="visit-details" class="visit-details"></dl>
+          <button id="new-btn" class="text-btn">← 更换场景</button>
+        </aside>
+
+        <div class="panel conversation">
+          <div class="conversation-head"><div><div class="side-label">LIVE CONVERSATION</div><h2 id="visit-title">拜访进行中</h2></div><div class="head-actions"><span id="timer" class="visit-timer" role="timer" aria-label="拜访剩余时间">05:00</span><span id="voice-status" class="status-pill">准备就绪</span><select id="live-voice-select" aria-label="选择医生普通话音色"></select><button id="replay-btn" class="icon-btn" title="重播医生语音" aria-label="重播医生语音">▶</button><button id="sound-btn" class="icon-btn" title="静音医生语音" aria-label="静音医生语音">♫</button></div></div>
+          <div id="end-notice" class="end-notice hidden" role="status"></div>
+          <div id="transcript" class="transcript" aria-live="polite"></div>
+          <div class="conversation-foot">
+            <section id="live-capture" class="live-capture hidden" aria-label="语音转写草稿">
+              <div class="capture-heading"><strong>转写草稿 <small>说完后识别</small></strong><span id="capture-state">等待说话</span></div>
+              <div class="capture-meter"><i id="capture-level"></i></div>
+              <div id="interim" class="interim" aria-live="polite">你说的话会显示在这里。</div>
+              <div class="silence-track"><i id="silence-progress"></i></div>
+              <button id="retry-asr-btn" class="hidden" type="button">重试这段录音</button>
+              <small id="capture-hint">按所选停顿时长自动提交；云端草稿可能延迟和修正。</small>
+            </section>
+            <label for="rep-input" class="input-label">你的回应 <span>连续语音会自动发送；文字可手动发送</span></label>
+            <textarea id="rep-input" rows="2" placeholder="对医生说些什么……"></textarea>
+            <div class="input-actions"><div class="mic-group"><button id="mic-btn" class="mic-btn" aria-label="开启连续语音" aria-pressed="false">●</button><span id="mic-caption">连续语音尚未开启</span></div><div class="send-group"><span id="latency" class="latency"></span><button id="send-btn" class="send-btn">发送回应 ↗</button></div></div>
+            <div class="bottom-actions"><span id="browser-note">麦克风可暂停连续收音；需要改写草稿时先暂停。</span><button id="score-btn" class="outline-btn">结束拜访 · 查看评分</button></div>
+          </div>
+        </div>
+
+        <aside class="panel rubric-side">
+          <div class="side-label">SCORING FRAMEWORK</div>
+          <h2>六维评估</h2>
+          <p class="rubric-intro">根据真实发生的对话取证。未触发或缺乏可靠依据的维度标 NA。</p>
+          <div id="rubric-list" class="rubric-list"></div>
+          <div class="rubric-note"><strong>关于分数</strong><p>这是待培训、医学及合规审核的候选标准。本演示只给行为线索初评，不产生总分或及格结论。</p></div>
+        </aside>
+      </section>
+
+      <section id="report" class="report hidden" aria-label="演练评分报告">
+        <div class="report-head"><div><div class="eyebrow">SESSION REVIEW / 02</div><h2>拜访复盘</h2><p id="report-summary"></p></div><button id="back-btn" class="outline-btn">返回对话</button></div>
+        <div id="review-banner" class="review-banner"></div>
+        <section class="radar-panel" aria-label="六维评分图"><div><h3>六维能力图</h3><p>0 未达到 · 1 部分达到 · 2 完整达到</p><div id="radar-chart"></div></div><div><h3>本次可观察表现</h3><ul id="radar-legend" class="radar-legend"></ul><p class="radar-note">填色连接已评分的数据点；虚线跨过 NA，不代表该维度得分。NA 不按 0 分计算。少于三个已评分维度时不填色。点击维度可查看原话与评分依据。</p><div id="report-context"></div></div></section>
+        <div id="score-results" class="score-results"></div>
+        <div class="report-footer"><button id="restart-btn" class="primary-btn">再练一个场景 ↗</button><span>修改逐字稿中的药代发言后，重新点“结束拜访”即可重算。</span></div>
+      </section>
+    </main>
+    <footer class="site-footer"><span>MEDREP COACH / VOICE PROTOTYPE</span><span>所有角色和患者情境均为训练模拟 · 2026</span></footer>
+  </div>
+  <script src="/speech-loop.js"></script>
+  <script src="/mic-loop.js"></script>
+  <script src="/realtime-voice.js"></script>
+  <script src="/radar.js"></script>
+  <script src="/event-stream.js"></script><script src="/app.js"></script>
+</body>
+</html>

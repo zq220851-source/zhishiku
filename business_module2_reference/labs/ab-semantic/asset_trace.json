@@ -1,0 +1,184 @@
+[
+  {
+    "id": "D02",
+    "text": "医生没有问亚组结果能否推广到其他人群。",
+    "baseline": {
+      "method": "oldKeywordProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    },
+    "candidate": {
+      "method": "guardedQuestionProxy",
+      "mode": "DENIED",
+      "entries": []
+    }
+  },
+  {
+    "id": "S01",
+    "text": "医生没有问主要终点，却追问了亚组能不能外推。",
+    "baseline": {
+      "method": "oldKeywordProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    },
+    "candidate": {
+      "method": "guardedQuestionProxy",
+      "mode": "DENIED",
+      "entries": []
+    }
+  },
+  {
+    "id": "S09",
+    "text": "专家问亚组有没有结论，我回来才想起还应该谈外推。",
+    "baseline": {
+      "method": "oldKeywordProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    },
+    "candidate": {
+      "method": "guardedQuestionProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    }
+  },
+  {
+    "id": "H01",
+    "text": "主任专门追问：亚组结论是不是也适用于其他患者？",
+    "baseline": {
+      "method": "oldKeywordProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    },
+    "candidate": {
+      "method": "guardedQuestionProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    }
+  },
+  {
+    "id": "H12",
+    "text": "专家明明没提外推。要是他问，我也说不清。",
+    "baseline": {
+      "method": "oldKeywordProxy",
+      "mode": "REPORTED",
+      "entries": [
+        {
+          "kind": "FORECAST",
+          "label": "REPORTED_UNCOVERED",
+          "targetId": "study-test:extrapolation"
+        },
+        {
+          "kind": "EXPERT_OBSERVATION",
+          "label": "REPORTED_EXPERT_QUESTION",
+          "targetId": "expert-test:extrapolation"
+        },
+        {
+          "kind": "COHORT_EVENT",
+          "label": "REPORTED_TOPIC_OCCURRENCE",
+          "targetId": "study-test:extrapolation"
+        }
+      ]
+    },
+    "candidate": {
+      "method": "guardedQuestionProxy",
+      "mode": "DENIED",
+      "entries": []
+    }
+  }
+]

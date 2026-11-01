@@ -1,0 +1,198 @@
+{
+  "test_type": "INDEPENDENT_CODE_OUTPUT_REVIEW",
+  "gold_version": "qa-gold-v1",
+  "passed": 24,
+  "total": 24,
+  "checks": [
+    {
+      "id": "step count",
+      "passed": true,
+      "expected": 6,
+      "observed": 6
+    },
+    {
+      "id": "V1 forecast gap",
+      "passed": true,
+      "expected": [
+        "REPORTED_UNCOVERED"
+      ],
+      "observed": [
+        "REPORTED_UNCOVERED"
+      ]
+    },
+    {
+      "id": "V1 personal source",
+      "passed": true,
+      "expected": [
+        "SELF_REPORTED_DIFFICULTY"
+      ],
+      "observed": [
+        "SELF_REPORTED_DIFFICULTY"
+      ]
+    },
+    {
+      "id": "V1 knowledge supported",
+      "passed": true,
+      "expected": [
+        "SUPPORTED"
+      ],
+      "observed": [
+        "SUPPORTED"
+      ]
+    },
+    {
+      "id": "V1 expert first observation",
+      "passed": true,
+      "expected": [
+        "REPORTED_EXPERT_QUESTION"
+      ],
+      "observed": [
+        "REPORTED_EXPERT_QUESTION"
+      ]
+    },
+    {
+      "id": "V2 forecast covered",
+      "passed": true,
+      "expected": [
+        "REPORTED_COVERED"
+      ],
+      "observed": [
+        "REPORTED_COVERED"
+      ]
+    },
+    {
+      "id": "V2 only practice evidence",
+      "passed": true,
+      "expected": [
+        "PRACTICE_SATISFIED"
+      ],
+      "observed": [
+        "PRACTICE_SATISFIED"
+      ]
+    },
+    {
+      "id": "repeat visits count as two visits",
+      "passed": true,
+      "expected": 2,
+      "observed": 2
+    },
+    {
+      "id": "repeat visits do not double count employees",
+      "passed": true,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "repeat visits do not double count experts",
+      "passed": true,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "knowledge no result label",
+      "passed": true,
+      "expected": [
+        "RETRIEVAL_NOT_FOUND"
+      ],
+      "observed": [
+        "RETRIEVAL_NOT_FOUND"
+      ]
+    },
+    {
+      "id": "knowledge candidate not approved",
+      "passed": true,
+      "expected": [
+        "CANDIDATE"
+      ],
+      "observed": [
+        "CANDIDATE"
+      ]
+    },
+    {
+      "id": "explicit negation no expert/forecast/cohort",
+      "passed": true,
+      "expected": [
+        "PERSONAL_SKILL"
+      ],
+      "observed": [
+        "PERSONAL_SKILL"
+      ]
+    },
+    {
+      "id": "hypothetical no expert/forecast/cohort",
+      "passed": true,
+      "expected": [
+        "PERSONAL_SKILL"
+      ],
+      "observed": [
+        "PERSONAL_SKILL"
+      ]
+    },
+    {
+      "id": "revision V1 version preserved",
+      "passed": true,
+      "expected": 2,
+      "observed": 2
+    },
+    {
+      "id": "revision history preserved",
+      "passed": true,
+      "expected": 2,
+      "observed": 2
+    },
+    {
+      "id": "revised current visit count",
+      "passed": true,
+      "expected": 5,
+      "observed": 5
+    },
+    {
+      "id": "ghost observations from revised V1 cleared",
+      "passed": true,
+      "expected": 0,
+      "observed": 0
+    },
+    {
+      "id": "final study A visit frequency",
+      "passed": true,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "final study B visit frequency",
+      "passed": true,
+      "expected": 1,
+      "observed": 1
+    },
+    {
+      "id": "final denominator visits",
+      "passed": true,
+      "expected": 5,
+      "observed": 5
+    },
+    {
+      "id": "final denominator unique reps",
+      "passed": true,
+      "expected": 3,
+      "observed": 3
+    },
+    {
+      "id": "no stable profile or proven medical gaps",
+      "passed": true,
+      "expected": [],
+      "observed": []
+    },
+    {
+      "id": "new source references for non-practice entries",
+      "passed": true,
+      "expected": true,
+      "observed": true
+    }
+  ],
+  "limitations": [
+    "No second agent was launched. This is a separate program that consumes JSON only.",
+    "Structured inputs are human-created mock annotations, not model extraction.",
+    "Knowledge check statuses are supplied fixtures, not RAG retrieval.",
+    "Cannot prove downstream training effectiveness or predictive accuracy."
+  ]
+}

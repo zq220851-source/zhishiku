@@ -1,0 +1,157 @@
+{
+  "suite": "B_FIVE_ASSETS_LONGITUDINAL_V1",
+  "passed": 21,
+  "total": 21,
+  "failures": [],
+  "checks": [
+    {
+      "name": "时间步骤",
+      "pass": true,
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "name": "首轮专家问题",
+      "pass": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "三轮后可见报告次数",
+      "pass": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "name": "多员工模式候选状态",
+      "pass": true,
+      "actual": "PATTERN_FOR_REVIEW",
+      "expected": "PATTERN_FOR_REVIEW"
+    },
+    {
+      "name": "修订后报告次数减少",
+      "pass": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "name": "修订后模式降级",
+      "pass": true,
+      "actual": "DESCRIPTIVE_ONLY",
+      "expected": "DESCRIPTIVE_ONLY"
+    },
+    {
+      "name": "被更正专家观察撤销",
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "否定事件被阻断",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "个人最新能力状态",
+      "pass": true,
+      "actual": "RETEST_OR_RETENTION",
+      "expected": "RETEST_OR_RETENTION"
+    },
+    {
+      "name": "知识未检索到不作医学结论",
+      "pass": true,
+      "actual": "REVIEW_RETRIEVAL",
+      "expected": "REVIEW_RETRIEVAL"
+    },
+    {
+      "name": "共享场景待修订",
+      "pass": true,
+      "actual": "REVISE_CANDIDATE",
+      "expected": "REVISE_CANDIDATE"
+    },
+    {
+      "name": "场景缺失能力",
+      "pass": true,
+      "actual": [
+        "EVIDENCE_BOUNDARY",
+        "FOLLOW_UP"
+      ],
+      "expected": [
+        "EVIDENCE_BOUNDARY",
+        "FOLLOW_UP"
+      ]
+    },
+    {
+      "name": "旧计划",
+      "pass": true,
+      "actual": [
+        "endpoint-definition",
+        "subgroup-interpretation"
+      ],
+      "expected": [
+        "endpoint-definition",
+        "subgroup-interpretation"
+      ]
+    },
+    {
+      "name": "新计划候选",
+      "pass": true,
+      "actual": [
+        "endpoint-definition",
+        "extrapolation-boundary"
+      ],
+      "expected": [
+        "endpoint-definition",
+        "extrapolation-boundary"
+      ]
+    },
+    {
+      "name": "未来案例旧覆盖",
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "name": "未来案例新覆盖",
+      "pass": true,
+      "actual": 1,
+      "expected": 1
+    },
+    {
+      "name": "显式说明被挤出能力",
+      "pass": true,
+      "actual": [
+        "subgroup-interpretation"
+      ],
+      "expected": [
+        "subgroup-interpretation"
+      ]
+    },
+    {
+      "name": "没有自动发布",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "未来结果没有泄露进准备",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "同预算对照",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "来源证据引用",
+      "pass": true,
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "disclaimer": "结构化虚构数据和业务规则的独立检查，不是 AI 准确率或生产验收"
+}
